@@ -1,0 +1,73 @@
+{
+  "type": "dichotomous",
+  "scope": "families",
+  "title": "Key to Families of Indiana Coleoptera",
+  "couplets": [
+    {
+      "id": 1,
+      "lead_a": {
+        "text": "Hind femora greatly enlarged for jumping; small (<5 mm), often associated with leaf surfaces.",
+        "goto": "chrysomelidae"
+      },
+      "lead_b": {
+        "text": "Hind femora not enlarged for jumping, or insect larger than 5 mm.",
+        "goto": 2
+      }
+    },
+    {
+      "id": 2,
+      "lead_a": {
+        "text": "Antennae lamellate — terminal 3–7 segments expanded into one-sided plates that can spread or fold together.",
+        "goto": 3
+      },
+      "lead_b": {
+        "text": "Antennae filiform, moniliform, serrate, clavate, or geniculate — not lamellate.",
+        "goto": 4
+      }
+    },
+    {
+      "id": 3,
+      "lead_a": {
+        "text": "Antennal club very large, the lamellae rigid and not closable; mandibles enormous and forcep-like in many males.",
+        "goto": "lucanidae"
+      },
+      "lead_b": {
+        "text": "Antennal club of 3–7 lamellae that can be folded together; mandibles of normal form.",
+        "goto": "scarabaeidae"
+      }
+    },
+    {
+      "id": 4,
+      "lead_a": {
+        "text": "Prosternum produced posteriorly into a sharp peg that fits into a mesosternal pit; body capable of audible 'click'.",
+        "goto": "elateridae"
+      },
+      "lead_b": {
+        "text": "Prosternum not produced as above; body unable to click.",
+        "goto": 5
+      }
+    },
+    {
+      "id": 5,
+      "lead_a": {
+        "text": "Tarsi 5-5-5; head prognathous with prominent mandibles; antennae filiform; pronotum with distinct lateral margins.",
+        "goto": "carabidae"
+      },
+      "lead_b": {
+        "text": "Tarsal formula different, or head/antennae not as above.",
+        "goto": 6
+      }
+    },
+    {
+      "id": 6,
+      "lead_a": {
+        "text": "Body strongly elongate; antennae very long, often exceeding body length; tarsi appear 4-4-4 (cryptopentamerous).",
+        "goto": "cerambycidae"
+      },
+      "lead_b": {
+        "text": "Body short-oval; head with elongate snout (rostrum); antennae geniculate and clubbed.",
+        "goto": "curculionidae"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "carabus_sylvosus",
+  "scientific_name": "Carabus sylvosus",
+  "authority": "Say, 1823",
+  "common_name": "Forest Carabus",
+  "family": "carabidae",
+  "genus": "carabus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": null,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": []
+}

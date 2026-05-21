@@ -1,0 +1,235 @@
+# Decap CMS configuration for Beetles of Indiana
+#
+# Mounted at /admin via /public/admin/index.html. Each collection
+# is committed as JSON files under /data/. See HANDOFF.md for the
+# OAuth proxy setup (decap-server or Netlify Identity).
+
+backend:
+  name: github
+  repo: REPLACE_WITH_OWNER/REPLACE_WITH_REPO
+  branch: main
+  # Same-origin OAuth proxy implemented in app/api/auth + app/api/callback.
+  # `base_url` is the site origin (Vercel sets this automatically on deploy);
+  # `auth_endpoint` is the path Decap hits to kick off the GitHub OAuth flow.
+  base_url: https://REPLACE_WITH_YOUR_DOMAIN
+  auth_endpoint: api/auth
+
+media_folder: "public/images"
+public_folder: "/images"
+
+publish_mode: editorial_workflow   # drafts → in-review → published
+
+local_backend: true   # enables `npx decap-server` for local development
+
+collections:
+  # ────────────────────────────────────────────────────────────
+  # Species
+  # ────────────────────────────────────────────────────────────
+  - name: species
+    label: "Species"
+    label_singular: "Species"
+    folder: "data/species"
+    format: json
+    create: true
+    identifier_field: id
+    slug: "{{id}}"
+    summary: "{{scientific_name}} ({{indiana_status}})"
+    sortable_fields: [scientific_name, family, genus, indiana_status]
+    view_groups:
+      - { label: "Family", field: family }
+      - { label: "Status", field: indiana_status }
+    fields:
+      - { name: id,               label: "ID (slug)",          widget: string, hint: "lower_snake_case, used as URL slug and filename" }
+      - { name: scientific_name,  label: "Scientific name",    widget: string, hint: "Italicized in output. Genus species — no authority." }
+      - { name: authority,        label: "Authority",          widget: string, required: false }
+      - { name: common_name,      label: "Common name",        widget: string, required: false }
+      - { name: family,           label: "Family",             widget: relation, collection: families, value_field: id, search_fields: [name, common_name] }
+      - { name: genus,            label: "Genus",              widget: string, hint: "Lowercase id (e.g. 'calosoma')" }
+      - name: indiana_status
+        label: "Indiana status"
+        widget: select
+        options:
+          - { label: "Confirmed",  value: confirmed }
+          - { label: "Historical", value: historical }
+          - { label: "Adventive",  value: adventive }
+          - { label: "Excluded",   value: excluded }
+        default: confirmed
+      - { name: gbif_taxon_key,   label: "GBIF taxon key",     widget: number, value_type: int, required: false }
+      - { name: inat_taxon_id,    label: "iNat taxon id",      widget: number, value_type: int, required: false }
+      - { name: diagnosis,        label: "Diagnosis",          widget: text, hint: "2–4 sentence field diagnosis. Asterisks for italic." }
+      - { name: body_size_mm,     label: "Body length (mm)",   widget: string, hint: "Single value or range, e.g. '25–35'." }
+
+      - name: diagnostic_characters
+        label: "Diagnostic characters"
+        label_singular: "character"
+        widget: list
+        max: 3
+        summary: "{{label}}: {{value}}"
+        fields:
+          - { name: label, label: "Label", widget: string }
+          - { name: value, label: "Value", widget: string }
+          - { name: note,  label: "Note",  widget: string, required: false }
+
+      - { name: phenology,        label: "Active months",      widget: select, multiple: true, options: ["1","2","3","4","5","6","7","8","9","10","11","12"] }
+      - { name: phenology_peak,   label: "Peak months",        widget: select, multiple: true, options: ["1","2","3","4","5","6","7","8","9","10","11","12"] }
+
+      - name: counties
+        label: "Counties (Indiana)"
+        widget: select
+        multiple: true
+        hint: "Counties where the species is documented. Surfaced in the choropleth and records table."
+        options: &counties
+          # Full Indiana county list — also available in /data/county-lookup.json
+          [Adams, Allen, Bartholomew, Benton, Blackford, Boone, Brown, Carroll, Cass, Clark,
+           Clay, Clinton, Crawford, Daviess, Dearborn, Decatur, DeKalb, Delaware, Dubois, Elkhart,
+           Fayette, Floyd, Fountain, Franklin, Fulton, Gibson, Grant, Greene, Hamilton, Hancock,
+           Harrison, Hendricks, Henry, Howard, Huntington, Jackson, Jasper, Jay, Jefferson, Jennings,
+           Johnson, Knox, Kosciusko, LaGrange, Lake, LaPorte, Lawrence, Madison, Marion, Marshall,
+           Martin, Miami, Monroe, Montgomery, Morgan, Newton, Noble, Ohio, Orange, Owen,
+           Parke, Perry, Pike, Porter, Posey, Pulaski, Putnam, Randolph, Ripley, Rush,
+           "St. Joseph", Scott, Shelby, Spencer, Starke, Steuben, Sullivan, Switzerland, Tippecanoe, Tipton,
+           Union, Vanderburgh, Vermillion, Vigo, Wabash, Warren, Warrick, Washington, Wayne, Wells,
+           White, Whitley]
+
+      - name: images
+        label: "Images"
+        label_singular: "image"
+        widget: list
+        required: false
+        summary: "{{type}} — {{credit}}"
+        fields:
+          - { name: url,     label: "Image", widget: image }
+          - { name: credit,  label: "Credit", widget: string }
+          - { name: caption, label: "Caption", widget: string, required: false }
+          - name: type
+            label: "Type"
+            widget: select
+            options: [habitus, detail, habitat, larva, genitalia]
+            default: habitus
+
+      - name: similar_species
+        label: "Similar species"
+        widget: relation
+        multiple: true
+        required: false
+        collection: species
+        value_field: id
+        search_fields: [scientific_name, common_name]
+        max: 6
+
+      - name: references
+        label: "References"
+        label_singular: "reference"
+        widget: list
+        required: false
+        field: { name: citation, label: "Citation", widget: text }
+
+  # ────────────────────────────────────────────────────────────
+  # Families
+  # ────────────────────────────────────────────────────────────
+  - name: families
+    label: "Families"
+    label_singular: "Family"
+    folder: "data/families"
+    format: json
+    create: true
+    identifier_field: id
+    slug: "{{id}}"
+    fields:
+      - { name: id,            label: "ID (slug)",   widget: string }
+      - { name: name,          label: "Family name", widget: string }
+      - { name: common_name,   label: "Common name", widget: string }
+      - { name: authority,     label: "Authority",   widget: string, required: false }
+      - { name: diagnosis,     label: "Diagnosis",   widget: text }
+      - { name: species_count, label: "Species count (IN)", widget: number, value_type: int }
+      - { name: genus_count,   label: "Genera count (IN)",  widget: number, value_type: int }
+
+  # ────────────────────────────────────────────────────────────
+  # Identification keys
+  # ────────────────────────────────────────────────────────────
+  # Structure A (key directly to species) renders well in Decap's
+  # nested list widgets. Structure B (key to genera + embedded
+  # genus_keys) is too deeply nested for the form UI — those entries
+  # fall through to the raw JSON editor widget below. A companion
+  # desktop tool is planned for visual key authoring.
+  - name: keys
+    label: "Identification keys"
+    label_singular: "Key"
+    folder: "data/keys"
+    format: json
+    create: true
+    identifier_field: title
+    slug: "{{filename}}"
+    fields:
+      - { name: title, label: "Title", widget: string }
+      - { name: type,  label: "Type",  widget: hidden, default: "dichotomous" }
+      - { name: scope, label: "Scope", widget: select, options: [families, genera, species] }
+      - { name: family, label: "Family scope (optional)", widget: string, required: false }
+      - name: couplets
+        label: "Couplets"
+        widget: list
+        summary: "Couplet {{id}}"
+        fields:
+          - { name: id,     label: "Couplet number", widget: number, value_type: int }
+          - name: lead_a
+            label: "Lead A"
+            widget: object
+            fields:
+              - { name: text,      label: "Text",       widget: text }
+              - { name: image_url, label: "Image URL",  widget: string, required: false }
+              - { name: goto,      label: "Goto",       widget: string, hint: "Couplet number OR taxon id" }
+          - name: lead_b
+            label: "Lead B"
+            widget: object
+            fields:
+              - { name: text,      label: "Text",       widget: text }
+              - { name: image_url, label: "Image URL",  widget: string, required: false }
+              - { name: goto,      label: "Goto",       widget: string, hint: "Couplet number OR taxon id" }
+      - name: genus_keys
+        label: "Embedded genus keys (Structure B only)"
+        widget: list
+        required: false
+        collapsed: true
+        hint: "Used for keys with scope='genera'. Each entry is a full sub-key. Heavily nested — power users may prefer the raw JSON editor below."
+        fields:
+          - { name: genus, label: "Genus id", widget: string }
+          - { name: title, label: "Sub-key title", widget: string }
+          - name: couplets
+            label: "Couplets"
+            widget: list
+            fields:
+              - { name: id, label: "Couplet number", widget: number, value_type: int }
+              - { name: lead_a, label: "Lead A", widget: object, fields: [
+                  { name: text, label: "Text", widget: text },
+                  { name: goto, label: "Goto", widget: string }
+                ] }
+              - { name: lead_b, label: "Lead B", widget: object, fields: [
+                  { name: text, label: "Text", widget: text },
+                  { name: goto, label: "Goto", widget: string }
+                ] }
+      # Raw JSON editor fallback for power users
+      - { name: __raw, label: "Raw JSON (advanced)", widget: code, default_language: json, required: false, hint: "Edit the entire key as raw JSON. Overrides the form fields above when set." }
+
+  # ────────────────────────────────────────────────────────────
+  # Glossary
+  # ────────────────────────────────────────────────────────────
+  - name: glossary
+    label: "Glossary terms"
+    label_singular: "Term"
+    file: "data/glossary.json"
+    format: json
+    fields:
+      - name: entries
+        label: "Terms"
+        label_singular: "term"
+        widget: list
+        summary: "{{term}}"
+        fields:
+          - { name: term, label: "Term", widget: string }
+          - { name: def,  label: "Definition", widget: text }
+          - { name: image_url, label: "Illustration", widget: image, required: false }
+
+  # ────────────────────────────────────────────────────────────
+  # Media library — Decap's built-in. No collection definition needed,
+  # but listed here for visibility in the admin sidebar.
+  # ────────────────────────────────────────────────────────────

@@ -1,0 +1,295 @@
+{
+  "families": [
+    {
+      "id": "carabidae",
+      "name": "Carabidae",
+      "common_name": "Ground Beetles",
+      "authority": "Latreille, 1802",
+      "sort_index": 1,
+      "genera": [
+        {
+          "id": "calosoma",
+          "name": "Calosoma",
+          "authority": "Weber, 1801",
+          "species": [
+            {
+              "id": "calosoma_scrutator",
+              "name": "Calosoma scrutator",
+              "authority": "(Fabricius, 1775)",
+              "common_name": "Fiery Searcher",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "calosoma_sycophanta",
+              "name": "Calosoma sycophanta",
+              "authority": "(Linnaeus, 1758)",
+              "common_name": "European Caterpillar Hunter",
+              "indiana_status": "adventive"
+            },
+            {
+              "id": "calosoma_calidum",
+              "name": "Calosoma calidum",
+              "authority": "(Fabricius, 1775)",
+              "common_name": "Fiery Hunter",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "calosoma_externum",
+              "name": "Calosoma externum",
+              "authority": "(Say, 1823)",
+              "common_name": "Black Caterpillar Hunter",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "calosoma_wilcoxi",
+              "name": "Calosoma wilcoxi",
+              "authority": "LeConte, 1848",
+              "common_name": "Wilcox's Hunter",
+              "indiana_status": "historical"
+            }
+          ]
+        },
+        {
+          "id": "carabus",
+          "name": "Carabus",
+          "authority": "Linnaeus, 1758",
+          "species": [
+            {
+              "id": "carabus_vinctus",
+              "name": "Carabus vinctus",
+              "authority": "Weber, 1801",
+              "common_name": "Bordered Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "carabus_sylvosus",
+              "name": "Carabus sylvosus",
+              "authority": "Say, 1823",
+              "common_name": "Forest Carabus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "carabus_serratus",
+              "name": "Carabus serratus",
+              "authority": "Say, 1823",
+              "common_name": "Serrated Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "carabus_maeander",
+              "name": "Carabus maeander",
+              "authority": "Fischer, 1820",
+              "common_name": "Meandering Carabus",
+              "indiana_status": "historical"
+            }
+          ]
+        },
+        {
+          "id": "scaphinotus",
+          "name": "Scaphinotus",
+          "authority": "Dejean, 1826",
+          "species": [
+            {
+              "id": "scaphinotus_elevatus",
+              "name": "Scaphinotus elevatus",
+              "authority": "(Fabricius, 1787)",
+              "common_name": "Snail-eating Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "scaphinotus_viduus",
+              "name": "Scaphinotus viduus",
+              "authority": "(Dejean, 1826)",
+              "common_name": "Widow Snail Hunter",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pasimachus",
+          "name": "Pasimachus",
+          "authority": "Bonelli, 1813",
+          "species": [
+            {
+              "id": "pasimachus_depressus",
+              "name": "Pasimachus depressus",
+              "authority": "(Fabricius, 1787)",
+              "common_name": "Depressed Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "pasimachus_elongatus",
+              "name": "Pasimachus elongatus",
+              "authority": "LeConte, 1846",
+              "common_name": "Elongate Ground Beetle",
+              "indiana_status": "historical"
+            }
+          ]
+        },
+        {
+          "id": "harpalus",
+          "name": "Harpalus",
+          "authority": "Latreille, 1802",
+          "species": [
+            {
+              "id": "harpalus_pensylvanicus",
+              "name": "Harpalus pensylvanicus",
+              "authority": "(DeGeer, 1774)",
+              "common_name": "Pennsylvania Dingy Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "harpalus_caliginosus",
+              "name": "Harpalus caliginosus",
+              "authority": "(Fabricius, 1775)",
+              "common_name": "Murky Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "harpalus_affinis",
+              "name": "Harpalus affinis",
+              "authority": "(Schrank, 1781)",
+              "common_name": "European Strawberry Beetle",
+              "indiana_status": "adventive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cerambycidae",
+      "name": "Cerambycidae",
+      "common_name": "Longhorn Beetles",
+      "sort_index": 2,
+      "genera_count": 132,
+      "species_count": 268,
+      "genera": []
+    },
+    {
+      "id": "curculionidae",
+      "name": "Curculionidae",
+      "common_name": "Snout & Bark Beetles",
+      "sort_index": 3,
+      "genera_count": 198,
+      "species_count": 612,
+      "genera": []
+    },
+    {
+      "id": "chrysomelidae",
+      "name": "Chrysomelidae",
+      "common_name": "Leaf Beetles",
+      "sort_index": 4,
+      "genera_count": 121,
+      "species_count": 411,
+      "genera": []
+    },
+    {
+      "id": "scarabaeidae",
+      "name": "Scarabaeidae",
+      "common_name": "Scarab Beetles",
+      "sort_index": 5,
+      "genera_count": 71,
+      "species_count": 198,
+      "genera": []
+    },
+    {
+      "id": "lucanidae",
+      "name": "Lucanidae",
+      "common_name": "Stag Beetles",
+      "sort_index": 6,
+      "genera_count": 7,
+      "species_count": 12,
+      "genera": []
+    },
+    {
+      "id": "coccinellidae",
+      "name": "Coccinellidae",
+      "common_name": "Lady Beetles",
+      "sort_index": 7,
+      "genera_count": 32,
+      "species_count": 76,
+      "genera": []
+    },
+    {
+      "id": "elateridae",
+      "name": "Elateridae",
+      "common_name": "Click Beetles",
+      "sort_index": 8,
+      "genera_count": 68,
+      "species_count": 184,
+      "genera": []
+    },
+    {
+      "id": "tenebrionidae",
+      "name": "Tenebrionidae",
+      "common_name": "Darkling Beetles",
+      "sort_index": 9,
+      "genera_count": 41,
+      "species_count": 92,
+      "genera": []
+    },
+    {
+      "id": "buprestidae",
+      "name": "Buprestidae",
+      "common_name": "Jewel Beetles",
+      "sort_index": 10,
+      "genera_count": 24,
+      "species_count": 88,
+      "genera": []
+    },
+    {
+      "id": "cicindelidae",
+      "name": "Cicindelidae",
+      "common_name": "Tiger Beetles",
+      "sort_index": 11,
+      "genera_count": 5,
+      "species_count": 24,
+      "genera": []
+    },
+    {
+      "id": "gyrinidae",
+      "name": "Gyrinidae",
+      "common_name": "Whirligig Beetles",
+      "sort_index": 12,
+      "genera_count": 3,
+      "species_count": 14,
+      "genera": []
+    },
+    {
+      "id": "dytiscidae",
+      "name": "Dytiscidae",
+      "common_name": "Predaceous Diving Beetles",
+      "sort_index": 13,
+      "genera_count": 28,
+      "species_count": 96,
+      "genera": []
+    },
+    {
+      "id": "hydrophilidae",
+      "name": "Hydrophilidae",
+      "common_name": "Water Scavenger Beetles",
+      "sort_index": 14,
+      "genera_count": 18,
+      "species_count": 58,
+      "genera": []
+    },
+    {
+      "id": "histeridae",
+      "name": "Histeridae",
+      "common_name": "Hister Beetles",
+      "sort_index": 15,
+      "genera_count": 22,
+      "species_count": 72,
+      "genera": []
+    },
+    {
+      "id": "silphidae",
+      "name": "Silphidae",
+      "common_name": "Carrion Beetles",
+      "sort_index": 16,
+      "genera_count": 6,
+      "species_count": 18,
+      "genera": []
+    }
+  ]
+}

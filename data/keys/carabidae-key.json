@@ -1,0 +1,93 @@
+{
+  "type": "dichotomous",
+  "family": "carabidae",
+  "scope": "genera",
+  "title": "Key to Genera of Carabidae in Indiana",
+  "couplets": [
+    {
+      "id": 1,
+      "lead_a": {
+        "text": "Head and pronotum narrowed and elongate, the latter much longer than wide; mandibles slender and elongate, modified for entering gastropod shells.",
+        "goto": "scaphinotus"
+      },
+      "lead_b": {
+        "text": "Head and pronotum not elongate-narrowed; mandibles of typical predaceous form.",
+        "goto": 2
+      }
+    },
+    {
+      "id": 2,
+      "lead_a": {
+        "text": "Large (20+ mm); body robust; pronotum strongly cordate with broadly explanate margins; elytra usually metallic or with vivid colors.",
+        "goto": 3
+      },
+      "lead_b": {
+        "text": "Variable in size, often <20 mm; pronotum not as above, or coloration uniformly dark.",
+        "goto": 4
+      }
+    },
+    {
+      "id": 3,
+      "lead_a": {
+        "text": "Elytra brilliantly metallic (green, blue, or coppery), with regular striae; antennal segments 5–11 pale; readily flies.",
+        "goto": "calosoma"
+      },
+      "lead_b": {
+        "text": "Elytra non-metallic or only weakly so, often with raised costae; antennae uniformly piceous; flightless.",
+        "goto": "carabus"
+      }
+    },
+    {
+      "id": 4,
+      "lead_a": {
+        "text": "Body uniformly deep black, robust; mandibles sickle-shaped and asymmetric; pronotum widest near anterior third; tarsi simple.",
+        "goto": "pasimachus"
+      },
+      "lead_b": {
+        "text": "Body color and form variable; mandibles symmetrical; pronotum widest at middle or posteriorly.",
+        "goto": "harpalus"
+      }
+    }
+  ],
+  "genus_keys": [
+    {
+      "genus": "calosoma",
+      "title": "Key to Species of Calosoma in Indiana",
+      "couplets": [
+        {
+          "id": 1,
+          "lead_a": {
+            "text": "Body 25–35 mm; pronotum and head metallic blue-violet, elytra brilliant green with red or coppery marginal reflections.",
+            "goto": "calosoma_scrutator"
+          },
+          "lead_b": {
+            "text": "Body smaller, or coloration not as above.",
+            "goto": 2
+          }
+        },
+        {
+          "id": 2,
+          "lead_a": {
+            "text": "Body 21–28 mm; elytra uniformly bright green without marginal red; native to Europe; uncommon, established near urban areas.",
+            "goto": "calosoma_sycophanta"
+          },
+          "lead_b": {
+            "text": "Elytra black or dull bronze, not bright green.",
+            "goto": 3
+          }
+        },
+        {
+          "id": 3,
+          "lead_a": {
+            "text": "Elytra dull bronze-black with three rows of small golden ocellate punctures on each.",
+            "goto": "calosoma_calidum"
+          },
+          "lead_b": {
+            "text": "Elytra uniformly deep black, glossy, lacking distinct golden punctures.",
+            "goto": "calosoma_externum"
+          }
+        }
+      ]
+    }
+  ]
+}

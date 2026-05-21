@@ -1,0 +1,19 @@
+{
+  "id": "carabidae",
+  "name": "Carabidae",
+  "common_name": "Ground Beetles",
+  "authority": "Latreille, 1802",
+  "diagnosis": "A large, cosmopolitan family of predominantly predaceous beetles. Body usually elongate-oval and depressed; head prognathous with sharp mandibles. Antennae filiform, eleven-segmented, inserted laterally between mandible and eye. Pronotum typically with distinct lateral margins; elytra usually striate, frequently with punctate striae. Tarsi 5-5-5; males of many genera with dilated proxtarsi. Species are most diverse in mesic woodlands, riparian corridors, and disturbed agricultural margins.",
+  "species_count": 487,
+  "genus_count": 78,
+  "confirmed_count": 462,
+  "historical_count": 18,
+  "adventive_count": 7,
+  "genus_notes": {
+    "calosoma": "Large, brilliantly colored ground beetles known as caterpillar hunters. Active climbers and predators of lepidopteran larvae.",
+    "carabus": "Robust, often metallic ground beetles with striate, costate elytra. Largely flightless; most species inhabit deciduous leaf litter.",
+    "scaphinotus": "Snail-eating ground beetles. Head and prothorax elongate-narrow, an adaptation for entering gastropod shells.",
+    "pasimachus": "Large, deep-black, flightless ground beetles with sickle-like mandibles. Open woodlands and tallgrass remnants.",
+    "harpalus": "Speciose genus of seed-feeding and omnivorous ground beetles; common in disturbed and agricultural habitats."
+  }
+}
