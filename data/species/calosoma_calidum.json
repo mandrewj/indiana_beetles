@@ -1,21 +1,27 @@
 {
-  "id": "calosoma_calidum",
   "scientific_name": "Calosoma calidum",
-  "authority": "(Fabricius, 1775)",
-  "common_name": "Fiery Hunter",
-  "family": "carabidae",
-  "genus": "calosoma",
-  "indiana_status": "confirmed",
-  "gbif_taxon_key": null,
-  "inat_taxon_id": null,
-  "diagnosis": "",
-  "body_size_mm": "",
+  "body_size_mm": "19-27",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
-  "county_record_counts": {},
-  "images": [],
+  "phenology": [
+    "4"
+  ],
+  "gbif_taxon_key": null,
+  "authority": "(Fabricius, 1775)",
+  "family": "carabidae",
+  "indiana_status": "confirmed",
+  "references": [],
   "similar_species": [],
-  "references": []
+  "counties": [
+    "Elkhart"
+  ],
+  "genus": "calosoma",
+  "diagnosis": "Black with rows of red or gold spots or pits on its elytra",
+  "inat_taxon_id": "",
+  "images": [],
+  "phenology_peak": [
+    "6"
+  ],
+  "id": "calosoma_calidum",
+  "county_record_counts": {},
+  "common_name": "Fiery Hunter"
 }
