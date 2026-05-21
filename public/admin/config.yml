@@ -6,11 +6,12 @@
 
 backend:
   name: github
-  repo: REPLACE_WITH_OWNER/REPLACE_WITH_REPO
+  repo: mandrewj/indiana_beetles
   branch: main
   # Same-origin OAuth proxy implemented in app/api/auth + app/api/callback.
   # `base_url` is the site origin (Vercel sets this automatically on deploy);
   # `auth_endpoint` is the path Decap hits to kick off the GitHub OAuth flow.
+  # Replace base_url with your actual Vercel domain after the first deploy.
   base_url: https://REPLACE_WITH_YOUR_DOMAIN
   auth_endpoint: api/auth
 
