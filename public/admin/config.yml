@@ -209,23 +209,25 @@ collections:
       - { name: __raw, label: "Raw JSON (advanced)", widget: code, default_language: json, required: false, hint: "Edit the entire key as raw JSON. Overrides the form fields above when set." }
 
   # ────────────────────────────────────────────────────────────
-  # Glossary
+  # Glossary — single-file collection (Decap "file" collection shape)
   # ────────────────────────────────────────────────────────────
   - name: glossary
-    label: "Glossary terms"
-    label_singular: "Term"
-    file: "data/glossary.json"
-    format: json
-    fields:
-      - name: entries
-        label: "Terms"
-        label_singular: "term"
-        widget: list
-        summary: "{{term}}"
+    label: "Glossary"
+    files:
+      - name: terms
+        label: "Glossary terms"
+        file: "data/glossary.json"
+        format: json
         fields:
-          - { name: term, label: "Term", widget: string }
-          - { name: def,  label: "Definition", widget: text }
-          - { name: image_url, label: "Illustration", widget: image, required: false }
+          - name: entries
+            label: "Terms"
+            label_singular: "term"
+            widget: list
+            summary: "{{term}}"
+            fields:
+              - { name: term, label: "Term", widget: string }
+              - { name: def,  label: "Definition", widget: text }
+              - { name: image_url, label: "Illustration", widget: image, required: false }
 
   # ────────────────────────────────────────────────────────────
   # Media library — Decap's built-in. No collection definition needed,

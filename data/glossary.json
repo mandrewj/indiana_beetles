@@ -1,122 +1,124 @@
-[
-  {
-    "term": "Apical",
-    "def": "At the apex; pertaining to the tip of an appendage or sclerite."
-  },
-  {
-    "term": "Carina",
-    "def": "A keel-like or sharply raised ridge on a sclerite. Plural: carinae."
-  },
-  {
-    "term": "Clypeus",
-    "def": "The plate of the head between the labrum and the frons; often used as a key character."
-  },
-  {
-    "term": "Cordate",
-    "def": "Heart-shaped; said of a pronotum widest at or near the anterior third and narrowed posteriorly."
-  },
-  {
-    "term": "Costate",
-    "def": "Bearing one or more raised longitudinal ribs (costae), as on the elytra of some Carabus."
-  },
-  {
-    "term": "Elytra",
-    "def": "The hardened, opaque forewings of beetles; meet medially along the elytral suture and protect the membranous hindwings."
-  },
-  {
-    "term": "Explanate",
-    "def": "Spread out and flattened, as the lateral margins of the pronotum or elytra."
-  },
-  {
-    "term": "Ferruginous",
-    "def": "Rust-coloured; reddish-brown."
-  },
-  {
-    "term": "Filiform",
-    "def": "Thread-like; said of antennae with subequal, slender segments."
-  },
-  {
-    "term": "Frons",
-    "def": "The anterior part of the head between the eyes, above the clypeus."
-  },
-  {
-    "term": "Geniculate",
-    "def": "Elbowed; said of antennae bent at an angle, common in weevils."
-  },
-  {
-    "term": "Glabrous",
-    "def": "Smooth, without setae or punctures."
-  },
-  {
-    "term": "Hypomeron",
-    "def": "The lateral, downturned portion of the pronotum visible from below."
-  },
-  {
-    "term": "Labrum",
-    "def": "The 'upper lip' of the mouthparts, articulating with the clypeus."
-  },
-  {
-    "term": "Lamellate",
-    "def": "Plate-like; said of antennae whose terminal segments form expanded, often closable plates (Scarabaeidae)."
-  },
-  {
-    "term": "Mandibles",
-    "def": "The paired, sclerotized cutting jaws; their shape is highly diagnostic."
-  },
-  {
-    "term": "Maxilla",
-    "def": "Paired mouthparts behind the mandibles, bearing palps and used in food manipulation."
-  },
-  {
-    "term": "Mesothorax",
-    "def": "The middle thoracic segment, bearing the mesonotum, mesosternum, and the elytra."
-  },
-  {
-    "term": "Metasternum",
-    "def": "The ventral plate of the metathorax."
-  },
-  {
-    "term": "Pronotum",
-    "def": "The dorsal plate of the prothorax — the visible 'shield' between head and elytra."
-  },
-  {
-    "term": "Prognathous",
-    "def": "Bearing the mouthparts directed forward in line with the body axis."
-  },
-  {
-    "term": "Punctate",
-    "def": "Bearing impressed pits or dots (punctures)."
-  },
-  {
-    "term": "Retinaculum",
-    "def": "A tooth-like process on the inner edge of a mandible, used to grip prey."
-  },
-  {
-    "term": "Rugose",
-    "def": "Wrinkled or coarsely sculpted."
-  },
-  {
-    "term": "Scutellum",
-    "def": "A small, often triangular sclerite at the base of the elytra, formed by the mesonotum."
-  },
-  {
-    "term": "Serrate",
-    "def": "Saw-toothed; said of antennal segments with lateral projections."
-  },
-  {
-    "term": "Seta",
-    "def": "A bristle or hair. Plural: setae."
-  },
-  {
-    "term": "Striae",
-    "def": "Longitudinal grooves or lines, especially on the elytra; often bear punctures (punctate striae)."
-  },
-  {
-    "term": "Tarsi",
-    "def": "The terminal segments of the leg; tarsal formula (e.g. 5-5-5) gives the segment count on the pro-, meso-, and metathoracic legs."
-  },
-  {
-    "term": "Tibia",
-    "def": "The fourth leg segment, between femur and tarsi."
-  }
-]
+{
+  "entries": [
+    {
+      "term": "Apical",
+      "def": "At the apex; pertaining to the tip of an appendage or sclerite."
+    },
+    {
+      "term": "Carina",
+      "def": "A keel-like or sharply raised ridge on a sclerite. Plural: carinae."
+    },
+    {
+      "term": "Clypeus",
+      "def": "The plate of the head between the labrum and the frons; often used as a key character."
+    },
+    {
+      "term": "Cordate",
+      "def": "Heart-shaped; said of a pronotum widest at or near the anterior third and narrowed posteriorly."
+    },
+    {
+      "term": "Costate",
+      "def": "Bearing one or more raised longitudinal ribs (costae), as on the elytra of some Carabus."
+    },
+    {
+      "term": "Elytra",
+      "def": "The hardened, opaque forewings of beetles; meet medially along the elytral suture and protect the membranous hindwings."
+    },
+    {
+      "term": "Explanate",
+      "def": "Spread out and flattened, as the lateral margins of the pronotum or elytra."
+    },
+    {
+      "term": "Ferruginous",
+      "def": "Rust-coloured; reddish-brown."
+    },
+    {
+      "term": "Filiform",
+      "def": "Thread-like; said of antennae with subequal, slender segments."
+    },
+    {
+      "term": "Frons",
+      "def": "The anterior part of the head between the eyes, above the clypeus."
+    },
+    {
+      "term": "Geniculate",
+      "def": "Elbowed; said of antennae bent at an angle, common in weevils."
+    },
+    {
+      "term": "Glabrous",
+      "def": "Smooth, without setae or punctures."
+    },
+    {
+      "term": "Hypomeron",
+      "def": "The lateral, downturned portion of the pronotum visible from below."
+    },
+    {
+      "term": "Labrum",
+      "def": "The 'upper lip' of the mouthparts, articulating with the clypeus."
+    },
+    {
+      "term": "Lamellate",
+      "def": "Plate-like; said of antennae whose terminal segments form expanded, often closable plates (Scarabaeidae)."
+    },
+    {
+      "term": "Mandibles",
+      "def": "The paired, sclerotized cutting jaws; their shape is highly diagnostic."
+    },
+    {
+      "term": "Maxilla",
+      "def": "Paired mouthparts behind the mandibles, bearing palps and used in food manipulation."
+    },
+    {
+      "term": "Mesothorax",
+      "def": "The middle thoracic segment, bearing the mesonotum, mesosternum, and the elytra."
+    },
+    {
+      "term": "Metasternum",
+      "def": "The ventral plate of the metathorax."
+    },
+    {
+      "term": "Pronotum",
+      "def": "The dorsal plate of the prothorax — the visible 'shield' between head and elytra."
+    },
+    {
+      "term": "Prognathous",
+      "def": "Bearing the mouthparts directed forward in line with the body axis."
+    },
+    {
+      "term": "Punctate",
+      "def": "Bearing impressed pits or dots (punctures)."
+    },
+    {
+      "term": "Retinaculum",
+      "def": "A tooth-like process on the inner edge of a mandible, used to grip prey."
+    },
+    {
+      "term": "Rugose",
+      "def": "Wrinkled or coarsely sculpted."
+    },
+    {
+      "term": "Scutellum",
+      "def": "A small, often triangular sclerite at the base of the elytra, formed by the mesonotum."
+    },
+    {
+      "term": "Serrate",
+      "def": "Saw-toothed; said of antennal segments with lateral projections."
+    },
+    {
+      "term": "Seta",
+      "def": "A bristle or hair. Plural: setae."
+    },
+    {
+      "term": "Striae",
+      "def": "Longitudinal grooves or lines, especially on the elytra; often bear punctures (punctate striae)."
+    },
+    {
+      "term": "Tarsi",
+      "def": "The terminal segments of the leg; tarsal formula (e.g. 5-5-5) gives the segment count on the pro-, meso-, and metathoracic legs."
+    },
+    {
+      "term": "Tibia",
+      "def": "The fourth leg segment, between femur and tarsi."
+    }
+  ]
+}
