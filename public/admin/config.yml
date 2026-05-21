@@ -68,14 +68,15 @@ collections:
           - { name: value, label: "Value", widget: string }
           - { name: note,  label: "Note",  widget: string, required: false }
 
-      - { name: phenology,        label: "Active months",      widget: select, multiple: true, options: ["1","2","3","4","5","6","7","8","9","10","11","12"] }
-      - { name: phenology_peak,   label: "Peak months",        widget: select, multiple: true, options: ["1","2","3","4","5","6","7","8","9","10","11","12"] }
+      - { name: phenology,        label: "Active months",      widget: select, multiple: true, required: false, options: ["1","2","3","4","5","6","7","8","9","10","11","12"] }
+      - { name: phenology_peak,   label: "Peak months",        widget: select, multiple: true, required: false, options: ["1","2","3","4","5","6","7","8","9","10","11","12"] }
 
       - name: counties
-        label: "Counties (Indiana)"
+        label: "Counties (Indiana) — override"
         widget: select
         multiple: true
-        hint: "Counties where the species is documented. Surfaced in the choropleth and records table."
+        required: false
+        hint: "Leave blank to use live GBIF + iNaturalist distribution. Set only to override the live data when external sources are wrong."
         options: &counties
           # Full Indiana county list — also available in /data/county-lookup.json
           [Adams, Allen, Bartholomew, Benton, Blackford, Boone, Brown, Carroll, Cass, Clark,

@@ -137,3 +137,19 @@ export interface Glossary {
 }
 
 export type CountyLookup = Record<string, string>;
+
+/**
+ * Decap writes empty number fields as `""` rather than `null` — normalize to
+ * either a positive integer or `null` so downstream guards and API calls
+ * don't accidentally treat the empty string as "set."
+ */
+export function taxonIdOrNull(value: unknown): number | null {
+  if (typeof value === "number" && Number.isInteger(value) && value > 0) {
+    return value;
+  }
+  if (typeof value === "string" && value.trim() !== "") {
+    const parsed = Number(value);
+    if (Number.isInteger(parsed) && parsed > 0) return parsed;
+  }
+  return null;
+}

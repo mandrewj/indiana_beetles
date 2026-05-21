@@ -8,6 +8,7 @@ import {
 import { fetchGbifOccurrences } from "@/lib/gbif";
 import { fetchINatObservations } from "@/lib/inaturalist";
 import type { Species } from "@/lib/types";
+import { taxonIdOrNull } from "@/lib/types";
 
 const LIMIT_PER_SOURCE = 50;
 
@@ -16,20 +17,19 @@ export function Records({ species }: { species: Species }) {
   const [error, setError] = useState<string | null>(null);
   const [lastFetched, setLastFetched] = useState<string | null>(null);
 
+  const gbifKey = taxonIdOrNull(species.gbif_taxon_key);
+  const inatId = taxonIdOrNull(species.inat_taxon_id);
+
   useEffect(() => {
     let live = true;
     setRecords(null);
     setError(null);
 
-    const gbifP = species.gbif_taxon_key
-      ? fetchGbifOccurrences(species.gbif_taxon_key, LIMIT_PER_SOURCE).catch(
-          () => []
-        )
+    const gbifP = gbifKey
+      ? fetchGbifOccurrences(gbifKey, LIMIT_PER_SOURCE).catch(() => [])
       : Promise.resolve([]);
-    const inatP = species.inat_taxon_id
-      ? fetchINatObservations(species.inat_taxon_id, LIMIT_PER_SOURCE).catch(
-          () => []
-        )
+    const inatP = inatId
+      ? fetchINatObservations(inatId, LIMIT_PER_SOURCE).catch(() => [])
       : Promise.resolve([]);
 
     Promise.all([gbifP, inatP])
@@ -68,9 +68,9 @@ export function Records({ species }: { species: Species }) {
     return () => {
       live = false;
     };
-  }, [species.id, species.gbif_taxon_key, species.inat_taxon_id]);
+  }, [species.id, gbifKey, inatId]);
 
-  if (!species.gbif_taxon_key && !species.inat_taxon_id) return null;
+  if (gbifKey === null && inatId === null) return null;
 
   return (
     <div className="sec">

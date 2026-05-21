@@ -76,9 +76,6 @@ export default async function SpeciesPage({ params }: { params: PageParams }) {
   const familyDisplay = ctx.family.name;
   const genusDisplay = genus?.name ?? species.genus;
   const shortLabel = species.scientific_name.replace(/^(\w)\w+\s/, "$1. ");
-  const recordTotal = Object.values(
-    species.county_record_counts ?? {}
-  ).reduce((acc, n) => acc + n, 0);
 
   return (
     <div className="page">
@@ -160,18 +157,22 @@ export default async function SpeciesPage({ params }: { params: PageParams }) {
             <span>
               <em>{familyDisplay}</em>
             </span>
-            <span className="sep" />
-            <span>{species.body_size_mm} mm</span>
-            <span className="sep" />
-            <span>
-              {species.counties.length}/92 counties
-            </span>
-            {recordTotal > 0 && (
+            {species.body_size_mm && (
               <>
                 <span className="sep" />
-                <span>{recordTotal} curated records</span>
+                <span>{species.body_size_mm} mm</span>
               </>
             )}
+            <span className="sep" />
+            <span>
+              {species.indiana_status === "confirmed"
+                ? "Confirmed in Indiana"
+                : species.indiana_status === "historical"
+                ? "Historical Indiana records"
+                : species.indiana_status === "adventive"
+                ? "Adventive in Indiana"
+                : "Excluded"}
+            </span>
           </div>
         </div>
       </div>

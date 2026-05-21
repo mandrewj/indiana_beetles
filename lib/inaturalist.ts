@@ -111,6 +111,7 @@ export async function fetchTopINatPhotos(
   taxonId: number,
   limit: number = 12
 ): Promise<INatPhoto[]> {
+  if (!Number.isInteger(taxonId) || taxonId <= 0) return [];
   return withCache(
     "inat-photos",
     `${taxonId}-${limit}`,
@@ -152,6 +153,7 @@ export async function fetchINatObservations(
   taxonId: number,
   limit: number = 50
 ): Promise<INatObservation[]> {
+  if (!Number.isInteger(taxonId) || taxonId <= 0) return [];
   return withCache(
     "inat-obs",
     `${taxonId}-${limit}`,

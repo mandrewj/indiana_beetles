@@ -66,6 +66,7 @@ export async function fetchGbifOccurrences(
   taxonKey: number,
   limit: number = 50
 ): Promise<GbifOccurrence[]> {
+  if (!Number.isInteger(taxonKey) || taxonKey <= 0) return [];
   return withCache(
     "gbif-occ",
     `${taxonKey}-${limit}`,

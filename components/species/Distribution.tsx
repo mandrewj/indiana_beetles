@@ -1,16 +1,61 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { IndianaMap } from "../IndianaMap";
+import { fetchLiveDistribution } from "@/lib/distribution";
+import { taxonIdOrNull } from "@/lib/types";
 import type { Species } from "@/lib/types";
+
+interface State {
+  counts: Record<string, number>;
+  source: "admin" | "live" | "empty";
+  total: number;
+  loading: boolean;
+}
 
 export function Distribution({ species }: { species: Species }) {
   const [selected, setSelected] = useState<string | null>(null);
-  const counts = useMemo(
-    () => species.county_record_counts ?? {},
-    [species.county_record_counts]
-  );
-  const present = species.counties.length;
+
+  // Admin override wins when set. Otherwise we fall back to live data.
+  const adminCounts = species.county_record_counts ?? {};
+  const hasAdminCounts = Object.keys(adminCounts).length > 0;
+  const gbifKey = taxonIdOrNull(species.gbif_taxon_key);
+  const inatId = taxonIdOrNull(species.inat_taxon_id);
+  const canFetchLive = !hasAdminCounts && (gbifKey !== null || inatId !== null);
+
+  const [state, setState] = useState<State>({
+    counts: hasAdminCounts ? adminCounts : {},
+    source: hasAdminCounts ? "admin" : "empty",
+    total: Object.values(adminCounts).reduce((a, b) => a + b, 0),
+    loading: canFetchLive,
+  });
+
+  useEffect(() => {
+    if (!canFetchLive) return;
+    let live = true;
+    fetchLiveDistribution(species)
+      .then((res) => {
+        if (!live) return;
+        setState({
+          counts: res.countyCounts,
+          source:
+            res.total > 0
+              ? "live"
+              : "empty",
+          total: res.total,
+          loading: false,
+        });
+      })
+      .catch(() => {
+        if (live) setState((s) => ({ ...s, loading: false }));
+      });
+    return () => {
+      live = false;
+    };
+  }, [species, canFetchLive]);
+
+  const counts = state.counts;
+  const present = Object.keys(counts).length;
 
   const { total, top3, average } = useMemo(() => {
     const entries = Object.entries(counts);
@@ -20,12 +65,21 @@ export function Distribution({ species }: { species: Species }) {
     return { total, top3: sorted, average };
   }, [counts]);
 
+  const sourceLabel =
+    state.source === "admin"
+      ? "Admin-curated counts"
+      : state.source === "live"
+      ? "Live · GBIF + iNaturalist"
+      : state.loading
+      ? "Fetching…"
+      : "No records yet";
+
   return (
     <div className="sec">
       <div className="sec-head">
         <h3>Distribution</h3>
         <span className="meta">
-          {present}/92 counties · {total} records
+          {present}/92 counties · {total} records · {sourceLabel}
         </span>
       </div>
       <div
@@ -78,6 +132,38 @@ export function Distribution({ species }: { species: Species }) {
                 Clear selection
               </button>
             </>
+          ) : state.loading ? (
+            <>
+              <div className="rank">Fetching distribution</div>
+              <p
+                style={{
+                  color: "var(--text-500)",
+                  fontSize: 13.5,
+                  marginTop: 4,
+                }}
+              >
+                Pulling Indiana occurrence records from GBIF and iNaturalist
+                and aggregating by county. Cached locally for 24 hours.
+              </p>
+            </>
+          ) : present === 0 ? (
+            <>
+              <div className="rank">No records</div>
+              <p
+                style={{
+                  color: "var(--text-500)",
+                  fontSize: 13.5,
+                  marginTop: 4,
+                }}
+              >
+                No Indiana occurrence records found for this species in GBIF or
+                iNaturalist
+                {gbifKey === null && inatId === null
+                  ? " (taxon IDs not set)"
+                  : ""}
+                .
+              </p>
+            </>
           ) : (
             <>
               <div className="rank">Pick a county</div>
@@ -89,7 +175,6 @@ export function Distribution({ species }: { species: Species }) {
                 }}
               >
                 Click any county in the choropleth to view its record count.
-                Toggle source filters from the records table below.
               </p>
               <div className="hr-thin" />
               <div
