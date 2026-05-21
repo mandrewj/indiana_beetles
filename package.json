@@ -12,6 +12,7 @@
     "data:counties": "tsx scripts/build-counties.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "d3": "^7.9.0",
     "d3-scale-chromatic": "^3.1.0",
     "jspdf": "^2.5.1",
