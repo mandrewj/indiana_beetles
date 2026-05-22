@@ -240,6 +240,18 @@
           ]
         },
         {
+          "id": "bolitotherus",
+          "name": "Bolitotherus",
+          "species": [
+            {
+              "id": "bolitotherus_cornutus",
+              "name": "Bolitotherus cornutus",
+              "common_name": "Forked Fungus Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "meracantha",
           "name": "Meracantha",
           "species": [
