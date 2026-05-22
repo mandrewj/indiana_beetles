@@ -163,7 +163,122 @@
       "sort_index": 2,
       "genera_count": 132,
       "species_count": 268,
-      "genera": []
+      "genera": [
+        {
+          "id": "coeleburia",
+          "name": "Coeleburia",
+          "species": [
+            {
+              "id": "coeleburia_quadrigeminata",
+              "name": "Coeleburia quadrigeminata",
+              "common_name": "Ivory-marked Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "elaphidion",
+          "name": "Elaphidion",
+          "species": [
+            {
+              "id": "elaphidion_mucronatum",
+              "name": "Elaphidion mucronatum",
+              "common_name": "Spined Oak Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "megacyllene",
+          "name": "Megacyllene",
+          "species": [
+            {
+              "id": "megacyllene_caryae",
+              "name": "Megacyllene caryae",
+              "common_name": "Painted Hickory Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "megacyllene_robiniae",
+              "name": "Megacyllene robiniae",
+              "common_name": "Locust Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "neandra",
+          "name": "Neandra",
+          "species": [
+            {
+              "id": "neandra_brunnea",
+              "name": "Neandra brunnea",
+              "common_name": "Pole Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "neoclytus",
+          "name": "Neoclytus",
+          "species": [
+            {
+              "id": "neoclytus_acuminatus",
+              "name": "Neoclytus acuminatus",
+              "common_name": "Red-headed Ash Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "orthosoma",
+          "name": "Orthosoma",
+          "species": [
+            {
+              "id": "orthosoma_brunneum",
+              "name": "Orthosoma brunneum",
+              "common_name": "Brown Prionid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tetraopes",
+          "name": "Tetraopes",
+          "species": [
+            {
+              "id": "tetraopes_tetrophthalmus",
+              "name": "Tetraopes tetrophthalmus",
+              "common_name": "Red Milkweed Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "typocerus",
+          "name": "Typocerus",
+          "species": [
+            {
+              "id": "typocerus_velutinus",
+              "name": "Typocerus velutinus",
+              "common_name": "Banded Longhorn Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "xylotrechus",
+          "name": "Xylotrechus",
+          "species": [
+            {
+              "id": "xylotrechus_colonus",
+              "name": "Xylotrechus colonus",
+              "common_name": "Rustic Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "curculionidae",
