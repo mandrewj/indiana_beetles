@@ -1,14 +1,6 @@
 {
-  "id": "polydrusus_formosus",
   "scientific_name": "Polydrusus formosus",
-  "common_name": "Green Immigrant Leaf Weevil",
-  "family": "curculionidae",
-  "genus": "polydrusus",
-  "indiana_status": "confirmed",
-  "gbif_taxon_key": 4468015,
-  "inat_taxon_id": 494559,
-  "diagnosis": "",
-  "body_size_mm": "",
+  "body_size_mm": "5-7",
   "diagnostic_characters": [],
   "phenology": [
     4,
@@ -17,10 +9,11 @@
     7,
     10
   ],
-  "phenology_peak": [
-    5,
-    6
-  ],
+  "gbif_taxon_key": 4468015,
+  "family": "curculionidae",
+  "indiana_status": "confirmed",
+  "references": [],
+  "similar_species": [],
   "counties": [
     "Allen",
     "Bartholomew",
@@ -41,28 +34,41 @@
     "Tippecanoe",
     "Wabash"
   ],
+  "genus": "polydrusus",
+  "last_refreshed": "2026-05-22",
+  "diagnosis": "Body covered in bright metallic green scales. Elytra with clearly visible black longitudinal striae. Eyes large, separated by about the diameter of one eye.",
+  "inat_taxon_id": 494559,
+  "images": [
+    {
+      "type": "habitus",
+      "url": "/images/om110047.jpeg",
+      "credit": "Andrew Johnston"
+    }
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "id": "polydrusus_formosus",
   "county_record_counts": {
-    "Porter": 15,
-    "Allen": 13,
-    "Tippecanoe": 2,
-    "Elkhart": 4,
-    "Bartholomew": 1,
-    "Noble": 2,
-    "LaPorte": 2,
-    "Lake": 9,
-    "Madison": 1,
     "Hendricks": 1,
-    "Huntington": 2,
-    "Steuben": 4,
-    "LaGrange": 3,
     "St. Joseph": 4,
-    "Boone": 1,
+    "Huntington": 2,
+    "Allen": 13,
+    "LaGrange": 3,
+    "Porter": 15,
+    "Lake": 9,
+    "LaPorte": 2,
+    "Bartholomew": 1,
+    "Tippecanoe": 2,
     "Kosciusko": 1,
+    "Madison": 1,
+    "Boone": 1,
+    "Noble": 2,
+    "Steuben": 4,
     "Grant": 1,
-    "Wabash": 1
+    "Wabash": 1,
+    "Elkhart": 4
   },
-  "images": [],
-  "similar_species": [],
-  "references": [],
-  "last_refreshed": "2026-05-22"
+  "common_name": "Green Immigrant Leaf Weevil"
 }
