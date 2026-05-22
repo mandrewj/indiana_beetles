@@ -10,10 +10,33 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Lawrence",
+    "Monroe",
+    "Posey",
+    "Tippecanoe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "county_record_counts": {
+    "Brown": 10,
+    "Monroe": 2,
+    "Lawrence": 2,
+    "Tippecanoe": 1,
+    "Posey": 2
+  },
+  "last_refreshed": "2026-05-22"
 }

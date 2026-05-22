@@ -9,10 +9,31 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7,
+    9,
+    10
+  ],
+  "counties": [
+    "Marion",
+    "Vigo"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "county_record_counts": {
+    "Marion": 1,
+    "Vigo": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -9,10 +9,37 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Crawford",
+    "Kosciusko",
+    "LaPorte",
+    "Marion",
+    "Marshall",
+    "Parke",
+    "Porter",
+    "Starke",
+    "Tippecanoe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "county_record_counts": {
+    "Marion": 5,
+    "Porter": 4,
+    "Tippecanoe": 1,
+    "Parke": 3,
+    "Starke": 1,
+    "Marshall": 1,
+    "LaPorte": 1,
+    "Crawford": 1,
+    "Kosciusko": 4
+  },
+  "last_refreshed": "2026-05-22"
 }

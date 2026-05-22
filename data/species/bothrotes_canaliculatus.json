@@ -9,10 +9,26 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    8,
+    9
+  ],
+  "counties": [
+    "Lake",
+    "Porter"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "county_record_counts": {
+    "Lake": 2,
+    "Porter": 29
+  },
+  "last_refreshed": "2026-05-22"
 }
