@@ -226,7 +226,20 @@
       "sort_index": 9,
       "genera_count": 41,
       "species_count": 92,
-      "genera": []
+      "genera": [
+        {
+          "id": "alobates",
+          "name": "Alobates",
+          "species": [
+            {
+              "id": "alobates_pensylvanicus",
+              "name": "Alobates pensylvanicus",
+              "common_name": "false mealworm beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "buprestidae",
