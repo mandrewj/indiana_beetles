@@ -1,0 +1,28 @@
+{
+  "id": "cleopomiarus_hispidulus",
+  "scientific_name": "Cleopomiarus hispidulus",
+  "family": "curculionidae",
+  "genus": "cleopomiarus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4469023,
+  "inat_taxon_id": 455835,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    9
+  ],
+  "phenology_peak": [
+    9
+  ],
+  "counties": [
+    "Hamilton"
+  ],
+  "county_record_counts": {
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

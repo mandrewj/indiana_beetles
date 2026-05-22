@@ -1,0 +1,32 @@
+{
+  "id": "stenoscelis_brevis",
+  "scientific_name": "Stenoscelis brevis",
+  "family": "curculionidae",
+  "genus": "stenoscelis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1210396,
+  "inat_taxon_id": 231583,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Hendricks",
+    "Jennings"
+  ],
+  "county_record_counts": {
+    "Jennings": 1,
+    "Hendricks": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

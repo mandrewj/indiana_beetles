@@ -1,0 +1,39 @@
+{
+  "id": "monarthrum_fasciatum",
+  "scientific_name": "Monarthrum fasciatum",
+  "common_name": "Yellow-vested Timber Beetle",
+  "family": "curculionidae",
+  "genus": "monarthrum",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1214979,
+  "inat_taxon_id": 225210,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Franklin",
+    "Hancock",
+    "Monroe",
+    "Perry",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 2,
+    "Perry": 11,
+    "Monroe": 2,
+    "Hancock": 1,
+    "Franklin": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

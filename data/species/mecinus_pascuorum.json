@@ -1,0 +1,32 @@
+{
+  "id": "mecinus_pascuorum",
+  "scientific_name": "Mecinus pascuorum",
+  "family": "curculionidae",
+  "genus": "mecinus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 9452727,
+  "inat_taxon_id": 370962,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Hancock"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "Hancock": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

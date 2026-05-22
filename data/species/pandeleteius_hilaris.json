@@ -1,0 +1,41 @@
+{
+  "id": "pandeleteius_hilaris",
+  "scientific_name": "Pandeleteius hilaris",
+  "common_name": "Eastern Diamond-necked Weevil",
+  "family": "curculionidae",
+  "genus": "pandeleteius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1230452,
+  "inat_taxon_id": 226886,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    9
+  ],
+  "counties": [
+    "Brown",
+    "Grant",
+    "Lake",
+    "Owen",
+    "Pulaski",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 4,
+    "Brown": 4,
+    "Pulaski": 15,
+    "Owen": 1,
+    "Lake": 1,
+    "Grant": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

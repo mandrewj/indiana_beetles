@@ -1,0 +1,30 @@
+{
+  "id": "anthonomus_rubidus",
+  "scientific_name": "Anthonomus rubidus",
+  "family": "curculionidae",
+  "genus": "anthonomus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5013704,
+  "inat_taxon_id": 213779,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    8
+  ],
+  "counties": [
+    "Lake"
+  ],
+  "county_record_counts": {
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

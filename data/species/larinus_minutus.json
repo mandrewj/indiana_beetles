@@ -1,0 +1,33 @@
+{
+  "id": "larinus_minutus",
+  "scientific_name": "Larinus minutus",
+  "common_name": "Lesser Knapweed Flower Weevil",
+  "family": "curculionidae",
+  "genus": "larinus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1183691,
+  "inat_taxon_id": 455901,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Elkhart"
+  ],
+  "county_record_counts": {
+    "Elkhart": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

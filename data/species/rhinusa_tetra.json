@@ -1,0 +1,31 @@
+{
+  "id": "rhinusa_tetra",
+  "scientific_name": "Rhinusa tetra",
+  "common_name": "Mullein Weevil",
+  "family": "curculionidae",
+  "genus": "rhinusa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4468969,
+  "inat_taxon_id": 456058,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    8
+  ],
+  "counties": [
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

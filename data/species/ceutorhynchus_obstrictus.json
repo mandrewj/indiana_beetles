@@ -1,0 +1,27 @@
+{
+  "id": "ceutorhynchus_obstrictus",
+  "scientific_name": "Ceutorhynchus obstrictus",
+  "common_name": "Cabbage seed Weevil",
+  "family": "curculionidae",
+  "genus": "ceutorhynchus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4464290,
+  "inat_taxon_id": 269049,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

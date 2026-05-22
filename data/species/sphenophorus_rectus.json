@@ -1,0 +1,30 @@
+{
+  "id": "sphenophorus_rectus",
+  "scientific_name": "Sphenophorus rectus",
+  "family": "curculionidae",
+  "genus": "sphenophorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1169746,
+  "inat_taxon_id": 231370,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    8,
+    9
+  ],
+  "phenology_peak": [
+    8,
+    9
+  ],
+  "counties": [
+    "Delaware"
+  ],
+  "county_record_counts": {
+    "Delaware": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

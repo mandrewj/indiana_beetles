@@ -1,0 +1,33 @@
+{
+  "id": "smicronyx_sculpticollis",
+  "scientific_name": "Smicronyx sculpticollis",
+  "common_name": "Dodder Gall Weevil",
+  "family": "curculionidae",
+  "genus": "smicronyx",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1217488,
+  "inat_taxon_id": 231111,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    9
+  ],
+  "counties": [
+    "Knox",
+    "Ripley"
+  ],
+  "county_record_counts": {
+    "Ripley": 1,
+    "Knox": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

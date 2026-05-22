@@ -1,0 +1,29 @@
+{
+  "id": "pissodes_strobi",
+  "scientific_name": "Pissodes strobi",
+  "common_name": "White Pine Weevil",
+  "family": "curculionidae",
+  "genus": "pissodes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7782408,
+  "inat_taxon_id": 208537,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    7
+  ],
+  "phenology_peak": [
+    3,
+    4,
+    7
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

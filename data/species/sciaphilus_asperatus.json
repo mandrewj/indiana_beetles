@@ -1,0 +1,33 @@
+{
+  "id": "sciaphilus_asperatus",
+  "scientific_name": "Sciaphilus asperatus",
+  "common_name": "Strawberry Root Weevil",
+  "family": "curculionidae",
+  "genus": "sciaphilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1184400,
+  "inat_taxon_id": 200015,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    8
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    8
+  ],
+  "counties": [
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

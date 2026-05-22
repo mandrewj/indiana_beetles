@@ -1,0 +1,27 @@
+{
+  "id": "anthonomus_eugenii",
+  "scientific_name": "Anthonomus eugenii",
+  "common_name": "Pepper Weevil",
+  "family": "curculionidae",
+  "genus": "anthonomus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5013699,
+  "inat_taxon_id": 269143,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    11
+  ],
+  "phenology_peak": [
+    3,
+    11
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}
