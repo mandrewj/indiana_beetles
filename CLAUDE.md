@@ -27,6 +27,12 @@
 - Guard against invalid IDs at the function boundary (`if (!Number.isInteger(id) || id <= 0) return [];`) — saves an external request and silent corruption.
 - If the cached payload shape changes, bump `lib/cache.ts` `VERSION`.
 
+## Family counts: literature estimate vs. treated
+
+`family.species_count` and `family.genus_count` are **literature estimates** of total Indiana fauna for that family. They're hand-set in the JSON, not derived. The actual count of species in our dataset comes from walking `taxonomy.json` (e.g. `taxFamily.genera.length`).
+
+UI shows both as **`treated/estimated`** (e.g. "3 of 92 species treated"). Don't auto-update the estimates from Discover; the `counts_reference` field on each family captures the citation behind the totals (e.g. "Larochelle & Larivière 2003"). The `notes` field is for family-level editorial remarks.
+
 ## Things to leave alone unless explicitly asked
 
 - `data/county-lookup.json` and `public/data/indiana-counties.json` are committed outputs of `scripts/build-counties.ts`. Don't hand-edit; regenerate with `npm run data:counties`.

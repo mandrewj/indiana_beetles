@@ -66,11 +66,17 @@ export function FamilyView({
             <div className="meta-grid">
               <div className="mi">
                 <div className="lbl">Genera in IN</div>
-                <div className="val">{family.genus_count}</div>
+                <div className="val">
+                  {taxonomy.genera.length}
+                  <span className="val-of"> of {family.genus_count}</span>
+                </div>
               </div>
               <div className="mi">
                 <div className="lbl">Species in IN</div>
-                <div className="val">{family.species_count}</div>
+                <div className="val">
+                  {taxonomy.genera.reduce((n, g) => n + g.species.length, 0)}
+                  <span className="val-of"> of {family.species_count}</span>
+                </div>
               </div>
               {family.confirmed_count != null && (
                 <div className="mi">
@@ -79,6 +85,49 @@ export function FamilyView({
                 </div>
               )}
             </div>
+            {family.counts_reference && (
+              <div
+                style={{
+                  fontFamily: "var(--font-mono)",
+                  fontSize: 11,
+                  letterSpacing: "0.06em",
+                  textTransform: "uppercase",
+                  color: "var(--gray-500)",
+                  marginTop: 8,
+                }}
+              >
+                Totals from {family.counts_reference}
+              </div>
+            )}
+            {family.notes && (
+              <div
+                style={{
+                  marginTop: "var(--pad-3)",
+                  padding: "var(--pad-3)",
+                  borderLeft: "2px solid var(--blue-600)",
+                  background: "var(--blue-50)",
+                  borderRadius: 4,
+                  color: "var(--text-500)",
+                  fontSize: 13.5,
+                  lineHeight: 1.6,
+                }}
+              >
+                <div
+                  style={{
+                    fontFamily: "var(--font-sans)",
+                    fontSize: 11,
+                    fontWeight: 700,
+                    letterSpacing: "0.2em",
+                    textTransform: "uppercase",
+                    color: "var(--blue-800)",
+                    marginBottom: 4,
+                  }}
+                >
+                  Notes
+                </div>
+                {family.notes}
+              </div>
+            )}
           </div>
           <div>
             <RankLabel>Family-level distribution</RankLabel>

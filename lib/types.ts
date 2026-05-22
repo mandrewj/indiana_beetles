@@ -58,13 +58,19 @@ export interface Family {
   common_name: string;
   authority?: string;
   diagnosis: string;
+  /** Literature estimate of total Indiana species in this family. */
   species_count: number;
+  /** Literature estimate of total Indiana genera in this family. */
   genus_count: number;
   confirmed_count?: number;
   historical_count?: number;
   adventive_count?: number;
   genus_notes?: Record<string, string>;
   inat_taxon_id?: number | string | null;
+  /** Citation backing species_count + genus_count (free-form, e.g. "Larochelle & Larivière 2003"). */
+  counts_reference?: string;
+  /** Family-level editorial notes (scope, recent revisions, etc.). */
+  notes?: string;
 }
 
 export interface TaxonomyGenus {

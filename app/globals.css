@@ -528,6 +528,12 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   color: var(--blue-800);
   letter-spacing: -0.02em;
 }
+.fp-hero .meta-grid .val .val-of {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--gray-500);
+  letter-spacing: 0;
+}
 
 /* Tabs */
 .tabs {

@@ -9,21 +9,34 @@ import type { Family } from "@/lib/types";
 
 type Sort = "taxonomic" | "alpha" | "species";
 
-export function BrowseView({ families }: { families: Family[] }) {
+interface Treated {
+  genera: number;
+  species: number;
+}
+
+export function BrowseView({
+  families,
+  treated,
+}: {
+  families: Family[];
+  treated: Record<string, Treated>;
+}) {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<Sort>("taxonomic");
 
-  const totals = useMemo(
-    () =>
-      families.reduce(
-        (acc, f) => ({
-          species: acc.species + (f.species_count ?? 0),
-          genera: acc.genera + (f.genus_count ?? 0),
-        }),
-        { species: 0, genera: 0 }
-      ),
-    [families]
-  );
+  const totals = useMemo(() => {
+    const estSpecies = families.reduce((n, f) => n + (f.species_count ?? 0), 0);
+    const estGenera = families.reduce((n, f) => n + (f.genus_count ?? 0), 0);
+    const treatedSpecies = Object.values(treated).reduce(
+      (n, t) => n + t.species,
+      0
+    );
+    const treatedGenera = Object.values(treated).reduce(
+      (n, t) => n + t.genera,
+      0
+    );
+    return { estSpecies, estGenera, treatedSpecies, treatedGenera };
+  }, [families, treated]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -64,10 +77,13 @@ export function BrowseView({ families }: { families: Family[] }) {
             All families
           </h1>
           <p style={{ color: "var(--text-500)", maxWidth: "58ch" }}>
-            {families.length} families currently treated, comprising{" "}
-            {totals.genera.toLocaleString()} genera and{" "}
-            {totals.species.toLocaleString()} species records. Click a family
-            to open its diagnosis, key, and checklist.
+            {families.length} families currently treated.{" "}
+            <strong>{totals.treatedSpecies.toLocaleString()}</strong> of{" "}
+            an estimated {totals.estSpecies.toLocaleString()} Indiana species
+            are documented in the dataset, across{" "}
+            <strong>{totals.treatedGenera.toLocaleString()}</strong> of {totals.estGenera.toLocaleString()}{" "}
+            estimated genera. Click a family to open its diagnosis, key, and
+            checklist.
           </p>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
@@ -132,7 +148,8 @@ export function BrowseView({ families }: { families: Family[] }) {
               <div className="common">{f.common_name}</div>
               <div className="row">
                 <span className="fam">
-                  {f.species_count} sp · {f.genus_count} gen
+                  {treated[f.id]?.species ?? 0}/{f.species_count} sp ·{" "}
+                  {treated[f.id]?.genera ?? 0}/{f.genus_count} gen
                 </span>
                 <ArrowRight size={12} />
               </div>

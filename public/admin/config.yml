@@ -135,8 +135,10 @@ collections:
       - { name: common_name,   label: "Common name", widget: string }
       - { name: authority,     label: "Authority",   widget: string, required: false }
       - { name: diagnosis,     label: "Diagnosis",   widget: text }
-      - { name: species_count, label: "Species count (IN)", widget: number, value_type: int }
-      - { name: genus_count,   label: "Genera count (IN)",  widget: number, value_type: int }
+      - { name: species_count, label: "Species count (IN)", widget: number, value_type: int, hint: "Literature estimate of total Indiana species in this family. Not auto-derived." }
+      - { name: genus_count,   label: "Genera count (IN)",  widget: number, value_type: int, hint: "Literature estimate of total Indiana genera in this family. Not auto-derived." }
+      - { name: counts_reference, label: "Reference for counts", widget: string, required: false, hint: "Citation backing the species + genera totals, e.g. 'Larochelle & Larivière 2003'." }
+      - { name: notes,         label: "Remarks / Notes",   widget: text,   required: false, hint: "Family-level editorial notes — scope, recent taxonomic revisions, etc." }
       - { name: inat_taxon_id, label: "iNat taxon id",      widget: number, value_type: int, required: false, hint: "Used for the family-plate thumbnail on /browse." }
 
   # ────────────────────────────────────────────────────────────
