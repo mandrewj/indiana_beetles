@@ -1114,6 +1114,11 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes bin-spin {
+  to { transform: rotate(360deg); }
+}
+.bin-spin { animation: bin-spin 0.9s linear infinite; }
+
 /* Responsive */
 @media (max-width: 960px) {
   .hero-grid, .fp-hero, .sp-2col { grid-template-columns: 1fr; }

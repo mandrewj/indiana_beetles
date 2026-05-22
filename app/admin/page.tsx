@@ -34,10 +34,13 @@ export default function AdminLandingPage() {
         glossary. Every save is committed back to the GitHub repository, which
         triggers a redeploy automatically.
       </p>
-      <div style={{ display: "flex", gap: 8, marginTop: "var(--pad-3)" }}>
+      <div style={{ display: "flex", gap: 8, marginTop: "var(--pad-3)", flexWrap: "wrap" }}>
         <a className="btn btn-primary" href="/admin/index.html">
           Open the editor <ArrowRight size={12} />
         </a>
+        <Link className="btn" href="/admin/discover">
+          Discover new species <ArrowRight size={12} />
+        </Link>
         <Link className="btn" href="/about">
           About this project
         </Link>
