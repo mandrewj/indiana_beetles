@@ -5,7 +5,10 @@
  * Bump VERSION to invalidate everything if the cached shape changes.
  */
 
-const VERSION = 1;
+// Bump on any change that affects cached payload shape OR query scoping
+// (e.g. correcting iNat place_id from 30 → 20). Old entries become unreadable
+// and the next visit will re-fetch.
+const VERSION = 2;
 const PREFIX = `bin:v${VERSION}:`;
 
 interface Entry<T> {

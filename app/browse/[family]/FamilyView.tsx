@@ -155,12 +155,23 @@ function GeneraAndSpeciesTab({
           <div className="genus-head">
             <div>
               <span className="rank">Genus</span>
-              <span className="name" style={{ marginLeft: 10 }}>
+              <Link
+                href={`/browse/${family.id}/${g.id}`}
+                className="name"
+                style={{ marginLeft: 10, color: "inherit", textDecoration: "none" }}
+              >
                 {g.name}
-              </span>
+              </Link>
               {g.authority && <span className="auth">{g.authority}</span>}
             </div>
-            <div className="ct">{g.species.length} species in IN</div>
+            <div className="ct">
+              <Link
+                href={`/browse/${family.id}/${g.id}`}
+                style={{ color: "var(--gray-600)" }}
+              >
+                {g.species.length} species in IN →
+              </Link>
+            </div>
           </div>
           {family.genus_notes?.[g.id] && (
             <p

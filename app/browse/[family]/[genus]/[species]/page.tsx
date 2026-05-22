@@ -87,9 +87,13 @@ export default async function SpeciesPage({ params }: { params: PageParams }) {
           <span className="sep">/</span>
           <Link href={`/browse/${ctx.family.id}`}>{familyDisplay}</Link>
           <span className="sep">/</span>
-          <span className="sci">
-            <em>{genusDisplay}</em>
-          </span>
+          <Link
+            href={`/browse/${ctx.family.id}/${ctx.genusId}`}
+            className="sci"
+            style={{ fontStyle: "italic" }}
+          >
+            {genusDisplay}
+          </Link>
           <span className="sep">/</span>
           <span className="current sci">
             <em>{shortLabel}</em>

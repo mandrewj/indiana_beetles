@@ -591,7 +591,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   transition: border-color 140ms ease, background 140ms ease;
 }
 .species-row:hover { border-color: var(--blue-600); background: var(--blue-50); }
-.species-row .thumb { width: 56px; height: 44px; border-radius: 4px; }
+.species-row .thumb,
+.species-row .ph-image { width: 56px; height: 44px; border-radius: 4px; flex: none; }
 .species-row .name { font-family: var(--font-sans); font-style: italic; font-weight: 700; font-size: 15px; color: var(--text-600); }
 .species-row .common { font-size: 12.5px; color: var(--gray-600); }
 
