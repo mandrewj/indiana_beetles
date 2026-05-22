@@ -244,41 +244,33 @@ function GeneraAndSpeciesTab({
             {g.species.map((s) => {
               const treated = speciesIndex.get(s.id);
               return (
-              <Link
-                key={s.id}
-                className="species-row"
-                href={`/browse/${family.id}/${g.id}/${s.id}`}
-                style={{ color: "inherit", textDecoration: "none" }}
-              >
-                <SpeciesThumb
-                  species={{
-                    id: s.id,
-                    inat_taxon_id: treated?.inat_taxon_id,
-                    adminImageUrl: treated?.images?.[0]?.url ?? null,
-                  }}
-                />
-                <div>
-                  <div className="name">
-                    <em>{s.name}</em>
+                <Link
+                  key={s.id}
+                  className="species-card"
+                  href={`/browse/${family.id}/${g.id}/${s.id}`}
+                >
+                  <SpeciesThumb
+                    species={{
+                      id: s.id,
+                      inat_taxon_id: treated?.inat_taxon_id,
+                      adminImageUrl: treated?.images?.[0]?.url ?? null,
+                    }}
+                    className="img"
+                    ratio="4/3"
+                  />
+                  <div className="meta">
+                    <div className="name">{s.name}</div>
                     {s.authority && (
-                      <span
-                        style={{
-                          color: "var(--text-500)",
-                          marginLeft: 6,
-                          fontStyle: "normal",
-                          fontSize: 12,
-                        }}
-                      >
-                        {s.authority}
-                      </span>
+                      <div className="auth">{s.authority}</div>
                     )}
+                    {s.common_name && (
+                      <div className="common">{s.common_name}</div>
+                    )}
+                    <div className="row">
+                      <StatusBadge status={s.indiana_status} />
+                    </div>
                   </div>
-                  {s.common_name && (
-                    <div className="common">{s.common_name}</div>
-                  )}
-                </div>
-                <StatusBadge status={s.indiana_status} />
-              </Link>
+                </Link>
               );
             })}
           </div>

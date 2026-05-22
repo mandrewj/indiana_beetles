@@ -134,7 +134,7 @@ export function BrowseView({
               species={{
                 id: f.id,
                 inat_taxon_id: f.inat_taxon_id,
-                adminImageUrl: null,
+                adminImageUrl: f.representative_image_url ?? null,
               }}
               className="img"
               ratio="4/3"

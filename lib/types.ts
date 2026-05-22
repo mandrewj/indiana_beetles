@@ -73,6 +73,8 @@ export interface Family {
   counts_reference?: string;
   /** Family-level editorial notes (scope, recent revisions, etc.). */
   notes?: string;
+  /** Optional editor-assigned image for the family plate. Overrides iNat default. */
+  representative_image_url?: string;
 }
 
 export interface TaxonomyGenus {

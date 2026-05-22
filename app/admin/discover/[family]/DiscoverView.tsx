@@ -429,8 +429,7 @@ function StagedPanel({
                   letterSpacing: "0.08em",
                 }}
               >
-                + {newGenera.size} new genus
-                {newGenera.size === 1 ? "" : "es"}
+                + {newGenera.size === 1 ? "1 new genus" : `${newGenera.size} new genera`}
               </span>
             )}
           </div>

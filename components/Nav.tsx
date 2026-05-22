@@ -3,7 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Search } from "lucide-react";
+import { SiteSearch } from "./SiteSearch";
+import type { SearchEntry } from "@/lib/search";
 
 const NAV_ITEMS = [
   { href: "/browse", match: ["/browse"], label: "Browse" },
@@ -17,7 +18,7 @@ function isActive(pathname: string, matches: string[]): boolean {
   return matches.some((m) => pathname === m || pathname.startsWith(`${m}/`));
 }
 
-export function Nav() {
+export function Nav({ searchIndex }: { searchIndex: SearchEntry[] }) {
   const pathname = usePathname() ?? "/";
   return (
     <nav className="nav">
@@ -44,11 +45,7 @@ export function Nav() {
               {item.label}
             </Link>
           ))}
-          <div className="nav-search">
-            <Search size={14} />
-            <input placeholder="Search taxa…" />
-            <kbd>/</kbd>
-          </div>
+          <SiteSearch index={searchIndex} />
         </div>
       </div>
     </nav>

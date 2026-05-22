@@ -144,9 +144,8 @@ export default async function GenusPage({ params }: { params: PageParams }) {
           return (
             <Link
               key={s.id}
-              className="species-row"
+              className="species-card"
               href={`/browse/${family.id}/${genus.id}/${s.id}`}
-              style={{ color: "inherit", textDecoration: "none" }}
             >
               <SpeciesThumb
                 species={{
@@ -154,23 +153,12 @@ export default async function GenusPage({ params }: { params: PageParams }) {
                   inat_taxon_id: t?.inat_taxon_id,
                   adminImageUrl: t?.images?.[0]?.url ?? null,
                 }}
+                className="img"
+                ratio="4/3"
               />
-              <div>
-                <div className="name">
-                  <em>{s.name}</em>
-                  {s.authority && (
-                    <span
-                      style={{
-                        color: "var(--text-500)",
-                        marginLeft: 6,
-                        fontStyle: "normal",
-                        fontSize: 12,
-                      }}
-                    >
-                      {s.authority}
-                    </span>
-                  )}
-                </div>
+              <div className="meta">
+                <div className="name">{s.name}</div>
+                {s.authority && <div className="auth">{s.authority}</div>}
                 {s.common_name && (
                   <div className="common">{s.common_name}</div>
                 )}
@@ -186,8 +174,10 @@ export default async function GenusPage({ params }: { params: PageParams }) {
                     {t.body_size_mm} mm
                   </div>
                 )}
+                <div className="row">
+                  <StatusBadge status={s.indiana_status} />
+                </div>
               </div>
-              <StatusBadge status={s.indiana_status} />
             </Link>
           );
         })}

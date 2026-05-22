@@ -583,24 +583,69 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap;
 }
 .species-list {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--pad-2);
-}
-.species-row {
   display: grid;
-  grid-template-columns: 56px 1fr auto;
-  gap: var(--pad-3); align-items: center;
-  padding: var(--pad-2);
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--pad-3);
+}
+.species-card {
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--surface-3);
   border-radius: 6px;
   background: var(--surface-0);
+  overflow: hidden;
   cursor: pointer;
-  transition: border-color 140ms ease, background 140ms ease;
+  transition: border-color 140ms ease, transform 140ms ease, box-shadow 140ms ease;
+  text-decoration: none;
+  color: inherit;
 }
-.species-row:hover { border-color: var(--blue-600); background: var(--blue-50); }
-.species-row .thumb,
-.species-row .ph-image { width: 56px; height: 44px; border-radius: 4px; flex: none; }
-.species-row .name { font-family: var(--font-sans); font-style: italic; font-weight: 700; font-size: 15px; color: var(--text-600); }
-.species-row .common { font-size: 12.5px; color: var(--gray-600); }
+.species-card:hover {
+  border-color: var(--blue-600);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card);
+}
+.species-card .img,
+.species-card .thumb,
+.species-card > .ph-image {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid var(--surface-3);
+}
+.species-card .meta {
+  padding: var(--pad-2) var(--pad-3);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+.species-card .name {
+  font-family: var(--font-sans);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14.5px;
+  color: var(--text-600);
+  line-height: 1.25;
+}
+.species-card .auth {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--gray-500);
+  letter-spacing: 0.03em;
+  margin-top: 2px;
+}
+.species-card .common {
+  font-size: 12.5px;
+  color: var(--gray-600);
+}
+.species-card .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 8px;
+}
 
 /* Sidebar / map column */
 .fp-side .side-block { margin-bottom: var(--pad-4); }
