@@ -24,7 +24,7 @@ interface Props {
   species: Species[];
 }
 
-const STAGE_LIMIT = 10;
+const STAGE_LIMIT = 30;
 
 type RowPhase = "idle" | "preparing" | "staged" | "committed" | "error";
 
@@ -300,7 +300,17 @@ function StagedPanel({
         </div>
       )}
 
-      <div style={{ display: "flex", flexDirection: "column", gap: 4, fontSize: 13 }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: 4,
+          fontSize: 13,
+          maxHeight: 360,
+          overflowY: "auto",
+          paddingRight: 4,
+        }}
+      >
         {stagedSpecies.map((sp, i) => {
           const d = stagedDeltas[i];
           if (!d) return null;

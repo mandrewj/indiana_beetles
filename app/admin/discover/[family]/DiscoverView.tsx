@@ -29,7 +29,7 @@ interface Props {
   taxonomy: Taxonomy;
 }
 
-const STAGE_LIMIT = 10;
+const STAGE_LIMIT = 30;
 
 type RowPhase =
   | "idle"
@@ -484,6 +484,9 @@ function StagedPanel({
           flexDirection: "column",
           gap: 4,
           fontSize: 13,
+          maxHeight: 360,
+          overflowY: "auto",
+          paddingRight: 4,
         }}
       >
         {stagedInputs.map((inp) => (
