@@ -1,0 +1,17 @@
+{
+  "id": "bostrichidae",
+  "name": "Bostrichidae",
+  "common_name": "Auger Beetles",
+  "authority": "",
+  "diagnosis": "The Bostrichidae are a family of beetles with more than 700 described species. They are commonly called auger beetles, false powderpost beetles, or horned powderpost beetles. The head of most auger beetles cannot be seen from above, as it is downwardly directed and hidden by the thorax.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 47625,
+  "genus_notes": {
+    "xylobiops": "Xylobiops is a genus of horned powder-post beetles in the family Bostrichidae.",
+    "lichenophanes": "Lichenophanes is a genus of horned powder-post beetles in the family Bostrichidae."
+  }
+}

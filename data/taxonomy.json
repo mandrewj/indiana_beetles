@@ -2690,6 +2690,39 @@
           ]
         }
       ]
+    },
+    {
+      "id": "bostrichidae",
+      "name": "Bostrichidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 18,
+      "genera": [
+        {
+          "id": "lichenophanes",
+          "name": "Lichenophanes",
+          "species": [
+            {
+              "id": "lichenophanes_bicornis",
+              "name": "Lichenophanes bicornis",
+              "common_name": "Two-horned Powder-post Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "xylobiops",
+          "name": "Xylobiops",
+          "species": [
+            {
+              "id": "xylobiops_basilaris",
+              "name": "Xylobiops basilaris",
+              "common_name": "Red-shouldered Bostrichid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

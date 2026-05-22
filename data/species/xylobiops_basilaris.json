@@ -1,0 +1,41 @@
+{
+  "id": "xylobiops_basilaris",
+  "scientific_name": "Xylobiops basilaris",
+  "common_name": "Red-shouldered Bostrichid",
+  "family": "bostrichidae",
+  "genus": "xylobiops",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6005710,
+  "inat_taxon_id": 233843,
+  "diagnosis": "Xylobiops basilaris, the red-shouldered bostrichid, is a species of horned powder-post beetle in the family Bostrichidae. It is found in Europe &amp; Northern Asia (excluding China) and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Tippecanoe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 2,
+    "Vanderburgh": 3,
+    "Allen": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Xylobiops_basilaris*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}
