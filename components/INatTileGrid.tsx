@@ -73,15 +73,22 @@ export function INatTileGrid({ taxonId, speciesId }: Props) {
     ? `${photos.length} photos (no Indiana observations)`
     : `${photos.length} Indiana photos`;
 
-  const title =
-    scope === "global"
-      ? "Photos · iNaturalist (global)"
-      : "Community observations · iNaturalist (Indiana)";
+  const titleNode =
+    scope === "global" ? (
+      <>
+        Photos · <span className="brandcase">iNaturalist</span> (global)
+      </>
+    ) : (
+      <>
+        Community observations ·{" "}
+        <span className="brandcase">iNaturalist</span> (Indiana)
+      </>
+    );
 
   return (
     <div className="gallery-source-band">
       <div className="head">
-        <div className="title">{title}</div>
+        <div className="title">{titleNode}</div>
         <div className="ct">{status}</div>
       </div>
       {photos === null ? (

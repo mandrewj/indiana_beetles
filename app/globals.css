@@ -320,7 +320,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: var(--pad-6);
-  align-items: end;
+  align-items: start;
 }
 .hero h1 {
   font-family: var(--font-sans);
@@ -351,22 +351,35 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   letter-spacing: 0.08em;
 }
 .hero-spec {
-  aspect-ratio: 4/5;
+  aspect-ratio: 4/3;
   position: relative;
+  border-radius: var(--radius-card);
+  overflow: hidden;
 }
 .hero-spec .ph-image { position: absolute; inset: 0; border-radius: var(--radius-card); }
 .hero-label {
-  position: absolute; bottom: 12px; left: 12px;
+  position: absolute; bottom: 12px; left: 12px; right: 12px;
   background: var(--surface-0);
   border: 1px solid var(--surface-3);
   border-radius: 6px;
   padding: 10px 14px;
   font-family: var(--font-mono);
   font-size: 11px;
-  line-height: 1.55;
+  line-height: 1.6;
   color: var(--text-600);
-  width: 280px;
+  max-width: 360px;
   box-shadow: var(--shadow-card);
+}
+.hero-label .eyebrow {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--blue-600);
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid var(--surface-3);
 }
 .hero-label .row { display: flex; align-items: baseline; gap: 6px; }
 .hero-label .k { color: var(--gray-500); flex: 0 0 56px; }
@@ -752,6 +765,9 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   font-family: var(--font-sans); font-weight: 900; font-size: 11px;
   text-transform: uppercase; letter-spacing: 0.2em; color: var(--gray-600);
 }
+/* Preserves proper casing inside otherwise-uppercased eyebrow labels
+   (so "iNaturalist" stays mixed-case in section heads). */
+.brandcase { text-transform: none; letter-spacing: 0; }
 .gallery-source-band .ct {
   font-family: var(--font-mono); font-size: 10.5px; color: var(--gray-500);
 }
@@ -801,8 +817,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 }
 .thumb-attrib .src {
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.02em;
+  /* Don't uppercase — preserves "iNat" with its lowercase "i". */
 }
 .thumb-attrib .who {
   flex: 1;

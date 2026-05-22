@@ -101,10 +101,12 @@ export default async function Home() {
                     borderRadius: "var(--radius-card)",
                   }}
                   placeholderLabel="Featured specimen"
+                  hideAttribution
                 />
               ) : null}
               {heroPick && (
                 <div className="hero-label">
+                  <div className="eyebrow">Featured species</div>
                   <div className="row">
                     <span className="k">Family</span>
                     <span className="v">{heroPick.ctx?.family.name}</span>
@@ -129,6 +131,18 @@ export default async function Home() {
                       </span>
                     </div>
                   )}
+                  <div
+                    className="row"
+                    style={{
+                      borderTop: "1px solid var(--surface-3)",
+                      marginTop: 6,
+                      paddingTop: 6,
+                      color: "var(--gray-500)",
+                    }}
+                  >
+                    <span className="k">Photo</span>
+                    <span className="v">via iNaturalist</span>
+                  </div>
                 </div>
               )}
             </div>
