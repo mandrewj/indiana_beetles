@@ -1,0 +1,371 @@
+/* ============================================================
+   Beetles of Indiana — Decap CMS retheme.
+   Drops the Decap default palette onto the InsectID design tokens
+   (Lato, blue-800 headings, blue-600 accent, surface gradient).
+   Layered on top of Decap's bundled CSS so the form mechanics
+   (file uploaders, editorial workflow, etc.) keep working.
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  --blue-50:#EEF4FF;
+  --blue-100:#D9E5FF;
+  --blue-300:#7AA5FF;
+  --blue-600:#116dff;
+  --blue-700:#0A4FBE;
+  --blue-800:#0A3F95;
+  --blue-900:#0A2D6B;
+  --gray-100:#EEF1F2;
+  --gray-200:#D9DDDF;
+  --gray-300:#B7BDC0;
+  --gray-500:#6F7478;
+  --gray-600:#5f6360;
+  --text-500:#404342;
+  --text-600:#1F2222;
+  --surface-0:#FFFFFF;
+  --surface-1:#F8F9FA;
+  --surface-2:#F1F3F5;
+  --surface-3:#E5E7EB;
+  --cyan-400:#3FB6D8;
+  --cyan-600:#0E7693;
+  --status-confirmed:#116dff;
+  --status-confirmed-bg:#EEF4FF;
+  --status-historical:#6F7478;
+  --status-historical-bg:#F1F3F5;
+  --status-adventive:#0E7693;
+  --status-adventive-bg:#E6F4F8;
+  --status-excluded:#B5311E;
+  --status-excluded-bg:#FDECE8;
+  --font-sans: 'Lato', Helvetica, Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --shadow-card: 0 1px 0 rgba(15,23,42,0.04), 0 4px 16px -8px rgba(15,23,42,0.10);
+}
+
+html, body, #nc-root, [class*="AppMainContainer"] {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F9FA 100%) !important;
+  font-family: var(--font-sans) !important;
+  color: var(--text-600);
+}
+
+/* Brand the top app bar */
+[class*="AppHeader"] {
+  background: var(--surface-0) !important;
+  border-bottom: 1px solid var(--surface-3) !important;
+  box-shadow: none !important;
+}
+[class*="AppHeader"] [class*="HeaderActions"] button,
+[class*="AppHeader"] [class*="HeaderActions"] a {
+  color: var(--text-600) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+}
+[class*="AppHeader"] [class*="HeaderActions"] a[class*="active"] {
+  color: var(--blue-600) !important;
+}
+
+/* Replace the default Decap logo wordmark with an InsectID brand block */
+[class*="AppHeader"] [class*="HeaderNavLink"]:first-of-type::before {
+  content: "Beetles of Indiana — Admin";
+  font-family: var(--font-sans);
+  font-weight: 900;
+  letter-spacing: -0.005em;
+  color: var(--blue-800);
+  font-size: 16px;
+}
+[class*="AppHeader"] svg[viewBox*="0 0 100 22"],
+[class*="AppHeader"] [class*="HeaderNavLink"]:first-of-type img {
+  display: none !important;
+}
+
+/* Headings everywhere → Lato, blue-800 */
+h1, h2, h3, h4,
+[class*="EditorHeader"],
+[class*="EntryListing"] h2 {
+  font-family: var(--font-sans) !important;
+  color: var(--blue-800) !important;
+  letter-spacing: -0.005em !important;
+}
+
+/* The editor canvas */
+[class*="EditorContainer"],
+[class*="EditorContent"] {
+  background: transparent !important;
+}
+[class*="ControlPaneContainer"] {
+  background: var(--surface-0) !important;
+  border: 1px solid var(--surface-3) !important;
+  border-radius: 8px !important;
+  box-shadow: var(--shadow-card) !important;
+  padding: 28px !important;
+}
+
+/* Form labels */
+[class*="ControlPaneContainer"] label,
+[class*="FieldLabel"] {
+  font-family: var(--font-sans) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.2em !important;
+  text-transform: uppercase !important;
+  color: var(--gray-600) !important;
+}
+
+/* Text inputs, textareas, selects */
+[class*="ControlPaneContainer"] input[type="text"],
+[class*="ControlPaneContainer"] input[type="number"],
+[class*="ControlPaneContainer"] textarea,
+[class*="ControlPaneContainer"] select {
+  font-family: var(--font-sans) !important;
+  color: var(--text-600) !important;
+  background: var(--surface-0) !important;
+  border: 1px solid var(--surface-3) !important;
+  border-radius: 4px !important;
+}
+[class*="ControlPaneContainer"] input:focus,
+[class*="ControlPaneContainer"] textarea:focus,
+[class*="ControlPaneContainer"] select:focus {
+  outline: 2px solid var(--blue-600) !important;
+  outline-offset: 2px !important;
+  border-color: var(--blue-600) !important;
+}
+
+/* Primary action buttons */
+[class*="StyledDropdownButton"][class*="primary"],
+button[class*="Primary"],
+button[type="submit"][class*="primary"] {
+  background: var(--blue-600) !important;
+  border-color: var(--blue-600) !important;
+  color: white !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.005em !important;
+}
+[class*="StyledDropdownButton"][class*="primary"]:hover,
+button[class*="Primary"]:hover {
+  background: var(--blue-700) !important;
+  border-color: var(--blue-700) !important;
+}
+
+/* Sidebar entry list cards */
+[class*="ListCard"],
+[class*="EntryCard"] {
+  background: var(--surface-0) !important;
+  border: 1px solid var(--surface-3) !important;
+  border-radius: 6px !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+/* Collection navigation */
+[class*="CollectionTopRow"],
+[class*="SearchInput"] {
+  font-family: var(--font-sans) !important;
+}
+
+/* Focus ring */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--blue-600) !important;
+  outline-offset: 2px !important;
+}
+
+/* ============================================================
+   Custom widget styles
+   ============================================================ */
+
+/* taxon-lookup */
+.bin-taxon-lookup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.bin-taxon-lookup .bin-number {
+  flex: 1 1 160px;
+  min-width: 0;
+  padding: 8px 10px;
+  font-family: var(--font-mono);
+}
+.bin-btn {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: 1px solid var(--blue-600);
+  background: var(--blue-600);
+  color: white;
+  cursor: pointer;
+  transition: background-color 120ms ease, border-color 120ms ease;
+}
+.bin-btn:hover { background: var(--blue-700); border-color: var(--blue-700); }
+.bin-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.bin-btn-ghost {
+  background: transparent;
+  color: var(--text-600);
+  border-color: var(--surface-3);
+}
+.bin-btn-ghost:hover {
+  background: var(--blue-50);
+  border-color: var(--blue-600);
+  color: var(--blue-600);
+}
+.bin-lookup-error {
+  flex: 1 0 100%;
+  margin-top: 4px;
+  padding: 6px 10px;
+  background: var(--status-excluded-bg);
+  color: var(--status-excluded);
+  border-radius: 4px;
+  font-size: 12.5px;
+}
+.bin-lookup-ok {
+  flex: 1 0 100%;
+  margin-top: 4px;
+  padding: 6px 10px;
+  background: var(--blue-50);
+  color: var(--blue-800);
+  border-radius: 4px;
+  font-size: 12.5px;
+  font-family: var(--font-mono);
+}
+
+/* status-picker */
+.bin-status-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media (min-width: 720px) {
+  .bin-status-grid { grid-template-columns: repeat(4, 1fr); }
+}
+.bin-status-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  text-align: left;
+  padding: 14px 16px;
+  border: 1px solid var(--surface-3);
+  background: var(--surface-0);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 120ms ease, background-color 120ms ease, transform 120ms ease;
+  position: relative;
+}
+.bin-status-tile:hover { border-color: var(--blue-600); transform: translateY(-1px); }
+.bin-status-tile.is-active {
+  border-color: currentColor;
+  border-width: 2px;
+  padding: 13px 15px;
+}
+.bin-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.bin-status-label {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 15px;
+  color: var(--text-600);
+}
+.bin-status-hint {
+  font-size: 12px;
+  color: var(--gray-500);
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.bin-status-confirmed  { color: var(--status-confirmed);  background: var(--status-confirmed-bg); }
+.bin-status-historical { color: var(--status-historical); background: var(--status-historical-bg); }
+.bin-status-adventive  { color: var(--status-adventive);  background: var(--status-adventive-bg); }
+.bin-status-excluded   { color: var(--status-excluded);   background: var(--status-excluded-bg); }
+
+/* phenology-picker */
+.bin-phenology-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(36px, 1fr));
+  gap: 4px;
+}
+.bin-month {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--surface-3);
+  background: var(--surface-0);
+  color: var(--gray-500);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+.bin-month:hover { border-color: var(--blue-600); color: var(--blue-600); }
+.bin-month.is-on {
+  background: var(--blue-600);
+  border-color: var(--blue-600);
+  color: white;
+}
+.bin-phenology-hint {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--gray-500);
+  font-family: var(--font-mono);
+}
+
+/* county-map */
+.bin-county-map {
+  border: 1px solid var(--surface-3);
+  border-radius: 6px;
+  padding: 14px;
+  background: var(--surface-1);
+}
+.bin-county-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.bin-county-count {
+  flex: 1;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gray-600);
+}
+.bin-county-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 4px;
+  max-height: 360px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+.bin-county-cell {
+  text-align: left;
+  padding: 6px 8px;
+  border: 1px solid var(--surface-3);
+  background: var(--surface-0);
+  border-radius: 3px;
+  font-size: 12.5px;
+  cursor: pointer;
+  color: var(--text-600);
+  font-family: var(--font-sans);
+  transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+.bin-county-cell:hover { border-color: var(--blue-600); color: var(--blue-600); }
+.bin-county-cell.is-on {
+  background: var(--blue-600);
+  border-color: var(--blue-600);
+  color: white;
+  font-weight: 700;
+}

@@ -43,17 +43,9 @@ collections:
       - { name: common_name,      label: "Common name",        widget: string, required: false }
       - { name: family,           label: "Family",             widget: relation, collection: families, value_field: id, search_fields: [name, common_name] }
       - { name: genus,            label: "Genus",              widget: string, hint: "Lowercase id (e.g. 'calosoma')" }
-      - name: indiana_status
-        label: "Indiana status"
-        widget: select
-        options:
-          - { label: "Confirmed",  value: confirmed }
-          - { label: "Historical", value: historical }
-          - { label: "Adventive",  value: adventive }
-          - { label: "Excluded",   value: excluded }
-        default: confirmed
-      - { name: gbif_taxon_key,   label: "GBIF taxon key",     widget: number, value_type: int, required: false }
-      - { name: inat_taxon_id,    label: "iNat taxon id",      widget: number, value_type: int, required: false }
+      - { name: indiana_status,   label: "Indiana status",     widget: status-picker, default: confirmed }
+      - { name: gbif_taxon_key,   label: "GBIF taxon key",     widget: taxon-lookup, source: gbif, required: false, hint: "Click 'Look up on GBIF' after the scientific name is set." }
+      - { name: inat_taxon_id,    label: "iNat taxon id",      widget: taxon-lookup, source: inat, required: false, hint: "Click 'Look up on iNaturalist' after the scientific name is set." }
       - { name: diagnosis,        label: "Diagnosis",          widget: text, hint: "2–4 sentence field diagnosis. Asterisks for italic." }
       - { name: body_size_mm,     label: "Body length (mm)",   widget: string, hint: "Single value or range, e.g. '25–35'." }
 
@@ -68,15 +60,14 @@ collections:
           - { name: value, label: "Value", widget: string }
           - { name: note,  label: "Note",  widget: string, required: false }
 
-      - { name: phenology,        label: "Active months",      widget: select, multiple: true, required: false, options: ["1","2","3","4","5","6","7","8","9","10","11","12"] }
-      - { name: phenology_peak,   label: "Peak months",        widget: select, multiple: true, required: false, options: ["1","2","3","4","5","6","7","8","9","10","11","12"] }
+      - { name: phenology,        label: "Active months",      widget: phenology-picker, required: false, hint: "Click each month the species is active." }
+      - { name: phenology_peak,   label: "Peak months",        widget: phenology-picker, required: false, hint: "Subset of active months when the species is most commonly encountered." }
 
       - name: counties
         label: "Counties (Indiana) — override"
-        widget: select
-        multiple: true
+        widget: county-map
         required: false
-        hint: "Leave blank to use live GBIF + iNaturalist distribution. Set only to override the live data when external sources are wrong."
+        hint: "Leave blank to use the live GBIF + iNaturalist distribution. Click counties only when overriding."
         options: &counties
           # Full Indiana county list — also available in /data/county-lookup.json
           [Adams, Allen, Bartholomew, Benton, Blackford, Boone, Brown, Carroll, Cass, Clark,
