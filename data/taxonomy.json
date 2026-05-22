@@ -376,6 +376,18 @@
           ]
         },
         {
+          "id": "eupogonius",
+          "name": "Eupogonius",
+          "species": [
+            {
+              "id": "eupogonius_pauper",
+              "name": "Eupogonius pauper",
+              "common_name": "Pauper Longhorned Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "graphisurus",
           "name": "Graphisurus",
           "species": [
@@ -501,6 +513,18 @@
           ]
         },
         {
+          "id": "necydalis",
+          "name": "Necydalis",
+          "species": [
+            {
+              "id": "necydalis_mellita",
+              "name": "Necydalis mellita",
+              "common_name": "Slender Long-horned Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "neoclytus",
           "name": "Neoclytus",
           "species": [
@@ -511,8 +535,32 @@
               "indiana_status": "confirmed"
             },
             {
+              "id": "neoclytus_caprea",
+              "name": "Neoclytus caprea",
+              "common_name": "Banded Ash Borer",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "neoclytus_mucronatus",
               "name": "Neoclytus mucronatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "obrium",
+          "name": "Obrium",
+          "species": [
+            {
+              "id": "obrium_maculatum",
+              "name": "Obrium maculatum",
+              "common_name": "Beige Longhorned Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "obrium_rufulum",
+              "name": "Obrium rufulum",
+              "common_name": "Red Longhorned Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -558,6 +606,12 @@
           "name": "Prionus",
           "species": [
             {
+              "id": "prionus_imbricornis",
+              "name": "Prionus imbricornis",
+              "common_name": "Tile-horned Prionus",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "prionus_laticollis",
               "name": "Prionus laticollis",
               "common_name": "Broad-necked Root Borer",
@@ -594,9 +648,27 @@
           "name": "Saperda",
           "species": [
             {
+              "id": "saperda_discoidea",
+              "name": "Saperda discoidea",
+              "common_name": "Hickory Saperda",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "saperda_tridentata",
               "name": "Saperda tridentata",
               "common_name": "Elm Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "smodicum",
+          "name": "Smodicum",
+          "species": [
+            {
+              "id": "smodicum_cucujiforme",
+              "name": "Smodicum cucujiforme",
+              "common_name": "Flat Oak Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -655,6 +727,18 @@
           ]
         },
         {
+          "id": "strophiona",
+          "name": "Strophiona",
+          "species": [
+            {
+              "id": "strophiona_nitens",
+              "name": "Strophiona nitens",
+              "common_name": "chestnut bark borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "tetraopes",
           "name": "Tetraopes",
           "species": [
@@ -687,6 +771,12 @@
           "id": "typocerus",
           "name": "Typocerus",
           "species": [
+            {
+              "id": "typocerus_lugubris",
+              "name": "Typocerus lugubris",
+              "common_name": "Mournful Long-horned Beetle",
+              "indiana_status": "confirmed"
+            },
             {
               "id": "typocerus_velutinus",
               "name": "Typocerus velutinus",
