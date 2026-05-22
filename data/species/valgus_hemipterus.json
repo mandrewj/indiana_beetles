@@ -1,0 +1,28 @@
+{
+  "id": "valgus_hemipterus",
+  "scientific_name": "Valgus hemipterus",
+  "family": "scarabaeidae",
+  "genus": "valgus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1082966,
+  "inat_taxon_id": 338214,
+  "diagnosis": "Valgus hemipterus is a smallish species of scarab beetle (family Scarabaeidae) found in the Northern Hemisphere.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Allen",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "St. Joseph": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Valgus_hemipterus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

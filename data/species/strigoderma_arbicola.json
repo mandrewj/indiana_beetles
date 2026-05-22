@@ -1,0 +1,48 @@
+{
+  "id": "strigoderma_arbicola",
+  "scientific_name": "Strigoderma arbicola",
+  "common_name": "Sand Chafer",
+  "family": "scarabaeidae",
+  "genus": "strigoderma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7542556,
+  "inat_taxon_id": 359532,
+  "diagnosis": "Strigoderma arbicola, known generally as sand chafer, is a species of shining leaf chafer in the family of beetles known as Scarabaeidae. Other common names include the spring rose beetle, false Japanese beetle, and rose chafer.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Elkhart",
+    "Jasper",
+    "LaGrange",
+    "LaPorte",
+    "Newton",
+    "Porter",
+    "Starke",
+    "White"
+  ],
+  "county_record_counts": {
+    "Porter": 4,
+    "Starke": 4,
+    "Jasper": 1,
+    "Elkhart": 3,
+    "LaGrange": 1,
+    "LaPorte": 1,
+    "Newton": 1,
+    "White": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Strigoderma_arbicola*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

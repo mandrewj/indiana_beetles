@@ -1,0 +1,35 @@
+{
+  "id": "ligyrus_gibbosus",
+  "scientific_name": "Ligyrus gibbosus",
+  "common_name": "Carrot Beetle",
+  "family": "scarabaeidae",
+  "genus": "ligyrus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1074446,
+  "inat_taxon_id": 1430438,
+  "diagnosis": "Ligyrus gibbosus, the carrot beetle, is a species of rhinoceros beetle in the family Scarabaeidae. Adults are 13–17 mm (0.5–0.7 in) long, dark reddish-brown to black, and larvae are white with a dark head.",
+  "body_size_mm": "13–17",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6
+  ],
+  "counties": [
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ligyrus_gibbosus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

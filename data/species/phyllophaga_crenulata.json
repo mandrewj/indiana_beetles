@@ -1,0 +1,37 @@
+{
+  "id": "phyllophaga_crenulata",
+  "scientific_name": "Phyllophaga crenulata",
+  "family": "scarabaeidae",
+  "genus": "phyllophaga",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4993470,
+  "inat_taxon_id": 227967,
+  "diagnosis": "Phyllophaga crenulata is a species of scarab beetle in the family Scarabaeidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    12
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Hamilton",
+    "Kosciusko"
+  ],
+  "county_record_counts": {
+    "Brown": 1,
+    "Hamilton": 1,
+    "Kosciusko": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Phyllophaga_crenulata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

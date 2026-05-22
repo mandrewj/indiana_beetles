@@ -1,0 +1,31 @@
+{
+  "id": "anomala_flavipennis",
+  "scientific_name": "Anomala flavipennis",
+  "common_name": "Yellow-winged Anomala",
+  "family": "scarabaeidae",
+  "genus": "anomala",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5988399,
+  "inat_taxon_id": 213708,
+  "diagnosis": "Anomala flavipennis, the panhandle beach anomala scarab beetle, is a species of shining leaf chafer in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Vigo": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anomala_flavipennis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

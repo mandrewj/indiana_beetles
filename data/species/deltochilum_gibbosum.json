@@ -1,0 +1,29 @@
+{
+  "id": "deltochilum_gibbosum",
+  "scientific_name": "Deltochilum gibbosum",
+  "common_name": "Humpback Dung Beetle",
+  "family": "scarabaeidae",
+  "genus": "deltochilum",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1093331,
+  "inat_taxon_id": 218206,
+  "diagnosis": "Deltochilum gibbosum, the humpback dung beetle, is a species of dung beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Harrison",
+    "Lawrence"
+  ],
+  "county_record_counts": {
+    "Harrison": 1,
+    "Lawrence": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Deltochilum_gibbosum*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

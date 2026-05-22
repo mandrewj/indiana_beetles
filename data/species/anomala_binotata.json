@@ -1,0 +1,42 @@
+{
+  "id": "anomala_binotata",
+  "scientific_name": "Anomala binotata",
+  "family": "scarabaeidae",
+  "genus": "anomala",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5988337,
+  "inat_taxon_id": 213705,
+  "diagnosis": "Anomala binotata is a species of scarab (beetle of the family Scarabaeidae).",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Elkhart",
+    "Jasper",
+    "Johnson",
+    "Monroe",
+    "Porter",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Porter": 9,
+    "Johnson": 1,
+    "Jasper": 1,
+    "Elkhart": 1,
+    "Starke": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Anomala_binotata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

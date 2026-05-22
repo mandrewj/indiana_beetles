@@ -1,0 +1,51 @@
+{
+  "id": "euphoria_herbacea",
+  "scientific_name": "Euphoria herbacea",
+  "common_name": "Olive Flower Beetle",
+  "family": "scarabaeidae",
+  "genus": "euphoria",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4995902,
+  "inat_taxon_id": 489406,
+  "diagnosis": "Euphoria herbacea is a species of scarab beetle in Cetoniinae subfamily. It is 15–16 millimetres (0.59–0.63 in) long and is olive-green in color.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Boone",
+    "Delaware",
+    "Greene",
+    "Miami",
+    "Monroe",
+    "Porter",
+    "Tippecanoe",
+    "Warren",
+    "White",
+    "Whitley"
+  ],
+  "county_record_counts": {
+    "Porter": 6,
+    "Tippecanoe": 4,
+    "Warren": 1,
+    "Delaware": 1,
+    "White": 2,
+    "Boone": 1,
+    "Greene": 1,
+    "Miami": 1,
+    "Whitley": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euphoria_herbacea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

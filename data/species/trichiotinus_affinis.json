@@ -1,0 +1,28 @@
+{
+  "id": "trichiotinus_affinis",
+  "scientific_name": "Trichiotinus affinis",
+  "common_name": "Hairy Flower Scarab",
+  "family": "scarabaeidae",
+  "genus": "trichiotinus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1081846,
+  "inat_taxon_id": 232873,
+  "diagnosis": "Trichiotinus affinis is a species of scarab beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trichiotinus_affinis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "trigonopeltastes_delta",
+  "scientific_name": "Trigonopeltastes delta",
+  "common_name": "Delta Flower Scarab",
+  "family": "scarabaeidae",
+  "genus": "trigonopeltastes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1076907,
+  "inat_taxon_id": 84027,
+  "diagnosis": "Trigonopeltastes delta, the delta flower scarab or D beetle, is a diurnal species of scarab beetle native to the southeastern United States, though their range extends as far north as New Jersey.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Harrison",
+    "Monroe",
+    "Perry",
+    "Posey"
+  ],
+  "county_record_counts": {
+    "Posey": 1,
+    "Perry": 2,
+    "Harrison": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trigonopeltastes_delta*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

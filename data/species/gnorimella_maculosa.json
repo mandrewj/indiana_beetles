@@ -1,0 +1,39 @@
+{
+  "id": "gnorimella_maculosa",
+  "scientific_name": "Gnorimella maculosa",
+  "family": "scarabaeidae",
+  "genus": "gnorimella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1081407,
+  "inat_taxon_id": 220504,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Delaware",
+    "Harrison",
+    "Marion",
+    "Monroe",
+    "Union"
+  ],
+  "county_record_counts": {
+    "Union": 1,
+    "Brown": 1,
+    "Harrison": 1,
+    "Delaware": 1,
+    "Monroe": 1,
+    "Marion": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

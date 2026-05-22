@@ -1,0 +1,39 @@
+{
+  "id": "euetheola_humilis",
+  "scientific_name": "Euetheola humilis",
+  "common_name": "Sugarcane Beetle",
+  "family": "scarabaeidae",
+  "genus": "euetheola",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1076273,
+  "inat_taxon_id": 301485,
+  "diagnosis": "Euetheola humilis, the sugarcane beetle, is a species of rhinoceros beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7,
+    9
+  ],
+  "counties": [
+    "Monroe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euetheola_humilis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

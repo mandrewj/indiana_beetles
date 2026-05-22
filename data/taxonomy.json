@@ -3709,7 +3709,556 @@
       "sort_index": 5,
       "genera_count": 71,
       "species_count": 198,
-      "genera": []
+      "genera": [
+        {
+          "id": "amphimallon",
+          "name": "Amphimallon",
+          "species": [
+            {
+              "id": "amphimallon_majale",
+              "name": "Amphimallon majale",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "anomala",
+          "name": "Anomala",
+          "species": [
+            {
+              "id": "anomala_binotata",
+              "name": "Anomala binotata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anomala_flavipennis",
+              "name": "Anomala flavipennis",
+              "common_name": "Yellow-winged Anomala",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anomala_innuba",
+              "name": "Anomala innuba",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anomala_oblivia",
+              "name": "Anomala oblivia",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anomala_undulata",
+              "name": "Anomala undulata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "callistethus",
+          "name": "Callistethus",
+          "species": [
+            {
+              "id": "callistethus_marginatus",
+              "name": "Callistethus marginatus",
+              "common_name": "Margined Shining Leaf Chafer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "canthon",
+          "name": "Canthon",
+          "species": [
+            {
+              "id": "canthon_chalcites",
+              "name": "Canthon chalcites",
+              "common_name": "Coppery Dung Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "canthon_viridis",
+              "name": "Canthon viridis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "copris",
+          "name": "Copris",
+          "species": [
+            {
+              "id": "copris_fricator",
+              "name": "Copris fricator",
+              "common_name": "Frigid Dung Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "copris_minutus",
+              "name": "Copris minutus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cotalpa",
+          "name": "Cotalpa",
+          "species": [
+            {
+              "id": "cotalpa_lanigera",
+              "name": "Cotalpa lanigera",
+              "common_name": "Goldsmith Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cotinis",
+          "name": "Cotinis",
+          "species": [
+            {
+              "id": "cotinis_nitida",
+              "name": "Cotinis nitida",
+              "common_name": "Common Green June Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cyclocephala",
+          "name": "Cyclocephala",
+          "species": [
+            {
+              "id": "cyclocephala_borealis",
+              "name": "Cyclocephala borealis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cyclocephala_lurida",
+              "name": "Cyclocephala lurida",
+              "common_name": "Southern Masked Chafer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "deltochilum",
+          "name": "Deltochilum",
+          "species": [
+            {
+              "id": "deltochilum_gibbosum",
+              "name": "Deltochilum gibbosum",
+              "common_name": "Humpback Dung Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dichelonyx",
+          "name": "Dichelonyx",
+          "species": [
+            {
+              "id": "dichelonyx_linearis",
+              "name": "Dichelonyx linearis",
+              "common_name": "Lined Chafer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dichotomius",
+          "name": "Dichotomius",
+          "species": [
+            {
+              "id": "dichotomius_carolinus",
+              "name": "Dichotomius carolinus",
+              "common_name": "Carolina Dung Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dynastes",
+          "name": "Dynastes",
+          "species": [
+            {
+              "id": "dynastes_tityus",
+              "name": "Dynastes tityus",
+              "common_name": "Eastern Hercules Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "euetheola",
+          "name": "Euetheola",
+          "species": [
+            {
+              "id": "euetheola_humilis",
+              "name": "Euetheola humilis",
+              "common_name": "Sugarcane Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "euetheola_rugiceps",
+              "name": "Euetheola rugiceps",
+              "common_name": "Sugarcane Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "euphoria",
+          "name": "Euphoria",
+          "species": [
+            {
+              "id": "euphoria_fulgida",
+              "name": "Euphoria fulgida",
+              "common_name": "Emerald Euphoria",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "euphoria_herbacea",
+              "name": "Euphoria herbacea",
+              "common_name": "Olive Flower Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "euphoria_inda",
+              "name": "Euphoria inda",
+              "common_name": "Bumble Flower Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "euphoria_sepulcralis",
+              "name": "Euphoria sepulcralis",
+              "common_name": "Dark Flower Scarab",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "exomala",
+          "name": "Exomala",
+          "species": [
+            {
+              "id": "exomala_orientalis",
+              "name": "Exomala orientalis",
+              "common_name": "Oriental Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "gnorimella",
+          "name": "Gnorimella",
+          "species": [
+            {
+              "id": "gnorimella_maculosa",
+              "name": "Gnorimella maculosa",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hoplia",
+          "name": "Hoplia",
+          "species": [
+            {
+              "id": "hoplia_trifasciata",
+              "name": "Hoplia trifasciata",
+              "common_name": "Three-lined Hoplia",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "labarrus",
+          "name": "Labarrus",
+          "species": [
+            {
+              "id": "labarrus_cincticulus",
+              "name": "Labarrus cincticulus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ligyrus",
+          "name": "Ligyrus",
+          "species": [
+            {
+              "id": "ligyrus_gibbosus",
+              "name": "Ligyrus gibbosus",
+              "common_name": "Carrot Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "macrodactylus",
+          "name": "Macrodactylus",
+          "species": [
+            {
+              "id": "macrodactylus_subspinosus",
+              "name": "Macrodactylus subspinosus",
+              "common_name": "American Rose Chafer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "maladera",
+          "name": "Maladera",
+          "species": [
+            {
+              "id": "maladera_formosae",
+              "name": "Maladera formosae",
+              "common_name": "Asiatic Garden Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "nipponoserica",
+          "name": "Nipponoserica",
+          "species": [
+            {
+              "id": "nipponoserica_peregrina",
+              "name": "Nipponoserica peregrina",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "onthophagus",
+          "name": "Onthophagus",
+          "species": [
+            {
+              "id": "onthophagus_hecate",
+              "name": "Onthophagus hecate",
+              "common_name": "Scooped Scarab",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "onthophagus_orpheus",
+              "name": "Onthophagus orpheus",
+              "common_name": "Green-bronze Dung Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "onthophagus_striatulus",
+              "name": "Onthophagus striatulus",
+              "common_name": "Lined Dung Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "onthophagus_taurus",
+              "name": "Onthophagus taurus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "onthophagus_tuberculifrons",
+              "name": "Onthophagus tuberculifrons",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "oscarinus",
+          "name": "Oscarinus",
+          "species": [
+            {
+              "id": "oscarinus_rusicola",
+              "name": "Oscarinus rusicola",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "osmoderma",
+          "name": "Osmoderma",
+          "species": [
+            {
+              "id": "osmoderma_eremicola",
+              "name": "Osmoderma eremicola",
+              "common_name": "Hermit Flower Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "osmoderma_scabrum",
+              "name": "Osmoderma scabrum",
+              "common_name": "Rough Hermit Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pelidnota",
+          "name": "Pelidnota",
+          "species": [
+            {
+              "id": "pelidnota_punctata",
+              "name": "Pelidnota punctata",
+              "common_name": "Grapevine Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "phanaeus",
+          "name": "Phanaeus",
+          "species": [
+            {
+              "id": "phanaeus_vindex",
+              "name": "Phanaeus vindex",
+              "common_name": "Rainbow Scarab",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "phileurus",
+          "name": "Phileurus",
+          "species": [
+            {
+              "id": "phileurus_valgus",
+              "name": "Phileurus valgus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "phyllophaga",
+          "name": "Phyllophaga",
+          "species": [
+            {
+              "id": "phyllophaga_anxia",
+              "name": "Phyllophaga anxia",
+              "common_name": "Forest-ogre June Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "phyllophaga_bipartita",
+              "name": "Phyllophaga bipartita",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "phyllophaga_crenulata",
+              "name": "Phyllophaga crenulata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "phyllophaga_futilis",
+              "name": "Phyllophaga futilis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "phyllophaga_hirticula",
+              "name": "Phyllophaga hirticula",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "popillia",
+          "name": "Popillia",
+          "species": [
+            {
+              "id": "popillia_japonica",
+              "name": "Popillia japonica",
+              "common_name": "Japanese Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pseudocanthon",
+          "name": "Pseudocanthon",
+          "species": [
+            {
+              "id": "pseudocanthon_perplexus",
+              "name": "Pseudocanthon perplexus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "strigoderma",
+          "name": "Strigoderma",
+          "species": [
+            {
+              "id": "strigoderma_arbicola",
+              "name": "Strigoderma arbicola",
+              "common_name": "Sand Chafer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trichiotinus",
+          "name": "Trichiotinus",
+          "species": [
+            {
+              "id": "trichiotinus_affinis",
+              "name": "Trichiotinus affinis",
+              "common_name": "Hairy Flower Scarab",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "trichiotinus_piger",
+              "name": "Trichiotinus piger",
+              "common_name": "Bee-like Flower Scarab",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trigonopeltastes",
+          "name": "Trigonopeltastes",
+          "species": [
+            {
+              "id": "trigonopeltastes_delta",
+              "name": "Trigonopeltastes delta",
+              "common_name": "Delta Flower Scarab",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "valgus",
+          "name": "Valgus",
+          "species": [
+            {
+              "id": "valgus_canaliculatus",
+              "name": "Valgus canaliculatus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "valgus_hemipterus",
+              "name": "Valgus hemipterus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "valgus_seticollis",
+              "name": "Valgus seticollis",
+              "common_name": "Bristly-necked Valgus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "xyloryctes",
+          "name": "Xyloryctes",
+          "species": [
+            {
+              "id": "xyloryctes_jamaicensis",
+              "name": "Xyloryctes jamaicensis",
+              "common_name": "Eastern Rhinoceros Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "lucanidae",

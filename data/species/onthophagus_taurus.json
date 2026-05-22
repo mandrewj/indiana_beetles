@@ -1,0 +1,36 @@
+{
+  "id": "onthophagus_taurus",
+  "scientific_name": "Onthophagus taurus",
+  "family": "scarabaeidae",
+  "genus": "onthophagus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1091267,
+  "inat_taxon_id": 226435,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    7,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    7,
+    10
+  ],
+  "counties": [
+    "Boone",
+    "Carroll",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Boone": 1,
+    "Carroll": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

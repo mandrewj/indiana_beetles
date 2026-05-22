@@ -1,0 +1,45 @@
+{
+  "id": "onthophagus_orpheus",
+  "scientific_name": "Onthophagus orpheus",
+  "common_name": "Green-bronze Dung Beetle",
+  "family": "scarabaeidae",
+  "genus": "onthophagus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1090087,
+  "inat_taxon_id": 226431,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Jennings",
+    "Lake",
+    "Monroe",
+    "Starke",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Monroe": 1,
+    "Tippecanoe": 6,
+    "Jennings": 1,
+    "Starke": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Onthophagus_orpheus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

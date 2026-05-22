@@ -1,0 +1,23 @@
+{
+  "id": "euetheola_rugiceps",
+  "scientific_name": "Euetheola rugiceps",
+  "common_name": "Sugarcane Beetle",
+  "family": "scarabaeidae",
+  "genus": "euetheola",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1076275,
+  "inat_taxon_id": 972833,
+  "diagnosis": "Euetheola rugiceps is a species of dung beetle in the family Scarabaeidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euetheola_rugiceps*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

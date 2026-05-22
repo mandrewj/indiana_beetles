@@ -1,0 +1,56 @@
+{
+  "id": "valgus_canaliculatus",
+  "scientific_name": "Valgus canaliculatus",
+  "family": "scarabaeidae",
+  "genus": "valgus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1082980,
+  "inat_taxon_id": 233377,
+  "diagnosis": "Valgus canaliculatus is a species of scarab beetle in the family Scarabaeidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Bartholomew",
+    "Boone",
+    "Brown",
+    "Floyd",
+    "Franklin",
+    "Hendricks",
+    "Knox",
+    "LaPorte",
+    "Marion",
+    "Monroe",
+    "Shelby",
+    "Washington"
+  ],
+  "county_record_counts": {
+    "Floyd": 1,
+    "Shelby": 1,
+    "Brown": 2,
+    "Marion": 3,
+    "Bartholomew": 1,
+    "Monroe": 2,
+    "Knox": 1,
+    "LaPorte": 1,
+    "Washington": 1,
+    "Franklin": 1,
+    "Hendricks": 2,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Valgus_canaliculatus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

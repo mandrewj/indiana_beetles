@@ -1,0 +1,38 @@
+{
+  "id": "anomala_undulata",
+  "scientific_name": "Anomala undulata",
+  "family": "scarabaeidae",
+  "genus": "anomala",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5988350,
+  "inat_taxon_id": 213712,
+  "diagnosis": "Anomala undulata is a species of shining leaf chafer in the family of beetles known as Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6
+  ],
+  "counties": [
+    "Monroe",
+    "Morgan",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Morgan": 5,
+    "Starke": 1,
+    "Monroe": 5
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anomala_undulata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

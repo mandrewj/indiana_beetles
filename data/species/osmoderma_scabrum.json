@@ -1,0 +1,50 @@
+{
+  "id": "osmoderma_scabrum",
+  "scientific_name": "Osmoderma scabrum",
+  "common_name": "Rough Hermit Beetle",
+  "family": "scarabaeidae",
+  "genus": "osmoderma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 199455,
+  "diagnosis": "Osmoderma scabra is a species in the family Scarabaeidae (\"scarab beetles\"), in the order Coleoptera (\"beetles\").",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Crawford",
+    "Fayette",
+    "Miami",
+    "Montgomery",
+    "Orange",
+    "Porter",
+    "Steuben",
+    "Wabash"
+  ],
+  "county_record_counts": {
+    "Porter": 2,
+    "Allen": 2,
+    "Orange": 1,
+    "Fayette": 1,
+    "Steuben": 1,
+    "Montgomery": 1,
+    "Crawford": 1,
+    "Miami": 1,
+    "Wabash": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Osmoderma_scabrum*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "trichiotinus_piger",
+  "scientific_name": "Trichiotinus piger",
+  "common_name": "Bee-like Flower Scarab",
+  "family": "scarabaeidae",
+  "genus": "trichiotinus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1081836,
+  "inat_taxon_id": 232875,
+  "diagnosis": "Trichiotinus piger, the hairy flower chafer or bee-like flower scarab, is a species of beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Boone",
+    "Delaware",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Boone": 1,
+    "Delaware": 1,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trichiotinus_piger*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

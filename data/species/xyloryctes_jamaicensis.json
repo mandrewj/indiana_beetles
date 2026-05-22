@@ -1,0 +1,35 @@
+{
+  "id": "xyloryctes_jamaicensis",
+  "scientific_name": "Xyloryctes jamaicensis",
+  "common_name": "Eastern Rhinoceros Beetle",
+  "family": "scarabaeidae",
+  "genus": "xyloryctes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1073638,
+  "inat_taxon_id": 82587,
+  "diagnosis": "Xyloryctes jamaicensis, known generally as the rhinoceros beetle or unicorn beetle, is a species of rhinoceros beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    4,
+    7,
+    8
+  ],
+  "counties": [
+    "Brown"
+  ],
+  "county_record_counts": {
+    "Brown": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Xyloryctes_jamaicensis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

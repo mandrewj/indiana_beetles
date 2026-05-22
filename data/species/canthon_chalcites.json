@@ -1,0 +1,31 @@
+{
+  "id": "canthon_chalcites",
+  "scientific_name": "Canthon chalcites",
+  "common_name": "Coppery Dung Beetle",
+  "family": "scarabaeidae",
+  "genus": "canthon",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1092605,
+  "inat_taxon_id": 216014,
+  "diagnosis": "Canthon chalcites is a species of dung beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Brown",
+    "Jackson",
+    "Ripley"
+  ],
+  "county_record_counts": {
+    "Ripley": 1,
+    "Jackson": 1,
+    "Brown": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Canthon_chalcites*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

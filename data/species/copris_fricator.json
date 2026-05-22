@@ -1,0 +1,56 @@
+{
+  "id": "copris_fricator",
+  "scientific_name": "Copris fricator",
+  "common_name": "Frigid Dung Beetle",
+  "family": "scarabaeidae",
+  "genus": "copris",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4997329,
+  "inat_taxon_id": 129538,
+  "diagnosis": "Copris fricator is a species of dung beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Crawford",
+    "Fayette",
+    "Huntington",
+    "Marion",
+    "Monroe",
+    "Perry",
+    "Putnam",
+    "Tippecanoe",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Vigo": 1,
+    "Brown": 3,
+    "Marion": 1,
+    "Monroe": 2,
+    "Fayette": 1,
+    "Huntington": 1,
+    "Perry": 1,
+    "Putnam": 1,
+    "Tippecanoe": 1,
+    "Crawford": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Copris_fricator*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "phileurus_valgus",
+  "scientific_name": "Phileurus valgus",
+  "family": "scarabaeidae",
+  "genus": "phileurus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1074390,
+  "inat_taxon_id": 301519,
+  "diagnosis": "Phileurus valgus is a species of rhinoceros beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    5,
+    6,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    8
+  ],
+  "counties": [
+    "Brown",
+    "Clark",
+    "Monroe",
+    "Scott",
+    "Switzerland",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Clark": 1,
+    "Vanderburgh": 3,
+    "Brown": 1,
+    "Scott": 1,
+    "Switzerland": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Phileurus_valgus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

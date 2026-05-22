@@ -1,0 +1,72 @@
+{
+  "id": "exomala_orientalis",
+  "scientific_name": "Exomala orientalis",
+  "common_name": "Oriental Beetle",
+  "family": "scarabaeidae",
+  "genus": "exomala",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5875148,
+  "inat_taxon_id": 359401,
+  "diagnosis": "The Oriental beetle (Anomala orientalis, often given as Exomala orientalis, under an invalid genus name ) is a beetle about 0.7 - 1.1 cm (0.3 - 0.4 inches) long, with mottled, metallic brown- and black-colored elytra and a similarly-colored thorax and head during the adult stage. It is sometimes confused with the Japanese beetle.",
+  "body_size_mm": "7–11",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Bartholomew",
+    "Boone",
+    "DeKalb",
+    "Elkhart",
+    "Hamilton",
+    "Jasper",
+    "Kosciusko",
+    "Lake",
+    "LaPorte",
+    "Lawrence",
+    "Marion",
+    "Monroe",
+    "Porter",
+    "Pulaski",
+    "St. Joseph",
+    "Starke",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Marion": 14,
+    "Porter": 4,
+    "Elkhart": 9,
+    "LaPorte": 7,
+    "St. Joseph": 49,
+    "DeKalb": 1,
+    "Lake": 21,
+    "Bartholomew": 7,
+    "Tippecanoe": 5,
+    "Boone": 1,
+    "Lawrence": 1,
+    "Hamilton": 1,
+    "Kosciusko": 6,
+    "Vanderburgh": 2,
+    "Monroe": 1,
+    "Pulaski": 1,
+    "Jasper": 1,
+    "Starke": 1,
+    "Vigo": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Exomala_orientalis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

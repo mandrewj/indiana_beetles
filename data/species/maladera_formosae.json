@@ -1,0 +1,53 @@
+{
+  "id": "maladera_formosae",
+  "scientific_name": "Maladera formosae",
+  "common_name": "Asiatic Garden Beetle",
+  "family": "scarabaeidae",
+  "genus": "maladera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1053543,
+  "inat_taxon_id": 1260497,
+  "diagnosis": "Maladera formosae, commonly known as the Asiatic garden beetle and formerly known as Maladera castanea, is a species of beetle in the family Scarabaeidae. It is native to Japan, China, South Korea, North Korea, and Russia but was introduced to North America in the 1920s where it is considered a pest of turfs, gardens, and crop fields.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Elkhart",
+    "Fulton",
+    "Lake",
+    "Marshall",
+    "Noble",
+    "Porter",
+    "St. Joseph",
+    "White"
+  ],
+  "county_record_counts": {
+    "Fulton": 1,
+    "Allen": 3,
+    "Noble": 1,
+    "Porter": 2,
+    "Lake": 17,
+    "Elkhart": 1,
+    "St. Joseph": 1,
+    "Marshall": 1,
+    "White": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Maladera_formosae*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

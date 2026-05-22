@@ -1,0 +1,32 @@
+{
+  "id": "phyllophaga_bipartita",
+  "scientific_name": "Phyllophaga bipartita",
+  "family": "scarabaeidae",
+  "genus": "phyllophaga",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4992702,
+  "inat_taxon_id": 1025871,
+  "diagnosis": "Phyllophaga bipartita is a species of scarab beetle in the family Scarabaeidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Hancock"
+  ],
+  "county_record_counts": {
+    "Hancock": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Phyllophaga_bipartita*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

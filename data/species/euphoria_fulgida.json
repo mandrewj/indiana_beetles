@@ -1,0 +1,62 @@
+{
+  "id": "euphoria_fulgida",
+  "scientific_name": "Euphoria fulgida",
+  "common_name": "Emerald Euphoria",
+  "family": "scarabaeidae",
+  "genus": "euphoria",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1076552,
+  "inat_taxon_id": 129219,
+  "diagnosis": "Euphoria fulgida, the emerald euphorium, is a species of scarab beetle in the family Scarabaeidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Clark",
+    "Hamilton",
+    "Harrison",
+    "Jackson",
+    "Lawrence",
+    "Martin",
+    "Monroe",
+    "Montgomery",
+    "Putnam",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Wabash",
+    "Warren"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1,
+    "Harrison": 1,
+    "Monroe": 7,
+    "Jackson": 2,
+    "Clark": 1,
+    "Montgomery": 1,
+    "Hamilton": 1,
+    "Brown": 2,
+    "Martin": 1,
+    "Lawrence": 1,
+    "Warren": 1,
+    "Tippecanoe": 2,
+    "Putnam": 1,
+    "Wabash": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euphoria_fulgida*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}
