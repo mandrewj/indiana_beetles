@@ -1,0 +1,51 @@
+{
+  "id": "anatis_labiculata",
+  "scientific_name": "Anatis labiculata",
+  "common_name": "Fifteen-spotted Lady Beetle",
+  "family": "coccinellidae",
+  "genus": "anatis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989925,
+  "inat_taxon_id": 213542,
+  "diagnosis": "Anatis labiculata, known generally as the fifteen-spotted lady beetle or fifteen-spotted ladybird beetle, is a species of lady beetle in the family Coccinellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Jennings",
+    "Lake",
+    "Monroe",
+    "Porter",
+    "Tippecanoe",
+    "White"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "Monroe": 1,
+    "Brown": 1,
+    "Jennings": 1,
+    "Lake": 1,
+    "White": 1,
+    "Porter": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anatis_labiculata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "neopristilophus_aethiops",
+  "scientific_name": "Neopristilophus aethiops",
+  "family": "elateridae",
+  "genus": "neopristilophus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 494848,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Martin",
+    "Morgan",
+    "Parke"
+  ],
+  "county_record_counts": {
+    "Martin": 2,
+    "Parke": 1,
+    "Morgan": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

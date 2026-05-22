@@ -1,0 +1,39 @@
+{
+  "id": "anatis_mali",
+  "scientific_name": "Anatis mali",
+  "common_name": "Eye-spotted Lady Beetle",
+  "family": "coccinellidae",
+  "genus": "anatis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989923,
+  "inat_taxon_id": 213544,
+  "diagnosis": "Anatis mali, the eye-spotted lady beetle, is a species of lady beetle in the family Coccinellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    4,
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "St. Joseph",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 4,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anatis_mali*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

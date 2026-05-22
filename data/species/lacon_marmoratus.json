@@ -1,0 +1,33 @@
+{
+  "id": "lacon_marmoratus",
+  "scientific_name": "Lacon marmoratus",
+  "common_name": "Marbled Click Beetle",
+  "family": "elateridae",
+  "genus": "lacon",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4754406,
+  "inat_taxon_id": 222601,
+  "diagnosis": "Lacon marmoratus, the marbled click beetle, is a species of click beetle in the family Elateridae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    9
+  ],
+  "counties": [
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lacon_marmoratus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

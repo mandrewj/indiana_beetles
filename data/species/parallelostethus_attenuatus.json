@@ -1,0 +1,56 @@
+{
+  "id": "parallelostethus_attenuatus",
+  "scientific_name": "Parallelostethus attenuatus",
+  "common_name": "Attenuated Click Beetle",
+  "family": "elateridae",
+  "genus": "parallelostethus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6973088,
+  "inat_taxon_id": 178288,
+  "diagnosis": "Parallelostethus attenuatus is a species of click beetle in the family Elateridae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Brown",
+    "Clay",
+    "Hamilton",
+    "Hendricks",
+    "Jay",
+    "Lawrence",
+    "Madison",
+    "Monroe",
+    "Montgomery",
+    "Morgan",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Clay": 1,
+    "Morgan": 1,
+    "Allen": 2,
+    "Hamilton": 1,
+    "Montgomery": 1,
+    "Brown": 1,
+    "Hendricks": 1,
+    "Jay": 2,
+    "Boone": 1,
+    "Monroe": 1,
+    "Lawrence": 1,
+    "Madison": 1,
+    "Vigo": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Parallelostethus_attenuatus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

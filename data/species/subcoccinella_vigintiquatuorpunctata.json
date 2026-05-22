@@ -1,0 +1,41 @@
+{
+  "id": "subcoccinella_vigintiquatuorpunctata",
+  "scientific_name": "Subcoccinella vigintiquatuorpunctata",
+  "common_name": "24-spot Ladybird",
+  "family": "coccinellidae",
+  "genus": "subcoccinella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043318,
+  "inat_taxon_id": 61937,
+  "diagnosis": "Subcoccinella vigintiquatuorpunctata (the 24-spot ladybird) is a beetle in the family Coccinellidae. It is the only member of the genus Subcoccinella.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7,
+    8
+  ],
+  "counties": [
+    "Elkhart",
+    "Lake",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Porter": 3,
+    "Elkhart": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Subcoccinella_vigintiquatuorpunctata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

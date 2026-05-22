@@ -1,0 +1,41 @@
+{
+  "id": "myzia_pullata",
+  "scientific_name": "Myzia pullata",
+  "common_name": "Streaked Lady Beetle",
+  "family": "coccinellidae",
+  "genus": "myzia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989912,
+  "inat_taxon_id": 225428,
+  "diagnosis": "Myzia pullata, the streaked lady beetle, is a species of lady beetle in the family Coccinellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    7
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7
+  ],
+  "counties": [
+    "Porter",
+    "St. Joseph",
+    "Vanderburgh",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1,
+    "Porter": 1,
+    "Wayne": 1,
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Myzia_pullata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

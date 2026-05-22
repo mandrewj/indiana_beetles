@@ -1,0 +1,66 @@
+{
+  "id": "brachiacantha_ursina",
+  "scientific_name": "Brachiacantha ursina",
+  "common_name": "Ursine Spurleg",
+  "family": "coccinellidae",
+  "genus": "brachiacantha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043560,
+  "inat_taxon_id": 196609,
+  "diagnosis": "Brachiacantha ursina, known generally as the ursine spurleg lady beetle or orange-spotted lady beetle, is a species of lady beetle in the family Coccinellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Bartholomew",
+    "Boone",
+    "Dearborn",
+    "Delaware",
+    "Grant",
+    "Hamilton",
+    "Hendricks",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Miami",
+    "Morgan",
+    "Porter",
+    "Tippecanoe",
+    "Wayne",
+    "Whitley"
+  ],
+  "county_record_counts": {
+    "Bartholomew": 3,
+    "Wayne": 2,
+    "Whitley": 1,
+    "Grant": 2,
+    "Porter": 4,
+    "Lake": 5,
+    "Miami": 1,
+    "Tippecanoe": 2,
+    "Hamilton": 3,
+    "Hendricks": 3,
+    "Morgan": 1,
+    "Allen": 3,
+    "Marion": 2,
+    "Delaware": 2,
+    "Boone": 1,
+    "Dearborn": 1,
+    "Madison": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Brachiacantha_ursina*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

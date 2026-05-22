@@ -1,0 +1,38 @@
+{
+  "id": "brachiacantha_decempustulata",
+  "scientific_name": "Brachiacantha decempustulata",
+  "common_name": "Ten-spotted Spurleg",
+  "family": "coccinellidae",
+  "genus": "brachiacantha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043567,
+  "inat_taxon_id": 215331,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Dearborn",
+    "Franklin",
+    "Hendricks",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Hendricks": 1,
+    "Dearborn": 1,
+    "Franklin": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Brachiacantha_decempustulata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

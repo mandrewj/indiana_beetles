@@ -1,0 +1,29 @@
+{
+  "id": "limonius_aurifer",
+  "scientific_name": "Limonius aurifer",
+  "common_name": "Gold-headed Click Beetle",
+  "family": "elateridae",
+  "genus": "limonius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6978716,
+  "inat_taxon_id": 177409,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

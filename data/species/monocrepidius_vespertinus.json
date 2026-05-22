@@ -1,0 +1,37 @@
+{
+  "id": "monocrepidius_vespertinus",
+  "scientific_name": "Monocrepidius vespertinus",
+  "common_name": "Tobacco Wireworm",
+  "family": "elateridae",
+  "genus": "monocrepidius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 1516353,
+  "diagnosis": "Monocrepidius vespertinus, the tobacco wireworm, is a species of click beetle in the family Elateridae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Lake",
+    "Spencer",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1,
+    "Lake": 6,
+    "Spencer": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Monocrepidius_vespertinus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "orthostethus_infuscatus",
+  "scientific_name": "Orthostethus infuscatus",
+  "family": "elateridae",
+  "genus": "orthostethus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6986678,
+  "inat_taxon_id": 130357,
+  "diagnosis": "Orthostethus infuscatus is a species of click beetle in the family Elateridae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Clark",
+    "Scott",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Scott": 1,
+    "Clark": 1,
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Orthostethus_infuscatus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

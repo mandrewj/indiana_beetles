@@ -1,0 +1,29 @@
+{
+  "id": "athous_scapularis",
+  "scientific_name": "Athous scapularis",
+  "common_name": "Red-shouldered Click Beetle",
+  "family": "elateridae",
+  "genus": "athous",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6983379,
+  "inat_taxon_id": 214566,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Wayne": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

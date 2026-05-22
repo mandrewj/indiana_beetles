@@ -1,0 +1,35 @@
+{
+  "id": "chilocorus_kuwanae",
+  "scientific_name": "Chilocorus kuwanae",
+  "common_name": "Kuwana's Lady Beetle",
+  "family": "coccinellidae",
+  "genus": "chilocorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043491,
+  "inat_taxon_id": 319337,
+  "diagnosis": "Chilocorus kuwanae, or Kuwana's lady beetle, is a species of lady beetle in the family Coccinellidae. It is found in Europe &amp; Northern Asia (excluding China), North America, and Southern Asia.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    8,
+    11
+  ],
+  "phenology_peak": [
+    8,
+    11
+  ],
+  "counties": [
+    "Marion",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Chilocorus_kuwanae*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

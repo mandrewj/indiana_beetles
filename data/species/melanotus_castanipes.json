@@ -1,0 +1,37 @@
+{
+  "id": "melanotus_castanipes",
+  "scientific_name": "Melanotus castanipes",
+  "common_name": "Chestnut-footed Click Beetle",
+  "family": "elateridae",
+  "genus": "melanotus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6975566,
+  "inat_taxon_id": 224816,
+  "diagnosis": "Melanotus castanipes is a species of click beetle in the family Elateridae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7,
+    10
+  ],
+  "counties": [
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Melanotus_castanipes*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

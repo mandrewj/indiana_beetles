@@ -2254,7 +2254,314 @@
       "sort_index": 8,
       "genera_count": 68,
       "species_count": 184,
-      "genera": []
+      "genera": [
+        {
+          "id": "aeolus",
+          "name": "Aeolus",
+          "species": [
+            {
+              "id": "aeolus_mellillus",
+              "name": "Aeolus mellillus",
+              "common_name": "Sweet Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "alaus",
+          "name": "Alaus",
+          "species": [
+            {
+              "id": "alaus_oculatus",
+              "name": "Alaus oculatus",
+              "common_name": "Eastern Eyed Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ampedus",
+          "name": "Ampedus",
+          "species": [
+            {
+              "id": "ampedus_areolatus",
+              "name": "Ampedus areolatus",
+              "common_name": "Areolate Click Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "ampedus_nigricollis",
+              "name": "Ampedus nigricollis",
+              "common_name": "Black-collared Click Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "ampedus_rubricollis",
+              "name": "Ampedus rubricollis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "ampedus_sayi",
+              "name": "Ampedus sayi",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "athous",
+          "name": "Athous",
+          "species": [
+            {
+              "id": "athous_cucullatus",
+              "name": "Athous cucullatus",
+              "common_name": "Hooded Click Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "athous_scapularis",
+              "name": "Athous scapularis",
+              "common_name": "Red-shouldered Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chalcolepidius",
+          "name": "Chalcolepidius",
+          "species": [
+            {
+              "id": "chalcolepidius_viridipilis",
+              "name": "Chalcolepidius viridipilis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "elater",
+          "name": "Elater",
+          "species": [
+            {
+              "id": "elater_abruptus",
+              "name": "Elater abruptus",
+              "common_name": "Abrupt Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "gambrinus",
+          "name": "Gambrinus",
+          "species": [
+            {
+              "id": "gambrinus_griseus",
+              "name": "Gambrinus griseus",
+              "common_name": "Gray Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hemicrepidius",
+          "name": "Hemicrepidius",
+          "species": [
+            {
+              "id": "hemicrepidius_memnonius",
+              "name": "Hemicrepidius memnonius",
+              "common_name": "Prosternine Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lacon",
+          "name": "Lacon",
+          "species": [
+            {
+              "id": "lacon_discoideus",
+              "name": "Lacon discoideus",
+              "common_name": "Disk-shaped Click Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lacon_marmoratus",
+              "name": "Lacon marmoratus",
+              "common_name": "Marbled Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "limonius",
+          "name": "Limonius",
+          "species": [
+            {
+              "id": "limonius_aurifer",
+              "name": "Limonius aurifer",
+              "common_name": "Gold-headed Click Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "limonius_basilaris",
+              "name": "Limonius basilaris",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "limonius_quercinus",
+              "name": "Limonius quercinus",
+              "common_name": "Oak Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "megapenthes",
+          "name": "Megapenthes",
+          "species": [
+            {
+              "id": "megapenthes_limbalis",
+              "name": "Megapenthes limbalis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "melanactes",
+          "name": "Melanactes",
+          "species": [
+            {
+              "id": "melanactes_piceus",
+              "name": "Melanactes piceus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "melanotus",
+          "name": "Melanotus",
+          "species": [
+            {
+              "id": "melanotus_castanipes",
+              "name": "Melanotus castanipes",
+              "common_name": "Chestnut-footed Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "monocrepidius",
+          "name": "Monocrepidius",
+          "species": [
+            {
+              "id": "monocrepidius_auritus",
+              "name": "Monocrepidius auritus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "monocrepidius_bellus",
+              "name": "Monocrepidius bellus",
+              "common_name": "Beautiful Wireworm",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "monocrepidius_exsul",
+              "name": "Monocrepidius exsul",
+              "common_name": "Pasture Wireworm",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "monocrepidius_lividus",
+              "name": "Monocrepidius lividus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "monocrepidius_vespertinus",
+              "name": "Monocrepidius vespertinus",
+              "common_name": "Tobacco Wireworm",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "neopristilophus",
+          "name": "Neopristilophus",
+          "species": [
+            {
+              "id": "neopristilophus_aethiops",
+              "name": "Neopristilophus aethiops",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "orthostethus",
+          "name": "Orthostethus",
+          "species": [
+            {
+              "id": "orthostethus_infuscatus",
+              "name": "Orthostethus infuscatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "parallelostethus",
+          "name": "Parallelostethus",
+          "species": [
+            {
+              "id": "parallelostethus_attenuatus",
+              "name": "Parallelostethus attenuatus",
+              "common_name": "Attenuated Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pherhimius",
+          "name": "Pherhimius",
+          "species": [
+            {
+              "id": "pherhimius_fascicularis",
+              "name": "Pherhimius fascicularis",
+              "common_name": "Bundled Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "proludius",
+          "name": "Proludius",
+          "species": [
+            {
+              "id": "proludius_pyrros",
+              "name": "Proludius pyrros",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "stropenron",
+          "name": "Stropenron",
+          "species": [
+            {
+              "id": "stropenron_hamata",
+              "name": "Stropenron hamata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "sylvanelater",
+          "name": "Sylvanelater",
+          "species": [
+            {
+              "id": "sylvanelater_cylindriformis",
+              "name": "Sylvanelater cylindriformis",
+              "common_name": "Cylindrical Click Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "tenebrionidae",

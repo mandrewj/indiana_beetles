@@ -3,11 +3,29 @@
   "name": "Elateridae",
   "common_name": "Click Beetles",
   "authority": "",
-  "diagnosis": "",
+  "diagnosis": "Insects in the family Elateridae are commonly called click beetles (or \"typical click beetles\" to distinguish them from the related families Cerophytidae, Eucnemidae, and Plastoceridae). Other names include elaters, snapping beetles, spring beetles or skipjacks. This family was defined by William Elford Leach (1790–1836) in 1815.",
   "species_count": 184,
   "genus_count": 68,
   "confirmed_count": null,
   "historical_count": null,
   "adventive_count": null,
-  "inat_taxon_id": 53248
+  "inat_taxon_id": 53248,
+  "genus_notes": {
+    "alaus": "Alaus is a genus of click beetle belonging to the family Elateridae.",
+    "monocrepidius": "Monocrepidius is a genus of click beetles in the family Elateridae.",
+    "aeolus": "Aeolus is a genus of click beetles in the family Elateridae.",
+    "sylvanelater": "Sylvanelater is a genus of click beetles in the family Elateridae.",
+    "melanactes": "Melanactes is a genus of click beetles in the family Elateridae.",
+    "ampedus": "Ampedus is a genus of click beetles in the family Elateridae.",
+    "hemicrepidius": "Hemicrepidius is a genus of click beetle belonging to the family Elateridae.",
+    "orthostethus": "Orthostethus is a genus of click beetles in the family Elateridae.",
+    "limonius": "Limonius is a genus of click beetles in the family Elateridae.",
+    "gambrinus": "Gambrinus is a genus of click beetles in the family Elateridae, most of which were formerly included in the genus Limonius.",
+    "lacon": "Lacon can refer to:",
+    "megapenthes": "Megapenthes is a genus of click beetles in the family Elateridae.",
+    "melanotus": "Melanotus is a genus of click beetles in the family Elateridae.",
+    "athous": "Athous is a genus of click beetles belonging to the family Elateridae",
+    "chalcolepidius": "Chalcolepidius is a genus of beetles in the family Elateridae....",
+    "elater": "Elater is a genus of click beetle belonging to the family Elateridae."
+  }
 }

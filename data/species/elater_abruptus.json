@@ -1,0 +1,33 @@
+{
+  "id": "elater_abruptus",
+  "scientific_name": "Elater abruptus",
+  "common_name": "Abrupt Click Beetle",
+  "family": "elateridae",
+  "genus": "elater",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6979999,
+  "inat_taxon_id": 173660,
+  "diagnosis": "Elater abruptus is a species of click beetle in the family Elateridae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Jennings"
+  ],
+  "county_record_counts": {
+    "Jennings": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Elater_abruptus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

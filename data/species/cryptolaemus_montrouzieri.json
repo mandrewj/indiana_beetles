@@ -1,0 +1,38 @@
+{
+  "id": "cryptolaemus_montrouzieri",
+  "scientific_name": "Cryptolaemus montrouzieri",
+  "common_name": "Mealybug Destroyer",
+  "family": "coccinellidae",
+  "genus": "cryptolaemus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043717,
+  "inat_taxon_id": 244084,
+  "diagnosis": "Cryptolaemus montrouzieri, common name Mealybug Ladybird or Mealybug Destroyer, is ladybird species .",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "Marion",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cryptolaemus_montrouzieri*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

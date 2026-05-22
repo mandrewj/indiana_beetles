@@ -1,0 +1,55 @@
+{
+  "id": "epilachna_varivestis",
+  "scientific_name": "Epilachna varivestis",
+  "common_name": "Mexican Bean Beetle",
+  "family": "coccinellidae",
+  "genus": "epilachna",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043621,
+  "inat_taxon_id": 219319,
+  "diagnosis": "The Mexican bean beetle, Epilachna varivestis, is a species of lady beetle which is a notorious agricultural pest. It is one of the few North American lady beetles that feed on plants rather than other insects.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "Bartholomew",
+    "Brown",
+    "Clark",
+    "Franklin",
+    "Monroe",
+    "Randolph",
+    "Ripley",
+    "Washington"
+  ],
+  "county_record_counts": {
+    "Franklin": 2,
+    "Monroe": 3,
+    "Clark": 2,
+    "Brown": 4,
+    "Ripley": 1,
+    "Bartholomew": 1,
+    "Randolph": 1,
+    "Washington": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epilachna_varivestis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

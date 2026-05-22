@@ -1,0 +1,32 @@
+{
+  "id": "stropenron_hamata",
+  "scientific_name": "Stropenron hamata",
+  "family": "elateridae",
+  "genus": "stropenron",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 12191362,
+  "inat_taxon_id": 1335304,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Monroe",
+    "Morgan"
+  ],
+  "county_record_counts": {
+    "Morgan": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

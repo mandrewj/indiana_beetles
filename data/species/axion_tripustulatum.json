@@ -1,0 +1,39 @@
+{
+  "id": "axion_tripustulatum",
+  "scientific_name": "Axion tripustulatum",
+  "common_name": "Thrice-struck Lady Beetle",
+  "family": "coccinellidae",
+  "genus": "axion",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043534,
+  "inat_taxon_id": 214691,
+  "diagnosis": "Axion tripustulatum, the three-spotted lady beetle, is a species of lady beetle in the family Coccinellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    7
+  ],
+  "phenology_peak": [
+    3,
+    4,
+    7
+  ],
+  "counties": [
+    "Morgan",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Morgan": 1,
+    "St. Joseph": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Axion_tripustulatum*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

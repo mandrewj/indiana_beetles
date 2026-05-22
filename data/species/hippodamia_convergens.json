@@ -1,0 +1,64 @@
+{
+  "id": "hippodamia_convergens",
+  "scientific_name": "Hippodamia convergens",
+  "common_name": "Convergent Lady Beetle",
+  "family": "coccinellidae",
+  "genus": "hippodamia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989894,
+  "inat_taxon_id": 48987,
+  "diagnosis": "Hippodamia convergens, commonly known as the convergent lady beetle, is one of the most common lady beetles in North America and is found throughout the continent. Aphids form their main diet and they are used for the biological control of these pests.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "counties": [
+    "Boone",
+    "Grant",
+    "Hendricks",
+    "Knox",
+    "LaPorte",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "Tippecanoe",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Knox": 2,
+    "Wayne": 1,
+    "Porter": 2,
+    "Monroe": 1,
+    "Tippecanoe": 4,
+    "Marion": 3,
+    "Hendricks": 2,
+    "LaPorte": 2,
+    "Boone": 1,
+    "Morgan": 1,
+    "Grant": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hippodamia_convergens*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

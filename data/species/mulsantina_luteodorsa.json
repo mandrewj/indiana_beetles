@@ -1,0 +1,33 @@
+{
+  "id": "mulsantina_luteodorsa",
+  "scientific_name": "Mulsantina luteodorsa",
+  "common_name": "Saffron Lady Beetle",
+  "family": "coccinellidae",
+  "genus": "mulsantina",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990228,
+  "inat_taxon_id": 474256,
+  "diagnosis": "Mulsantina luteodorsa, the clay-colored lady beetle, is a species of lady beetle in the family Coccinellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    9,
+    11
+  ],
+  "phenology_peak": [
+    9,
+    11
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mulsantina_luteodorsa*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "hippodamia_parenthesis",
+  "scientific_name": "Hippodamia parenthesis",
+  "common_name": "Parenthesis Lady Beetle",
+  "family": "coccinellidae",
+  "genus": "hippodamia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989889,
+  "inat_taxon_id": 133141,
+  "diagnosis": "Hippodamia parenthesis, the parenthesis lady beetle, is a species of lady beetle in the family Coccinellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    6,
+    10,
+    11
+  ],
+  "counties": [
+    "Allen",
+    "Huntington",
+    "Marion",
+    "Newton",
+    "Noble",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Allen": 3,
+    "Marion": 4,
+    "Tippecanoe": 3,
+    "Huntington": 1,
+    "Porter": 2,
+    "Noble": 1,
+    "Newton": 1,
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hippodamia_parenthesis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

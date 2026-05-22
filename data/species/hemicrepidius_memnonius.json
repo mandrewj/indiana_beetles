@@ -1,0 +1,42 @@
+{
+  "id": "hemicrepidius_memnonius",
+  "scientific_name": "Hemicrepidius memnonius",
+  "common_name": "Prosternine Click Beetle",
+  "family": "elateridae",
+  "genus": "hemicrepidius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6985083,
+  "inat_taxon_id": 1611931,
+  "diagnosis": "Hemicrepidius memnonius is a species of click beetle belonging to the family Elateridae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    7,
+    9
+  ],
+  "counties": [
+    "Howard",
+    "Jennings",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Howard": 1,
+    "St. Joseph": 2,
+    "Jennings": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hemicrepidius_memnonius*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sylvanelater_cylindriformis",
+  "scientific_name": "Sylvanelater cylindriformis",
+  "common_name": "Cylindrical Click Beetle",
+  "family": "elateridae",
+  "genus": "sylvanelater",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8150303,
+  "inat_taxon_id": 456446,
+  "diagnosis": "Sylvanelater cylindriformis is a species of click beetle in the family Elateridae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Allen",
+    "Henry",
+    "LaPorte",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Parke",
+    "Porter",
+    "Putnam",
+    "Tippecanoe",
+    "Wabash",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Monroe": 3,
+    "Marion": 18,
+    "Porter": 2,
+    "Putnam": 1,
+    "Tippecanoe": 5,
+    "Henry": 1,
+    "Morgan": 1,
+    "LaPorte": 1,
+    "Wayne": 1,
+    "Wabash": 2,
+    "Allen": 3,
+    "Parke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Sylvanelater_cylindriformis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}
