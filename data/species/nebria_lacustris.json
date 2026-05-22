@@ -1,0 +1,43 @@
+{
+  "id": "nebria_lacustris",
+  "scientific_name": "Nebria lacustris",
+  "common_name": "Lacustrine Gazelle Beetle",
+  "family": "carabidae",
+  "genus": "nebria",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1035605,
+  "inat_taxon_id": 225487,
+  "diagnosis": "Nebria lacustris, also known as the lacustrine gazelle beetle, is a species of ground beetle in the Nebriinae subfamily that can be found in southern Canada and in the US states such as Tennessee and Wisconsin. One of such species was found in Great Smoky Mountains National Park.",
+  "body_size_mm": "9–12",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Clay",
+    "Hancock",
+    "Hendricks",
+    "Parke",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Clay": 1,
+    "Tippecanoe": 1,
+    "Parke": 1,
+    "Brown": 3,
+    "Hancock": 1,
+    "Hendricks": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Nebria_lacustris*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

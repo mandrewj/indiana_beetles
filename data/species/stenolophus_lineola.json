@@ -1,0 +1,49 @@
+{
+  "id": "stenolophus_lineola",
+  "scientific_name": "Stenolophus lineola",
+  "common_name": "Lined Stenolophus",
+  "family": "carabidae",
+  "genus": "stenolophus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988743,
+  "inat_taxon_id": 231564,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    8,
+    9
+  ],
+  "counties": [
+    "Monroe",
+    "Noble",
+    "St. Joseph",
+    "Starke",
+    "Steuben",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 3,
+    "Noble": 1,
+    "St. Joseph": 2,
+    "Monroe": 1,
+    "Steuben": 2,
+    "Starke": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stenolophus_lineola*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

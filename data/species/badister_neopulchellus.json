@@ -1,0 +1,27 @@
+{
+  "id": "badister_neopulchellus",
+  "scientific_name": "Badister neopulchellus",
+  "common_name": "Red-black Spotted Beetle",
+  "family": "carabidae",
+  "genus": "badister",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989032,
+  "inat_taxon_id": 214780,
+  "diagnosis": "Badister neopulchellus is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Badister_neopulchellus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -11,11 +11,27 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
-  "county_record_counts": {},
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Monroe",
+    "Porter",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Porter": 1,
+    "Brown": 1,
+    "Monroe": 1,
+    "Vanderburgh": 1
+  },
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "last_refreshed": "2026-05-22"
 }

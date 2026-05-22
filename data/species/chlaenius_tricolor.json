@@ -1,0 +1,47 @@
+{
+  "id": "chlaenius_tricolor",
+  "scientific_name": "Chlaenius tricolor",
+  "common_name": "Tricolored Harp Ground Beetle",
+  "family": "carabidae",
+  "genus": "chlaenius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988986,
+  "inat_taxon_id": 216775,
+  "diagnosis": "Chlaenius is a large and diverse genus of ground beetle. It is native to the Palearctic (including Europe), the Near East, North Africa, Afrotropical region, and the Nearctic.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7,
+    8
+  ],
+  "counties": [
+    "Benton",
+    "Hancock",
+    "Porter",
+    "Steuben",
+    "Whitley"
+  ],
+  "county_record_counts": {
+    "Hancock": 1,
+    "Whitley": 1,
+    "Benton": 1,
+    "Porter": 1,
+    "Steuben": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chlaenius_tricolor*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

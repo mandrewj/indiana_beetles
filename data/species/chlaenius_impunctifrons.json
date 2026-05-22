@@ -1,0 +1,30 @@
+{
+  "id": "chlaenius_impunctifrons",
+  "scientific_name": "Chlaenius impunctifrons",
+  "family": "carabidae",
+  "genus": "chlaenius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988974,
+  "inat_taxon_id": 216762,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    5
+  ],
+  "phenology_peak": [
+    3,
+    5
+  ],
+  "counties": [
+    "Noble"
+  ],
+  "county_record_counts": {
+    "Noble": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

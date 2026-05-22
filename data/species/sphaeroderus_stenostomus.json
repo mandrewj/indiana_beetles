@@ -1,0 +1,33 @@
+{
+  "id": "sphaeroderus_stenostomus",
+  "scientific_name": "Sphaeroderus stenostomus",
+  "common_name": "Small Snail-eating Ground Beetle",
+  "family": "carabidae",
+  "genus": "sphaeroderus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1036730,
+  "inat_taxon_id": 231337,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Dearborn",
+    "Marion",
+    "Monroe",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Monroe": 1,
+    "Dearborn": 1,
+    "Tippecanoe": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Sphaeroderus_stenostomus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

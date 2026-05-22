@@ -1,0 +1,41 @@
+{
+  "id": "omophron_americanum",
+  "scientific_name": "Omophron americanum",
+  "common_name": "American Round Sand Beetle",
+  "family": "carabidae",
+  "genus": "omophron",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1037686,
+  "inat_taxon_id": 135294,
+  "diagnosis": "Omophron americanum, the American round sand beetle, is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Hendricks",
+    "Marion",
+    "Morgan",
+    "Noble",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Noble": 1,
+    "Hendricks": 2,
+    "Morgan": 1,
+    "Wayne": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Omophron_americanum*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "stenolophus_comma",
+  "scientific_name": "Stenolophus comma",
+  "family": "carabidae",
+  "genus": "stenolophus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988733,
+  "inat_taxon_id": 231556,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Madison",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Brown": 1,
+    "Tippecanoe": 1,
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

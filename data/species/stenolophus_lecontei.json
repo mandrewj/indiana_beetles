@@ -1,0 +1,43 @@
+{
+  "id": "stenolophus_lecontei",
+  "scientific_name": "Stenolophus lecontei",
+  "common_name": "LeConte's Seedcorn Beetle",
+  "family": "carabidae",
+  "genus": "stenolophus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988723,
+  "inat_taxon_id": 231562,
+  "diagnosis": "Stenolophus lecontei, or Leconte's seedcorn beetle, is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "St. Joseph",
+    "Tippecanoe",
+    "White"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "St. Joseph": 3,
+    "Brown": 1,
+    "White": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stenolophus_lecontei*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

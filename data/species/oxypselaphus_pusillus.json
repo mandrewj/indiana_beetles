@@ -1,0 +1,28 @@
+{
+  "id": "oxypselaphus_pusillus",
+  "scientific_name": "Oxypselaphus pusillus",
+  "family": "carabidae",
+  "genus": "oxypselaphus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7437077,
+  "inat_taxon_id": 176284,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

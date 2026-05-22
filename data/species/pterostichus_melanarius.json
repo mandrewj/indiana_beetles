@@ -1,0 +1,63 @@
+{
+  "id": "pterostichus_melanarius",
+  "scientific_name": "Pterostichus melanarius",
+  "common_name": "Rain Beetle",
+  "family": "carabidae",
+  "genus": "pterostichus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7856746,
+  "inat_taxon_id": 131931,
+  "diagnosis": "Pterostichus melanarius is a species of ground beetle native to Europe.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+  ],
+  "counties": [
+    "Allen",
+    "Delaware",
+    "LaGrange",
+    "Lake",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vigo",
+    "White"
+  ],
+  "county_record_counts": {
+    "Vigo": 1,
+    "Allen": 1,
+    "St. Joseph": 1,
+    "Tippecanoe": 1,
+    "Delaware": 1,
+    "LaGrange": 1,
+    "Porter": 1,
+    "Lake": 1,
+    "White": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Pterostichus_melanarius*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

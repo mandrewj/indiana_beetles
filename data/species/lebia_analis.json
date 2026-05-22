@@ -1,0 +1,59 @@
+{
+  "id": "lebia_analis",
+  "scientific_name": "Lebia analis",
+  "common_name": "Ringed Harp Ground Beetle",
+  "family": "carabidae",
+  "genus": "lebia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8206846,
+  "inat_taxon_id": 222761,
+  "diagnosis": "Lebia analis is a species of beetle in the family of Carabidae, Harpalinae subfamily.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    10
+  ],
+  "counties": [
+    "Carroll",
+    "Fountain",
+    "Hancock",
+    "Hendricks",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Scott",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Marion": 5,
+    "Tippecanoe": 3,
+    "Monroe": 3,
+    "Carroll": 1,
+    "Morgan": 1,
+    "Hendricks": 5,
+    "Hancock": 1,
+    "Scott": 1,
+    "Fountain": 2,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lebia_analis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

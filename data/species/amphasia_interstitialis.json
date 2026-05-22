@@ -1,0 +1,59 @@
+{
+  "id": "amphasia_interstitialis",
+  "scientific_name": "Amphasia interstitialis",
+  "family": "carabidae",
+  "genus": "amphasia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1036738,
+  "inat_taxon_id": 213450,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "counties": [
+    "Hamilton",
+    "Hendricks",
+    "LaPorte",
+    "Marion",
+    "Martin",
+    "Noble",
+    "Porter",
+    "Shelby",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "St. Joseph": 1,
+    "Noble": 1,
+    "Shelby": 1,
+    "Hamilton": 1,
+    "Martin": 1,
+    "Porter": 3,
+    "Hendricks": 1,
+    "Vigo": 1,
+    "LaPorte": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

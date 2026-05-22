@@ -1,0 +1,53 @@
+{
+  "id": "anisodactylus_sanctaecrucis",
+  "scientific_name": "Anisodactylus sanctaecrucis",
+  "common_name": "Tawny-backed Harp Ground Beetle",
+  "family": "carabidae",
+  "genus": "anisodactylus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1036928,
+  "inat_taxon_id": 121336,
+  "diagnosis": "Anisodactylus sanctaecrucis is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    3,
+    4,
+    7
+  ],
+  "counties": [
+    "Carroll",
+    "Franklin",
+    "Grant",
+    "Lake",
+    "Marshall",
+    "Monroe",
+    "Tippecanoe",
+    "Vigo",
+    "White"
+  ],
+  "county_record_counts": {
+    "Marshall": 1,
+    "Tippecanoe": 4,
+    "Monroe": 1,
+    "Franklin": 1,
+    "Carroll": 1,
+    "Vigo": 1,
+    "Grant": 2,
+    "Lake": 1,
+    "White": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anisodactylus_sanctaecrucis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

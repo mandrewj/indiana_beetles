@@ -1,0 +1,53 @@
+{
+  "id": "colliuris_pensylvanica",
+  "scientific_name": "Colliuris pensylvanica",
+  "family": "carabidae",
+  "genus": "colliuris",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1036282,
+  "inat_taxon_id": 217451,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    8
+  ],
+  "counties": [
+    "Brown",
+    "Henry",
+    "Howard",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Perry",
+    "Tippecanoe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Tippecanoe": 1,
+    "Brown": 1,
+    "Henry": 1,
+    "Monroe": 1,
+    "Vanderburgh": 1,
+    "Perry": 1,
+    "Madison": 2,
+    "Howard": 1,
+    "Morgan": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

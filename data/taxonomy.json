@@ -8,24 +8,158 @@
       "sort_index": 1,
       "genera": [
         {
+          "id": "agonum",
+          "name": "Agonum",
+          "species": [
+            {
+              "id": "agonum_extensicolle",
+              "name": "Agonum extensicolle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agonum_octopunctatum",
+              "name": "Agonum octopunctatum",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agonum_punctiforme",
+              "name": "Agonum punctiforme",
+              "common_name": "Punctiform Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agonum_striatopunctatum",
+              "name": "Agonum striatopunctatum",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "amara",
+          "name": "Amara",
+          "species": [
+            {
+              "id": "amara_aenea",
+              "name": "Amara aenea",
+              "common_name": "Common Sun Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "amara_familiaris",
+              "name": "Amara familiaris",
+              "common_name": "Social Sun Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "amphasia",
+          "name": "Amphasia",
+          "species": [
+            {
+              "id": "amphasia_interstitialis",
+              "name": "Amphasia interstitialis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "amphasia_sericea",
+              "name": "Amphasia sericea",
+              "common_name": "Silky Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "anisodactylus",
+          "name": "Anisodactylus",
+          "species": [
+            {
+              "id": "anisodactylus_discoideus",
+              "name": "Anisodactylus discoideus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anisodactylus_rusticus",
+              "name": "Anisodactylus rusticus",
+              "common_name": "Rustic Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anisodactylus_sanctaecrucis",
+              "name": "Anisodactylus sanctaecrucis",
+              "common_name": "Tawny-backed Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "badister",
+          "name": "Badister",
+          "species": [
+            {
+              "id": "badister_neopulchellus",
+              "name": "Badister neopulchellus",
+              "common_name": "Red-black Spotted Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "bembidion",
+          "name": "Bembidion",
+          "species": [
+            {
+              "id": "bembidion_affine",
+              "name": "Bembidion affine",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "bembidion_confusum",
+              "name": "Bembidion confusum",
+              "common_name": "Confused Riverbank Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "bradycellus",
+          "name": "Bradycellus",
+          "species": [
+            {
+              "id": "bradycellus_rupestris",
+              "name": "Bradycellus rupestris",
+              "common_name": "Rock-dwelling Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "calathus",
+          "name": "Calathus",
+          "species": [
+            {
+              "id": "calathus_opaculus",
+              "name": "Calathus opaculus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "calleida",
+          "name": "Calleida",
+          "species": [
+            {
+              "id": "calleida_punctata",
+              "name": "Calleida punctata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "calosoma",
           "name": "Calosoma",
           "authority": "Weber, 1801",
           "species": [
-            {
-              "id": "calosoma_scrutator",
-              "name": "Calosoma scrutator",
-              "authority": "(Fabricius, 1775)",
-              "common_name": "Fiery Searcher",
-              "indiana_status": "confirmed"
-            },
-            {
-              "id": "calosoma_sycophanta",
-              "name": "Calosoma sycophanta",
-              "authority": "(Linnaeus, 1758)",
-              "common_name": "European Caterpillar Hunter",
-              "indiana_status": "adventive"
-            },
             {
               "id": "calosoma_calidum",
               "name": "Calosoma calidum",
@@ -39,6 +173,26 @@
               "authority": "(Say, 1823)",
               "common_name": "Black Caterpillar Hunter",
               "indiana_status": "confirmed"
+            },
+            {
+              "id": "calosoma_sayi",
+              "name": "Calosoma sayi",
+              "common_name": "Black Caterpillar Hunter",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "calosoma_scrutator",
+              "name": "Calosoma scrutator",
+              "authority": "(Fabricius, 1775)",
+              "common_name": "Fiery Searcher",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "calosoma_sycophanta",
+              "name": "Calosoma sycophanta",
+              "authority": "(Linnaeus, 1758)",
+              "common_name": "European Caterpillar Hunter",
+              "indiana_status": "adventive"
             },
             {
               "id": "calosoma_wilcoxi",
@@ -85,22 +239,324 @@
           ]
         },
         {
-          "id": "scaphinotus",
-          "name": "Scaphinotus",
-          "authority": "Dejean, 1826",
+          "id": "chlaenius",
+          "name": "Chlaenius",
           "species": [
             {
-              "id": "scaphinotus_elevatus",
-              "name": "Scaphinotus elevatus",
-              "authority": "(Fabricius, 1787)",
-              "common_name": "Snail-eating Beetle",
+              "id": "chlaenius_aestivus",
+              "name": "Chlaenius aestivus",
               "indiana_status": "confirmed"
             },
             {
-              "id": "scaphinotus_viduus",
-              "name": "Scaphinotus viduus",
-              "authority": "(Dejean, 1826)",
-              "common_name": "Widow Snail Hunter",
+              "id": "chlaenius_emarginatus",
+              "name": "Chlaenius emarginatus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "chlaenius_impunctifrons",
+              "name": "Chlaenius impunctifrons",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "chlaenius_sericeus",
+              "name": "Chlaenius sericeus",
+              "common_name": "Green Pubescent Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "chlaenius_tomentosus",
+              "name": "Chlaenius tomentosus",
+              "common_name": "Brown Chlaenius Carabid",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "chlaenius_tricolor",
+              "name": "Chlaenius tricolor",
+              "common_name": "Tricolored Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "colliuris",
+          "name": "Colliuris",
+          "species": [
+            {
+              "id": "colliuris_pensylvanica",
+              "name": "Colliuris pensylvanica",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cratacanthus",
+          "name": "Cratacanthus",
+          "species": [
+            {
+              "id": "cratacanthus_dubius",
+              "name": "Cratacanthus dubius",
+              "common_name": "Dubious Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cymindis",
+          "name": "Cymindis",
+          "species": [
+            {
+              "id": "cymindis_limbata",
+              "name": "Cymindis limbata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dicaelus",
+          "name": "Dicaelus",
+          "species": [
+            {
+              "id": "dicaelus_dilatatus",
+              "name": "Dicaelus dilatatus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "dicaelus_purpuratus",
+              "name": "Dicaelus purpuratus",
+              "common_name": "Notch-mouthed Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dromius",
+          "name": "Dromius",
+          "species": [
+            {
+              "id": "dromius_piceus",
+              "name": "Dromius piceus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "galerita",
+          "name": "Galerita",
+          "species": [
+            {
+              "id": "galerita_bicolor",
+              "name": "Galerita bicolor",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "gastrellarius",
+          "name": "Gastrellarius",
+          "species": [
+            {
+              "id": "gastrellarius_honestus",
+              "name": "Gastrellarius honestus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "geopinus",
+          "name": "Geopinus",
+          "species": [
+            {
+              "id": "geopinus_incrassatus",
+              "name": "Geopinus incrassatus",
+              "common_name": "Homely Geopinus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "harpalus",
+          "name": "Harpalus",
+          "authority": "Latreille, 1802",
+          "species": [
+            {
+              "id": "harpalus_affinis",
+              "name": "Harpalus affinis",
+              "authority": "(Schrank, 1781)",
+              "common_name": "European Strawberry Beetle",
+              "indiana_status": "adventive"
+            },
+            {
+              "id": "harpalus_caliginosus",
+              "name": "Harpalus caliginosus",
+              "authority": "(Fabricius, 1775)",
+              "common_name": "Murky Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "harpalus_erraticus",
+              "name": "Harpalus erraticus",
+              "common_name": "Medora Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "harpalus_pensylvanicus",
+              "name": "Harpalus pensylvanicus",
+              "authority": "(DeGeer, 1774)",
+              "common_name": "Pennsylvania Dingy Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "harpalus_rufipes",
+              "name": "Harpalus rufipes",
+              "common_name": "Strawberry Seed Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lebia",
+          "name": "Lebia",
+          "species": [
+            {
+              "id": "lebia_analis",
+              "name": "Lebia analis",
+              "common_name": "Ringed Harp Ground Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lebia_fuscata",
+              "name": "Lebia fuscata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lebia_grandis",
+              "name": "Lebia grandis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lebia_solea",
+              "name": "Lebia solea",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lebia_viridipennis",
+              "name": "Lebia viridipennis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lebia_viridis",
+              "name": "Lebia viridis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "leptotrachelus",
+          "name": "Leptotrachelus",
+          "species": [
+            {
+              "id": "leptotrachelus_dorsalis",
+              "name": "Leptotrachelus dorsalis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "myas",
+          "name": "Myas",
+          "species": [
+            {
+              "id": "myas_coracinus",
+              "name": "Myas coracinus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "nebria",
+          "name": "Nebria",
+          "species": [
+            {
+              "id": "nebria_lacustris",
+              "name": "Nebria lacustris",
+              "common_name": "Lacustrine Gazelle Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "nebria_pallipes",
+              "name": "Nebria pallipes",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "notiobia",
+          "name": "Notiobia",
+          "species": [
+            {
+              "id": "notiobia_terminata",
+              "name": "Notiobia terminata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "notiophilus",
+          "name": "Notiophilus",
+          "species": [
+            {
+              "id": "notiophilus_aeneus",
+              "name": "Notiophilus aeneus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "notiophilus_novemstriatus",
+              "name": "Notiophilus novemstriatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "omophron",
+          "name": "Omophron",
+          "species": [
+            {
+              "id": "omophron_americanum",
+              "name": "Omophron americanum",
+              "common_name": "American Round Sand Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ophonus",
+          "name": "Ophonus",
+          "species": [
+            {
+              "id": "ophonus_puncticeps",
+              "name": "Ophonus puncticeps",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "oxypselaphus",
+          "name": "Oxypselaphus",
+          "species": [
+            {
+              "id": "oxypselaphus_pusillus",
+              "name": "Oxypselaphus pusillus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "panagaeus",
+          "name": "Panagaeus",
+          "species": [
+            {
+              "id": "panagaeus_fasciatus",
+              "name": "Panagaeus fasciatus",
               "indiana_status": "confirmed"
             }
           ]
@@ -123,34 +579,178 @@
               "authority": "LeConte, 1846",
               "common_name": "Elongate Ground Beetle",
               "indiana_status": "historical"
+            },
+            {
+              "id": "pasimachus_punctulatus",
+              "name": "Pasimachus punctulatus",
+              "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "harpalus",
-          "name": "Harpalus",
-          "authority": "Latreille, 1802",
+          "id": "patrobus",
+          "name": "Patrobus",
           "species": [
             {
-              "id": "harpalus_pensylvanicus",
-              "name": "Harpalus pensylvanicus",
-              "authority": "(DeGeer, 1774)",
-              "common_name": "Pennsylvania Dingy Ground Beetle",
+              "id": "patrobus_longicornis",
+              "name": "Patrobus longicornis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "platynus",
+          "name": "Platynus",
+          "species": [
+            {
+              "id": "platynus_cincticollis",
+              "name": "Platynus cincticollis",
               "indiana_status": "confirmed"
             },
             {
-              "id": "harpalus_caliginosus",
-              "name": "Harpalus caliginosus",
-              "authority": "(Fabricius, 1775)",
-              "common_name": "Murky Ground Beetle",
+              "id": "platynus_decentis",
+              "name": "Platynus decentis",
+              "common_name": "Proper Platynus Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "poecilus",
+          "name": "Poecilus",
+          "species": [
+            {
+              "id": "poecilus_chalcites",
+              "name": "Poecilus chalcites",
               "indiana_status": "confirmed"
             },
             {
-              "id": "harpalus_affinis",
-              "name": "Harpalus affinis",
-              "authority": "(Schrank, 1781)",
-              "common_name": "European Strawberry Beetle",
-              "indiana_status": "adventive"
+              "id": "poecilus_lucublandus",
+              "name": "Poecilus lucublandus",
+              "common_name": "Woodland Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pterostichus",
+          "name": "Pterostichus",
+          "species": [
+            {
+              "id": "pterostichus_melanarius",
+              "name": "Pterostichus melanarius",
+              "common_name": "Rain Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "pterostichus_mutus",
+              "name": "Pterostichus mutus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "pterostichus_permundus",
+              "name": "Pterostichus permundus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "scaphinotus",
+          "name": "Scaphinotus",
+          "authority": "Dejean, 1826",
+          "species": [
+            {
+              "id": "scaphinotus_elevatus",
+              "name": "Scaphinotus elevatus",
+              "authority": "(Fabricius, 1787)",
+              "common_name": "Snail-eating Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "scaphinotus_viduus",
+              "name": "Scaphinotus viduus",
+              "authority": "(Dejean, 1826)",
+              "common_name": "Widow Snail Hunter",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "scarites",
+          "name": "Scarites",
+          "species": [
+            {
+              "id": "scarites_subterraneus",
+              "name": "Scarites subterraneus",
+              "common_name": "Big-headed Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "sphaeroderus",
+          "name": "Sphaeroderus",
+          "species": [
+            {
+              "id": "sphaeroderus_stenostomus",
+              "name": "Sphaeroderus stenostomus",
+              "common_name": "Small Snail-eating Ground Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "stenolophus",
+          "name": "Stenolophus",
+          "species": [
+            {
+              "id": "stenolophus_comma",
+              "name": "Stenolophus comma",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "stenolophus_dissimilis",
+              "name": "Stenolophus dissimilis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "stenolophus_lecontei",
+              "name": "Stenolophus lecontei",
+              "common_name": "LeConte's Seedcorn Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "stenolophus_lineola",
+              "name": "Stenolophus lineola",
+              "common_name": "Lined Stenolophus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "stenolophus_ochropezus",
+              "name": "Stenolophus ochropezus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tetragonoderus",
+          "name": "Tetragonoderus",
+          "species": [
+            {
+              "id": "tetragonoderus_fasciatus",
+              "name": "Tetragonoderus fasciatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trichotichnus",
+          "name": "Trichotichnus",
+          "species": [
+            {
+              "id": "trichotichnus_vulpeculus",
+              "name": "Trichotichnus vulpeculus",
+              "indiana_status": "confirmed"
             }
           ]
         }

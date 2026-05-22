@@ -1,0 +1,28 @@
+{
+  "id": "bembidion_affine",
+  "scientific_name": "Bembidion affine",
+  "family": "carabidae",
+  "genus": "bembidion",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1035924,
+  "inat_taxon_id": 214982,
+  "diagnosis": "Bembidion affine is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Madison",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Bembidion_affine*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

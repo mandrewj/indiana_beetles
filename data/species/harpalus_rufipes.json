@@ -1,0 +1,37 @@
+{
+  "id": "harpalus_rufipes",
+  "scientific_name": "Harpalus rufipes",
+  "common_name": "Strawberry Seed Beetle",
+  "family": "carabidae",
+  "genus": "harpalus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 9198953,
+  "inat_taxon_id": 131099,
+  "diagnosis": "Harpalus rufipes is a species of ground beetle in the subfamily Harpalinae. It was described by Degeer in 1774.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    9
+  ],
+  "counties": [
+    "Tippecanoe",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Vigo": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Harpalus_rufipes*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "platynus_decentis",
+  "scientific_name": "Platynus decentis",
+  "common_name": "Proper Platynus Beetle",
+  "family": "carabidae",
+  "genus": "platynus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988827,
+  "inat_taxon_id": 957679,
+  "diagnosis": "Platynus decentis is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    2,
+    3,
+    11,
+    12
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Martin",
+    "Owen"
+  ],
+  "county_record_counts": {
+    "Brown": 5,
+    "Owen": 1,
+    "Martin": 1,
+    "Allen": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Platynus_decentis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

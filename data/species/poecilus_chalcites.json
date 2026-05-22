@@ -1,0 +1,60 @@
+{
+  "id": "poecilus_chalcites",
+  "scientific_name": "Poecilus chalcites",
+  "family": "carabidae",
+  "genus": "poecilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7693051,
+  "inat_taxon_id": 228468,
+  "diagnosis": "Poecilus chalcites is a species of woodland ground beetle in the family Carabidae. It is found in the Caribbean, Central America, and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    3,
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Boone",
+    "Daviess",
+    "Dubois",
+    "Marion",
+    "Monroe",
+    "Porter",
+    "Posey",
+    "Shelby",
+    "Steuben",
+    "Tippecanoe",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 2,
+    "Monroe": 1,
+    "Vigo": 1,
+    "Marion": 2,
+    "Dubois": 1,
+    "Steuben": 1,
+    "Boone": 1,
+    "Porter": 1,
+    "Daviess": 1,
+    "Shelby": 1,
+    "Posey": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Poecilus_chalcites*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

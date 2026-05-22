@@ -1,0 +1,39 @@
+{
+  "id": "amara_aenea",
+  "scientific_name": "Amara aenea",
+  "common_name": "Common Sun Beetle",
+  "family": "carabidae",
+  "genus": "amara",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1035185,
+  "inat_taxon_id": 130433,
+  "diagnosis": "Amara aenea is a ground beetle common in almost the whole Europe and Northern Asia. Its range covers also parts of Northern Africa.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    11
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Bartholomew",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Bartholomew": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Amara_aenea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

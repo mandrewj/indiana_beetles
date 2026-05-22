@@ -1,0 +1,59 @@
+{
+  "id": "agonum_punctiforme",
+  "scientific_name": "Agonum punctiforme",
+  "common_name": "Punctiform Harp Ground Beetle",
+  "family": "carabidae",
+  "genus": "agonum",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988511,
+  "inat_taxon_id": 212789,
+  "diagnosis": "Agonum punctiforme is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    2,
+    3,
+    4,
+    7,
+    9,
+    10
+  ],
+  "counties": [
+    "Delaware",
+    "Hendricks",
+    "LaPorte",
+    "Madison",
+    "Marion",
+    "Montgomery",
+    "Morgan",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Marion": 5,
+    "Morgan": 1,
+    "LaPorte": 1,
+    "Delaware": 1,
+    "Vanderburgh": 1,
+    "Montgomery": 1,
+    "Hendricks": 1,
+    "Madison": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agonum_punctiforme*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

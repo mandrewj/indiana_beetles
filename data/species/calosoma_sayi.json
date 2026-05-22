@@ -1,0 +1,31 @@
+{
+  "id": "calosoma_sayi",
+  "scientific_name": "Calosoma sayi",
+  "common_name": "Black Caterpillar Hunter",
+  "family": "carabidae",
+  "genus": "calosoma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989320,
+  "inat_taxon_id": 244519,
+  "diagnosis": "Calosoma sayi is a species of ground beetle in the subfamily of Carabinae. It was described by Dejean in 1826.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Marion",
+    "Tippecanoe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1,
+    "Tippecanoe": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Calosoma_sayi*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

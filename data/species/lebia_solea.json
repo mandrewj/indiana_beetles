@@ -1,0 +1,34 @@
+{
+  "id": "lebia_solea",
+  "scientific_name": "Lebia solea",
+  "family": "carabidae",
+  "genus": "lebia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988859,
+  "inat_taxon_id": 222776,
+  "diagnosis": "Lebia solea is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Marion",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Lebia_solea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

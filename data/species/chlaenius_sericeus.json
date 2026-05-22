@@ -1,0 +1,27 @@
+{
+  "id": "chlaenius_sericeus",
+  "scientific_name": "Chlaenius sericeus",
+  "common_name": "Green Pubescent Ground Beetle",
+  "family": "carabidae",
+  "genus": "chlaenius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988996,
+  "inat_taxon_id": 122212,
+  "diagnosis": "Chlaenius is a large and diverse genus of ground beetle. It is native to the Palearctic (including Europe), the Near East, North Africa, Afrotropical region, and the Nearctic.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Madison"
+  ],
+  "county_record_counts": {
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chlaenius_sericeus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "poecilus_lucublandus",
+  "scientific_name": "Poecilus lucublandus",
+  "common_name": "Woodland Ground Beetle",
+  "family": "carabidae",
+  "genus": "poecilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7784037,
+  "inat_taxon_id": 326719,
+  "diagnosis": "Poecilus lucublandus is a species of woodland ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+  ],
+  "phenology_peak": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "counties": [
+    "Jennings",
+    "Lake",
+    "Marion",
+    "Porter",
+    "Pulaski",
+    "Shelby",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Pulaski": 1,
+    "Tippecanoe": 2,
+    "Jennings": 1,
+    "Marion": 2,
+    "Shelby": 1,
+    "Porter": 2,
+    "St. Joseph": 1,
+    "Lake": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Poecilus_lucublandus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

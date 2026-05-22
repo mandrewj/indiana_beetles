@@ -1,0 +1,46 @@
+{
+  "id": "chlaenius_emarginatus",
+  "scientific_name": "Chlaenius emarginatus",
+  "family": "carabidae",
+  "genus": "chlaenius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989010,
+  "inat_taxon_id": 216759,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "counties": [
+    "Allen",
+    "Johnson",
+    "Monroe",
+    "Owen",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Johnson": 1,
+    "Owen": 1,
+    "Monroe": 1,
+    "Tippecanoe": 1,
+    "Allen": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

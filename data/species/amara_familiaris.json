@@ -1,0 +1,27 @@
+{
+  "id": "amara_familiaris",
+  "scientific_name": "Amara familiaris",
+  "common_name": "Social Sun Beetle",
+  "family": "carabidae",
+  "genus": "amara",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1035195,
+  "inat_taxon_id": 130445,
+  "diagnosis": "Amara familiaris is a species of ground beetle native to Europe.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Wabash"
+  ],
+  "county_record_counts": {
+    "Wabash": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Amara_familiaris*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

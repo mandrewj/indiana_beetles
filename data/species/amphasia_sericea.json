@@ -1,0 +1,44 @@
+{
+  "id": "amphasia_sericea",
+  "scientific_name": "Amphasia sericea",
+  "common_name": "Silky Harp Ground Beetle",
+  "family": "carabidae",
+  "genus": "amphasia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1036737,
+  "inat_taxon_id": 213451,
+  "diagnosis": "Amphasia sericea is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Hendricks",
+    "Lake",
+    "Marion",
+    "Porter",
+    "Ripley"
+  ],
+  "county_record_counts": {
+    "Ripley": 1,
+    "Marion": 1,
+    "Brown": 1,
+    "Porter": 1,
+    "Hendricks": 1,
+    "Lake": 7
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Amphasia_sericea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

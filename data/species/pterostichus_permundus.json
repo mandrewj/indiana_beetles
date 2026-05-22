@@ -1,0 +1,36 @@
+{
+  "id": "pterostichus_permundus",
+  "scientific_name": "Pterostichus permundus",
+  "family": "carabidae",
+  "genus": "pterostichus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8373716,
+  "inat_taxon_id": 229365,
+  "diagnosis": "Pterostichus permundus is a species of woodland ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    6,
+    9,
+    10
+  ],
+  "counties": [
+    "Lake",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 2,
+    "Lake": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pterostichus_permundus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

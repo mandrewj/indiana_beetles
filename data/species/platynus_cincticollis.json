@@ -1,0 +1,22 @@
+{
+  "id": "platynus_cincticollis",
+  "scientific_name": "Platynus cincticollis",
+  "family": "carabidae",
+  "genus": "platynus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988845,
+  "inat_taxon_id": 228335,
+  "diagnosis": "Platynus cincticollis is a species of ground beetle in the family Carabidae. It has two red spots on the head, and is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Platynus_cincticollis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

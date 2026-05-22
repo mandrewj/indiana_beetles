@@ -1,0 +1,49 @@
+{
+  "id": "leptotrachelus_dorsalis",
+  "scientific_name": "Leptotrachelus dorsalis",
+  "family": "carabidae",
+  "genus": "leptotrachelus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988632,
+  "inat_taxon_id": 223510,
+  "diagnosis": "Leptotrachelus dorsalis is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Franklin",
+    "Lake",
+    "Madison",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "Starke",
+    "Steuben",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Franklin": 1,
+    "Steuben": 1,
+    "Morgan": 1,
+    "Vanderburgh": 1,
+    "Starke": 1,
+    "Porter": 1,
+    "Monroe": 4,
+    "Madison": 2,
+    "Lake": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Leptotrachelus_dorsalis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

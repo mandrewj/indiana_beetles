@@ -1,0 +1,73 @@
+{
+  "id": "galerita_bicolor",
+  "scientific_name": "Galerita bicolor",
+  "family": "carabidae",
+  "genus": "galerita",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989280,
+  "inat_taxon_id": 130359,
+  "diagnosis": "Galerita bicolor is a false bombardier beetle occurring in the eastern United States. Its mimicry of the colors and shape of a bombardier beetle help it evade predators.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Carroll",
+    "Cass",
+    "Harrison",
+    "Lawrence",
+    "Marion",
+    "Martin",
+    "Miami",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "Putnam",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Vermillion",
+    "Vigo",
+    "Washington"
+  ],
+  "county_record_counts": {
+    "Vermillion": 2,
+    "Morgan": 2,
+    "Miami": 1,
+    "Vigo": 3,
+    "Tippecanoe": 6,
+    "Marion": 3,
+    "Vanderburgh": 3,
+    "Monroe": 4,
+    "Putnam": 3,
+    "Cass": 1,
+    "St. Joseph": 1,
+    "Porter": 2,
+    "Carroll": 1,
+    "Washington": 1,
+    "Brown": 2,
+    "Martin": 1,
+    "Lawrence": 1,
+    "Harrison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Galerita_bicolor*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

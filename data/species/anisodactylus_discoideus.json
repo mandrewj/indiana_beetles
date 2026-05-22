@@ -1,0 +1,26 @@
+{
+  "id": "anisodactylus_discoideus",
+  "scientific_name": "Anisodactylus discoideus",
+  "family": "carabidae",
+  "genus": "anisodactylus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1036939,
+  "inat_taxon_id": 213646,
+  "diagnosis": "Anisodactylus discoideus is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anisodactylus_discoideus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

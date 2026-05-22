@@ -1,0 +1,22 @@
+{
+  "id": "agonum_striatopunctatum",
+  "scientific_name": "Agonum striatopunctatum",
+  "family": "carabidae",
+  "genus": "agonum",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988468,
+  "inat_taxon_id": 212795,
+  "diagnosis": "Agonum striatopunctatum is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agonum_striatopunctatum*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

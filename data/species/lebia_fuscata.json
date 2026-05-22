@@ -1,0 +1,28 @@
+{
+  "id": "lebia_fuscata",
+  "scientific_name": "Lebia fuscata",
+  "family": "carabidae",
+  "genus": "lebia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 10610039,
+  "inat_taxon_id": 222766,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

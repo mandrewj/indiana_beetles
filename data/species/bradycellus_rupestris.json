@@ -1,0 +1,33 @@
+{
+  "id": "bradycellus_rupestris",
+  "scientific_name": "Bradycellus rupestris",
+  "common_name": "Rock-dwelling Harp Ground Beetle",
+  "family": "carabidae",
+  "genus": "bradycellus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988311,
+  "inat_taxon_id": 215426,
+  "diagnosis": "Bradycellus rupestris is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4
+  ],
+  "phenology_peak": [
+    3,
+    4
+  ],
+  "counties": [
+    "Hancock"
+  ],
+  "county_record_counts": {
+    "Hancock": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Bradycellus_rupestris*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chlaenius_aestivus",
+  "scientific_name": "Chlaenius aestivus",
+  "family": "carabidae",
+  "genus": "chlaenius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4989016,
+  "inat_taxon_id": 216755,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    8
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Tippecanoe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "Vanderburgh": 1,
+    "Tippecanoe": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

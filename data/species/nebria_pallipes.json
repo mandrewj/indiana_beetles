@@ -1,0 +1,30 @@
+{
+  "id": "nebria_pallipes",
+  "scientific_name": "Nebria pallipes",
+  "family": "carabidae",
+  "genus": "nebria",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1035591,
+  "inat_taxon_id": 225495,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    10
+  ],
+  "counties": [
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

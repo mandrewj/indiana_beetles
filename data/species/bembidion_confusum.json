@@ -1,0 +1,35 @@
+{
+  "id": "bembidion_confusum",
+  "scientific_name": "Bembidion confusum",
+  "common_name": "Confused Riverbank Ground Beetle",
+  "family": "carabidae",
+  "genus": "bembidion",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1036089,
+  "inat_taxon_id": 215007,
+  "diagnosis": "Bembidion confusum is a species of ground beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    6
+  ],
+  "counties": [
+    "Boone",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Bembidion_confusum*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

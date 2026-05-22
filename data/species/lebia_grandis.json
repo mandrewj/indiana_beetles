@@ -1,0 +1,36 @@
+{
+  "id": "lebia_grandis",
+  "scientific_name": "Lebia grandis",
+  "family": "carabidae",
+  "genus": "lebia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988908,
+  "inat_taxon_id": 222767,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    3,
+    5,
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Fountain"
+  ],
+  "county_record_counts": {
+    "Fountain": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

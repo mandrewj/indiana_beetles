@@ -8,14 +8,23 @@
   "indiana_status": "adventive",
   "gbif_taxon_key": 9750962,
   "inat_taxon_id": 131092,
-  "diagnosis": "",
+  "diagnosis": "Harpalus affinis is a species of ground beetle native to the Palearctic, and introduced in the Nearctic and the Australasian region. In Europe, it is only absent in the following countries or islands: the Azores, the Canary Islands, the Channel Islands, Crete, Cyclades, Dodecanese, the Faroe Islands, Franz Josef Land, Gibraltar, Iceland, Madeira, Malta, Monaco, the North Aegean islands, Novaya Zemlya, San Marino, the Savage Islands, Sicily, Svalbard and Jan Mayen, and Vatican City.",
   "body_size_mm": "",
   "diagnostic_characters": [],
   "phenology": [],
   "phenology_peak": [],
-  "counties": [],
-  "county_record_counts": {},
+  "counties": [
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 2,
+    "Porter": 1
+  },
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Harpalus_affinis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
 }
