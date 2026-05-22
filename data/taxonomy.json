@@ -379,6 +379,28 @@
           ]
         },
         {
+          "id": "androchirus",
+          "name": "Androchirus",
+          "species": [
+            {
+              "id": "androchirus_erythropus",
+              "name": "Androchirus erythropus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "asiopus",
+          "name": "Asiopus",
+          "species": [
+            {
+              "id": "asiopus_minimus",
+              "name": "Asiopus minimus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "blapstinus",
           "name": "Blapstinus",
           "species": [
@@ -402,6 +424,18 @@
           ]
         },
         {
+          "id": "centronopus",
+          "name": "Centronopus",
+          "species": [
+            {
+              "id": "centronopus_calcaratus",
+              "name": "Centronopus calcaratus",
+              "common_name": "Spurred Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "cynaeus",
           "name": "Cynaeus",
           "species": [
@@ -409,6 +443,41 @@
               "id": "cynaeus_angustus",
               "name": "Cynaeus angustus",
               "common_name": "Larger Black Flour Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "diaperis",
+          "name": "Diaperis",
+          "species": [
+            {
+              "id": "diaperis_maculata",
+              "name": "Diaperis maculata",
+              "common_name": "Two-spotted Diaperis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dinomus",
+          "name": "Dinomus",
+          "species": [
+            {
+              "id": "dinomus_micans",
+              "name": "Dinomus micans",
+              "common_name": "Rainbow Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "haplandrus",
+          "name": "Haplandrus",
+          "species": [
+            {
+              "id": "haplandrus_fulvipes",
+              "name": "Haplandrus fulvipes",
               "indiana_status": "confirmed"
             }
           ]
@@ -437,6 +506,18 @@
           ]
         },
         {
+          "id": "neomida",
+          "name": "Neomida",
+          "species": [
+            {
+              "id": "neomida_bicornis",
+              "name": "Neomida bicornis",
+              "common_name": "Two-horned Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "platydema",
           "name": "Platydema",
           "species": [
@@ -449,6 +530,12 @@
             {
               "id": "platydema_excavata",
               "name": "Platydema excavata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "platydema_ruficornis",
+              "name": "Platydema ruficornis",
+              "common_name": "Red-horned Darkling Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -463,8 +550,26 @@
               "indiana_status": "confirmed"
             },
             {
+              "id": "strongylium_tenuicolle",
+              "name": "Strongylium tenuicolle",
+              "common_name": "Narrow-necked Strongylium",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "strongylium_terminatum",
               "name": "Strongylium terminatum",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "xylopinus",
+          "name": "Xylopinus",
+          "species": [
+            {
+              "id": "xylopinus_saperdoides",
+              "name": "Xylopinus saperdoides",
+              "common_name": "Decaying Darkling Beetle",
               "indiana_status": "confirmed"
             }
           ]
