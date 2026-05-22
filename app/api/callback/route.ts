@@ -127,5 +127,16 @@ export async function GET(req: NextRequest) {
   );
   // Clear the state cookie now that we've used it.
   res.cookies.set("decap_oauth_state", "", { path: "/", maxAge: 0 });
+  // Also drop the GitHub access token in an httpOnly cookie so our own
+  // admin tools (Discover, Refresh) can commit to the repo via /api/github/*
+  // without re-authenticating. Decap still gets the same token via the
+  // postMessage handshake above.
+  res.cookies.set("gh_session", token.access_token, {
+    httpOnly: true,
+    sameSite: "lax",
+    secure: process.env.NODE_ENV === "production",
+    path: "/",
+    maxAge: 60 * 60 * 24, // 24 hours
+  });
   return res;
 }
