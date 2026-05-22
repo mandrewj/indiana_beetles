@@ -1,0 +1,29 @@
+{
+  "id": "goes_pulcher",
+  "scientific_name": "Goes pulcher",
+  "common_name": "Living-hickory Borer",
+  "family": "cerambycidae",
+  "genus": "goes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8218947,
+  "inat_taxon_id": 220525,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Whitley"
+  ],
+  "county_record_counts": {
+    "Whitley": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

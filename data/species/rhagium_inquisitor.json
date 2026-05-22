@@ -1,0 +1,33 @@
+{
+  "id": "rhagium_inquisitor",
+  "scientific_name": "Rhagium inquisitor",
+  "common_name": "Ribbed Pine Borer",
+  "family": "cerambycidae",
+  "genus": "rhagium",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8544630,
+  "inat_taxon_id": 229871,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    8
+  ],
+  "phenology_peak": [
+    3,
+    8
+  ],
+  "counties": [
+    "Dubois",
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Monroe": 5,
+    "Dubois": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

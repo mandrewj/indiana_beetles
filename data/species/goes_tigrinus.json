@@ -1,0 +1,33 @@
+{
+  "id": "goes_tigrinus",
+  "scientific_name": "Goes tigrinus",
+  "common_name": "White Oak Borer",
+  "family": "cerambycidae",
+  "genus": "goes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8968424,
+  "inat_taxon_id": 220528,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Clark"
+  ],
+  "county_record_counts": {
+    "Brown": 2,
+    "Clark": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

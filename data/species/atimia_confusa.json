@@ -1,0 +1,29 @@
+{
+  "id": "atimia_confusa",
+  "scientific_name": "Atimia confusa",
+  "common_name": "Small Cedar Borer",
+  "family": "cerambycidae",
+  "genus": "atimia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4292486,
+  "inat_taxon_id": 214583,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Dearborn"
+  ],
+  "county_record_counts": {
+    "Dearborn": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

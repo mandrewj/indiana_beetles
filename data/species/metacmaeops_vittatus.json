@@ -1,0 +1,32 @@
+{
+  "id": "metacmaeops_vittatus",
+  "scientific_name": "Metacmaeops vittatus",
+  "family": "cerambycidae",
+  "genus": "metacmaeops",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 1513871,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Monroe",
+    "Orange"
+  ],
+  "county_record_counts": {
+    "Monroe": 2,
+    "Orange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

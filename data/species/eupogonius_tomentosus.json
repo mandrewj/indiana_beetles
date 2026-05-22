@@ -1,0 +1,39 @@
+{
+  "id": "eupogonius_tomentosus",
+  "scientific_name": "Eupogonius tomentosus",
+  "common_name": "Tomentous Longhorned Beetle",
+  "family": "cerambycidae",
+  "genus": "eupogonius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1152002,
+  "inat_taxon_id": 219844,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Bartholomew",
+    "Hendricks",
+    "LaGrange",
+    "Madison",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "LaGrange": 1,
+    "Marion": 1,
+    "Hendricks": 3,
+    "Madison": 1,
+    "Bartholomew": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

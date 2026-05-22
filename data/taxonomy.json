@@ -258,6 +258,18 @@
           ]
         },
         {
+          "id": "atimia",
+          "name": "Atimia",
+          "species": [
+            {
+              "id": "atimia_confusa",
+              "name": "Atimia confusa",
+              "common_name": "Small Cedar Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "batyle",
           "name": "Batyle",
           "species": [
@@ -343,6 +355,17 @@
               "id": "coeleburia_quadrigeminata",
               "name": "Coeleburia quadrigeminata",
               "common_name": "Ivory-marked Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "curius",
+          "name": "Curius",
+          "species": [
+            {
+              "id": "curius_dentatus",
+              "name": "Curius dentatus",
               "indiana_status": "confirmed"
             }
           ]
@@ -485,6 +508,12 @@
               "name": "Eupogonius pauper",
               "common_name": "Pauper Longhorned Beetle",
               "indiana_status": "confirmed"
+            },
+            {
+              "id": "eupogonius_tomentosus",
+              "name": "Eupogonius tomentosus",
+              "common_name": "Tomentous Longhorned Beetle",
+              "indiana_status": "confirmed"
             }
           ]
         },
@@ -504,9 +533,21 @@
           "name": "Goes",
           "species": [
             {
+              "id": "goes_pulcher",
+              "name": "Goes pulcher",
+              "common_name": "Living-hickory Borer",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "goes_pulverulentus",
               "name": "Goes pulverulentus",
               "common_name": "Living Beech Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "goes_tigrinus",
+              "name": "Goes tigrinus",
+              "common_name": "White Oak Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -525,6 +566,18 @@
               "id": "graphisurus_fasciatus",
               "name": "Graphisurus fasciatus",
               "common_name": "Banded Graphisurus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hesperophanes",
+          "name": "Hesperophanes",
+          "species": [
+            {
+              "id": "hesperophanes_pubescens",
+              "name": "Hesperophanes pubescens",
+              "common_name": "Pubescent Long-horned Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -549,6 +602,18 @@
               "id": "hippopsis_lemniscata",
               "name": "Hippopsis lemniscata",
               "common_name": "Ribbon Longhorn Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hyperplatys",
+          "name": "Hyperplatys",
+          "species": [
+            {
+              "id": "hyperplatys_aspersus",
+              "name": "Hyperplatys aspersus",
+              "common_name": "Spotted Longhorn Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -590,6 +655,11 @@
               "name": "Lepturges confluens",
               "common_name": "Dark-stained Longhorned Beetle",
               "indiana_status": "confirmed"
+            },
+            {
+              "id": "lepturges_pictus",
+              "name": "Lepturges pictus",
+              "indiana_status": "confirmed"
             }
           ]
         },
@@ -607,6 +677,17 @@
               "id": "megacyllene_robiniae",
               "name": "Megacyllene robiniae",
               "common_name": "Locust Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "metacmaeops",
+          "name": "Metacmaeops",
+          "species": [
+            {
+              "id": "metacmaeops_vittatus",
+              "name": "Metacmaeops vittatus",
               "indiana_status": "confirmed"
             }
           ]
@@ -637,6 +718,12 @@
               "id": "monochamus_scutellatus",
               "name": "Monochamus scutellatus",
               "common_name": "White-spotted Sawyer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "monochamus_titillator",
+              "name": "Monochamus titillator",
+              "common_name": "Southern Pine Sawyer",
               "indiana_status": "confirmed"
             }
           ]
@@ -699,6 +786,28 @@
           "name": "Oberea",
           "species": [
             {
+              "id": "oberea_delongi",
+              "name": "Oberea delongi",
+              "common_name": "Poplar Twig Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "oberea_flavipes",
+              "name": "Oberea flavipes",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "oberea_ocellata",
+              "name": "Oberea ocellata",
+              "common_name": "Sumac Stem Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "oberea_schaumii",
+              "name": "Oberea schaumii",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "oberea_tripunctata",
               "name": "Oberea tripunctata",
               "common_name": "Dogwood Twig Borer",
@@ -744,6 +853,17 @@
               "id": "orthosoma_brunneum",
               "name": "Orthosoma brunneum",
               "common_name": "Brown Prionid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "phaea",
+          "name": "Phaea",
+          "species": [
+            {
+              "id": "phaea_monostigma",
+              "name": "Phaea monostigma",
               "indiana_status": "confirmed"
             }
           ]
@@ -810,6 +930,18 @@
               "id": "psyrassa_unicolor",
               "name": "Psyrassa unicolor",
               "common_name": "Branch Pruner Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "rhagium",
+          "name": "Rhagium",
+          "species": [
+            {
+              "id": "rhagium_inquisitor",
+              "name": "Rhagium inquisitor",
+              "common_name": "Ribbed Pine Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -887,6 +1019,17 @@
           ]
         },
         {
+          "id": "sphenostethus",
+          "name": "Sphenostethus",
+          "species": [
+            {
+              "id": "sphenostethus_taslei",
+              "name": "Sphenostethus taslei",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "stenelytrana",
           "name": "Stenelytrana",
           "species": [
@@ -923,6 +1066,16 @@
               "id": "sternidius_alpha",
               "name": "Sternidius alpha",
               "common_name": "Alpha Long-horned Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "sternidius_fascicularis",
+              "name": "Sternidius fascicularis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "sternidius_punctatus",
+              "name": "Sternidius punctatus",
               "indiana_status": "confirmed"
             }
           ]
@@ -993,6 +1146,18 @@
           ]
         },
         {
+          "id": "trigonarthris",
+          "name": "Trigonarthris",
+          "species": [
+            {
+              "id": "trigonarthris_subpubescens",
+              "name": "Trigonarthris subpubescens",
+              "common_name": "Minnesota Long-horned Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "tylonotus",
           "name": "Tylonotus",
           "species": [
@@ -1048,6 +1213,11 @@
               "name": "Urgleptes querci",
               "common_name": "Oak Long-horned Beetle",
               "indiana_status": "confirmed"
+            },
+            {
+              "id": "urgleptes_signatus",
+              "name": "Urgleptes signatus",
+              "indiana_status": "confirmed"
             }
           ]
         },
@@ -1059,6 +1229,17 @@
               "id": "xylotrechus_colonus",
               "name": "Xylotrechus colonus",
               "common_name": "Rustic Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "xylotrechus_convergens",
+              "name": "Xylotrechus convergens",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "xylotrechus_sagittatus",
+              "name": "Xylotrechus sagittatus",
+              "common_name": "Arrowhead Borer",
               "indiana_status": "confirmed"
             }
           ]

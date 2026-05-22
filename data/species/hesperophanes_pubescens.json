@@ -1,0 +1,27 @@
+{
+  "id": "hesperophanes_pubescens",
+  "scientific_name": "Hesperophanes pubescens",
+  "common_name": "Pubescent Long-horned Beetle",
+  "family": "cerambycidae",
+  "genus": "hesperophanes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1143674,
+  "inat_taxon_id": 221250,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

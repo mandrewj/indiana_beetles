@@ -1,0 +1,34 @@
+{
+  "id": "xylotrechus_convergens",
+  "scientific_name": "Xylotrechus convergens",
+  "family": "cerambycidae",
+  "genus": "xylotrechus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1159085,
+  "inat_taxon_id": 233861,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Jay",
+    "Porter",
+    "Posey"
+  ],
+  "county_record_counts": {
+    "Posey": 1,
+    "Porter": 1,
+    "Jay": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}
