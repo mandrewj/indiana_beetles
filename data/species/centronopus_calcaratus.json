@@ -7,13 +7,21 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 8063164,
   "inat_taxon_id": 174419,
-  "diagnosis": "",
+  "diagnosis": "Centronopus calcaratus is a species of darkling beetle in the family Tenebrionidae. It is found in North America.",
   "body_size_mm": "",
   "diagnostic_characters": [],
   "phenology": [],
   "phenology_peak": [],
-  "counties": [],
+  "counties": [
+    "Montgomery"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Centronopus_calcaratus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Montgomery": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

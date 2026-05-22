@@ -3,11 +3,30 @@
   "name": "Tenebrionidae",
   "common_name": "Darkling Beetles",
   "authority": "",
-  "diagnosis": "",
+  "diagnosis": "Darkling beetle is the common name of the large family of beetles, Tenebrionidae. The number of species in the Tenebrionidae is estimated at more than 20,000 and the family is cosmopolitan. Humans spread some species sufficiently that they became cosmopolitan.",
   "species_count": 92,
   "genus_count": 41,
   "confirmed_count": null,
   "historical_count": null,
   "adventive_count": null,
-  "inat_taxon_id": 53816
+  "inat_taxon_id": 53816,
+  "genus_notes": {
+    "meracantha": "Meracantha is a genus of darkling beetles found in North America.",
+    "tenebrio": "Tenebrio is a genus of darkling beetles.",
+    "diaperis": "Diaperis is a genus of darkling beetle with species known from Asia, Europe, and the Americas.",
+    "neomida": "Neomida is a genus of darkling beetles in the family Tenebrionidae.",
+    "xylopinus": "Xylopinus is a genus of darkling beetles in the family Tenebrionidae.",
+    "bothrotes": "Bothrotes is a genus of darkling beetles in the family Tenebrionidae.",
+    "merinus": "Saint Mirin or Mirren, an Irish monk and missionary (born c.",
+    "strongylium": "Strongylium is a genus of darkling beetles in the family Tenebrionidae.",
+    "platydema": "Platydema is a genus of darkling beetles in the family Tenebrionidae.",
+    "zophobas": "Zophobas is a genus of beetles in the family Tenebrionidae, the darkling beetles.",
+    "asbolus": "Asbolus is a small genus of darkling beetles, beetles of the family Tenebrionidae.",
+    "centronopus": "Centronopus is a genus of darkling beetles in the family Tenebrionidae.",
+    "capnochroa": "Capnochroa is a genus of comb-clawed beetles in the family Tenebrionidae.",
+    "neatus": "Neatus is a genus of darkling beetles in the family Tenebrionidae.",
+    "chromatia": "Chromatia is a genus of darkling beetles in the family Tenebrionidae.",
+    "cynaeus": "Cynaeus is a genus of beetles belonging to the family Tenebrionidae.",
+    "idiobates": "Idiobates is a monotypic genus of beetles in the family Tenebrionidae."
+  }
 }

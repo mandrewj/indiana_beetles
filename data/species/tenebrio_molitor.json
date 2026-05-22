@@ -7,7 +7,7 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1045843,
   "inat_taxon_id": 131970,
-  "diagnosis": "",
+  "diagnosis": "Mealworms are the larval form of the mealworm beetle, Tenebrio molitor, a species of darkling beetle. Like all holometabolic insects, they go through four life stages: egg, larva, pupa, and adult.",
   "body_size_mm": "",
   "diagnostic_characters": [],
   "phenology": [
@@ -43,6 +43,8 @@
   },
   "images": [],
   "similar_species": [],
-  "references": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tenebrio_molitor*, retrieved 2026-05-22."
+  ],
   "last_refreshed": "2026-05-22"
 }

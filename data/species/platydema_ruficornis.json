@@ -10,10 +10,32 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    8
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Tippecanoe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "county_record_counts": {
+    "Morgan": 1,
+    "Marion": 1,
+    "Monroe": 1,
+    "Tippecanoe": 2,
+    "Allen": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

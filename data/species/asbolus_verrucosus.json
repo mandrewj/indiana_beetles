@@ -1,0 +1,23 @@
+{
+  "id": "asbolus_verrucosus",
+  "scientific_name": "Asbolus verrucosus",
+  "common_name": "Desert Ironclad Beetle",
+  "family": "tenebrionidae",
+  "genus": "asbolus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 9670677,
+  "inat_taxon_id": 127519,
+  "diagnosis": "Asbolus verrucosus LeConte, 1851, also known as the desert ironclad beetle or blue death feigning beetle, is a species of darkling beetle native to southwestern United States (southern California to Utah and New Mexico) and northwestern Mexico, where it inhabits dry, sandy habitats such as the Sonoran and Mojave Deserts. It is highly adapted to hot environments and is omnivorous, consuming dead insects, fruits, lichen, and other plant matter.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Asbolus_verrucosus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

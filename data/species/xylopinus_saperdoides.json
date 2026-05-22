@@ -7,13 +7,38 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 7808176,
   "inat_taxon_id": 452437,
-  "diagnosis": "",
+  "diagnosis": "Xylopinus saperdoides is a species of darkling beetle in the family Tenebrionidae.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Jennings",
+    "Lake",
+    "Miami",
+    "Monroe",
+    "Morgan",
+    "Spencer"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Xylopinus_saperdoides*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Jennings": 1,
+    "Miami": 1,
+    "Morgan": 1,
+    "Monroe": 1,
+    "Spencer": 1,
+    "Lake": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

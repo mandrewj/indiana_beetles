@@ -10,10 +10,41 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    3,
+    4,
+    5
+  ],
+  "counties": [
+    "Carroll",
+    "Fayette",
+    "Jackson",
+    "Johnson",
+    "Marion",
+    "Porter",
+    "Vanderburgh"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "county_record_counts": {
+    "Vanderburgh": 2,
+    "Marion": 2,
+    "Carroll": 1,
+    "Fayette": 1,
+    "Porter": 2,
+    "Johnson": 1,
+    "Jackson": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -10,10 +10,49 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Bartholomew",
+    "Brown",
+    "Greene",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Tippecanoe",
+    "Vigo",
+    "Washington",
+    "Wayne"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "county_record_counts": {
+    "Monroe": 5,
+    "Tippecanoe": 1,
+    "Bartholomew": 1,
+    "Wayne": 2,
+    "Greene": 1,
+    "Marion": 2,
+    "Lake": 1,
+    "Brown": 2,
+    "Allen": 1,
+    "Morgan": 1,
+    "Washington": 1,
+    "Vigo": 2
+  },
+  "last_refreshed": "2026-05-22"
 }
