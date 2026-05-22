@@ -12,6 +12,20 @@ interface Props {
   speciesId: string;
 }
 
+/**
+ * Compress iNat license codes into a short, single-line badge.
+ *   cc-by-nc → "BY-NC"
+ *   cc-by    → "BY"
+ *   cc0      → "CC0"
+ *   null / "all rights reserved" → "©"
+ */
+function licenseBadge(code: string | null | undefined): string {
+  if (!code) return "©";
+  const c = code.toLowerCase();
+  if (c === "all rights reserved") return "©";
+  return c.replace(/^cc-?/, "").toUpperCase();
+}
+
 interface State {
   photos: INatPhoto[];
   scope: "indiana" | "global";
@@ -27,13 +41,13 @@ export function INatTileGrid({ taxonId, speciesId }: Props) {
     setError(null);
     (async () => {
       try {
-        const indiana = await fetchTopINatPhotos(taxonId, 12);
+        const indiana = await fetchTopINatPhotos(taxonId, 9);
         if (!live) return;
         if (indiana.length > 0) {
           setState({ photos: indiana, scope: "indiana" });
           return;
         }
-        const global = await fetchTopINatPhotos(taxonId, 12, null);
+        const global = await fetchTopINatPhotos(taxonId, 9, null);
         if (!live) return;
         setState({ photos: global, scope: "global" });
       } catch (err) {
@@ -105,11 +119,11 @@ export function INatTileGrid({ taxonId, speciesId }: Props) {
                   display: "block",
                 }}
               />
-              <div className="corner">
-                {(p.license || "rr").replace("cc-", "").toUpperCase()}
+              <div className="corner" title={p.license || "all rights reserved"}>
+                {licenseBadge(p.license)}
               </div>
               <div className="bottom">
-                <span>@{p.user}</span>
+                <span title={`@${p.user}`}>@{p.user}</span>
                 {p.county && <span>{p.county}</span>}
               </div>
             </a>
