@@ -2779,6 +2779,85 @@
           ]
         }
       ]
+    },
+    {
+      "id": "anthicidae",
+      "name": "Anthicidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 20,
+      "genera": [
+        {
+          "id": "anthicus",
+          "name": "Anthicus",
+          "species": [
+            {
+              "id": "anthicus_cervinus",
+              "name": "Anthicus cervinus",
+              "common_name": "Cloudy Flower Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "malporus",
+          "name": "Malporus",
+          "species": [
+            {
+              "id": "malporus_formicarius",
+              "name": "Malporus formicarius",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "notoxus",
+          "name": "Notoxus",
+          "species": [
+            {
+              "id": "notoxus_calcaratus",
+              "name": "Notoxus calcaratus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "notoxus_desertus",
+              "name": "Notoxus desertus",
+              "common_name": "Desert Ant-like Flower Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "notoxus_murinipennis",
+              "name": "Notoxus murinipennis",
+              "common_name": "Mouse-winged Anthicid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "omonadus",
+          "name": "Omonadus",
+          "species": [
+            {
+              "id": "omonadus_floralis",
+              "name": "Omonadus floralis",
+              "common_name": "Narrow-necked Grain Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "stricticomus",
+          "name": "Stricticomus",
+          "species": [
+            {
+              "id": "stricticomus_tobias",
+              "name": "Stricticomus tobias",
+              "common_name": "Double-dotted Anthicid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

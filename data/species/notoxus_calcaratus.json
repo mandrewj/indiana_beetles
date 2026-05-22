@@ -1,0 +1,28 @@
+{
+  "id": "notoxus_calcaratus",
+  "scientific_name": "Notoxus calcaratus",
+  "family": "anthicidae",
+  "genus": "notoxus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046777,
+  "inat_taxon_id": 153438,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    9
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Notoxus_calcaratus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

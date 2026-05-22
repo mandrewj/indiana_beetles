@@ -1,0 +1,29 @@
+{
+  "id": "notoxus_desertus",
+  "scientific_name": "Notoxus desertus",
+  "common_name": "Desert Ant-like Flower Beetle",
+  "family": "anthicidae",
+  "genus": "notoxus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046807,
+  "inat_taxon_id": 226039,
+  "diagnosis": "Notoxus desertus is a species of monoceros beetle in the family Anthicidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    9
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Notoxus_desertus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

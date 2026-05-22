@@ -1,0 +1,37 @@
+{
+  "id": "anthicus_cervinus",
+  "scientific_name": "Anthicus cervinus",
+  "common_name": "Cloudy Flower Beetle",
+  "family": "anthicidae",
+  "genus": "anthicus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046939,
+  "inat_taxon_id": 213750,
+  "diagnosis": "Anthicus cervinus, the cloudy flower beetle, is a species of antlike flower beetle in the family Anthicidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    7
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7
+  ],
+  "counties": [
+    "Lake",
+    "Madison"
+  ],
+  "county_record_counts": {
+    "Madison": 1,
+    "Lake": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anthicus_cervinus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

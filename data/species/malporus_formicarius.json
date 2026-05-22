@@ -1,0 +1,34 @@
+{
+  "id": "malporus_formicarius",
+  "scientific_name": "Malporus formicarius",
+  "family": "anthicidae",
+  "genus": "malporus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046838,
+  "inat_taxon_id": 224407,
+  "diagnosis": "Malporus formicarius is a species of antlike flower beetle in the family Anthicidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    9
+  ],
+  "phenology_peak": [
+    4,
+    9
+  ],
+  "counties": [
+    "Lake",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Porter": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Malporus_formicarius*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

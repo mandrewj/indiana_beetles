@@ -1,0 +1,20 @@
+{
+  "id": "anthicidae",
+  "name": "Anthicidae",
+  "common_name": "Ant-like Flower Beetles",
+  "authority": "",
+  "diagnosis": "The Anthicidae are a family of beetles that resemble ants. They are sometimes called ant-like flower beetles or ant-like beetles. The family comprises over 3,000 species in about 100 genera.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 85586,
+  "genus_notes": {
+    "anthicus": "The Anthicidae are a family of beetles that resemble ants.",
+    "notoxus": "Notoxus is a genus of beetles that resemble ants.",
+    "malporus": "Malporus is a genus of antlike flower beetles in the family Anthicidae.",
+    "omonadus": "Omonadus is a genus of antlike flower beetles in the family Anthicidae.",
+    "stricticomus": "Stricticomus is a genus of beetles in the family Anthicidae, found in Eurasia, Madagascar and North America."
+  }
+}

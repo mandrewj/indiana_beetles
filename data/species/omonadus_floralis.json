@@ -1,0 +1,31 @@
+{
+  "id": "omonadus_floralis",
+  "scientific_name": "Omonadus floralis",
+  "common_name": "Narrow-necked Grain Beetle",
+  "family": "anthicidae",
+  "genus": "omonadus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046849,
+  "inat_taxon_id": 226380,
+  "diagnosis": "Omonadus floralis, known generally as the narrow-necked grain beetle or predtor beetle, is a species of antlike flower beetle in the family Anthicidae. It is found in the Caribbean, Central America, North America, Oceania, and South America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    5,
+    11
+  ],
+  "phenology_peak": [
+    2,
+    5,
+    11
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Omonadus_floralis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}
