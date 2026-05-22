@@ -1,0 +1,27 @@
+{
+  "id": "chrysolina_hyperici",
+  "scientific_name": "Chrysolina hyperici",
+  "common_name": "Saint John's Wort Beetle",
+  "family": "chrysomelidae",
+  "genus": "chrysolina",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047392,
+  "inat_taxon_id": 216842,
+  "diagnosis": "Chrysolina hyperici is a species of beetles of the family Chrysomelidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chrysolina_hyperici*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

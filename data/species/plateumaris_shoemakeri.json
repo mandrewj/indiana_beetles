@@ -1,0 +1,33 @@
+{
+  "id": "plateumaris_shoemakeri",
+  "scientific_name": "Plateumaris shoemakeri",
+  "common_name": "Shoemaker's reed beetle",
+  "family": "chrysomelidae",
+  "genus": "plateumaris",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990480,
+  "inat_taxon_id": 455612,
+  "diagnosis": "Plateumaris shoemakeri is a species of aquatic leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    6
+  ],
+  "counties": [
+    "Noble"
+  ],
+  "county_record_counts": {
+    "Noble": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Plateumaris_shoemakeri*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

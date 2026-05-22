@@ -1,0 +1,29 @@
+{
+  "id": "crepidodera_violacea",
+  "scientific_name": "Crepidodera violacea",
+  "common_name": "Violet Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "crepidodera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047637,
+  "inat_taxon_id": 217755,
+  "diagnosis": "Crepidodera violacea is a species of flea beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Allen",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Allen": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Crepidodera_violacea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

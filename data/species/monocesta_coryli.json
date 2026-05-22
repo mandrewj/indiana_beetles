@@ -1,0 +1,39 @@
+{
+  "id": "monocesta_coryli",
+  "scientific_name": "Monocesta coryli",
+  "common_name": "Larger Elm Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "monocesta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048375,
+  "inat_taxon_id": 196775,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Lawrence",
+    "Monroe",
+    "Orange"
+  ],
+  "county_record_counts": {
+    "Orange": 4,
+    "Monroe": 6,
+    "Lawrence": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Monocesta_coryli*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

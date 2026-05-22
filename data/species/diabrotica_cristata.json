@@ -1,0 +1,51 @@
+{
+  "id": "diabrotica_cristata",
+  "scientific_name": "Diabrotica cristata",
+  "common_name": "Black Diabrotica",
+  "family": "chrysomelidae",
+  "genus": "diabrotica",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048507,
+  "inat_taxon_id": 218293,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Delaware",
+    "Fayette",
+    "Hamilton",
+    "Henry",
+    "Howard",
+    "Huntington",
+    "Lake",
+    "Starke",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Hamilton": 6,
+    "Delaware": 2,
+    "Huntington": 1,
+    "Tippecanoe": 1,
+    "Howard": 1,
+    "Fayette": 1,
+    "Starke": 2,
+    "Henry": 2,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Diabrotica_cristata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

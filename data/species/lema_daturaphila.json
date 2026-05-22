@@ -1,0 +1,48 @@
+{
+  "id": "lema_daturaphila",
+  "scientific_name": "Lema daturaphila",
+  "common_name": "Three-lined Potato Beetle",
+  "family": "chrysomelidae",
+  "genus": "lema",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047466,
+  "inat_taxon_id": 203403,
+  "diagnosis": "L. daturaphila, commonly known as the three-lined potato beetle, is a species of beetle in the family Chrysomelidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "DeKalb",
+    "Delaware",
+    "Hendricks",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "DeKalb": 1,
+    "Allen": 2,
+    "Hendricks": 8,
+    "Delaware": 1,
+    "St. Joseph": 7
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lema_daturaphila*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "acanthoscelides_obtectus",
+  "scientific_name": "Acanthoscelides obtectus",
+  "family": "chrysomelidae",
+  "genus": "acanthoscelides",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047525,
+  "inat_taxon_id": 212223,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

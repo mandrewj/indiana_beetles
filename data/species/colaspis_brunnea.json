@@ -1,0 +1,73 @@
+{
+  "id": "colaspis_brunnea",
+  "scientific_name": "Colaspis brunnea",
+  "common_name": "Grape Colaspis",
+  "family": "chrysomelidae",
+  "genus": "colaspis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047404,
+  "inat_taxon_id": 217308,
+  "diagnosis": "Colaspis brunnea, the grape colaspis, is a species of leaf beetle from North America. It mainly occurs in the eastern United States.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Bartholomew",
+    "Boone",
+    "Delaware",
+    "Grant",
+    "Hendricks",
+    "Howard",
+    "Jennings",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Montgomery",
+    "Porter",
+    "Shelby",
+    "Tippecanoe",
+    "Tipton",
+    "Vanderburgh",
+    "White",
+    "Whitley"
+  ],
+  "county_record_counts": {
+    "Jennings": 1,
+    "Bartholomew": 1,
+    "Monroe": 2,
+    "Marion": 6,
+    "Boone": 1,
+    "Hendricks": 3,
+    "Tippecanoe": 2,
+    "Grant": 2,
+    "Howard": 1,
+    "Tipton": 1,
+    "Madison": 6,
+    "Shelby": 1,
+    "Montgomery": 3,
+    "Vanderburgh": 1,
+    "Whitley": 1,
+    "Allen": 1,
+    "White": 3,
+    "Delaware": 1,
+    "Lake": 2,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Colaspis_brunnea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

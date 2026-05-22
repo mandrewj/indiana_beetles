@@ -1,0 +1,56 @@
+{
+  "id": "diabrotica_virgifera",
+  "scientific_name": "Diabrotica virgifera",
+  "common_name": "Western Corn Rootworm",
+  "family": "chrysomelidae",
+  "genus": "diabrotica",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048497,
+  "inat_taxon_id": 218294,
+  "diagnosis": "The Western corn rootworm, Diabrotica virgifera virgifera, is one of the most devastating corn rootworm species in North America, especially in the midwestern corn-growing areas such as Iowa. A related species, the Northern corn rootworm, D.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Elkhart",
+    "Hamilton",
+    "Huntington",
+    "Lake",
+    "Madison",
+    "Porter",
+    "Tippecanoe",
+    "White"
+  ],
+  "county_record_counts": {
+    "Allen": 1,
+    "Porter": 1,
+    "Tippecanoe": 4,
+    "Hamilton": 1,
+    "Elkhart": 1,
+    "White": 1,
+    "Huntington": 1,
+    "Lake": 1,
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Diabrotica_virgifera*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

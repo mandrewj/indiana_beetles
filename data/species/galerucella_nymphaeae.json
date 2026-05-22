@@ -1,0 +1,31 @@
+{
+  "id": "galerucella_nymphaeae",
+  "scientific_name": "Galerucella nymphaeae",
+  "common_name": "Waterlily Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "galerucella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048344,
+  "inat_taxon_id": 53936,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Kosciusko",
+    "Lake",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Kosciusko": 1,
+    "St. Joseph": 2,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Galerucella_nymphaeae*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "amblycerus_robiniae",
+  "scientific_name": "Amblycerus robiniae",
+  "common_name": "Locust Seed Beetle",
+  "family": "chrysomelidae",
+  "genus": "amblycerus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6721299,
+  "inat_taxon_id": 268019,
+  "diagnosis": "Amblycerus robiniae is a species of leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Elkhart",
+    "Greene",
+    "Hamilton",
+    "Johnson",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Vermillion",
+    "White"
+  ],
+  "county_record_counts": {
+    "Johnson": 1,
+    "Marion": 5,
+    "Tippecanoe": 3,
+    "Vanderburgh": 1,
+    "Vermillion": 1,
+    "Greene": 1,
+    "Hamilton": 1,
+    "St. Joseph": 1,
+    "Brown": 1,
+    "Allen": 1,
+    "Elkhart": 1,
+    "Monroe": 1,
+    "Lake": 2,
+    "White": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Amblycerus_robiniae*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

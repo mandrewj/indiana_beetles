@@ -1,0 +1,36 @@
+{
+  "id": "phyllotreta_ochripes",
+  "scientific_name": "Phyllotreta ochripes",
+  "family": "chrysomelidae",
+  "genus": "phyllotreta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4462267,
+  "inat_taxon_id": 703923,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    10
+  ],
+  "counties": [
+    "LaGrange",
+    "Monroe",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Monroe": 1,
+    "LaGrange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

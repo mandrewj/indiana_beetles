@@ -1,0 +1,57 @@
+{
+  "id": "chrysomela_scripta",
+  "scientific_name": "Chrysomela scripta",
+  "common_name": "Cottonwood Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "chrysomela",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048773,
+  "inat_taxon_id": 69192,
+  "diagnosis": "Chrysomela scripta, the cottonwood leaf beetle, is a species of leaf beetle in the family Chrysomelidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Clay",
+    "Hamilton",
+    "Harrison",
+    "Jackson",
+    "Monroe",
+    "Posey",
+    "Scott",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Jackson": 1,
+    "Tippecanoe": 1,
+    "Clay": 1,
+    "Warrick": 1,
+    "Monroe": 2,
+    "Posey": 1,
+    "Harrison": 1,
+    "Scott": 1,
+    "Vanderburgh": 2,
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chrysomela_scripta*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

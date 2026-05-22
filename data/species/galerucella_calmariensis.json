@@ -1,0 +1,37 @@
+{
+  "id": "galerucella_calmariensis",
+  "scientific_name": "Galerucella calmariensis",
+  "common_name": "Black-margined Loosestrife Beetle",
+  "family": "chrysomelidae",
+  "genus": "galerucella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5752053,
+  "inat_taxon_id": 543350,
+  "diagnosis": "Galerucella calmariensis is a species of leaf beetle in the family Chrysomelidae. It is commonly known as the black-margined loosestrife beetle and is native to Europe and Asia where both adults and larvae feed on purple loosestrife (Lythrum salicaria).",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Lake",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Lake": 3,
+    "Warrick": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Galerucella_calmariensis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cryptocephalus_guttulatus",
+  "scientific_name": "Cryptocephalus guttulatus",
+  "common_name": "Fourteen-spotted Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "cryptocephalus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990708,
+  "inat_taxon_id": 217796,
+  "diagnosis": "Cryptocephalus guttulatus, the fourteen-spotted leaf beetle, is a species of case-bearing leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Bartholomew",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Bartholomew": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cryptocephalus_guttulatus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

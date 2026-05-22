@@ -1,0 +1,33 @@
+{
+  "id": "donacia_hypoleuca",
+  "scientific_name": "Donacia hypoleuca",
+  "common_name": "Pale pond lily leaf beetle",
+  "family": "chrysomelidae",
+  "genus": "donacia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049457,
+  "inat_taxon_id": 455539,
+  "diagnosis": "Donacia hypoleuca is a species of aquatic leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Hancock",
+    "Henry"
+  ],
+  "county_record_counts": {
+    "Hancock": 1,
+    "Henry": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Donacia_hypoleuca*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

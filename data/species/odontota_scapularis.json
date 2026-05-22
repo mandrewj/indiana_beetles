@@ -1,0 +1,27 @@
+{
+  "id": "odontota_scapularis",
+  "scientific_name": "Odontota scapularis",
+  "common_name": "Orange-shouldered Leafminer",
+  "family": "chrysomelidae",
+  "genus": "odontota",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049131,
+  "inat_taxon_id": 226214,
+  "diagnosis": "Odontota scapularis, the orange-shouldered leaf miner, is a species of leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Starke": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Odontota_scapularis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

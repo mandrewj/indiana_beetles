@@ -1,0 +1,39 @@
+{
+  "id": "cryptocephalus_mutabilis",
+  "scientific_name": "Cryptocephalus mutabilis",
+  "common_name": "Shield-backed Cryptocephalus",
+  "family": "chrysomelidae",
+  "genus": "cryptocephalus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990642,
+  "inat_taxon_id": 217800,
+  "diagnosis": "Cryptocephalus mutabilis is a species of case-bearing leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Monroe",
+    "Noble",
+    "Putnam",
+    "White"
+  ],
+  "county_record_counts": {
+    "Monroe": 1,
+    "Noble": 1,
+    "White": 1,
+    "Putnam": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cryptocephalus_mutabilis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

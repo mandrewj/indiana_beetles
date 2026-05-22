@@ -1,0 +1,23 @@
+{
+  "id": "typophorus_nigritus",
+  "scientific_name": "Typophorus nigritus",
+  "common_name": "Sweet Potato Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "typophorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049019,
+  "inat_taxon_id": 233178,
+  "diagnosis": "Typophorus nigritus is a species of leaf beetle in the subfamily Eumolpinae. It is found in North, Central, and South America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Typophorus_nigritus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

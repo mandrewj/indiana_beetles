@@ -1,0 +1,35 @@
+{
+  "id": "disonycha_collata",
+  "scientific_name": "Disonycha collata",
+  "common_name": "Red-legged Disonycha",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047304,
+  "inat_taxon_id": 203353,
+  "diagnosis": "Disonycha collata is a species of flea beetle in the family Chrysomelidae. It is found in the Caribbean, Central America, and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    11
+  ],
+  "phenology_peak": [
+    6,
+    11
+  ],
+  "counties": [
+    "Lake",
+    "Madison"
+  ],
+  "county_record_counts": {
+    "Madison": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Disonycha_collata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

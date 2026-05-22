@@ -1,0 +1,51 @@
+{
+  "id": "disonycha_xanthomelas",
+  "scientific_name": "Disonycha xanthomelas",
+  "common_name": "Spinach Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047318,
+  "inat_taxon_id": 84081,
+  "diagnosis": "Disonycha xanthomelas is a species in the tribe Alticini (\"flea beetles\"), in the subfamily Galerucinae (\"skeletonizing leaf beetles and flea beetles\"). The species is known generally as the \"spinach flea beetle\".",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Clark",
+    "DeKalb",
+    "Jennings",
+    "Lake",
+    "Orange",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1,
+    "Clark": 1,
+    "DeKalb": 1,
+    "Jennings": 1,
+    "Lake": 1,
+    "Orange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Disonycha_xanthomelas*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

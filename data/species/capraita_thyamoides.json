@@ -1,0 +1,38 @@
+{
+  "id": "capraita_thyamoides",
+  "scientific_name": "Capraita thyamoides",
+  "family": "chrysomelidae",
+  "genus": "capraita",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049174,
+  "inat_taxon_id": 216080,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    8,
+    10,
+    12
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    8,
+    10,
+    12
+  ],
+  "counties": [
+    "Hendricks",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 2,
+    "Hendricks": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

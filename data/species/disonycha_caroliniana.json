@@ -1,0 +1,32 @@
+{
+  "id": "disonycha_caroliniana",
+  "scientific_name": "Disonycha caroliniana",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047336,
+  "inat_taxon_id": 309837,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    7
+  ],
+  "phenology_peak": [
+    3
+  ],
+  "counties": [
+    "Hancock",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Hancock": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

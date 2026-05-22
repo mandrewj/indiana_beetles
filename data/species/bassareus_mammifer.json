@@ -1,0 +1,23 @@
+{
+  "id": "bassareus_mammifer",
+  "scientific_name": "Bassareus mammifer",
+  "common_name": "Red-Banded Bassar",
+  "family": "chrysomelidae",
+  "genus": "bassareus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990738,
+  "inat_taxon_id": 214881,
+  "diagnosis": "Bassareus mammifer is a species of case-bearing leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Bassareus_mammifer*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

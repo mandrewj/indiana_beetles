@@ -1,0 +1,60 @@
+{
+  "id": "sumitrosis_inaequalis",
+  "scientific_name": "Sumitrosis inaequalis",
+  "family": "chrysomelidae",
+  "genus": "sumitrosis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048635,
+  "inat_taxon_id": 232001,
+  "diagnosis": "Sumitrosis inaequalis is a species of leaf beetle in the family Chrysomelidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Boone",
+    "Brown",
+    "Dearborn",
+    "Fountain",
+    "Hamilton",
+    "Hendricks",
+    "Marion",
+    "Monroe",
+    "Newton",
+    "Noble",
+    "Switzerland",
+    "Vermillion",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Marion": 13,
+    "Vermillion": 1,
+    "Noble": 1,
+    "Boone": 2,
+    "Dearborn": 1,
+    "Newton": 1,
+    "Brown": 2,
+    "Hendricks": 21,
+    "Hamilton": 2,
+    "Switzerland": 1,
+    "Monroe": 3,
+    "Wayne": 2,
+    "Fountain": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Sumitrosis_inaequalis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

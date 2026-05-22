@@ -1,0 +1,70 @@
+{
+  "id": "neolema_sexpunctata",
+  "scientific_name": "Neolema sexpunctata",
+  "common_name": "Six-spotted Neolema",
+  "family": "chrysomelidae",
+  "genus": "neolema",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048379,
+  "inat_taxon_id": 225652,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Delaware",
+    "Dubois",
+    "Hamilton",
+    "Knox",
+    "Madison",
+    "Marion",
+    "Martin",
+    "Monroe",
+    "Montgomery",
+    "Perry",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Vigo",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Montgomery": 2,
+    "Monroe": 6,
+    "Allen": 1,
+    "Marion": 3,
+    "Tippecanoe": 2,
+    "Knox": 1,
+    "Brown": 1,
+    "Martin": 1,
+    "Perry": 1,
+    "Vigo": 2,
+    "Dubois": 1,
+    "Delaware": 1,
+    "Wayne": 2,
+    "Hamilton": 1,
+    "Vanderburgh": 1,
+    "Madison": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Neolema_sexpunctata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

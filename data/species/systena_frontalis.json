@@ -1,0 +1,51 @@
+{
+  "id": "systena_frontalis",
+  "scientific_name": "Systena frontalis",
+  "common_name": "Red-headed Systena",
+  "family": "chrysomelidae",
+  "genus": "systena",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049274,
+  "inat_taxon_id": 232169,
+  "diagnosis": "Systena frontalis, the red-headed flea beetle, is a species of flea beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Hendricks",
+    "Jasper",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Posey",
+    "Wells"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "Jasper": 1,
+    "Madison": 2,
+    "Posey": 1,
+    "Hendricks": 1,
+    "Marion": 1,
+    "Wells": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Systena_frontalis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

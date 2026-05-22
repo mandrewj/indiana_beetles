@@ -1,0 +1,27 @@
+{
+  "id": "cryptocephalus_leucomelas",
+  "scientific_name": "Cryptocephalus leucomelas",
+  "common_name": "Bi-blotched Cryptocephalus",
+  "family": "chrysomelidae",
+  "genus": "cryptocephalus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990677,
+  "inat_taxon_id": 217799,
+  "diagnosis": "Cryptocephalus leucomelas is a species of case-bearing leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cryptocephalus_leucomelas*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

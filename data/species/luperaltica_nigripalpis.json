@@ -1,0 +1,31 @@
+{
+  "id": "luperaltica_nigripalpis",
+  "scientific_name": "Luperaltica nigripalpis",
+  "family": "chrysomelidae",
+  "genus": "luperaltica",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049370,
+  "inat_taxon_id": 153409,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    8,
+    10
+  ],
+  "counties": [
+    "Elkhart"
+  ],
+  "county_record_counts": {
+    "Elkhart": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

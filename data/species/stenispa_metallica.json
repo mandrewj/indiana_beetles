@@ -1,0 +1,31 @@
+{
+  "id": "stenispa_metallica",
+  "scientific_name": "Stenispa metallica",
+  "common_name": "Black Smooth Hispine",
+  "family": "chrysomelidae",
+  "genus": "stenispa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990589,
+  "inat_taxon_id": 231539,
+  "diagnosis": "Stenispa metallica is a species of tortoise beetle or hispine in the family Chrysomelidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Hancock",
+    "Marion",
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Hancock": 1,
+    "Monroe": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stenispa_metallica*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

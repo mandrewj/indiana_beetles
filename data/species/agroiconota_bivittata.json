@@ -1,0 +1,57 @@
+{
+  "id": "agroiconota_bivittata",
+  "scientific_name": "Agroiconota bivittata",
+  "common_name": "Two-banded Tortoise Beetle",
+  "family": "chrysomelidae",
+  "genus": "agroiconota",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048167,
+  "inat_taxon_id": 212860,
+  "diagnosis": "Agroiconota bivittata is a species of tortoise beetle in the family Chrysomelidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Hamilton",
+    "Hendricks",
+    "Howard",
+    "Johnson",
+    "Marion",
+    "Monroe",
+    "Pike",
+    "Tipton",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Howard": 1,
+    "Allen": 1,
+    "Monroe": 2,
+    "Pike": 1,
+    "Marion": 1,
+    "Boone": 1,
+    "Johnson": 1,
+    "Tipton": 1,
+    "Vigo": 1,
+    "Hendricks": 1,
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agroiconota_bivittata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

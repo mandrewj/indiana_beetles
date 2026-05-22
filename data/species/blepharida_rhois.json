@@ -1,0 +1,47 @@
+{
+  "id": "blepharida_rhois",
+  "scientific_name": "Blepharida rhois",
+  "common_name": "Sumac Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "blepharida",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047400,
+  "inat_taxon_id": 215269,
+  "diagnosis": "Blepharida rhois (also known as Sumac Flea Beetle) is a species of leaf beetles of the subfamily Galerucinae. The colour of the species is red, with white dots and yellow head.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Elkhart",
+    "Harrison",
+    "Jasper",
+    "Newton",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Jasper": 1,
+    "Elkhart": 1,
+    "Newton": 1,
+    "Tippecanoe": 2,
+    "Porter": 2,
+    "Harrison": 1,
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Blepharida_rhois*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

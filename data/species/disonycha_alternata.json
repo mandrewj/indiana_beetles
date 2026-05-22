@@ -1,0 +1,26 @@
+{
+  "id": "disonycha_alternata",
+  "scientific_name": "Disonycha alternata",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047317,
+  "inat_taxon_id": 218598,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    9
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

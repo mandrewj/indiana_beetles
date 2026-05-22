@@ -1,0 +1,64 @@
+{
+  "id": "gibbobruchus_mimus",
+  "scientific_name": "Gibbobruchus mimus",
+  "common_name": "Redbud Seed Weevil",
+  "family": "chrysomelidae",
+  "genus": "gibbobruchus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048564,
+  "inat_taxon_id": 303039,
+  "diagnosis": "Gibbobruchus mimus, the redbud bruchid, is a species of pea or bean weevil in the family Chrysomelidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Brown",
+    "Elkhart",
+    "Hancock",
+    "Hendricks",
+    "Marion",
+    "Monroe",
+    "Montgomery",
+    "St. Joseph",
+    "Steuben",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Marion": 17,
+    "Allen": 1,
+    "Tippecanoe": 6,
+    "Montgomery": 1,
+    "Monroe": 2,
+    "Hendricks": 1,
+    "Hancock": 1,
+    "Brown": 1,
+    "St. Joseph": 4,
+    "Steuben": 1,
+    "Elkhart": 1,
+    "Boone": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Gibbobruchus_mimus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

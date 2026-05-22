@@ -1,0 +1,35 @@
+{
+  "id": "systena_elongata",
+  "scientific_name": "Systena elongata",
+  "common_name": "Dark-necked Systena",
+  "family": "chrysomelidae",
+  "genus": "systena",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049285,
+  "inat_taxon_id": 455631,
+  "diagnosis": "Systena elongata, the elongate flea beetle, is a species of flea beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    10
+  ],
+  "counties": [
+    "Hendricks",
+    "Jefferson"
+  ],
+  "county_record_counts": {
+    "Jefferson": 1,
+    "Hendricks": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Systena_elongata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

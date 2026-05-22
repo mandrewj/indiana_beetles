@@ -1,0 +1,47 @@
+{
+  "id": "calligrapha_californica",
+  "scientific_name": "Calligrapha californica",
+  "common_name": "Coreopsis Beetle",
+  "family": "chrysomelidae",
+  "genus": "calligrapha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990903,
+  "inat_taxon_id": 215738,
+  "diagnosis": "Calligrapha californica is a species of beetles in the subfamily Chrysomelinae (a subfamily of leaf beetles or Chrysomelidae). It is found in the United States and Canada.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Elkhart",
+    "Monroe",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe",
+    "Warren"
+  ],
+  "county_record_counts": {
+    "Elkhart": 1,
+    "Monroe": 1,
+    "Porter": 1,
+    "Warren": 1,
+    "St. Joseph": 1,
+    "Allen": 2,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Calligrapha_californica*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "phyllotreta_zimmermanni",
+  "scientific_name": "Phyllotreta zimmermanni",
+  "family": "chrysomelidae",
+  "genus": "phyllotreta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049262,
+  "inat_taxon_id": 228010,
+  "diagnosis": "Phyllotreta zimmermanni, or Zimmerman's flea beetle, is a species of flea beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Knox"
+  ],
+  "county_record_counts": {
+    "Knox": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Phyllotreta_zimmermanni*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

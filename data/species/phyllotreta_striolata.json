@@ -1,0 +1,46 @@
+{
+  "id": "phyllotreta_striolata",
+  "scientific_name": "Phyllotreta striolata",
+  "common_name": "Striped Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "phyllotreta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 9736295,
+  "inat_taxon_id": 228009,
+  "diagnosis": "The striped flea beetle (Phyllotreta striolata) is a small flea beetle, shiny black with a greenish tinge, 1.5 to 2.5 mm long, having a wavy amber line running the length of each elytron (wing cover). It is a pest of cabbage and other brassicas.",
+  "body_size_mm": "1.5–2.5",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Jennings",
+    "Monroe",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Brown": 1,
+    "Tippecanoe": 1,
+    "Jennings": 1,
+    "St. Joseph": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Phyllotreta_striolata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

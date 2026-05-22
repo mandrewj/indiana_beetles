@@ -1,0 +1,28 @@
+{
+  "id": "disonycha_punctigera",
+  "scientific_name": "Disonycha punctigera",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047308,
+  "inat_taxon_id": 794726,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Elkhart",
+    "Noble",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Noble": 1,
+    "Elkhart": 1,
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

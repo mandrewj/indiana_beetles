@@ -1,0 +1,33 @@
+{
+  "id": "lilioceris_lilii",
+  "scientific_name": "Lilioceris lilii",
+  "common_name": "Lily Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "lilioceris",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048809,
+  "inat_taxon_id": 55761,
+  "diagnosis": "The scarlet lily beetle, red lily beetle, or lily leaf beetle (Lilioceris lilii), is a leaf beetle that eats the leaves, stem, buds, and flower, of lilies, fritillaries and other members of the family Liliaceae. It lays its eggs most often on Lilium and Fritillaria species.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    7
+  ],
+  "phenology_peak": [
+    4,
+    7
+  ],
+  "counties": [
+    "Steuben"
+  ],
+  "county_record_counts": {
+    "Steuben": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lilioceris_lilii*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

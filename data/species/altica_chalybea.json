@@ -1,0 +1,40 @@
+{
+  "id": "altica_chalybea",
+  "scientific_name": "Altica chalybea",
+  "common_name": "Grape Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "altica",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047683,
+  "inat_taxon_id": 213091,
+  "diagnosis": "The grape flea beetle (Altica chalybea) is a leaf beetle which consumes the buds of grape vines, reducing vegetative growth.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Clay",
+    "Monroe",
+    "Noble"
+  ],
+  "county_record_counts": {
+    "Clay": 1,
+    "Noble": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Altica_chalybea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "disonycha_pensylvanica",
+  "scientific_name": "Disonycha pensylvanica",
+  "common_name": "Pennsylvania Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047301,
+  "inat_taxon_id": 218603,
+  "diagnosis": "Disonycha pensylvanica is a species of flea beetle in the family Chrysomelidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6
+  ],
+  "counties": [
+    "Boone",
+    "LaPorte",
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Monroe": 1,
+    "LaPorte": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Disonycha_pensylvanica*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

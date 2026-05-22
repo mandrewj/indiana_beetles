@@ -1,0 +1,40 @@
+{
+  "id": "pyrrhalta_viburni",
+  "scientific_name": "Pyrrhalta viburni",
+  "common_name": "Viburnum Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "pyrrhalta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048933,
+  "inat_taxon_id": 121329,
+  "diagnosis": "Pyrrhalta viburni is a species of leaf beetle native to Europe and Asia, commonly known as the viburnum leaf beetle. It was first detected in North America in 1947 in Ontario, Canada.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Lake",
+    "Porter",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Lake": 6,
+    "St. Joseph": 1,
+    "Porter": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pyrrhalta_viburni*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

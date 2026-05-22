@@ -1,0 +1,66 @@
+{
+  "id": "crioceris_asparagi",
+  "scientific_name": "Crioceris asparagi",
+  "common_name": "Common Asparagus Beetle",
+  "family": "chrysomelidae",
+  "genus": "crioceris",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990500,
+  "inat_taxon_id": 127309,
+  "diagnosis": "The common asparagus beetle (Crioceris asparagi) is an important pest of asparagus crops both in Europe and in North America. Asparagus is its only food plant.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    8
+  ],
+  "counties": [
+    "Brown",
+    "Daviess",
+    "Elkhart",
+    "Gibson",
+    "Hamilton",
+    "Hendricks",
+    "Jackson",
+    "Lake",
+    "LaPorte",
+    "Marion",
+    "Monroe",
+    "Newton",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Gibson": 1,
+    "Tippecanoe": 1,
+    "Daviess": 1,
+    "St. Joseph": 4,
+    "Marion": 4,
+    "Hamilton": 4,
+    "Hendricks": 3,
+    "Brown": 1,
+    "Porter": 1,
+    "Lake": 1,
+    "Newton": 1,
+    "Elkhart": 1,
+    "LaPorte": 1,
+    "Jackson": 3,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Crioceris_asparagi*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

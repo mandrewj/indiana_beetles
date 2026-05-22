@@ -1,0 +1,33 @@
+{
+  "id": "charidotella_purpurata",
+  "scientific_name": "Charidotella purpurata",
+  "common_name": "Small Orange Tortoise Beetle",
+  "family": "chrysomelidae",
+  "genus": "charidotella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047593,
+  "inat_taxon_id": 216645,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Monroe",
+    "Perry",
+    "Ripley",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Monroe": 2,
+    "Tippecanoe": 1,
+    "Ripley": 1,
+    "Perry": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Charidotella_purpurata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

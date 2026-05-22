@@ -1,0 +1,33 @@
+{
+  "id": "demotina_modesta",
+  "scientific_name": "Demotina modesta",
+  "common_name": "Asian Oak Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "demotina",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049518,
+  "inat_taxon_id": 477091,
+  "diagnosis": "Demotina modesta is a species of leaf beetle in the family Chrysomelidae. It is found in Europe &amp; Northern Asia (excluding China) and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    9
+  ],
+  "counties": [
+    "Dubois"
+  ],
+  "county_record_counts": {
+    "Dubois": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Demotina_modesta*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

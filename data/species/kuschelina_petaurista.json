@@ -1,0 +1,30 @@
+{
+  "id": "kuschelina_petaurista",
+  "scientific_name": "Kuschelina petaurista",
+  "family": "chrysomelidae",
+  "genus": "kuschelina",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049410,
+  "inat_taxon_id": 272062,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Morgan"
+  ],
+  "county_record_counts": {
+    "Morgan": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

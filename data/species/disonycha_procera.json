@@ -1,0 +1,27 @@
+{
+  "id": "disonycha_procera",
+  "scientific_name": "Disonycha procera",
+  "common_name": "Tall Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047315,
+  "inat_taxon_id": 218605,
+  "diagnosis": "Disonycha procera is a species of flea beetle in the family Chrysomelidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Disonycha_procera*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

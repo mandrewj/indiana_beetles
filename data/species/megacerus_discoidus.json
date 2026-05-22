@@ -1,0 +1,41 @@
+{
+  "id": "megacerus_discoidus",
+  "scientific_name": "Megacerus discoidus",
+  "family": "chrysomelidae",
+  "genus": "megacerus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990629,
+  "inat_taxon_id": 334249,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    6,
+    8,
+    9
+  ],
+  "counties": [
+    "Hendricks",
+    "Howard",
+    "Marion",
+    "Starke",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Marion": 4,
+    "Howard": 1,
+    "Starke": 1,
+    "Wayne": 1,
+    "Hendricks": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "epitrix_cucumeris",
+  "scientific_name": "Epitrix cucumeris",
+  "common_name": "Potato Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "epitrix",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048258,
+  "inat_taxon_id": 219362,
+  "diagnosis": "Epitrix cucumeris, the potato flea beetle, is a species of flea beetle in the family Chrysomelidae. It is native to North America, and has been introduced to Portugal and Spain.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Elkhart",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Elkhart": 1,
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epitrix_cucumeris*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

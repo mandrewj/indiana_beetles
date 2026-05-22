@@ -1,0 +1,32 @@
+{
+  "id": "ophraella_conferta",
+  "scientific_name": "Ophraella conferta",
+  "family": "chrysomelidae",
+  "genus": "ophraella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049318,
+  "inat_taxon_id": 226509,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Spencer",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Spencer": 1,
+    "Vigo": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

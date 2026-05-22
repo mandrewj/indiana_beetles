@@ -1,0 +1,31 @@
+{
+  "id": "gastrophysa_polygoni",
+  "scientific_name": "Gastrophysa polygoni",
+  "common_name": "Knotweed Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "gastrophysa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048335,
+  "inat_taxon_id": 220326,
+  "diagnosis": "Gastrophysa polygoni is a species of leaf beetle in the subfamily Chrysomelinae. It was described by Carl Linnaeus in 1758.",
+  "body_size_mm": "5",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Allen",
+    "Delaware",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Allen": 1,
+    "Delaware": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Gastrophysa_polygoni*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

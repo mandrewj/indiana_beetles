@@ -1,0 +1,32 @@
+{
+  "id": "baliosus_nervosus",
+  "scientific_name": "Baliosus nervosus",
+  "family": "chrysomelidae",
+  "genus": "baliosus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048141,
+  "inat_taxon_id": 173425,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Jasper",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Jasper": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "calligrapha_suturalis",
+  "scientific_name": "Calligrapha suturalis",
+  "common_name": "Ragweed Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "calligrapha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 1511624,
+  "diagnosis": "Calligrapha suturalis, commonly known as the ragweed leaf beetle, is a species of leaf beetle belonging to the family Chrysomelidae, in the subgenus Zygogramma, which was formerly a genus. Native to North America, it has been introduced into Russia and China for the biological pest control of ragweed.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Gibson",
+    "Greene",
+    "Hamilton",
+    "Monroe",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Greene": 1,
+    "Tippecanoe": 2,
+    "Monroe": 4,
+    "Allen": 1,
+    "Gibson": 1,
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Calligrapha_suturalis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ophraella_communa",
+  "scientific_name": "Ophraella communa",
+  "common_name": "ragweed leaf beetle",
+  "family": "chrysomelidae",
+  "genus": "ophraella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1049323,
+  "inat_taxon_id": 226508,
+  "diagnosis": "Ophraella communa, common name ragweed leaf beetle, is a species of beetles belonging to the family Chrysomelidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    8,
+    9
+  ],
+  "counties": [
+    "Elkhart",
+    "Lake",
+    "Madison",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Lake": 1,
+    "Marion": 1,
+    "Madison": 1,
+    "Elkhart": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ophraella_communa*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

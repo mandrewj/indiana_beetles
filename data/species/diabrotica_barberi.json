@@ -1,0 +1,49 @@
+{
+  "id": "diabrotica_barberi",
+  "scientific_name": "Diabrotica barberi",
+  "common_name": "northern corn rootworm",
+  "family": "chrysomelidae",
+  "genus": "diabrotica",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1048496,
+  "inat_taxon_id": 200013,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    8
+  ],
+  "counties": [
+    "Adams",
+    "Cass",
+    "Elkhart",
+    "Grant",
+    "LaPorte",
+    "St. Joseph",
+    "Starke",
+    "Steuben",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Cass": 1,
+    "Tippecanoe": 6,
+    "LaPorte": 1,
+    "Elkhart": 1,
+    "Steuben": 1,
+    "Grant": 1,
+    "Adams": 1,
+    "St. Joseph": 1,
+    "Starke": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Diabrotica_barberi*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

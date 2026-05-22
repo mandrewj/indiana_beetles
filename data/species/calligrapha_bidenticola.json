@@ -1,0 +1,53 @@
+{
+  "id": "calligrapha_bidenticola",
+  "scientific_name": "Calligrapha bidenticola",
+  "common_name": "Bidentate Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "calligrapha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990876,
+  "inat_taxon_id": 215737,
+  "diagnosis": "Calligrapha bidenticola is a species of leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7,
+    8,
+    9,
+    10
+  ],
+  "counties": [
+    "Allen",
+    "Dearborn",
+    "Franklin",
+    "Hendricks",
+    "Marion",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Hendricks": 5,
+    "Marion": 1,
+    "Dearborn": 1,
+    "Franklin": 1,
+    "Allen": 2,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Calligrapha_bidenticola*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

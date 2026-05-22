@@ -2746,7 +2746,961 @@
       "sort_index": 4,
       "genera_count": 121,
       "species_count": 411,
-      "genera": []
+      "genera": [
+        {
+          "id": "acalymma",
+          "name": "Acalymma",
+          "species": [
+            {
+              "id": "acalymma_vittatum",
+              "name": "Acalymma vittatum",
+              "common_name": "Striped Cucumber Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "acanthoscelides",
+          "name": "Acanthoscelides",
+          "species": [
+            {
+              "id": "acanthoscelides_obtectus",
+              "name": "Acanthoscelides obtectus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "agroiconota",
+          "name": "Agroiconota",
+          "species": [
+            {
+              "id": "agroiconota_bivittata",
+              "name": "Agroiconota bivittata",
+              "common_name": "Two-banded Tortoise Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "altica",
+          "name": "Altica",
+          "species": [
+            {
+              "id": "altica_chalybea",
+              "name": "Altica chalybea",
+              "common_name": "Grape Flea Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "amblycerus",
+          "name": "Amblycerus",
+          "species": [
+            {
+              "id": "amblycerus_robiniae",
+              "name": "Amblycerus robiniae",
+              "common_name": "Locust Seed Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "anomoea",
+          "name": "Anomoea",
+          "species": [
+            {
+              "id": "anomoea_flavokansiensis",
+              "name": "Anomoea flavokansiensis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anomoea_laticlavia",
+              "name": "Anomoea laticlavia",
+              "common_name": "Clay-colored Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "babia",
+          "name": "Babia",
+          "species": [
+            {
+              "id": "babia_quadriguttata",
+              "name": "Babia quadriguttata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "baliosus",
+          "name": "Baliosus",
+          "species": [
+            {
+              "id": "baliosus_nervosus",
+              "name": "Baliosus nervosus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "bassareus",
+          "name": "Bassareus",
+          "species": [
+            {
+              "id": "bassareus_mammifer",
+              "name": "Bassareus mammifer",
+              "common_name": "Red-Banded Bassar",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "blepharida",
+          "name": "Blepharida",
+          "species": [
+            {
+              "id": "blepharida_rhois",
+              "name": "Blepharida rhois",
+              "common_name": "Sumac Flea Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "calligrapha",
+          "name": "Calligrapha",
+          "species": [
+            {
+              "id": "calligrapha_bidenticola",
+              "name": "Calligrapha bidenticola",
+              "common_name": "Bidentate Leaf Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "calligrapha_californica",
+              "name": "Calligrapha californica",
+              "common_name": "Coreopsis Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "calligrapha_philadelphica",
+              "name": "Calligrapha philadelphica",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "calligrapha_suturalis",
+              "name": "Calligrapha suturalis",
+              "common_name": "Ragweed Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "capraita",
+          "name": "Capraita",
+          "species": [
+            {
+              "id": "capraita_thyamoides",
+              "name": "Capraita thyamoides",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cassida",
+          "name": "Cassida",
+          "species": [
+            {
+              "id": "cassida_piperata",
+              "name": "Cassida piperata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cassida_rubiginosa",
+              "name": "Cassida rubiginosa",
+              "common_name": "Thistle Tortoise Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cerotoma",
+          "name": "Cerotoma",
+          "species": [
+            {
+              "id": "cerotoma_trifurcata",
+              "name": "Cerotoma trifurcata",
+              "common_name": "Bean Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "charidotella",
+          "name": "Charidotella",
+          "species": [
+            {
+              "id": "charidotella_purpurata",
+              "name": "Charidotella purpurata",
+              "common_name": "Small Orange Tortoise Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "charidotella_sexpunctata",
+              "name": "Charidotella sexpunctata",
+              "common_name": "Golden Tortoise Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chelymorpha",
+          "name": "Chelymorpha",
+          "species": [
+            {
+              "id": "chelymorpha_cassidea",
+              "name": "Chelymorpha cassidea",
+              "common_name": "Argus Tortoise Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chrysochus",
+          "name": "Chrysochus",
+          "species": [
+            {
+              "id": "chrysochus_auratus",
+              "name": "Chrysochus auratus",
+              "common_name": "Dogbane Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chrysolina",
+          "name": "Chrysolina",
+          "species": [
+            {
+              "id": "chrysolina_auripennis",
+              "name": "Chrysolina auripennis",
+              "common_name": "Gold-winged Leaf Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "chrysolina_hyperici",
+              "name": "Chrysolina hyperici",
+              "common_name": "Saint John's Wort Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chrysomela",
+          "name": "Chrysomela",
+          "species": [
+            {
+              "id": "chrysomela_scripta",
+              "name": "Chrysomela scripta",
+              "common_name": "Cottonwood Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "colaspis",
+          "name": "Colaspis",
+          "species": [
+            {
+              "id": "colaspis_brunnea",
+              "name": "Colaspis brunnea",
+              "common_name": "Grape Colaspis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "coleothorpa",
+          "name": "Coleothorpa",
+          "species": [
+            {
+              "id": "coleothorpa_dominicana",
+              "name": "Coleothorpa dominicana",
+              "common_name": "Lord Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "crepidodera",
+          "name": "Crepidodera",
+          "species": [
+            {
+              "id": "crepidodera_violacea",
+              "name": "Crepidodera violacea",
+              "common_name": "Violet Flea Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "crioceris",
+          "name": "Crioceris",
+          "species": [
+            {
+              "id": "crioceris_asparagi",
+              "name": "Crioceris asparagi",
+              "common_name": "Common Asparagus Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "crioceris_duodecimpunctata",
+              "name": "Crioceris duodecimpunctata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cryptocephalus",
+          "name": "Cryptocephalus",
+          "species": [
+            {
+              "id": "cryptocephalus_badius",
+              "name": "Cryptocephalus badius",
+              "common_name": "Bay-necked Cryptocephalus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cryptocephalus_fulguratus",
+              "name": "Cryptocephalus fulguratus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cryptocephalus_guttulatus",
+              "name": "Cryptocephalus guttulatus",
+              "common_name": "Fourteen-spotted Leaf Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cryptocephalus_leucomelas",
+              "name": "Cryptocephalus leucomelas",
+              "common_name": "Bi-blotched Cryptocephalus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cryptocephalus_mutabilis",
+              "name": "Cryptocephalus mutabilis",
+              "common_name": "Shield-backed Cryptocephalus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "deloyala",
+          "name": "Deloyala",
+          "species": [
+            {
+              "id": "deloyala_guttata",
+              "name": "Deloyala guttata",
+              "common_name": "Mottled Tortoise Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "demotina",
+          "name": "Demotina",
+          "species": [
+            {
+              "id": "demotina_modesta",
+              "name": "Demotina modesta",
+              "common_name": "Asian Oak Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "diabrotica",
+          "name": "Diabrotica",
+          "species": [
+            {
+              "id": "diabrotica_barberi",
+              "name": "Diabrotica barberi",
+              "common_name": "northern corn rootworm",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "diabrotica_cristata",
+              "name": "Diabrotica cristata",
+              "common_name": "Black Diabrotica",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "diabrotica_undecimpunctata",
+              "name": "Diabrotica undecimpunctata",
+              "common_name": "Spotted Cucumber Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "diabrotica_virgifera",
+              "name": "Diabrotica virgifera",
+              "common_name": "Western Corn Rootworm",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dibolia",
+          "name": "Dibolia",
+          "species": [
+            {
+              "id": "dibolia_borealis",
+              "name": "Dibolia borealis",
+              "common_name": "Northern Plantain Flea Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "disonycha",
+          "name": "Disonycha",
+          "species": [
+            {
+              "id": "disonycha_alternata",
+              "name": "Disonycha alternata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_caroliniana",
+              "name": "Disonycha caroliniana",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_collata",
+              "name": "Disonycha collata",
+              "common_name": "Red-legged Disonycha",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_discoidea",
+              "name": "Disonycha discoidea",
+              "common_name": "Passionflower Flea Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_glabrata",
+              "name": "Disonycha glabrata",
+              "common_name": "Pigweed Flea Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_leptolineata",
+              "name": "Disonycha leptolineata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_pensylvanica",
+              "name": "Disonycha pensylvanica",
+              "common_name": "Pennsylvania Flea Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_procera",
+              "name": "Disonycha procera",
+              "common_name": "Tall Flea Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_punctigera",
+              "name": "Disonycha punctigera",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_uniguttata",
+              "name": "Disonycha uniguttata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "disonycha_xanthomelas",
+              "name": "Disonycha xanthomelas",
+              "common_name": "Spinach Flea Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "donacia",
+          "name": "Donacia",
+          "species": [
+            {
+              "id": "donacia_cincticornis",
+              "name": "Donacia cincticornis",
+              "common_name": "Girdle-horned Pond Lily Leaf Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "donacia_hypoleuca",
+              "name": "Donacia hypoleuca",
+              "common_name": "Pale pond lily leaf beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "donacia_piscatrix",
+              "name": "Donacia piscatrix",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "epitrix",
+          "name": "Epitrix",
+          "species": [
+            {
+              "id": "epitrix_cucumeris",
+              "name": "Epitrix cucumeris",
+              "common_name": "Potato Flea Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "epitrix_fuscula",
+              "name": "Epitrix fuscula",
+              "common_name": "Eggplant Flea Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "galerucella",
+          "name": "Galerucella",
+          "species": [
+            {
+              "id": "galerucella_calmariensis",
+              "name": "Galerucella calmariensis",
+              "common_name": "Black-margined Loosestrife Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "galerucella_nymphaeae",
+              "name": "Galerucella nymphaeae",
+              "common_name": "Waterlily Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "gastrophysa",
+          "name": "Gastrophysa",
+          "species": [
+            {
+              "id": "gastrophysa_polygoni",
+              "name": "Gastrophysa polygoni",
+              "common_name": "Knotweed Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "gibbobruchus",
+          "name": "Gibbobruchus",
+          "species": [
+            {
+              "id": "gibbobruchus_mimus",
+              "name": "Gibbobruchus mimus",
+              "common_name": "Redbud Seed Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "gratiana",
+          "name": "Gratiana",
+          "species": [
+            {
+              "id": "gratiana_pallidula",
+              "name": "Gratiana pallidula",
+              "common_name": "Eggplant Tortoise Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "helocassis",
+          "name": "Helocassis",
+          "species": [
+            {
+              "id": "helocassis_clavata",
+              "name": "Helocassis clavata",
+              "common_name": "Clavate Tortoise Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "kuschelina",
+          "name": "Kuschelina",
+          "species": [
+            {
+              "id": "kuschelina_gibbitarsa",
+              "name": "Kuschelina gibbitarsa",
+              "common_name": "Spot-necked Kuschelina",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "kuschelina_petaurista",
+              "name": "Kuschelina petaurista",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "kuschelina_vians",
+              "name": "Kuschelina vians",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "labidomera",
+          "name": "Labidomera",
+          "species": [
+            {
+              "id": "labidomera_clivicollis",
+              "name": "Labidomera clivicollis",
+              "common_name": "Swamp Milkweed Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lema",
+          "name": "Lema",
+          "species": [
+            {
+              "id": "lema_daturaphila",
+              "name": "Lema daturaphila",
+              "common_name": "Three-lined Potato Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "leptinotarsa",
+          "name": "Leptinotarsa",
+          "species": [
+            {
+              "id": "leptinotarsa_decemlineata",
+              "name": "Leptinotarsa decemlineata",
+              "common_name": "Colorado Potato Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "leptinotarsa_juncta",
+              "name": "Leptinotarsa juncta",
+              "common_name": "False Potato Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lilioceris",
+          "name": "Lilioceris",
+          "species": [
+            {
+              "id": "lilioceris_lilii",
+              "name": "Lilioceris lilii",
+              "common_name": "Lily Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "luperaltica",
+          "name": "Luperaltica",
+          "species": [
+            {
+              "id": "luperaltica_nigripalpis",
+              "name": "Luperaltica nigripalpis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "mantura",
+          "name": "Mantura",
+          "species": [
+            {
+              "id": "mantura_floridana",
+              "name": "Mantura floridana",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "megacerus",
+          "name": "Megacerus",
+          "species": [
+            {
+              "id": "megacerus_discoidus",
+              "name": "Megacerus discoidus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "microrhopala",
+          "name": "Microrhopala",
+          "species": [
+            {
+              "id": "microrhopala_vittata",
+              "name": "Microrhopala vittata",
+              "common_name": "Goldenrod Leafminer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "monocesta",
+          "name": "Monocesta",
+          "species": [
+            {
+              "id": "monocesta_coryli",
+              "name": "Monocesta coryli",
+              "common_name": "Larger Elm Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "neolema",
+          "name": "Neolema",
+          "species": [
+            {
+              "id": "neolema_sexpunctata",
+              "name": "Neolema sexpunctata",
+              "common_name": "Six-spotted Neolema",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "odontota",
+          "name": "Odontota",
+          "species": [
+            {
+              "id": "odontota_dorsalis",
+              "name": "Odontota dorsalis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "odontota_scapularis",
+              "name": "Odontota scapularis",
+              "common_name": "Orange-shouldered Leafminer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ophraella",
+          "name": "Ophraella",
+          "species": [
+            {
+              "id": "ophraella_communa",
+              "name": "Ophraella communa",
+              "common_name": "ragweed leaf beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "ophraella_conferta",
+              "name": "Ophraella conferta",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "ophraella_notata",
+              "name": "Ophraella notata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "oulema",
+          "name": "Oulema",
+          "species": [
+            {
+              "id": "oulema_melanopus",
+              "name": "Oulema melanopus",
+              "common_name": "Cereal Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "phyllotreta",
+          "name": "Phyllotreta",
+          "species": [
+            {
+              "id": "phyllotreta_ochripes",
+              "name": "Phyllotreta ochripes",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "phyllotreta_striolata",
+              "name": "Phyllotreta striolata",
+              "common_name": "Striped Flea Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "phyllotreta_zimmermanni",
+              "name": "Phyllotreta zimmermanni",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "physonota",
+          "name": "Physonota",
+          "species": [
+            {
+              "id": "physonota_helianthi",
+              "name": "Physonota helianthi",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "plagiodera",
+          "name": "Plagiodera",
+          "species": [
+            {
+              "id": "plagiodera_versicolora",
+              "name": "Plagiodera versicolora",
+              "common_name": "Willow Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "plateumaris",
+          "name": "Plateumaris",
+          "species": [
+            {
+              "id": "plateumaris_shoemakeri",
+              "name": "Plateumaris shoemakeri",
+              "common_name": "Shoemaker's reed beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "prasocuris",
+          "name": "Prasocuris",
+          "species": [
+            {
+              "id": "prasocuris_vittata",
+              "name": "Prasocuris vittata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pseudolampsis",
+          "name": "Pseudolampsis",
+          "species": [
+            {
+              "id": "pseudolampsis_guttata",
+              "name": "Pseudolampsis guttata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pyrrhalta",
+          "name": "Pyrrhalta",
+          "species": [
+            {
+              "id": "pyrrhalta_viburni",
+              "name": "Pyrrhalta viburni",
+              "common_name": "Viburnum Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "stenispa",
+          "name": "Stenispa",
+          "species": [
+            {
+              "id": "stenispa_metallica",
+              "name": "Stenispa metallica",
+              "common_name": "Black Smooth Hispine",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "sumitrosis",
+          "name": "Sumitrosis",
+          "species": [
+            {
+              "id": "sumitrosis_inaequalis",
+              "name": "Sumitrosis inaequalis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "sumitrosis_rosea",
+              "name": "Sumitrosis rosea",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "systena",
+          "name": "Systena",
+          "species": [
+            {
+              "id": "systena_elongata",
+              "name": "Systena elongata",
+              "common_name": "Dark-necked Systena",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "systena_frontalis",
+              "name": "Systena frontalis",
+              "common_name": "Red-headed Systena",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "systena_marginalis",
+              "name": "Systena marginalis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trirhabda",
+          "name": "Trirhabda",
+          "species": [
+            {
+              "id": "trirhabda_canadensis",
+              "name": "Trirhabda canadensis",
+              "common_name": "Goldenrod Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "typophorus",
+          "name": "Typophorus",
+          "species": [
+            {
+              "id": "typophorus_nigritus",
+              "name": "Typophorus nigritus",
+              "common_name": "Sweet Potato Leaf Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "scarabaeidae",

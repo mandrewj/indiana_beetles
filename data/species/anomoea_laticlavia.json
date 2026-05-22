@@ -1,0 +1,43 @@
+{
+  "id": "anomoea_laticlavia",
+  "scientific_name": "Anomoea laticlavia",
+  "common_name": "Clay-colored Leaf Beetle",
+  "family": "chrysomelidae",
+  "genus": "anomoea",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990515,
+  "inat_taxon_id": 213717,
+  "diagnosis": "Anomoea laticlavia (Persimmon beetle, Clay-colored leaf beetle) is a reddish-brown and black leaf beetle native to central and eastern North America. It feeds on the leaves of Fabaceae, persimmons, and other species in its adult phase.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Lake",
+    "Monroe",
+    "Newton",
+    "Starke",
+    "Wabash"
+  ],
+  "county_record_counts": {
+    "Monroe": 1,
+    "Wabash": 1,
+    "Lake": 3,
+    "Newton": 3,
+    "Brown": 1,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anomoea_laticlavia*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

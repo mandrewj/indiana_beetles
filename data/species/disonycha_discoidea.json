@@ -1,0 +1,27 @@
+{
+  "id": "disonycha_discoidea",
+  "scientific_name": "Disonycha discoidea",
+  "common_name": "Passionflower Flea Beetle",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047299,
+  "inat_taxon_id": 218601,
+  "diagnosis": "Disonycha discoidea, the passionflower flea beetle, is a species of flea beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Harrison"
+  ],
+  "county_record_counts": {
+    "Harrison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Disonycha_discoidea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

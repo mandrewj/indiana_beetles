@@ -1,0 +1,35 @@
+{
+  "id": "cryptocephalus_badius",
+  "scientific_name": "Cryptocephalus badius",
+  "common_name": "Bay-necked Cryptocephalus",
+  "family": "chrysomelidae",
+  "genus": "cryptocephalus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990696,
+  "inat_taxon_id": 491534,
+  "diagnosis": "Cryptocephalus badius is a species of case-bearing leaf beetle in the family Chrysomelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Orange",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Orange": 1,
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cryptocephalus_badius*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

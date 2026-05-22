@@ -1,0 +1,22 @@
+{
+  "id": "disonycha_leptolineata",
+  "scientific_name": "Disonycha leptolineata",
+  "family": "chrysomelidae",
+  "genus": "disonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1047326,
+  "inat_taxon_id": 272472,
+  "diagnosis": "Disonycha leptolineata is a species of flea beetle in the family Chrysomelidae. It is found in the Caribbean, Central America, and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Disonycha_leptolineata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}
