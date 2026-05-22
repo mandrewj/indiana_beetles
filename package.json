@@ -14,23 +14,19 @@
     "data:family-ids": "tsx scripts/enrich-family-ids.ts"
   },
   "dependencies": {
+    "@types/d3-geo": "^3.1.0",
     "@vercel/analytics": "^2.0.1",
-    "d3": "^7.9.0",
+    "d3-geo": "^3.1.1",
     "d3-scale-chromatic": "^3.1.0",
-    "jspdf": "^2.5.1",
-    "jspdf-autotable": "^3.8.2",
     "lucide-react": "^0.395.0",
     "next": "^14.2.35",
-    "papaparse": "^5.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "topojson-client": "^3.1.0"
   },
   "devDependencies": {
-    "@types/d3": "^7.4.3",
     "@types/d3-scale-chromatic": "^3.0.3",
     "@types/node": "^20.12.0",
-    "@types/papaparse": "^5.3.14",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "@types/topojson-client": "^3.1.5",
