@@ -200,9 +200,7 @@
     },
   });
 
-  CMS.registerWidget("status-picker", StatusPickerControl, undefined, {
-    type: "string",
-  });
+  CMS.registerWidget("status-picker", StatusPickerControl);
 
   // ─────────────────────────────────────────────
   // 3. phenology-picker — 12-month clickable grid

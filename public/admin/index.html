@@ -9,9 +9,14 @@
   <link href="/admin/styles.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Decap CMS mounts here -->
+  <!--
+    Manual init: stop Decap from reading config.yml on load so we can register
+    custom widgets first, then init. Without this, config.yml is validated
+    before widgets.js runs and our widget types are not yet known.
+  -->
+  <script>window.CMS_MANUAL_INIT = true;</script>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  <!-- Custom widgets: taxon-lookup, status-picker, phenology-picker, county-map -->
   <script src="/admin/widgets.js"></script>
+  <script>window.CMS.init();</script>
 </body>
 </html>

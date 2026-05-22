@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "cms:dev": "decap-server",
-    "data:counties": "tsx scripts/build-counties.ts"
+    "data:counties": "tsx scripts/build-counties.ts",
+    "data:taxon-ids": "tsx scripts/enrich-taxon-ids.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
