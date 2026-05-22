@@ -1,0 +1,40 @@
+{
+  "id": "zonitis_bilineata",
+  "scientific_name": "Zonitis bilineata",
+  "family": "meloidae",
+  "genus": "zonitis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990395,
+  "inat_taxon_id": 234003,
+  "diagnosis": "Zonitis bilineata is a species of blister beetle in the family Meloidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Dearborn",
+    "Elkhart",
+    "Hendricks",
+    "Lake",
+    "Ripley"
+  ],
+  "county_record_counts": {
+    "Dearborn": 2,
+    "Elkhart": 3,
+    "Lake": 1,
+    "Hendricks": 1,
+    "Ripley": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Zonitis_bilineata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

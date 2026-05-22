@@ -1,0 +1,54 @@
+{
+  "id": "meloe_campanicollis",
+  "scientific_name": "Meloe campanicollis",
+  "family": "meloidae",
+  "genus": "meloe",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046327,
+  "inat_taxon_id": 322879,
+  "diagnosis": "Meloe campanicollis is a species of blister beetle in the family Meloidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    3,
+    4,
+    9,
+    10,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    10
+  ],
+  "counties": [
+    "Hendricks",
+    "Henry",
+    "Jefferson",
+    "Kosciusko",
+    "LaGrange",
+    "Lake",
+    "Marion",
+    "Marshall",
+    "Putnam",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Putnam": 1,
+    "Marion": 2,
+    "Lake": 1,
+    "LaGrange": 1,
+    "Kosciusko": 1,
+    "Vigo": 1,
+    "Hendricks": 2,
+    "Marshall": 1,
+    "Jefferson": 1,
+    "Henry": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Meloe_campanicollis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

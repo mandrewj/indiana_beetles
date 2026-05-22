@@ -1,0 +1,31 @@
+{
+  "id": "epicauta_fabricii",
+  "scientific_name": "Epicauta fabricii",
+  "common_name": "Ashgray blister beetle",
+  "family": "meloidae",
+  "genus": "epicauta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046508,
+  "inat_taxon_id": 219301,
+  "diagnosis": "Epicauta fabricii, the ashgray blister beetle, is a species of blister beetle in the family Meloidae. The Ashgray Blister Beetle is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Newton"
+  ],
+  "county_record_counts": {
+    "Newton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_fabricii*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

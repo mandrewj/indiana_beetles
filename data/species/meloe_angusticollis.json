@@ -1,0 +1,40 @@
+{
+  "id": "meloe_angusticollis",
+  "scientific_name": "Meloe angusticollis",
+  "family": "meloidae",
+  "genus": "meloe",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046337,
+  "inat_taxon_id": 69908,
+  "diagnosis": "The short-winged blister beetle, or oil beetle (Meloe angusticollis) is a species of blister beetle, native to North America. They average 8–10 millimetres (0.3–0.4 in) in length.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Brown",
+    "Harrison",
+    "Monroe",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Brown": 2,
+    "Tippecanoe": 1,
+    "Harrison": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Meloe_angusticollis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

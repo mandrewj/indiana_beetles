@@ -1,0 +1,38 @@
+{
+  "id": "epicauta_cinerea",
+  "scientific_name": "Epicauta cinerea",
+  "common_name": "Clematis Blister Beetle",
+  "family": "meloidae",
+  "genus": "epicauta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046496,
+  "inat_taxon_id": 219300,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Dubois",
+    "Jennings",
+    "Sullivan"
+  ],
+  "county_record_counts": {
+    "Dubois": 1,
+    "Sullivan": 1,
+    "Jennings": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_cinerea*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

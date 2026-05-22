@@ -1,0 +1,32 @@
+{
+  "id": "zonitis_vittigera",
+  "scientific_name": "Zonitis vittigera",
+  "common_name": "Orange Blister Beetle",
+  "family": "meloidae",
+  "genus": "zonitis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990411,
+  "inat_taxon_id": 154694,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Newton"
+  ],
+  "county_record_counts": {
+    "Newton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Zonitis_vittigera*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

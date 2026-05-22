@@ -1,0 +1,57 @@
+{
+  "id": "epicauta_pensylvanica",
+  "scientific_name": "Epicauta pensylvanica",
+  "common_name": "Black Blister Beetle",
+  "family": "meloidae",
+  "genus": "epicauta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046516,
+  "inat_taxon_id": 1163860,
+  "diagnosis": "Epicauta pensylvanica, known generally as the black blister beetle or black aster bug, is a species of burning blister beetle in the family Meloidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    8,
+    9
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Delaware",
+    "Hamilton",
+    "Hendricks",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Newton",
+    "Shelby",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Delaware": 1,
+    "Marion": 1,
+    "Tippecanoe": 2,
+    "Monroe": 1,
+    "Morgan": 2,
+    "Shelby": 1,
+    "Hendricks": 1,
+    "Hamilton": 2,
+    "Newton": 1,
+    "Allen": 2,
+    "Madison": 2,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_pensylvanica*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -2559,6 +2559,137 @@
       "genera_count": 6,
       "species_count": 18,
       "genera": []
+    },
+    {
+      "id": "meloidae",
+      "name": "Meloidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 17,
+      "genera": [
+        {
+          "id": "epicauta",
+          "name": "Epicauta",
+          "species": [
+            {
+              "id": "epicauta_atrata",
+              "name": "Epicauta atrata",
+              "common_name": "Red-headed Blister Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "epicauta_cinerea",
+              "name": "Epicauta cinerea",
+              "common_name": "Clematis Blister Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "epicauta_fabricii",
+              "name": "Epicauta fabricii",
+              "common_name": "Ashgray blister beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "epicauta_funebris",
+              "name": "Epicauta funebris",
+              "common_name": "Margined Blister Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "epicauta_pensylvanica",
+              "name": "Epicauta pensylvanica",
+              "common_name": "Black Blister Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "epicauta_vittata",
+              "name": "Epicauta vittata",
+              "common_name": "Striped Blister Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lytta",
+          "name": "Lytta",
+          "species": [
+            {
+              "id": "lytta_aenea",
+              "name": "Lytta aenea",
+              "common_name": "Brassy Blister Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "meloe",
+          "name": "Meloe",
+          "species": [
+            {
+              "id": "meloe_americanus",
+              "name": "Meloe americanus",
+              "common_name": "Buttercup Oil Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "meloe_angusticollis",
+              "name": "Meloe angusticollis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "meloe_campanicollis",
+              "name": "Meloe campanicollis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "meloe_impressus",
+              "name": "Meloe impressus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "rhyphonemognatha",
+          "name": "Rhyphonemognatha",
+          "species": [
+            {
+              "id": "rhyphonemognatha_rufa",
+              "name": "Rhyphonemognatha rufa",
+              "common_name": "Rose-winged Blister Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tricrania",
+          "name": "Tricrania",
+          "species": [
+            {
+              "id": "tricrania_sanguinipennis",
+              "name": "Tricrania sanguinipennis",
+              "common_name": "Blood-winged Blister Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "zonitis",
+          "name": "Zonitis",
+          "species": [
+            {
+              "id": "zonitis_bilineata",
+              "name": "Zonitis bilineata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "zonitis_vittigera",
+              "name": "Zonitis vittigera",
+              "common_name": "Orange Blister Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

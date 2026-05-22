@@ -1,0 +1,70 @@
+{
+  "id": "meloe_americanus",
+  "scientific_name": "Meloe americanus",
+  "common_name": "Buttercup Oil Beetle",
+  "family": "meloidae",
+  "genus": "meloe",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046317,
+  "inat_taxon_id": 224874,
+  "diagnosis": "Meloe americanus, the buttercup oil beetle, is a species of blister beetle in the family Meloidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    3,
+    4
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Henry",
+    "LaPorte",
+    "Lawrence",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "Randolph",
+    "St. Joseph",
+    "Steuben",
+    "Tippecanoe",
+    "Union",
+    "Vanderburgh",
+    "Vermillion"
+  ],
+  "county_record_counts": {
+    "Allen": 1,
+    "Vermillion": 1,
+    "Marion": 1,
+    "Henry": 1,
+    "Morgan": 3,
+    "St. Joseph": 3,
+    "Monroe": 3,
+    "Lawrence": 1,
+    "Brown": 1,
+    "Vanderburgh": 1,
+    "Tippecanoe": 1,
+    "Randolph": 1,
+    "LaPorte": 1,
+    "Porter": 1,
+    "Union": 1,
+    "Steuben": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Meloe_americanus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

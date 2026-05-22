@@ -1,0 +1,46 @@
+{
+  "id": "epicauta_atrata",
+  "scientific_name": "Epicauta atrata",
+  "common_name": "Red-headed Blister Beetle",
+  "family": "meloidae",
+  "genus": "epicauta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046399,
+  "inat_taxon_id": 456931,
+  "diagnosis": "Epicauta atrata is a species of blister beetle in the family Meloidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Morgan",
+    "Newton",
+    "Ripley",
+    "Starke",
+    "Sullivan",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Newton": 4,
+    "Morgan": 1,
+    "Allen": 1,
+    "Sullivan": 1,
+    "Tippecanoe": 1,
+    "Ripley": 1,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_atrata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

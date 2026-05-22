@@ -1,0 +1,68 @@
+{
+  "id": "epicauta_vittata",
+  "scientific_name": "Epicauta vittata",
+  "common_name": "Striped Blister Beetle",
+  "family": "meloidae",
+  "genus": "epicauta",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046528,
+  "inat_taxon_id": 143386,
+  "diagnosis": "Epicauta vittata is a species of beetle in the family Meloidae, the blister beetles. It is native to eastern North America, including eastern Canada and the eastern United States.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Clark",
+    "Daviess",
+    "Dubois",
+    "Franklin",
+    "Greene",
+    "Harrison",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Newton",
+    "Owen",
+    "Perry",
+    "Porter",
+    "Sullivan",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Vigo",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Owen": 1,
+    "Tippecanoe": 3,
+    "Vanderburgh": 2,
+    "Vigo": 1,
+    "Clark": 1,
+    "Harrison": 1,
+    "Daviess": 1,
+    "Dubois": 2,
+    "Sullivan": 1,
+    "Newton": 1,
+    "Porter": 1,
+    "Franklin": 2,
+    "Warrick": 1,
+    "Marion": 1,
+    "Perry": 1,
+    "Monroe": 1,
+    "Madison": 1,
+    "Greene": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_vittata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "meloidae",
+  "name": "Meloidae",
+  "common_name": "Blister Beetles",
+  "authority": "",
+  "diagnosis": "Blister beetles are beetles of the family Meloidae, so called for their defensive secretion of a blistering agent, cantharidin. About 7,500 species are known worldwide. Many are conspicuous and some are aposematically colored, announcing their toxicity to would-be predators.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 59510,
+  "genus_notes": {
+    "lytta": "Lytta is a beetle genus in the family Meloidae.",
+    "epicauta": "Epicauta is a genus of beetles in the blister beetle family, Meloidae.",
+    "meloe": "The blister beetle genus Meloe is a large, widespread group commonly referred to as oil beetles.",
+    "tricrania": "Tricrania is a genus of blister beetles in the family Meloidae.",
+    "zonitis": "...",
+    "rhyphonemognatha": "Rhyphonemognatha is a genus of blister beetles in the family Meloidae."
+  }
+}

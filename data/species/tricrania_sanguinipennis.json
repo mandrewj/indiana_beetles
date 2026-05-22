@@ -1,0 +1,43 @@
+{
+  "id": "tricrania_sanguinipennis",
+  "scientific_name": "Tricrania sanguinipennis",
+  "common_name": "Blood-winged Blister Beetle",
+  "family": "meloidae",
+  "genus": "tricrania",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046304,
+  "inat_taxon_id": 204564,
+  "diagnosis": "Tricrania sanguinipennis is a species of blister beetle in the family Meloidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Allen",
+    "Clark",
+    "Marion",
+    "Monroe",
+    "Tippecanoe",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 3,
+    "Allen": 1,
+    "Marion": 2,
+    "Monroe": 6,
+    "Wayne": 1,
+    "Clark": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tricrania_sanguinipennis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

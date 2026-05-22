@@ -1,0 +1,31 @@
+{
+  "id": "meloe_impressus",
+  "scientific_name": "Meloe impressus",
+  "family": "meloidae",
+  "genus": "meloe",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046325,
+  "inat_taxon_id": 83017,
+  "diagnosis": "Meloe impressus is a species of blister beetle in the family Meloidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    8,
+    9,
+    10
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Meloe_impressus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}
