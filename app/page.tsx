@@ -86,30 +86,28 @@ export default async function Home() {
                 <span>Open license</span>
               </div>
             </div>
-            <div className="hero-spec">
-              {heroPick ? (
-                <SpeciesThumb
-                  species={{
-                    id: heroPick.species.id,
-                    inat_taxon_id: heroPick.species.inat_taxon_id,
-                    adminImageUrl: heroPick.species.images?.[0]?.url ?? null,
-                  }}
-                  className="thumb"
-                  wrapperStyle={{
-                    position: "absolute",
-                    inset: 0,
-                    borderRadius: "var(--radius-card)",
-                  }}
-                  placeholderLabel="Featured specimen"
-                  hideAttribution
-                />
-              ) : null}
-              {heroPick && (
+            {heroPick && heroPick.ctx ? (
+              <Link
+                className="hero-spec"
+                href={`/browse/${heroPick.ctx.family.id}/${heroPick.ctx.genusId}/${heroPick.species.id}`}
+              >
+                <div className="hero-photo">
+                  <SpeciesThumb
+                    species={{
+                      id: heroPick.species.id,
+                      inat_taxon_id: heroPick.species.inat_taxon_id,
+                      adminImageUrl: heroPick.species.images?.[0]?.url ?? null,
+                    }}
+                    className="thumb"
+                    placeholderLabel="Featured specimen"
+                    hideAttribution
+                  />
+                </div>
                 <div className="hero-label">
                   <div className="eyebrow">Featured species</div>
                   <div className="row">
                     <span className="k">Family</span>
-                    <span className="v">{heroPick.ctx?.family.name}</span>
+                    <span className="v">{heroPick.ctx.family.name}</span>
                   </div>
                   <div className="row">
                     <span className="k">Species</span>
@@ -144,8 +142,8 @@ export default async function Home() {
                     <span className="v">via iNaturalist</span>
                   </div>
                 </div>
-              )}
-            </div>
+              </Link>
+            ) : null}
           </div>
         </div>
       </section>
