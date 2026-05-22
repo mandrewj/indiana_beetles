@@ -7,6 +7,7 @@
  *   Indiana (US state): 30
  */
 import { withCache } from "./cache";
+import { resolveCounty } from "./county-resolver";
 
 const API = "https://api.inaturalist.org/v1";
 // Indiana, US — verified via /v1/places/autocomplete. (place_id 30 is
@@ -30,6 +31,10 @@ interface RawINatUser {
   name?: string;
 }
 
+interface RawINatGeoJSON {
+  coordinates?: [number, number];
+}
+
 interface RawINatObservation {
   id: number;
   uuid: string;
@@ -40,6 +45,7 @@ interface RawINatObservation {
   user?: RawINatUser;
   place_guess?: string;
   places?: RawINatPlace[];
+  geojson?: RawINatGeoJSON;
   photos: RawINatPhoto[];
 }
 
@@ -69,20 +75,43 @@ export interface INatObservation {
   license: string;
 }
 
-const COUNTY_FROM_PLACE_GUESS = /([A-Z][a-z\.]+(?:\s[A-Z][a-z]+)*) Co\.?/;
+export interface INatTaxonThumbnail {
+  taxonId: number;
+  url: string;
+  attribution: string;
+}
 
-function extractCounty(obs: RawINatObservation): string | null {
-  // Prefer parsing place_guess — iNat returns things like
-  // "Bloomington, Monroe Co., IN, US".
+const COUNTY_FROM_PLACE_GUESS = /([A-Z][a-z\.]+(?:\s[A-Z][a-z]+)*) Co\.?/;
+const COUNTY_FROM_NAME = /^([A-Z][a-z\.]+(?:\s[A-Z][a-z]+)*) County/;
+
+function stringCountyOnly(obs: RawINatObservation): string | null {
+  // Try place_guess first — iNat returns things like
+  // "Bloomington, Monroe Co., IN, US" when the observer entered a city +
+  // county locality. Most observations don't have this form, so this
+  // resolves only the well-formatted minority.
   if (obs.place_guess) {
     const m = obs.place_guess.match(COUNTY_FROM_PLACE_GUESS);
     if (m) return m[1];
   }
-  // Fallback: a place named "<X> County, ..." in obs.places.
   for (const place of obs.places ?? []) {
     const name = place.name || place.display_name || "";
-    const m = name.match(/^([A-Z][a-z\.]+(?:\s[A-Z][a-z]+)*) County/);
+    const m = name.match(COUNTY_FROM_NAME);
     if (m) return m[1];
+  }
+  return null;
+}
+
+/**
+ * Resolve county for an observation. Tries place_guess parsing first
+ * (cheap, no extra fetch); falls back to point-in-polygon against the
+ * pre-baked Indiana county geometry when coordinates are present.
+ */
+async function resolveObsCounty(obs: RawINatObservation): Promise<string | null> {
+  const fromString = stringCountyOnly(obs);
+  if (fromString) return fromString;
+  const coords = obs.geojson?.coordinates;
+  if (coords && coords.length === 2) {
+    return resolveCounty(coords[0], coords[1]);
   }
   return null;
 }
@@ -128,9 +157,10 @@ export async function fetchTopINatPhotos(
       });
       const data = await fetchObservations(params);
       const photos: INatPhoto[] = [];
-      for (const obs of data.results) {
+      const withPhotos = data.results.filter((obs) => obs.photos[0]);
+      const counties = await Promise.all(withPhotos.map(resolveObsCounty));
+      withPhotos.forEach((obs, i) => {
         const ph = obs.photos[0];
-        if (!ph) continue;
         photos.push({
           id: ph.id,
           url: squareUrl(ph.url),
@@ -139,13 +169,57 @@ export async function fetchTopINatPhotos(
           observationUrl: obs.uri,
           observationId: obs.id,
           user: obs.user?.login ?? obs.user?.name ?? "unknown",
-          county: extractCounty(obs),
+          county: counties[i],
           date: obs.observed_on ?? obs.observed_on_string ?? null,
         });
-      }
+      });
       return photos;
     }
   );
+}
+
+/**
+ * Batched lookup of default photos for a set of iNat taxon IDs.
+ * iNat's /v1/taxa endpoint accepts a comma-separated `id=...` list and
+ * returns each taxon with its `default_photo`. Used by the family and
+ * genus pages to show real beetle thumbnails when no admin image has
+ * been uploaded yet.
+ */
+export async function fetchTaxaDefaultPhotos(
+  taxonIds: number[]
+): Promise<Record<number, INatTaxonThumbnail>> {
+  const valid = taxonIds.filter((id) => Number.isInteger(id) && id > 0);
+  if (valid.length === 0) return {};
+  const key = valid.slice().sort((a, b) => a - b).join(",");
+  return withCache("inat-default-photos", key, async () => {
+    const url = `${API}/taxa?id=${key}&per_page=${valid.length}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`iNat ${res.status}`);
+    const data = (await res.json()) as {
+      results?: Array<{
+        id: number;
+        default_photo?: {
+          square_url?: string;
+          small_url?: string;
+          medium_url?: string;
+          attribution?: string;
+        };
+      }>;
+    };
+    const out: Record<number, INatTaxonThumbnail> = {};
+    for (const t of data.results ?? []) {
+      const p = t.default_photo;
+      if (!p) continue;
+      const photoUrl = p.medium_url || p.small_url || p.square_url;
+      if (!photoUrl) continue;
+      out[t.id] = {
+        taxonId: t.id,
+        url: photoUrl,
+        attribution: p.attribution ?? "iNaturalist",
+      };
+    }
+    return out;
+  });
 }
 
 /**
@@ -169,12 +243,13 @@ export async function fetchINatObservations(
         quality_grade: "research",
       });
       const data = await fetchObservations(params);
-      return data.results.map((obs) => ({
+      const counties = await Promise.all(data.results.map(resolveObsCounty));
+      return data.results.map((obs, i) => ({
         id: obs.id,
         observationUrl: obs.uri,
         date: obs.observed_on ?? obs.observed_on_string ?? null,
         user: obs.user?.login ?? obs.user?.name ?? "unknown",
-        county: extractCounty(obs),
+        county: counties[i],
         license: obs.license_code ?? "all rights reserved",
       }));
     }

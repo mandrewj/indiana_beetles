@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Download, Search } from "lucide-react";
 import { RankLabel, StatusBadge } from "@/components/Badges";
-import { SpecimenPh } from "@/components/Placeholders";
+import { SpeciesThumb } from "@/components/SpeciesThumb";
 import { IndianaMap } from "@/components/IndianaMap";
 import { DichotomousKey, type KeyMode } from "@/components/DichotomousKey";
 import type {
@@ -123,7 +123,11 @@ export function FamilyView({
         </div>
 
         {tab === "species" && (
-          <GeneraAndSpeciesTab family={family} taxonomy={taxonomy} />
+          <GeneraAndSpeciesTab
+            family={family}
+            taxonomy={taxonomy}
+            speciesByFamily={speciesByFamily}
+          />
         )}
         {tab === "key" && familyKey && (
           <FamilyKeyTab
@@ -144,10 +148,13 @@ export function FamilyView({
 function GeneraAndSpeciesTab({
   family,
   taxonomy,
+  speciesByFamily,
 }: {
   family: Family;
   taxonomy: TaxonomyFamily;
+  speciesByFamily: Species[];
 }) {
+  const speciesIndex = new Map(speciesByFamily.map((s) => [s.id, s]));
   return (
     <div style={{ padding: "var(--pad-3) 0 var(--pad-5)" }}>
       {taxonomy.genera.map((g) => (
@@ -185,14 +192,22 @@ function GeneraAndSpeciesTab({
             </p>
           )}
           <div className="species-list">
-            {g.species.map((s) => (
+            {g.species.map((s) => {
+              const treated = speciesIndex.get(s.id);
+              return (
               <Link
                 key={s.id}
                 className="species-row"
                 href={`/browse/${family.id}/${g.id}/${s.id}`}
                 style={{ color: "inherit", textDecoration: "none" }}
               >
-                <SpecimenPh seed={`${s.id}_row`} />
+                <SpeciesThumb
+                  species={{
+                    id: s.id,
+                    inat_taxon_id: treated?.inat_taxon_id,
+                    adminImageUrl: treated?.images?.[0]?.url ?? null,
+                  }}
+                />
                 <div>
                   <div className="name">
                     <em>{s.name}</em>
@@ -215,7 +230,8 @@ function GeneraAndSpeciesTab({
                 </div>
                 <StatusBadge status={s.indiana_status} />
               </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       ))}

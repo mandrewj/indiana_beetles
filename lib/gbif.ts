@@ -4,6 +4,7 @@
  * CORS-enabled.
  */
 import { withCache } from "./cache";
+import { resolveCounty } from "./county-resolver";
 
 const API = "https://api.gbif.org/v1";
 
@@ -81,9 +82,23 @@ export async function fetchGbifOccurrences(
       const res = await fetch(`${API}/occurrence/search?${params.toString()}`);
       if (!res.ok) throw new Error(`GBIF ${res.status} ${res.statusText}`);
       const data = (await res.json()) as RawGbifResponse;
-      return data.results.map((occ) => ({
+      // Resolve county from coords for any record missing the county field.
+      const counties = await Promise.all(
+        data.results.map(async (occ) => {
+          const fromField = normalizeCounty(occ.county);
+          if (fromField) return fromField;
+          if (
+            typeof occ.decimalLongitude === "number" &&
+            typeof occ.decimalLatitude === "number"
+          ) {
+            return resolveCounty(occ.decimalLongitude, occ.decimalLatitude);
+          }
+          return null;
+        })
+      );
+      return data.results.map((occ, i) => ({
         id: occ.key,
-        county: normalizeCounty(occ.county),
+        county: counties[i],
         date: formatDate(occ),
         observer: occ.recordedBy || occ.identifiedBy || null,
         license: occ.license || null,

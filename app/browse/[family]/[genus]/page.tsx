@@ -6,7 +6,7 @@ import {
   getTaxonomy,
 } from "@/lib/content";
 import { RankLabel, StatusBadge } from "@/components/Badges";
-import { SpecimenPh } from "@/components/Placeholders";
+import { SpeciesThumb } from "@/components/SpeciesThumb";
 
 interface PageParams {
   family: string;
@@ -148,7 +148,13 @@ export default async function GenusPage({ params }: { params: PageParams }) {
               href={`/browse/${family.id}/${genus.id}/${s.id}`}
               style={{ color: "inherit", textDecoration: "none" }}
             >
-              <SpecimenPh seed={`${s.id}_row`} />
+              <SpeciesThumb
+                species={{
+                  id: s.id,
+                  inat_taxon_id: t?.inat_taxon_id,
+                  adminImageUrl: t?.images?.[0]?.url ?? null,
+                }}
+              />
               <div>
                 <div className="name">
                   <em>{s.name}</em>
