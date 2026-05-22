@@ -1,0 +1,35 @@
+{
+  "id": "melandrya_striata",
+  "scientific_name": "Melandrya striata",
+  "common_name": "Striated False Darkling Beetle",
+  "family": "melandryidae",
+  "genus": "melandrya",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6989631,
+  "inat_taxon_id": 224559,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Marion",
+    "Monroe",
+    "Spencer"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Monroe": 1,
+    "Spencer": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

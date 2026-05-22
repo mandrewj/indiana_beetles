@@ -1,0 +1,33 @@
+{
+  "id": "osphya_varians",
+  "scientific_name": "Osphya varians",
+  "common_name": "Variable False Darkling Beetle",
+  "family": "melandryidae",
+  "genus": "osphya",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6989739,
+  "inat_taxon_id": 176259,
+  "diagnosis": "Osphya varians is a species of false darkling beetle in the family Melandryidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Hamilton",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Osphya_varians*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

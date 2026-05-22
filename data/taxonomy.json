@@ -2858,6 +2858,51 @@
           ]
         }
       ]
+    },
+    {
+      "id": "melandryidae",
+      "name": "Melandryidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 21,
+      "genera": [
+        {
+          "id": "dircaea",
+          "name": "Dircaea",
+          "species": [
+            {
+              "id": "dircaea_liturata",
+              "name": "Dircaea liturata",
+              "common_name": "Blurry-spotted False Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "melandrya",
+          "name": "Melandrya",
+          "species": [
+            {
+              "id": "melandrya_striata",
+              "name": "Melandrya striata",
+              "common_name": "Striated False Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "osphya",
+          "name": "Osphya",
+          "species": [
+            {
+              "id": "osphya_varians",
+              "name": "Osphya varians",
+              "common_name": "Variable False Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "id": "melandryidae",
+  "name": "Melandryidae",
+  "common_name": "False Darkling Beetles",
+  "authority": "",
+  "diagnosis": "The Melandryidae or false darkling beetles are a family of beetles in the large suborder Polyphaga.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 173723,
+  "genus_notes": {
+    "dircaea": "Dircaea is a genus of beetles belonging to the family Melandryidae.",
+    "melandrya": "Melandrya is a genus of beetles belonging to the family Melandryidae.",
+    "osphya": "Osphya is a genus of false darkling beetles in the family Melandryidae."
+  }
+}
