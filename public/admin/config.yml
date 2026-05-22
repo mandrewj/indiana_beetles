@@ -116,6 +116,10 @@ collections:
         required: false
         field: { name: citation, label: "Citation", widget: text }
 
+      # Hidden field — auto-set by /admin/refresh. Keeping it in the schema so
+      # Decap preserves the value when editors save manual edits.
+      - { name: last_refreshed, label: "Last refreshed", widget: hidden, required: false }
+
   # ────────────────────────────────────────────────────────────
   # Families
   # ────────────────────────────────────────────────────────────

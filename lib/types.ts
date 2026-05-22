@@ -50,6 +50,8 @@ export interface Species {
   similar_species: string[];
   similar_species_notes?: Record<string, string>;
   references: string[];
+  /** ISO date (YYYY-MM-DD) of the most recent Refresh run. Auto-managed. */
+  last_refreshed?: string;
 }
 
 export interface Family {

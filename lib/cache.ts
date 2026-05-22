@@ -59,18 +59,28 @@ export function writeCache<T>(namespace: string, id: string, data: T): void {
   }
 }
 
+interface WithCacheOptions {
+  /** Cache lifetime in ms. Default 24h. */
+  ttlMs?: number;
+  /** When true, ignore the cached entry and always call `loader`. */
+  force?: boolean;
+}
+
 /**
- * Wrap a fetcher with the cache. ttlMs defaults to 24h.
- * If cached, returns instantly; otherwise calls `loader`, writes, returns.
+ * Wrap a fetcher with the cache. If cached and fresh (and not force), returns
+ * instantly; otherwise calls `loader`, writes, returns.
  */
 export async function withCache<T>(
   namespace: string,
   id: string,
   loader: () => Promise<T>,
-  ttlMs: number = 24 * 60 * 60 * 1000
+  options: WithCacheOptions = {}
 ): Promise<T> {
-  const cached = readCache<T>(namespace, id, ttlMs);
-  if (cached) return cached;
+  const ttlMs = options.ttlMs ?? 24 * 60 * 60 * 1000;
+  if (!options.force) {
+    const cached = readCache<T>(namespace, id, ttlMs);
+    if (cached) return cached;
+  }
   const fresh = await loader();
   writeCache(namespace, id, fresh);
   return fresh;

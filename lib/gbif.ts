@@ -65,7 +65,8 @@ function formatDate(occ: RawGbifOccurrence): string | null {
 
 export async function fetchGbifOccurrences(
   taxonKey: number,
-  limit: number = 50
+  limit: number = 50,
+  options: { force?: boolean } = {}
 ): Promise<GbifOccurrence[]> {
   if (!Number.isInteger(taxonKey) || taxonKey <= 0) return [];
   return withCache(
@@ -104,6 +105,7 @@ export async function fetchGbifOccurrences(
         license: occ.license || null,
         detailUrl: `https://www.gbif.org/occurrence/${occ.key}`,
       }));
-    }
+    },
+    { force: options.force }
   );
 }

@@ -36,11 +36,14 @@ function normalizeCounty(name: string | null | undefined): string | null {
   return null;
 }
 
-export async function fetchLiveDistribution(species: {
-  id: string;
-  gbif_taxon_key: number | string | null;
-  inat_taxon_id: number | string | null;
-}): Promise<LiveDistribution> {
+export async function fetchLiveDistribution(
+  species: {
+    id: string;
+    gbif_taxon_key: number | string | null;
+    inat_taxon_id: number | string | null;
+  },
+  options: { force?: boolean } = {}
+): Promise<LiveDistribution> {
   const gbifKey = taxonIdOrNull(species.gbif_taxon_key);
   const inatId = taxonIdOrNull(species.inat_taxon_id);
 
@@ -50,10 +53,10 @@ export async function fetchLiveDistribution(species: {
     async () => {
       const [gbif, inat] = await Promise.all([
         gbifKey
-          ? fetchGbifOccurrences(gbifKey, PER_SOURCE_LIMIT).catch(() => [])
+          ? fetchGbifOccurrences(gbifKey, PER_SOURCE_LIMIT, { force: options.force }).catch(() => [])
           : Promise.resolve([]),
         inatId
-          ? fetchINatObservations(inatId, PER_SOURCE_LIMIT).catch(() => [])
+          ? fetchINatObservations(inatId, PER_SOURCE_LIMIT, { force: options.force }).catch(() => [])
           : Promise.resolve([]),
       ]);
 
@@ -72,6 +75,7 @@ export async function fetchLiveDistribution(species: {
         gbifTotal: gbif.length,
         inatTotal: inat.length,
       };
-    }
+    },
+    { force: options.force }
   );
 }

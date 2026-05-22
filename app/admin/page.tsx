@@ -41,6 +41,9 @@ export default function AdminLandingPage() {
         <Link className="btn" href="/admin/discover">
           Discover new species <ArrowRight size={12} />
         </Link>
+        <Link className="btn" href="/admin/refresh">
+          Refresh existing species <ArrowRight size={12} />
+        </Link>
         <Link className="btn" href="/about">
           About this project
         </Link>

@@ -145,7 +145,8 @@ async function fetchObservations(params: URLSearchParams): Promise<RawINatRespon
 export async function fetchTopINatPhotos(
   taxonId: number,
   limit: number = 12,
-  placeId: number | null = INDIANA_PLACE_ID
+  placeId: number | null = INDIANA_PLACE_ID,
+  options: { force?: boolean } = {}
 ): Promise<INatPhoto[]> {
   if (!Number.isInteger(taxonId) || taxonId <= 0) return [];
   return withCache(
@@ -179,7 +180,8 @@ export async function fetchTopINatPhotos(
         });
       });
       return photos;
-    }
+    },
+    { force: options.force }
   );
 }
 
@@ -232,7 +234,8 @@ export async function fetchTaxaDefaultPhotos(
  */
 export async function fetchINatObservations(
   taxonId: number,
-  limit: number = 50
+  limit: number = 50,
+  options: { force?: boolean } = {}
 ): Promise<INatObservation[]> {
   if (!Number.isInteger(taxonId) || taxonId <= 0) return [];
   return withCache(
@@ -257,6 +260,7 @@ export async function fetchINatObservations(
         county: counties[i],
         license: obs.license_code ?? "all rights reserved",
       }));
-    }
+    },
+    { force: options.force }
   );
 }
