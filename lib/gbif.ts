@@ -8,6 +8,14 @@ import { resolveCounty } from "./county-resolver";
 
 const API = "https://api.gbif.org/v1";
 
+/**
+ * iNaturalist research-grade observations are mirrored into GBIF as this
+ * dataset. We already pull the same observations directly from the iNat API
+ * with richer metadata, so filtering them here prevents double-counting in
+ * the distribution aggregator and the records table.
+ */
+const INAT_DATASET_KEY = "50c9509d-22c7-4a22-a47d-8c48425ef4a7";
+
 interface RawGbifOccurrence {
   key: number;
   occurrenceID?: string;
@@ -23,6 +31,7 @@ interface RawGbifOccurrence {
   references?: string;
   license?: string;
   basisOfRecord?: string;
+  datasetKey?: string;
   decimalLatitude?: number;
   decimalLongitude?: number;
 }
@@ -83,9 +92,13 @@ export async function fetchGbifOccurrences(
       const res = await fetch(`${API}/occurrence/search?${params.toString()}`);
       if (!res.ok) throw new Error(`GBIF ${res.status} ${res.statusText}`);
       const data = (await res.json()) as RawGbifResponse;
+      // Drop iNat-sourced occurrences — we get those from the iNat API.
+      const deduped = data.results.filter(
+        (occ) => occ.datasetKey !== INAT_DATASET_KEY
+      );
       // Resolve county from coords for any record missing the county field.
       const counties = await Promise.all(
-        data.results.map(async (occ) => {
+        deduped.map(async (occ) => {
           const fromField = normalizeCounty(occ.county);
           if (fromField) return fromField;
           if (
@@ -97,7 +110,7 @@ export async function fetchGbifOccurrences(
           return null;
         })
       );
-      return data.results.map((occ, i) => ({
+      return deduped.map((occ, i) => ({
         id: occ.key,
         county: counties[i],
         date: formatDate(occ),

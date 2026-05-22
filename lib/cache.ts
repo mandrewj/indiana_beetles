@@ -7,8 +7,9 @@
 
 // Bump on any change that affects cached payload shape OR query scoping
 // (e.g. correcting iNat place_id from 30 → 20, adding point-in-polygon county
-// resolver). Old entries become unreadable and the next visit will re-fetch.
-const VERSION = 3;
+// resolver, filtering iNat-sourced occurrences out of GBIF). Old entries
+// become unreadable and the next visit will re-fetch.
+const VERSION = 4;
 const PREFIX = `bin:v${VERSION}:`;
 
 interface Entry<T> {

@@ -13,6 +13,7 @@
 - **Live data is client-side.** GBIF + iNat fetches run in the browser, cached 24h in `localStorage` via `lib/cache.ts`. Bump `VERSION` in that file when the cached payload shape changes — old entries become unreadable and refetch on next visit.
 - **iNat scope.** Indiana is iNat `place_id=20` (not 30; 30 is North Carolina — we hit that bug once). The gallery + tile grid try Indiana first, then fall back to global if there are zero Indiana observations.
 - **County resolution.** Most iNat `place_guess` strings don't include "Co." — point-in-polygon against the bundled Indiana TopoJSON (`lib/county-resolver.ts`) is the authoritative path. Used as a fallback in both `lib/inaturalist.ts` and `lib/gbif.ts`.
+- **iNat ↔ GBIF dedup.** iNaturalist research-grade observations are mirrored into GBIF as dataset `50c9509d-22c7-4a22-a47d-8c48425ef4a7`. `lib/gbif.ts` filters them out so the distribution aggregator + records table don't double-count — the iNat side serves those records directly with richer metadata.
 
 ## Decap quirks worth knowing
 
