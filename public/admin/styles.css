@@ -48,6 +48,88 @@ html, body, #nc-root, [class*="AppMainContainer"] {
   color: var(--text-600);
 }
 
+/* ============================================================
+   Site navigation bar that sits above Decap. Markup in index.html.
+   Decap's AppHeader is pushed down so both stack cleanly.
+   ============================================================ */
+:root { --bin-bar-h: 56px; }
+
+.bin-admin-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--bin-bar-h);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: #FFFFFF;
+  border-bottom: 1px solid var(--surface-3);
+  font-family: var(--font-sans);
+}
+
+.bin-admin-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--blue-800);
+}
+.bin-admin-brand:hover { text-decoration: none; }
+.bin-admin-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+.bin-admin-brand-name {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: -0.005em;
+  color: var(--blue-800);
+}
+.bin-admin-brand-sub {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--gray-500);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-left: 10px;
+  border-left: 1px solid var(--surface-3);
+  margin-left: 4px;
+}
+
+.bin-admin-nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.bin-admin-nav-link {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-600);
+  text-decoration: none;
+}
+.bin-admin-nav-link:hover {
+  color: var(--blue-600);
+  text-decoration: none;
+}
+
+/* Shift the entire Decap app down by --bin-bar-h so the brand bar shows.
+   Decap's AppHeader is itself fixed (top:0), so it needs to be pushed too. */
+body { padding-top: var(--bin-bar-h); }
+[class*="AppHeader"] {
+  top: var(--bin-bar-h) !important;
+}
+
+/* Hide unwanted toolbar controls. These class-based hides catch the common
+   variants; the JS in toolbar.js handles text-content matches as backup. */
+[class*="DeleteButton"],
+button[title*="Delete" i],
+a[class*="PreviewLink"] {
+  display: none !important;
+}
+
 /* Brand the top app bar */
 [class*="AppHeader"] {
   background: var(--surface-0) !important;

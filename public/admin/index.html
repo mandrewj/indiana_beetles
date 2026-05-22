@@ -9,6 +9,23 @@
   <link href="/admin/styles.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Site navigation bar that sits above Decap so editors can get back
+       to /, /browse, /admin/discover, /admin/refresh without leaving the
+       editor's domain. Decap's own AppHeader (Save, Publish, etc.) sits
+       just underneath via CSS top-offset in styles.css. -->
+  <header class="bin-admin-bar">
+    <a href="/" class="bin-admin-brand">
+      <img src="/images/insectID.png" alt="InsectID" class="bin-admin-logo">
+      <span class="bin-admin-brand-name">Beetles of Indiana</span>
+      <span class="bin-admin-brand-sub">Admin</span>
+    </a>
+    <nav class="bin-admin-nav">
+      <a href="/" class="bin-admin-nav-link">← Back to site</a>
+      <a href="/admin/discover" class="bin-admin-nav-link">Discover</a>
+      <a href="/admin/refresh" class="bin-admin-nav-link">Refresh</a>
+    </nav>
+  </header>
+
   <!--
     Manual init: stop Decap from reading config.yml on load so we can register
     custom widgets first, then init. Without this, config.yml is validated
@@ -17,6 +34,7 @@
   <script>window.CMS_MANUAL_INIT = true;</script>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   <script src="/admin/widgets.js"></script>
+  <script src="/admin/toolbar.js"></script>
   <script>window.CMS.init();</script>
 </body>
 </html>
