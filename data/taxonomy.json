@@ -165,36 +165,23 @@
       "species_count": 268,
       "genera": [
         {
-          "id": "anelaphus",
-          "name": "Anelaphus",
+          "id": "aegomorphus",
+          "name": "Aegomorphus",
           "species": [
             {
-              "id": "anelaphus_villosus",
-              "name": "Anelaphus villosus",
-              "common_name": "Twig Pruner",
+              "id": "aegomorphus_modestus",
+              "name": "Aegomorphus modestus",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "astylidius",
-          "name": "Astylidius",
+          "id": "dectes",
+          "name": "Dectes",
           "species": [
             {
-              "id": "astylidius_parvus",
-              "name": "Astylidius parvus",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "brachyleptura",
-          "name": "Brachyleptura",
-          "species": [
-            {
-              "id": "brachyleptura_rubrica",
-              "name": "Brachyleptura rubrica",
-              "common_name": "Red-winged Longhorn Beetle",
+              "id": "dectes_texanus",
+              "name": "Dectes texanus",
               "indiana_status": "confirmed"
             }
           ]
@@ -204,21 +191,9 @@
           "name": "Dorcaschema",
           "species": [
             {
-              "id": "dorcaschema_alternatum",
-              "name": "Dorcaschema alternatum",
-              "common_name": "Small Mulberry Borer",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "dryobius",
-          "name": "Dryobius",
-          "species": [
-            {
-              "id": "dryobius_sexnotatus",
-              "name": "Dryobius sexnotatus",
-              "common_name": "Six-banded Longhorn Beetle",
+              "id": "dorcaschema_cinereum",
+              "name": "Dorcaschema cinereum",
+              "common_name": "Ashen Longhorned Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -228,56 +203,78 @@
           "name": "Euderces",
           "species": [
             {
-              "id": "euderces_pini",
-              "name": "Euderces pini",
+              "id": "euderces_picipes",
+              "name": "Euderces picipes",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "knulliana",
-          "name": "Knulliana",
+          "id": "heterachthes",
+          "name": "Heterachthes",
           "species": [
             {
-              "id": "knulliana_cincta",
-              "name": "Knulliana cincta",
-              "common_name": "Banded Hickory Borer",
+              "id": "heterachthes_quadrimaculatus",
+              "name": "Heterachthes quadrimaculatus",
+              "common_name": "Four-spotted Hickory Borer",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "psenocerus",
-          "name": "Psenocerus",
+          "id": "lepturges",
+          "name": "Lepturges",
           "species": [
             {
-              "id": "psenocerus_supernotatus",
-              "name": "Psenocerus supernotatus",
-              "common_name": "Currant-tip Borer",
+              "id": "lepturges_confluens",
+              "name": "Lepturges confluens",
+              "common_name": "Dark-stained Longhorned Beetle",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "sternidius",
-          "name": "Sternidius",
+          "id": "psyrassa",
+          "name": "Psyrassa",
           "species": [
             {
-              "id": "sternidius_alpha",
-              "name": "Sternidius alpha",
-              "common_name": "Alpha Long-horned Beetle",
+              "id": "psyrassa_unicolor",
+              "name": "Psyrassa unicolor",
+              "common_name": "Branch Pruner Beetle",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "urgleptes",
-          "name": "Urgleptes",
+          "id": "stenelytrana",
+          "name": "Stenelytrana",
           "species": [
             {
-              "id": "urgleptes_querci",
-              "name": "Urgleptes querci",
-              "common_name": "Oak Long-horned Beetle",
+              "id": "stenelytrana_emarginata",
+              "name": "Stenelytrana emarginata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tetraopes",
+          "name": "Tetraopes",
+          "species": [
+            {
+              "id": "tetraopes_quinquemaculatus",
+              "name": "Tetraopes quinquemaculatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tylonotus",
+          "name": "Tylonotus",
+          "species": [
+            {
+              "id": "tylonotus_bimaculatus",
+              "name": "Tylonotus bimaculatus",
+              "common_name": "Ash and Privet Borer",
               "indiana_status": "confirmed"
             }
           ]
