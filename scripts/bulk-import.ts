@@ -507,21 +507,20 @@ function knownSpeciesNames(taxonomy: any): Set<string> {
 
 function speciesNeedsWork(sp: any): boolean {
   if (!sp) return true;
-  if (isBlank(sp.diagnosis)) return true;
-  if (isBlank(sp.body_size_mm)) return true;
-  if (isBlank(sp.phenology)) return true;
-  if (isBlank(sp.counties)) return true;
-  if (isBlank(sp.gbif_taxon_key)) return true;
-  if (isBlank(sp.inat_taxon_id)) return true;
-  if (isBlank(sp.authority)) return true;
-  if (isBlank(sp.common_name)) return true;
-  // Reference URL has a space → flag the legacy bulk-import bug.
-  if (Array.isArray(sp.references)) {
-    for (const r of sp.references) {
-      if (typeof r === "string" && /\/wiki\/[^*]* /.test(r)) return true;
+  // If the species has been touched by bulk-import, trust that empty fields
+  // are empty because the source didn't have them (Wikipedia gap). Skipping
+  // makes re-runs of `all` cheap. Editors can still refresh per-species
+  // through the admin tool.
+  if (sp.last_refreshed) {
+    // One-time repair window for the legacy URL-with-space bug.
+    if (Array.isArray(sp.references)) {
+      for (const r of sp.references) {
+        if (typeof r === "string" && /\/wiki\/[^*]* /.test(r)) return true;
+      }
     }
+    return false;
   }
-  return false;
+  return true;
 }
 
 function ensureFamilyInTaxonomy(taxonomy: any, familyId: string, familyName: string) {
@@ -902,7 +901,11 @@ async function main() {
   }
 
   for (const familyId of families) {
-    await processFamily(familyId);
+    try {
+      await processFamily(familyId);
+    } catch (err) {
+      log(`⚠ ${familyId} failed: ${(err as Error).message}`);
+    }
   }
   log(`\nDone.`);
 }
