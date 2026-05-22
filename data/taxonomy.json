@@ -200,6 +200,18 @@
           ]
         },
         {
+          "id": "batyle",
+          "name": "Batyle",
+          "species": [
+            {
+              "id": "batyle_suturalis",
+              "name": "Batyle suturalis",
+              "common_name": "Sutured Longhorn Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "clytus",
           "name": "Clytus",
           "species": [
@@ -259,6 +271,18 @@
           ]
         },
         {
+          "id": "ecyrus",
+          "name": "Ecyrus",
+          "species": [
+            {
+              "id": "ecyrus_dasycerus",
+              "name": "Ecyrus dasycerus",
+              "common_name": "Rough-coated Longhorned Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "elaphidion",
           "name": "Elaphidion",
           "species": [
@@ -266,6 +290,18 @@
               "id": "elaphidion_mucronatum",
               "name": "Elaphidion mucronatum",
               "common_name": "Spined Oak Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "enaphalodes",
+          "name": "Enaphalodes",
+          "species": [
+            {
+              "id": "enaphalodes_rufulus",
+              "name": "Enaphalodes rufulus",
+              "common_name": "Red Oak Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -301,6 +337,18 @@
               "id": "heterachthes_quadrimaculatus",
               "name": "Heterachthes quadrimaculatus",
               "common_name": "Four-spotted Hickory Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hippopsis",
+          "name": "Hippopsis",
+          "species": [
+            {
+              "id": "hippopsis_lemniscata",
+              "name": "Hippopsis lemniscata",
+              "common_name": "Ribbon Longhorn Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -347,6 +395,18 @@
           ]
         },
         {
+          "id": "molorchus",
+          "name": "Molorchus",
+          "species": [
+            {
+              "id": "molorchus_bimaculatus",
+              "name": "Molorchus bimaculatus",
+              "common_name": "Bimaculate Longhorn Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "monochamus",
           "name": "Monochamus",
           "species": [
@@ -379,6 +439,23 @@
               "name": "Neoclytus acuminatus",
               "common_name": "Red-headed Ash Borer",
               "indiana_status": "confirmed"
+            },
+            {
+              "id": "neoclytus_mucronatus",
+              "name": "Neoclytus mucronatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "oncideres",
+          "name": "Oncideres",
+          "species": [
+            {
+              "id": "oncideres_cingulata",
+              "name": "Oncideres cingulata",
+              "common_name": "Eastern Twig Girdler",
+              "indiana_status": "confirmed"
             }
           ]
         },
@@ -390,6 +467,18 @@
               "id": "orthosoma_brunneum",
               "name": "Orthosoma brunneum",
               "common_name": "Brown Prionid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "plectrodera",
+          "name": "Plectrodera",
+          "species": [
+            {
+              "id": "plectrodera_scalator",
+              "name": "Plectrodera scalator",
+              "common_name": "Cottonwood Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -414,6 +503,18 @@
               "id": "psyrassa_unicolor",
               "name": "Psyrassa unicolor",
               "common_name": "Branch Pruner Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "saperda",
+          "name": "Saperda",
+          "species": [
+            {
+              "id": "saperda_tridentata",
+              "name": "Saperda tridentata",
+              "common_name": "Elm Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -445,6 +546,12 @@
           "id": "strangalia",
           "name": "Strangalia",
           "species": [
+            {
+              "id": "strangalia_famelica",
+              "name": "Strangalia famelica",
+              "common_name": "Slender Flower Longhorn Beetle",
+              "indiana_status": "confirmed"
+            },
             {
               "id": "strangalia_luteicornis",
               "name": "Strangalia luteicornis",
