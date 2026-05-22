@@ -156,6 +156,7 @@ async function resolveCounty(
 interface RawTaxon {
   id: number;
   name?: string;
+  rank?: string;
   preferred_common_name?: string;
   wikipedia_url?: string;
   wikipedia_summary?: string;
