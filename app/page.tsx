@@ -117,16 +117,16 @@ export default async function Home() {
               <ArrowRight size={14} />
             </div>
           </Link>
-          <Link className="quick" href="/distribution">
-            <div className="num">03 — Distribution</div>
-            <h3>County-level occurrence</h3>
+          <Link className="quick" href="/glossary">
+            <div className="num">03 — Glossary</div>
+            <h3>Morphological terms</h3>
             <p>
-              An interactive choropleth of all 92 counties, filterable by
-              family, genus, or species. Records merged from GBIF +
-              iNaturalist.
+              Compiled from the keys and species treatments on this site —
+              quick reference while reading diagnoses or working through the
+              dichotomous key.
             </p>
             <div className="go">
-              <span>Open map explorer</span>
+              <span>Open glossary</span>
               <ArrowRight size={14} />
             </div>
           </Link>

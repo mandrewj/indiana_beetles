@@ -5,7 +5,7 @@ import { SpecimenPh } from "./Placeholders";
 import { fetchTaxaDefaultPhotos } from "@/lib/inaturalist";
 import { taxonIdOrNull } from "@/lib/types";
 
-interface MiniSpecies {
+interface MiniTaxon {
   id: string;
   inat_taxon_id?: number | string | null;
   /** Optional admin image URL — takes precedence over iNat. */
@@ -13,9 +13,13 @@ interface MiniSpecies {
 }
 
 interface Props {
-  species: MiniSpecies;
-  /** CSS-class for the wrapping element; sized externally via .species-row .thumb. */
+  species: MiniTaxon;
+  /** CSS class for the wrapper element. Defaults to "thumb". */
   className?: string;
+  /** CSS aspect-ratio value, e.g. "4/3". */
+  ratio?: string;
+  /** Label shown on the placeholder if no image is found. */
+  placeholderLabel?: string;
 }
 
 // Module-level batch coalescer: when many <SpeciesThumb> mount in the same
@@ -59,7 +63,12 @@ async function flush() {
   }
 }
 
-export function SpeciesThumb({ species, className }: Props) {
+export function SpeciesThumb({
+  species,
+  className,
+  ratio,
+  placeholderLabel,
+}: Props) {
   const inatId = taxonIdOrNull(species.inat_taxon_id);
   const adminUrl = species.adminImageUrl?.trim() ?? null;
 
@@ -67,13 +76,11 @@ export function SpeciesThumb({ species, className }: Props) {
   const [adminBroken, setAdminBroken] = useState(false);
 
   useEffect(() => {
-    // Reset state when species changes
     setAdminBroken(false);
     setPhotoUrl(adminUrl);
   }, [species.id, adminUrl]);
 
   useEffect(() => {
-    // If there's no admin URL (or it broke) and we have an iNat id, fetch.
     if ((adminUrl && !adminBroken) || inatId === null) return;
     let live = true;
     requestPhoto(inatId).then((url) => {
@@ -85,13 +92,15 @@ export function SpeciesThumb({ species, className }: Props) {
   }, [inatId, adminUrl, adminBroken]);
 
   const cls = className ?? "thumb";
+  const wrapperStyle: React.CSSProperties = {
+    position: "relative",
+    overflow: "hidden",
+    ...(ratio ? { aspectRatio: ratio } : null),
+  };
 
   if (photoUrl) {
     return (
-      <div
-        className={cls}
-        style={{ position: "relative", overflow: "hidden" }}
-      >
+      <div className={cls} style={wrapperStyle}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={photoUrl}
@@ -114,5 +123,12 @@ export function SpeciesThumb({ species, className }: Props) {
     );
   }
 
-  return <SpecimenPh seed={`${species.id}_thumb`} />;
+  return (
+    <SpecimenPh
+      seed={`${species.id}_thumb`}
+      ratio={ratio}
+      label={placeholderLabel}
+      style={ratio ? undefined : { width: "100%", height: "100%" }}
+    />
+  );
 }

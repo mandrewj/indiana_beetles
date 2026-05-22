@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ArrowRight, Search } from "lucide-react";
-import { SpecimenPh } from "@/components/Placeholders";
+import { SpeciesThumb } from "@/components/SpeciesThumb";
 import { RankLabel } from "@/components/Badges";
 import type { Family } from "@/lib/types";
 
@@ -114,10 +114,15 @@ export function BrowseView({ families }: { families: Family[] }) {
       >
         {filtered.map((f, i) => (
           <Link key={f.id} className="feat" href={`/browse/${f.id}`}>
-            <SpecimenPh
-              seed={f.id}
+            <SpeciesThumb
+              species={{
+                id: f.id,
+                inat_taxon_id: f.inat_taxon_id,
+                adminImageUrl: null,
+              }}
+              className="img"
               ratio="4/3"
-              label={`Plate ${String(i + 1).padStart(2, "0")}`}
+              placeholderLabel={`Plate ${String(i + 1).padStart(2, "0")}`}
             />
             <div className="meta">
               <span className="rank">Family</span>

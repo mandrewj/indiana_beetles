@@ -31,6 +31,8 @@ collections:
     create: true
     identifier_field: id
     slug: "{{id}}"
+    editor:
+      preview: false
     summary: "{{scientific_name}} ({{indiana_status}})"
     sortable_fields: [scientific_name, family, genus, indiana_status]
     view_groups:
@@ -125,6 +127,8 @@ collections:
     create: true
     identifier_field: id
     slug: "{{id}}"
+    editor:
+      preview: false
     fields:
       - { name: id,            label: "ID (slug)",   widget: string }
       - { name: name,          label: "Family name", widget: string }
@@ -133,6 +137,7 @@ collections:
       - { name: diagnosis,     label: "Diagnosis",   widget: text }
       - { name: species_count, label: "Species count (IN)", widget: number, value_type: int }
       - { name: genus_count,   label: "Genera count (IN)",  widget: number, value_type: int }
+      - { name: inat_taxon_id, label: "iNat taxon id",      widget: number, value_type: int, required: false, hint: "Used for the family-plate thumbnail on /browse." }
 
   # ────────────────────────────────────────────────────────────
   # Identification keys
@@ -150,6 +155,8 @@ collections:
     create: true
     identifier_field: title
     slug: "{{filename}}"
+    editor:
+      preview: false
     fields:
       - { name: title, label: "Title", widget: string }
       - { name: type,  label: "Type",  widget: hidden, default: "dichotomous" }
@@ -205,6 +212,8 @@ collections:
   # ────────────────────────────────────────────────────────────
   - name: glossary
     label: "Glossary"
+    editor:
+      preview: false
     files:
       - name: terms
         label: "Glossary terms"

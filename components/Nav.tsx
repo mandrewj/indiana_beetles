@@ -8,7 +8,6 @@ import { Search } from "lucide-react";
 const NAV_ITEMS = [
   { href: "/browse", match: ["/browse"], label: "Browse" },
   { href: "/identify", match: ["/identify"], label: "Identify" },
-  { href: "/distribution", match: ["/distribution"], label: "Distribution" },
   { href: "/glossary", match: ["/glossary"], label: "Glossary" },
   { href: "/about", match: ["/about"], label: "About" },
   { href: "/admin", match: ["/admin"], label: "Admin" },

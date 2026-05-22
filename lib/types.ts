@@ -64,6 +64,7 @@ export interface Family {
   historical_count?: number;
   adventive_count?: number;
   genus_notes?: Record<string, string>;
+  inat_taxon_id?: number | string | null;
 }
 
 export interface TaxonomyGenus {
