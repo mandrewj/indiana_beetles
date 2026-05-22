@@ -1,0 +1,63 @@
+{
+  "id": "calomycterus_setarius",
+  "scientific_name": "Calomycterus setarius",
+  "common_name": "Imported Long-horned Weevil",
+  "family": "curculionidae",
+  "genus": "calomycterus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1230195,
+  "inat_taxon_id": 215778,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Boone",
+    "Carroll",
+    "Clay",
+    "Grant",
+    "Harrison",
+    "Henry",
+    "Jennings",
+    "Kosciusko",
+    "LaPorte",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Noble",
+    "Porter",
+    "Tippecanoe",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 12,
+    "Boone": 6,
+    "Noble": 1,
+    "Madison": 1,
+    "Jennings": 1,
+    "Kosciusko": 1,
+    "Clay": 1,
+    "Warrick": 1,
+    "Henry": 1,
+    "Grant": 1,
+    "Porter": 2,
+    "Harrison": 1,
+    "Marion": 3,
+    "LaPorte": 1,
+    "Monroe": 1,
+    "Carroll": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

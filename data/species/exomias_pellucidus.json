@@ -1,0 +1,44 @@
+{
+  "id": "exomias_pellucidus",
+  "scientific_name": "Exomias pellucidus",
+  "common_name": "Hairy Spider Weevil",
+  "family": "curculionidae",
+  "genus": "exomias",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1232526,
+  "inat_taxon_id": 1631601,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Hendricks",
+    "Jefferson",
+    "Marion",
+    "Monroe",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 16,
+    "Allen": 8,
+    "Marion": 8,
+    "Jefferson": 1,
+    "Hendricks": 5,
+    "Monroe": 2,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

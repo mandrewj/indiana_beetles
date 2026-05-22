@@ -1,0 +1,44 @@
+{
+  "id": "curculio_proboscideus",
+  "scientific_name": "Curculio proboscideus",
+  "family": "curculionidae",
+  "genus": "curculio",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5010984,
+  "inat_taxon_id": 217933,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    8,
+    9
+  ],
+  "counties": [
+    "Allen",
+    "Monroe",
+    "Ripley",
+    "St. Joseph",
+    "Tippecanoe",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Ripley": 1,
+    "Tippecanoe": 1,
+    "St. Joseph": 1,
+    "Warrick": 1,
+    "Allen": 3,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "odontopus_calceatus",
+  "scientific_name": "Odontopus calceatus",
+  "common_name": "Yellow Poplar Weevil",
+  "family": "curculionidae",
+  "genus": "odontopus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5009500,
+  "inat_taxon_id": 226209,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Clark",
+    "Jennings",
+    "Monroe",
+    "Montgomery",
+    "Owen",
+    "Porter",
+    "Ripley",
+    "St. Joseph",
+    "Vermillion",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Jennings": 6,
+    "Ripley": 4,
+    "Monroe": 20,
+    "Porter": 2,
+    "Vigo": 3,
+    "Montgomery": 1,
+    "Vermillion": 1,
+    "Clark": 1,
+    "St. Joseph": 5,
+    "Owen": 1,
+    "Allen": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

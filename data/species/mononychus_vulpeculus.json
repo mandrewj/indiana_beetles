@@ -1,0 +1,43 @@
+{
+  "id": "mononychus_vulpeculus",
+  "scientific_name": "Mononychus vulpeculus",
+  "common_name": "iris weevil",
+  "family": "curculionidae",
+  "genus": "mononychus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5021064,
+  "inat_taxon_id": 225221,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    8
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Boone",
+    "LaGrange",
+    "Lake",
+    "Monroe",
+    "Noble",
+    "Porter",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "LaGrange": 4,
+    "Noble": 2,
+    "Porter": 4,
+    "Lake": 3,
+    "Monroe": 5,
+    "Starke": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

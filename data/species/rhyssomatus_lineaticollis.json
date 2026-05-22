@@ -1,0 +1,53 @@
+{
+  "id": "rhyssomatus_lineaticollis",
+  "scientific_name": "Rhyssomatus lineaticollis",
+  "common_name": "Milkweed Stem Weevil",
+  "family": "curculionidae",
+  "genus": "rhyssomatus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1192203,
+  "inat_taxon_id": 230166,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "DeKalb",
+    "Hamilton",
+    "Kosciusko",
+    "Marion",
+    "Miami",
+    "Porter",
+    "Pulaski",
+    "Starke",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Starke": 3,
+    "Pulaski": 3,
+    "Porter": 8,
+    "Kosciusko": 16,
+    "Marion": 1,
+    "Tippecanoe": 2,
+    "DeKalb": 1,
+    "Allen": 2,
+    "Hamilton": 1,
+    "Miami": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "phyllobius_oblongus",
+  "scientific_name": "Phyllobius oblongus",
+  "common_name": "Brown Leaf Weevil",
+  "family": "curculionidae",
+  "genus": "phyllobius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5022592,
+  "inat_taxon_id": 227925,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Adams",
+    "Allen",
+    "Henry",
+    "LaPorte",
+    "Madison",
+    "Noble",
+    "Porter",
+    "Steuben"
+  ],
+  "county_record_counts": {
+    "Noble": 4,
+    "Henry": 2,
+    "Porter": 2,
+    "Allen": 2,
+    "Adams": 1,
+    "Steuben": 1,
+    "LaPorte": 3,
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

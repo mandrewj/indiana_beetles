@@ -1,0 +1,63 @@
+{
+  "id": "sphenophorus_parvulus",
+  "scientific_name": "Sphenophorus parvulus",
+  "common_name": "Bluegrass Billbug",
+  "family": "curculionidae",
+  "genus": "sphenophorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1169823,
+  "inat_taxon_id": 231367,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Delaware",
+    "Grant",
+    "Hamilton",
+    "Hendricks",
+    "Henry",
+    "Huntington",
+    "Johnson",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 7,
+    "Allen": 10,
+    "Hamilton": 1,
+    "Henry": 1,
+    "Marion": 2,
+    "Johnson": 1,
+    "Grant": 1,
+    "Huntington": 1,
+    "Monroe": 4,
+    "Delaware": 1,
+    "Hendricks": 2,
+    "Lake": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

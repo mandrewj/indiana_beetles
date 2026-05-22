@@ -1,0 +1,59 @@
+{
+  "id": "orchestes_steppensis",
+  "scientific_name": "Orchestes steppensis",
+  "common_name": "European Elm Flea Weevil",
+  "family": "curculionidae",
+  "genus": "orchestes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 11834366,
+  "inat_taxon_id": 547066,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Bartholomew",
+    "Elkhart",
+    "Hamilton",
+    "Hancock",
+    "Johnson",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 4,
+    "Allen": 3,
+    "Marion": 9,
+    "Porter": 2,
+    "Hamilton": 2,
+    "Johnson": 1,
+    "St. Joseph": 2,
+    "Bartholomew": 1,
+    "Elkhart": 1,
+    "Madison": 1,
+    "Lake": 1,
+    "Hancock": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

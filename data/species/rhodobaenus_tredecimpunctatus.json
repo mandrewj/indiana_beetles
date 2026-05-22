@@ -1,0 +1,61 @@
+{
+  "id": "rhodobaenus_tredecimpunctatus",
+  "scientific_name": "Rhodobaenus tredecimpunctatus",
+  "common_name": "Ironweed Curculio",
+  "family": "curculionidae",
+  "genus": "rhodobaenus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1169598,
+  "inat_taxon_id": 230014,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    11
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Boone",
+    "Clark",
+    "Dearborn",
+    "Fayette",
+    "Hamilton",
+    "Hendricks",
+    "Madison",
+    "Marion",
+    "Miami",
+    "Monroe",
+    "Spencer",
+    "Steuben",
+    "Switzerland",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Clark": 2,
+    "Monroe": 2,
+    "Spencer": 1,
+    "Hamilton": 2,
+    "Marion": 27,
+    "Hendricks": 3,
+    "Miami": 1,
+    "Madison": 2,
+    "Fayette": 1,
+    "Dearborn": 1,
+    "Boone": 2,
+    "Steuben": 1,
+    "Switzerland": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

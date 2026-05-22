@@ -1,0 +1,49 @@
+{
+  "id": "conotrachelus_nenuphar",
+  "scientific_name": "Conotrachelus nenuphar",
+  "common_name": "Plum Curculio",
+  "family": "curculionidae",
+  "genus": "conotrachelus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1193671,
+  "inat_taxon_id": 217517,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7
+  ],
+  "counties": [
+    "Harrison",
+    "Hendricks",
+    "Jennings",
+    "Marion",
+    "Porter",
+    "Tippecanoe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 3,
+    "Harrison": 1,
+    "Hendricks": 4,
+    "Jennings": 3,
+    "Marion": 3,
+    "Vanderburgh": 1,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

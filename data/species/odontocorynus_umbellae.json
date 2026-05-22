@@ -1,0 +1,44 @@
+{
+  "id": "odontocorynus_umbellae",
+  "scientific_name": "Odontocorynus umbellae",
+  "common_name": "Daisy Flower Weevil",
+  "family": "curculionidae",
+  "genus": "odontocorynus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7895849,
+  "inat_taxon_id": 455960,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Dubois",
+    "Marion",
+    "Porter",
+    "Pulaski",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Pulaski": 1,
+    "Marion": 1,
+    "Porter": 1,
+    "Dubois": 1,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

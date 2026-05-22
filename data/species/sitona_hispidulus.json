@@ -1,0 +1,62 @@
+{
+  "id": "sitona_hispidulus",
+  "scientific_name": "Sitona hispidulus",
+  "common_name": "Clover Weevil",
+  "family": "curculionidae",
+  "genus": "sitona",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1181241,
+  "inat_taxon_id": 231080,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "counties": [
+    "Allen",
+    "Bartholomew",
+    "Hendricks",
+    "Madison",
+    "Marion",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Marion": 6,
+    "Porter": 7,
+    "Allen": 3,
+    "St. Joseph": 2,
+    "Tippecanoe": 6,
+    "Bartholomew": 5,
+    "Hendricks": 5,
+    "Madison": 1,
+    "Vigo": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

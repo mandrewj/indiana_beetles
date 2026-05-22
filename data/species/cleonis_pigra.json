@@ -1,0 +1,54 @@
+{
+  "id": "cleonis_pigra",
+  "scientific_name": "Cleonis pigra",
+  "common_name": "Large Thistle Weevil",
+  "family": "curculionidae",
+  "genus": "cleonis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4465183,
+  "inat_taxon_id": 217186,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    8,
+    9
+  ],
+  "counties": [
+    "Allen",
+    "Benton",
+    "Hamilton",
+    "Hendricks",
+    "Howard",
+    "LaGrange",
+    "LaPorte",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 7,
+    "LaPorte": 1,
+    "St. Joseph": 1,
+    "Hendricks": 3,
+    "Allen": 3,
+    "Hamilton": 1,
+    "LaGrange": 1,
+    "Howard": 1,
+    "Benton": 1,
+    "Porter": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}
