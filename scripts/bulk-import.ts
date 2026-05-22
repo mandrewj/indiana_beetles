@@ -189,9 +189,6 @@ async function lookupINatFamily(name: string): Promise<number | null> {
 }
 
 async function lookupINatGenus(name: string): Promise<number | null> {
-  const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(
-    name
-  )}`;
   const data = await inatFetch<{
     results?: Array<{ id: number; name?: string }>;
   }>(
@@ -340,9 +337,33 @@ interface WikiContent {
   url: string | null;
 }
 
+function cleanWikiUrl(url: string | null | undefined): string | null {
+  if (!url) return null;
+  // iNat sometimes returns the display form with spaces; Wikipedia URLs
+  // canonically use underscores.
+  return url.replace(/(https?:\/\/[^\s]*\/wiki\/)([^?#]+)/, (_, prefix, title) =>
+    prefix + title.replace(/ /g, "_")
+  );
+}
+
+/** Title (decoded, spaces, no underscores) from a wiki URL, or null. */
+function titleFromWikiUrl(url: string | null | undefined): string | null {
+  const cleaned = cleanWikiUrl(url);
+  if (!cleaned) return null;
+  const m = cleaned.match(/\/wiki\/([^?#]+)/);
+  if (!m) return null;
+  return decodeURIComponent(m[1]).replace(/_/g, " ");
+}
+
+/** Heuristic for "Foo may refer to:" disambiguation pages cached by iNat. */
+function looksLikeDisambig(text: string): boolean {
+  return /\bmay refer to:?\s*$/i.test(text.trim());
+}
+
 async function fetchWikipediaSummary(title: string): Promise<{
   extract?: string;
   content_url?: string;
+  is_disambig?: boolean;
 } | null> {
   const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/\s+/g, "_"))}`;
   const res = await fetch(url, {
@@ -351,35 +372,74 @@ async function fetchWikipediaSummary(title: string): Promise<{
   if (!res.ok) return null;
   const data = (await res.json()) as {
     extract?: string;
+    type?: string;
     content_urls?: { desktop?: { page?: string } };
   };
   return {
     extract: data.extract,
     content_url: data.content_urls?.desktop?.page,
+    is_disambig: data.type === "disambiguation",
   };
 }
 
+/** Fetch plain-text body of a Wikipedia article via the MediaWiki API.
+ *  Used to find sizes that don't appear in the lead-paragraph summary. */
+async function fetchWikipediaArticleText(title: string): Promise<string | null> {
+  const t = title.replace(/\s+/g, "_");
+  const url = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=true&exsectionformat=plain&titles=${encodeURIComponent(t)}&format=json&origin=*&redirects=1`;
+  const res = await fetch(url);
+  if (!res.ok) return null;
+  const data = (await res.json()) as {
+    query?: { pages?: Record<string, { extract?: string }> };
+  };
+  const pages = data.query?.pages ?? {};
+  for (const k of Object.keys(pages)) {
+    const ex = pages[k]?.extract;
+    if (ex) return ex;
+  }
+  return null;
+}
+
 /** Resolve content for a taxon: prefer iNat's wikipedia_summary, then direct
- *  Wikipedia REST. Returns short diagnosis + best-effort size. */
+ *  Wikipedia REST summary. If no size found in either, fetch the full
+ *  Wikipedia article and try one more time. Returns short diagnosis + size. */
 async function fetchTaxonContent(
   taxon: RawTaxon | null,
   fallbackTitle: string,
   diagnosisSentences: number
 ): Promise<WikiContent> {
   let text = taxon?.wikipedia_summary ?? "";
-  let url = taxon?.wikipedia_url ?? null;
+  let url = cleanWikiUrl(taxon?.wikipedia_url);
+  if (text && looksLikeDisambig(text)) text = "";
+
   if (!text) {
-    const wiki = await fetchWikipediaSummary(fallbackTitle);
-    if (wiki?.extract) {
+    // Prefer the URL-derived title when iNat provided one (handles
+    // "(beetle)" disambiguators that bare lookups would miss).
+    const urlTitle = titleFromWikiUrl(url);
+    const titleToTry = urlTitle ?? fallbackTitle;
+    const wiki = await fetchWikipediaSummary(titleToTry);
+    if (wiki?.extract && !wiki.is_disambig) {
       text = wiki.extract;
       url = wiki.content_url ?? url;
     }
   }
-  // iNat's wikipedia_summary often contains HTML; strip tags.
+
   const cleaned = text.replace(/<[^>]*>/g, "");
+  let size = extractSize(cleaned);
+
+  // If summary doesn't carry a size, try the full Wikipedia article body.
+  if (!size && url) {
+    const titleMatch = url.match(/\/wiki\/([^?#]+)/);
+    const title = titleMatch ? decodeURIComponent(titleMatch[1]) : fallbackTitle;
+    const articleText = await fetchWikipediaArticleText(title);
+    if (articleText) {
+      size = extractSize(articleText);
+    }
+  }
+
   return {
     diagnosis: cleaned ? firstSentences(cleaned, diagnosisSentences) : null,
-    size: extractSize(cleaned),
+    size,
     url,
   };
 }
@@ -443,6 +503,25 @@ function knownSpeciesNames(taxonomy: any): Set<string> {
     }
   }
   return set;
+}
+
+function speciesNeedsWork(sp: any): boolean {
+  if (!sp) return true;
+  if (isBlank(sp.diagnosis)) return true;
+  if (isBlank(sp.body_size_mm)) return true;
+  if (isBlank(sp.phenology)) return true;
+  if (isBlank(sp.counties)) return true;
+  if (isBlank(sp.gbif_taxon_key)) return true;
+  if (isBlank(sp.inat_taxon_id)) return true;
+  if (isBlank(sp.authority)) return true;
+  if (isBlank(sp.common_name)) return true;
+  // Reference URL has a space → flag the legacy bulk-import bug.
+  if (Array.isArray(sp.references)) {
+    for (const r of sp.references) {
+      if (typeof r === "string" && /\/wiki\/[^*]* /.test(r)) return true;
+    }
+  }
+  return false;
 }
 
 function ensureFamilyInTaxonomy(taxonomy: any, familyId: string, familyName: string) {
@@ -565,6 +644,14 @@ async function processSpecies(
     }
     if (isBlank(existing.references) && baseRefs.length > 0) {
       existing.references = baseRefs;
+    } else if (Array.isArray(existing.references) && baseRefs.length > 0) {
+      // Repair the legacy bulk-import reference that contained a space in
+      // the Wikipedia URL ("Lucanus capreolus" → "Lucanus_capreolus").
+      existing.references = existing.references.map((r: string) => {
+        if (typeof r !== "string") return r;
+        if (/^Source: Wikipedia,/.test(r)) return baseRefs[0];
+        return r;
+      });
     }
     existing.last_refreshed = today;
     await saveSpecies(id, existing);
@@ -672,11 +759,29 @@ async function processFamily(familyId: string) {
   const candidates = all.filter((c) => c.count >= MIN_COUNT && c.taxon?.rank === "species" && c.taxon?.name);
   log(`  ${candidates.length} candidates (filtered from ${all.length})`);
 
-  // 5. Load taxonomy and figure out which candidates are new.
+  // 5. Load taxonomy. Build a candidate list of every species that's NEW
+  //    OR existing-with-blanks. Skip species that are fully populated.
   const taxonomy = await loadTaxonomy();
   const known = knownSpeciesNames(taxonomy);
-  const newCandidates = candidates.filter((c) => !known.has(c.taxon.name!));
-  log(`  ${newCandidates.length} new (after taxonomy filter)`);
+  const candidatesToProcess: typeof candidates = [];
+  let skippedComplete = 0;
+  for (const c of candidates) {
+    if (!c.taxon.name) continue;
+    const id = toSlug(c.taxon.name);
+    const inDataset = known.has(c.taxon.name);
+    if (inDataset) {
+      const existing = await loadSpecies(id);
+      if (existing && !speciesNeedsWork(existing)) {
+        skippedComplete++;
+        continue;
+      }
+    }
+    candidatesToProcess.push(c);
+  }
+  const newCandidates = candidatesToProcess;
+  log(
+    `  ${newCandidates.length} to process (${skippedComplete} already complete, ${candidates.length - newCandidates.length - skippedComplete} new)`
+  );
 
   const taxFamily = ensureFamilyInTaxonomy(taxonomy, familyId, family.name);
   const genusEnrichSet = new Set<string>();
@@ -712,20 +817,52 @@ async function processFamily(familyId: string) {
   }
 
   // 7. Also enrich genera that already exist (with new species added) — fill
-  //    family.genus_notes from Wikipedia where blank.
+  //    family.genus_notes from Wikipedia where blank. Resolve via iNat first
+  //    so we avoid disambiguation pages (e.g. bare "Lucanus" → "may refer to").
   if (!family.genus_notes) family.genus_notes = {};
   for (const genusId of genusEnrichSet) {
-    if (!isBlank(family.genus_notes[genusId])) continue;
+    const existingNote = family.genus_notes[genusId];
+    const isStale =
+      !existingNote ||
+      isBlank(existingNote) ||
+      looksLikeDisambig(existingNote);
+    if (!isStale) continue;
+
     const genusName = titleCase(genusId);
     log(`  Enriching genus note: ${genusName}`);
-    const lookup = await fetchWikipediaSummary(genusName);
-    if (lookup?.extract) {
+    const genusInatId = await lookupINatGenus(genusName);
+    await sleep(POLITE_DELAY_MS);
+
+    let text: string | null = null;
+    let urlTitle: string | null = null;
+    if (genusInatId) {
+      const t = await fetchTaxon(genusInatId);
+      await sleep(POLITE_DELAY_MS);
+      if (t?.wikipedia_summary && !looksLikeDisambig(t.wikipedia_summary)) {
+        text = t.wikipedia_summary;
+      } else if (t?.wikipedia_url) {
+        urlTitle = titleFromWikiUrl(t.wikipedia_url);
+      }
+    }
+    if (!text) {
+      const title = urlTitle ?? genusName;
+      const direct = await fetchWikipediaSummary(title);
+      if (direct?.extract && !direct.is_disambig) text = direct.extract;
+      await sleep(POLITE_DELAY_MS);
+    }
+    if (!text && urlTitle === null) {
+      // Last-ditch: try "<Genus> (beetle)" since many beetle genera have a
+      // disambiguated article title.
+      const direct = await fetchWikipediaSummary(`${genusName} (beetle)`);
+      if (direct?.extract && !direct.is_disambig) text = direct.extract;
+      await sleep(POLITE_DELAY_MS);
+    }
+    if (text) {
       family.genus_notes[genusId] = firstSentences(
-        lookup.extract.replace(/<[^>]*>/g, ""),
+        text.replace(/<[^>]*>/g, ""),
         1
       );
     }
-    await sleep(POLITE_DELAY_MS);
   }
 
   // 8. Persist.
