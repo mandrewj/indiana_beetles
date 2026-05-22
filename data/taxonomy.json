@@ -2723,6 +2723,62 @@
           ]
         }
       ]
+    },
+    {
+      "id": "silvanidae",
+      "name": "Silvanidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 19,
+      "genera": [
+        {
+          "id": "ahasverus",
+          "name": "Ahasverus",
+          "species": [
+            {
+              "id": "ahasverus_advena",
+              "name": "Ahasverus advena",
+              "common_name": "Foreign grain beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "oryzaephilus",
+          "name": "Oryzaephilus",
+          "species": [
+            {
+              "id": "oryzaephilus_surinamensis",
+              "name": "Oryzaephilus surinamensis",
+              "common_name": "Sawtoothed Grain Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "telephanus",
+          "name": "Telephanus",
+          "species": [
+            {
+              "id": "telephanus_atricapillus",
+              "name": "Telephanus atricapillus",
+              "common_name": "Black-headed Silvanid Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "uleiota",
+          "name": "Uleiota",
+          "species": [
+            {
+              "id": "uleiota_dubia",
+              "name": "Uleiota dubia",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

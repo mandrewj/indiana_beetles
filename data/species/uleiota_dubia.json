@@ -1,0 +1,41 @@
+{
+  "id": "uleiota_dubia",
+  "scientific_name": "Uleiota dubia",
+  "family": "silvanidae",
+  "genus": "uleiota",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8023182,
+  "inat_taxon_id": 233229,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    7,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Fayette",
+    "Marion",
+    "Morgan",
+    "Perry",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Morgan": 1,
+    "Fayette": 1,
+    "Marion": 1,
+    "Perry": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

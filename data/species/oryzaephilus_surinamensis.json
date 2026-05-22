@@ -1,0 +1,31 @@
+{
+  "id": "oryzaephilus_surinamensis",
+  "scientific_name": "Oryzaephilus surinamensis",
+  "common_name": "Sawtoothed Grain Beetle",
+  "family": "silvanidae",
+  "genus": "oryzaephilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043875,
+  "inat_taxon_id": 226660,
+  "diagnosis": "Oryzaephilus surinamensis, the sawtoothed grain beetle, is a slender, dark brown beetle 2.4–3 mm in size, with characteristic \"teeth\" running down the side of the prothorax. The sawtoothed grain beetle is a secondary pest that attacks damaged grain.",
+  "body_size_mm": "2.4–3",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    6,
+    12
+  ],
+  "phenology_peak": [
+    1,
+    6,
+    12
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Oryzaephilus_surinamensis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

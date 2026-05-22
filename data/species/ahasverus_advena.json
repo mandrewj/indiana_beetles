@@ -1,0 +1,35 @@
+{
+  "id": "ahasverus_advena",
+  "scientific_name": "Ahasverus advena",
+  "common_name": "Foreign grain beetle",
+  "family": "silvanidae",
+  "genus": "ahasverus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043858,
+  "inat_taxon_id": 212915,
+  "diagnosis": "Ahasverus advena, the foreign grain beetle, is a species of beetle in the family Silvanidae. It is related to the sawtoothed grain beetle.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    11
+  ],
+  "phenology_peak": [
+    7,
+    11
+  ],
+  "counties": [
+    "Johnson",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Johnson": 1,
+    "Marion": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Foreign_grain_beetle*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

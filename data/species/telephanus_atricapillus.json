@@ -1,0 +1,62 @@
+{
+  "id": "telephanus_atricapillus",
+  "scientific_name": "Telephanus atricapillus",
+  "common_name": "Black-headed Silvanid Beetle",
+  "family": "silvanidae",
+  "genus": "telephanus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043900,
+  "inat_taxon_id": 1228331,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Grant",
+    "Hendricks",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Allen": 6,
+    "Tippecanoe": 7,
+    "Marion": 3,
+    "Boone": 1,
+    "Hendricks": 3,
+    "Grant": 2,
+    "St. Joseph": 1,
+    "Vanderburgh": 1,
+    "Monroe": 1,
+    "Lake": 2,
+    "Madison": 1,
+    "Porter": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}
