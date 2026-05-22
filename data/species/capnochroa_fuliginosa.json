@@ -10,10 +10,34 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Huntington",
+    "Kosciusko",
+    "LaGrange",
+    "LaPorte",
+    "Morgan",
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Huntington": 1,
+    "LaGrange": 2,
+    "Kosciusko": 1,
+    "Brown": 3,
+    "Tippecanoe": 5,
+    "Porter": 1,
+    "LaPorte": 2,
+    "Morgan": 1
+  },
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "last_refreshed": "2026-05-22"
 }

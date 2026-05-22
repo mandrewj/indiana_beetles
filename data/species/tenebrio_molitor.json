@@ -10,10 +10,39 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    9,
+    10
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Hendricks",
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "Tippecanoe": 1,
+    "Porter": 6,
+    "Boone": 2,
+    "Hendricks": 5
+  },
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "last_refreshed": "2026-05-22"
 }

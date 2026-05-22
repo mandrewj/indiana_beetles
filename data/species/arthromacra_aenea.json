@@ -28,15 +28,15 @@
     "Posey",
     "Tippecanoe"
   ],
+  "county_record_counts": {
+    "Brown": 9,
+    "Tippecanoe": 1,
+    "Posey": 2,
+    "Monroe": 1,
+    "Lawrence": 1
+  },
   "images": [],
   "similar_species": [],
   "references": [],
-  "county_record_counts": {
-    "Brown": 10,
-    "Monroe": 2,
-    "Lawrence": 2,
-    "Tippecanoe": 1,
-    "Posey": 2
-  },
   "last_refreshed": "2026-05-22"
 }

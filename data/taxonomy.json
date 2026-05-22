@@ -1238,12 +1238,35 @@
           ]
         },
         {
+          "id": "anaedus",
+          "name": "Anaedus",
+          "species": [
+            {
+              "id": "anaedus_brunneus",
+              "name": "Anaedus brunneus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "androchirus",
           "name": "Androchirus",
           "species": [
             {
               "id": "androchirus_erythropus",
               "name": "Androchirus erythropus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "arthromacra",
+          "name": "Arthromacra",
+          "species": [
+            {
+              "id": "arthromacra_aenea",
+              "name": "Arthromacra aenea",
+              "common_name": "Bronze Darkling Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -1283,6 +1306,29 @@
           ]
         },
         {
+          "id": "bothrotes",
+          "name": "Bothrotes",
+          "species": [
+            {
+              "id": "bothrotes_canaliculatus",
+              "name": "Bothrotes canaliculatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "capnochroa",
+          "name": "Capnochroa",
+          "species": [
+            {
+              "id": "capnochroa_fuliginosa",
+              "name": "Capnochroa fuliginosa",
+              "common_name": "Comb-clawed Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "centronopus",
           "name": "Centronopus",
           "species": [
@@ -1290,6 +1336,18 @@
               "id": "centronopus_calcaratus",
               "name": "Centronopus calcaratus",
               "common_name": "Spurred Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chromatia",
+          "name": "Chromatia",
+          "species": [
+            {
+              "id": "chromatia_amoena",
+              "name": "Chromatia amoena",
+              "common_name": "Charming Red-and-Black Teneb",
               "indiana_status": "confirmed"
             }
           ]
@@ -1365,6 +1423,30 @@
           ]
         },
         {
+          "id": "merinus",
+          "name": "Merinus",
+          "species": [
+            {
+              "id": "merinus_laevis",
+              "name": "Merinus laevis",
+              "common_name": "Smooth Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "neatus",
+          "name": "Neatus",
+          "species": [
+            {
+              "id": "neatus_tenebrioides",
+              "name": "Neatus tenebrioides",
+              "common_name": "Forest Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "neomida",
           "name": "Neomida",
           "species": [
@@ -1422,6 +1504,24 @@
           ]
         },
         {
+          "id": "tenebrio",
+          "name": "Tenebrio",
+          "species": [
+            {
+              "id": "tenebrio_molitor",
+              "name": "Tenebrio molitor",
+              "common_name": "Yellow Mealworm Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "tenebrio_obscurus",
+              "name": "Tenebrio obscurus",
+              "common_name": "Dark Mealworm",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "xylopinus",
           "name": "Xylopinus",
           "species": [
@@ -1429,6 +1529,18 @@
               "id": "xylopinus_saperdoides",
               "name": "Xylopinus saperdoides",
               "common_name": "Decaying Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "zophobas",
+          "name": "Zophobas",
+          "species": [
+            {
+              "id": "zophobas_atratus",
+              "name": "Zophobas atratus",
+              "common_name": "Giant Mealworm Beetle",
               "indiana_status": "confirmed"
             }
           ]

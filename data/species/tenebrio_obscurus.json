@@ -10,10 +10,42 @@
   "diagnosis": "",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Madison",
+    "Marion",
+    "Marshall",
+    "Montgomery",
+    "Parke",
+    "Posey",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Parke": 1,
+    "Posey": 1,
+    "Boone": 4,
+    "Montgomery": 1,
+    "Marion": 1,
+    "Marshall": 1,
+    "Allen": 2,
+    "Madison": 1
+  },
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "last_refreshed": "2026-05-22"
 }
