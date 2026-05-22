@@ -238,6 +238,18 @@
               "indiana_status": "confirmed"
             }
           ]
+        },
+        {
+          "id": "meracantha",
+          "name": "Meracantha",
+          "species": [
+            {
+              "id": "meracantha_contracta",
+              "name": "Meracantha contracta",
+              "common_name": "Contracted Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
         }
       ]
     },
