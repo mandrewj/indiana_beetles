@@ -7,13 +7,40 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1124080,
   "inat_taxon_id": 218671,
-  "diagnosis": "",
+  "diagnosis": "Dorcaschema cinereum is a species of beetle in the family Cerambycidae. It was described by Olivier in 1795, originally under the genus Saperda.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Hamilton",
+    "Hancock",
+    "Harrison",
+    "Hendricks",
+    "Lake",
+    "Marion",
+    "Parke"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Dorcaschema_cinereum*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Hendricks": 2,
+    "Marion": 1,
+    "Parke": 1,
+    "Hamilton": 1,
+    "Lake": 3,
+    "Hancock": 1,
+    "Harrison": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -7,13 +7,38 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 8321828,
   "inat_taxon_id": 231120,
-  "diagnosis": "",
+  "diagnosis": "Smodicum cucujiforme is a species of beetle in the family Cerambycidae. It was described by Say in 1826.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Lake",
+    "Marion",
+    "St. Joseph",
+    "Starke"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Smodicum_cucujiforme*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Lake": 1,
+    "Brown": 1,
+    "Allen": 1,
+    "St. Joseph": 2,
+    "Marion": 2,
+    "Starke": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

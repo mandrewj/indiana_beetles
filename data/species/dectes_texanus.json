@@ -6,13 +6,35 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 5007472,
   "inat_taxon_id": 306570,
-  "diagnosis": "",
+  "diagnosis": "Dectes texanus is a species of longhorn beetles of the subfamily Lamiinae. It was described by LeConte in 1862.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Grant",
+    "Greene",
+    "Hamilton",
+    "Madison",
+    "Vigo"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Dectes_texanus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Greene": 1,
+    "Grant": 1,
+    "Madison": 2,
+    "Vigo": 1,
+    "Hamilton": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

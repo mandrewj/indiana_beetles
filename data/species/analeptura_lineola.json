@@ -7,13 +7,58 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1160514,
   "inat_taxon_id": 84482,
-  "diagnosis": "",
+  "diagnosis": "Analeptura lineola is a species of longhorn beetle in the Lepturinae subfamily that can be found in the Baltic states, Austria, Belarus, Czech Republic, France, Germany, Liechtenstein, Norway, Poland, Russia, Slovakia, Switzerland, and Ukraine. and United States.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "DeKalb",
+    "Delaware",
+    "Elkhart",
+    "Grant",
+    "Hamilton",
+    "Hendricks",
+    "Huntington",
+    "LaPorte",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "Pulaski",
+    "Switzerland"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Analeptura_lineola*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Delaware": 1,
+    "Morgan": 2,
+    "Huntington": 2,
+    "Porter": 3,
+    "LaPorte": 3,
+    "Marion": 10,
+    "Monroe": 4,
+    "Hendricks": 3,
+    "Elkhart": 1,
+    "Allen": 2,
+    "Grant": 1,
+    "Brown": 1,
+    "Switzerland": 1,
+    "Pulaski": 1,
+    "DeKalb": 1,
+    "Hamilton": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

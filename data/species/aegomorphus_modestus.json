@@ -6,13 +6,45 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 5003401,
   "inat_taxon_id": 212558,
-  "diagnosis": "",
+  "diagnosis": "Aegomorphus modestus is a species of beetle in the family Cerambycidae. It was described by Gyllenhal in 1817.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Brown",
+    "DeKalb",
+    "Lake",
+    "LaPorte",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "Posey",
+    "Tippecanoe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Aegomorphus_modestus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "LaPorte": 1,
+    "DeKalb": 1,
+    "Porter": 1,
+    "Posey": 1,
+    "Monroe": 1,
+    "Tippecanoe": 1,
+    "Brown": 1,
+    "Morgan": 2,
+    "Lake": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

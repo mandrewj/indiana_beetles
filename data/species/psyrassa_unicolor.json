@@ -7,13 +7,34 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1129225,
   "inat_taxon_id": 69733,
-  "diagnosis": "",
+  "diagnosis": "Psyrassa unicolor is a species of beetle in the family Cerambycidae.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Grant",
+    "Lake",
+    "Monroe",
+    "Porter"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Psyrassa_unicolor*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Grant": 1,
+    "Monroe": 1,
+    "Porter": 1,
+    "Lake": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -7,13 +7,32 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1151986,
   "inat_taxon_id": 219842,
-  "diagnosis": "",
+  "diagnosis": "Eupogonius pauper is a species of beetle in the family Cerambycidae. It was described by LeConte in 1852.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Lake",
+    "Monroe",
+    "Morgan",
+    "St. Joseph"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Eupogonius_pauper*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Morgan": 2,
+    "St. Joseph": 2,
+    "Monroe": 1,
+    "Lake": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

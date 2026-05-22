@@ -7,13 +7,43 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1122403,
   "inat_taxon_id": 339577,
-  "diagnosis": "",
+  "diagnosis": "Astyleiopus is a genus of beetles in the family Cerambycidae. It is monotypic, being represented by the single species, Astyleiopus variegatus.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Johnson",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Parke",
+    "St. Joseph",
+    "Starke"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Astyleiopus_variegatus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Parke": 1,
+    "Marion": 3,
+    "Morgan": 1,
+    "St. Joseph": 3,
+    "Monroe": 5,
+    "Johnson": 1,
+    "Starke": 1,
+    "Lake": 3
+  },
+  "last_refreshed": "2026-05-22"
 }

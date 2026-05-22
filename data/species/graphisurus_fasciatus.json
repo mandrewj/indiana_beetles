@@ -7,13 +7,57 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 5003949,
   "inat_taxon_id": 322989,
-  "diagnosis": "",
+  "diagnosis": "Graphisurus fasciatus is a species of longhorn beetles of the subfamily Lamiinae. It was described by Degeer in 1775, and is known from eastern North America.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    2,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Carroll",
+    "Clay",
+    "Dubois",
+    "Jennings",
+    "Johnson",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Graphisurus_fasciatus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Morgan": 10,
+    "Dubois": 1,
+    "Marion": 3,
+    "Monroe": 16,
+    "Johnson": 1,
+    "Clay": 1,
+    "St. Joseph": 2,
+    "Jennings": 1,
+    "Allen": 2,
+    "Tippecanoe": 2,
+    "Brown": 3,
+    "Carroll": 1,
+    "Porter": 2,
+    "Lake": 4
+  },
+  "last_refreshed": "2026-05-22"
 }

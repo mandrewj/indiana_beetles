@@ -7,13 +7,33 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1137868,
   "inat_taxon_id": 221270,
-  "diagnosis": "",
+  "diagnosis": "Heterachthes quadrimaculatus is a species of beetle in the family Cerambycidae. It was described by Haldeman in 1847.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Johnson",
+    "Lake",
+    "Monroe",
+    "Morgan"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Heterachthes_quadrimaculatus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Morgan": 3,
+    "Monroe": 1,
+    "Lake": 2,
+    "Johnson": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

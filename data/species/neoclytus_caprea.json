@@ -7,13 +7,37 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1137243,
   "inat_taxon_id": 225593,
-  "diagnosis": "",
+  "diagnosis": "Neoclytus caprea is a species of beetle in the family Cerambycidae. It was described by Say in 1824.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "phenology_peak": [
+    3,
+    4
+  ],
+  "counties": [
+    "Fountain",
+    "Monroe",
+    "Shelby",
+    "Vanderburgh",
+    "Vigo"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Neoclytus_caprea*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Fountain": 1,
+    "Vanderburgh": 1,
+    "Monroe": 1,
+    "Shelby": 1,
+    "Vigo": 2
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -7,13 +7,53 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 5001337,
   "inat_taxon_id": 218775,
-  "diagnosis": "",
+  "diagnosis": "Dryobius sexnotatus is a species of beetle in the family Cerambycidae. It is the only species in the monospecific genus Dryobius.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Boone",
+    "Clay",
+    "Greene",
+    "Hamilton",
+    "Howard",
+    "Jackson",
+    "Marion",
+    "Monroe",
+    "Montgomery",
+    "Orange",
+    "Owen",
+    "Shelby",
+    "Vanderburgh",
+    "Wayne"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Dryobius_sexnotatus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Wayne": 4,
+    "Jackson": 1,
+    "Boone": 1,
+    "Montgomery": 1,
+    "Vanderburgh": 1,
+    "Greene": 1,
+    "Howard": 1,
+    "Monroe": 1,
+    "Shelby": 1,
+    "Hamilton": 2,
+    "Clay": 1,
+    "Owen": 1,
+    "Orange": 1,
+    "Marion": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

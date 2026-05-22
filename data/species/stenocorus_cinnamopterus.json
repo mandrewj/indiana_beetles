@@ -7,13 +7,55 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 8690481,
   "inat_taxon_id": 245906,
-  "diagnosis": "",
+  "diagnosis": "Stenocorus cinnamopterus is a species of beetles in the family Cerambycidae. The species is brown with orange legs.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Hamilton",
+    "Hendricks",
+    "Jennings",
+    "Madison",
+    "Marion",
+    "Miami",
+    "Monroe",
+    "Montgomery",
+    "Morgan",
+    "Steuben",
+    "Switzerland",
+    "Tippecanoe",
+    "Vermillion",
+    "Whitley"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stenocorus_cinnamopterus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Vermillion": 1,
+    "Tippecanoe": 4,
+    "Jennings": 1,
+    "Steuben": 1,
+    "Whitley": 1,
+    "Monroe": 4,
+    "Morgan": 6,
+    "Hamilton": 3,
+    "Brown": 2,
+    "Hendricks": 2,
+    "Montgomery": 1,
+    "Miami": 1,
+    "Marion": 1,
+    "Madison": 1,
+    "Switzerland": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

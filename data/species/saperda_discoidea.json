@@ -7,13 +7,30 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1102790,
   "inat_taxon_id": 230389,
-  "diagnosis": "",
+  "diagnosis": "Saperda discoidea is a species of beetle in the family Cerambycidae. It was described by Fabricius in 1798.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Hamilton",
+    "Lake",
+    "Monroe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Saperda_discoidea*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Hamilton": 1,
+    "Monroe": 5,
+    "Lake": 2
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -7,13 +7,38 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1148847,
   "inat_taxon_id": 225526,
-  "diagnosis": "",
+  "diagnosis": "Necydalis mellita is a beetle in the family Cerambycidae.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Delaware",
+    "Jackson",
+    "Lake",
+    "Orange",
+    "Porter",
+    "St. Joseph",
+    "Starke"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Necydalis_mellita*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Orange": 1,
+    "Jackson": 1,
+    "Lake": 2,
+    "Porter": 2,
+    "Delaware": 1,
+    "Starke": 1,
+    "St. Joseph": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

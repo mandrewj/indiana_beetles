@@ -7,13 +7,40 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1126913,
   "inat_taxon_id": 228913,
-  "diagnosis": "",
+  "diagnosis": "Psenocerus supernotatus is a species of beetle in the family Cerambycidae, and the only species in the genus Psenocerus. It was described by Say in 1823.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Huntington",
+    "Lake",
+    "Noble",
+    "Porter",
+    "Randolph",
+    "Shelby",
+    "St. Joseph"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Psenocerus_supernotatus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Huntington": 1,
+    "St. Joseph": 2,
+    "Noble": 1,
+    "Randolph": 1,
+    "Porter": 2,
+    "Shelby": 1,
+    "Lake": 6
+  },
+  "last_refreshed": "2026-05-22"
 }

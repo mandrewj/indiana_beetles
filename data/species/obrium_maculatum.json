@@ -7,13 +7,36 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1097962,
   "inat_taxon_id": 226088,
-  "diagnosis": "",
+  "diagnosis": "Obrium maculatum is a species of beetle in the family Cerambycidae. It was described by Olivier in 1795.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Hamilton",
+    "Jennings",
+    "Marion",
+    "Porter",
+    "Posey",
+    "Vigo"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Obrium_maculatum*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Marion": 3,
+    "Jennings": 1,
+    "Porter": 1,
+    "Vigo": 1,
+    "Posey": 1,
+    "Hamilton": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

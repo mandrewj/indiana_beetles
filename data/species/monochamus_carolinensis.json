@@ -7,13 +7,61 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1155847,
   "inat_taxon_id": 225214,
-  "diagnosis": "",
+  "diagnosis": "Monochamus carolinensis is a species of beetle in the family Cerambycidae. It was described by Olivier in 1792.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Blackford",
+    "Brown",
+    "Clinton",
+    "Dubois",
+    "Elkhart",
+    "Fayette",
+    "Hamilton",
+    "Kosciusko",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Perry",
+    "Porter",
+    "Ripley",
+    "St. Joseph",
+    "Steuben",
+    "Warren"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Monochamus_carolinensis*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Ripley": 1,
+    "Brown": 4,
+    "Warren": 1,
+    "Porter": 2,
+    "Perry": 1,
+    "Morgan": 1,
+    "Monroe": 2,
+    "Elkhart": 2,
+    "St. Joseph": 1,
+    "Hamilton": 2,
+    "Steuben": 1,
+    "Clinton": 1,
+    "Dubois": 1,
+    "Kosciusko": 1,
+    "Blackford": 1,
+    "Fayette": 1,
+    "Marion": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

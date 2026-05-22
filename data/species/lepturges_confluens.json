@@ -7,13 +7,31 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 7689312,
   "inat_taxon_id": 223517,
-  "diagnosis": "",
+  "diagnosis": "Lepturges angulatus is a species of longhorn beetles of the subfamily Lamiinae. It was described by LeConte in 1852.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Marion",
+    "St. Joseph"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Lepturges_angulatus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "St. Joseph": 4,
+    "Brown": 1,
+    "Marion": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

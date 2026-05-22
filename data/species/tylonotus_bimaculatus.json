@@ -7,13 +7,43 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 5005516,
   "inat_taxon_id": 233130,
-  "diagnosis": "",
+  "diagnosis": "Tylonotus bimaculatus is a species of beetle in the family Cerambycidae. It was described by Haldeman in 1847.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Clark",
+    "Grant",
+    "Hendricks",
+    "Jennings",
+    "Lake",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "St. Joseph"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tylonotus_bimaculatus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Jennings": 1,
+    "St. Joseph": 1,
+    "Porter": 1,
+    "Morgan": 2,
+    "Clark": 1,
+    "Hendricks": 1,
+    "Grant": 1,
+    "Monroe": 1,
+    "Lake": 3
+  },
+  "last_refreshed": "2026-05-22"
 }

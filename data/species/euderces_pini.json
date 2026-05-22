@@ -6,13 +6,35 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1148019,
   "inat_taxon_id": 475102,
-  "diagnosis": "",
+  "diagnosis": "Euderces pini is a species of beetle in the family Cerambycidae. It was described by Olivier in 1795.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    3,
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Bartholomew",
+    "Knox",
+    "Marion",
+    "Monroe",
+    "Vanderburgh"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euderces_pini*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1,
+    "Marion": 1,
+    "Bartholomew": 3,
+    "Knox": 1,
+    "Monroe": 2
+  },
+  "last_refreshed": "2026-05-22"
 }

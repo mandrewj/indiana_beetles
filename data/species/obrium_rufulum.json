@@ -7,13 +7,34 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1098007,
   "inat_taxon_id": 226089,
-  "diagnosis": "",
+  "diagnosis": "Obrium rufulum is a species of beetle in the family Cerambycidae. It was described by Gahan in 1908.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Huntington",
+    "Lake",
+    "Monroe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Obrium_rufulum*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Allen": 1,
+    "Monroe": 4,
+    "Huntington": 1,
+    "Lake": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

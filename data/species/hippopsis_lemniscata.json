@@ -7,13 +7,59 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": null,
   "inat_taxon_id": 221386,
-  "diagnosis": "",
+  "diagnosis": "Hippopsis lemniscata is a species of beetle in the family Cerambycidae. It was described by Fabricius in 1801.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Bartholomew",
+    "Brown",
+    "Hamilton",
+    "Hendricks",
+    "Huntington",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Montgomery",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vigo",
+    "Warrick"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Hippopsis_lemniscata*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Huntington": 1,
+    "St. Joseph": 3,
+    "Porter": 1,
+    "Marion": 1,
+    "Tippecanoe": 1,
+    "Madison": 2,
+    "Bartholomew": 1,
+    "Brown": 2,
+    "Hamilton": 1,
+    "Vigo": 1,
+    "Montgomery": 1,
+    "Monroe": 1,
+    "Allen": 1,
+    "Hendricks": 1,
+    "Lake": 1,
+    "Warrick": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

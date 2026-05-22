@@ -7,13 +7,39 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1097119,
   "inat_taxon_id": 228714,
-  "diagnosis": "",
+  "diagnosis": "Prionus imbricornis is a Longhorn beetle of the genus Prionus.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Clark",
+    "Floyd",
+    "Jefferson",
+    "Pike",
+    "Spencer",
+    "Vanderburgh",
+    "Warrick"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Prionus_imbricornis*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Spencer": 1,
+    "Floyd": 1,
+    "Warrick": 1,
+    "Clark": 1,
+    "Jefferson": 1,
+    "Vanderburgh": 2,
+    "Pike": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

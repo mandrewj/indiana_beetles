@@ -7,13 +7,47 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 4292985,
   "inat_taxon_id": 222528,
-  "diagnosis": "",
-  "body_size_mm": "",
+  "diagnosis": "The banded hickory borer, Knulliana cincta, is a species of longhorn beetle and the only species in the genus Knulliana. It is about 15–30 mm in length occurring throughout the eastern half of North America, including Mexico and the Bahamas, with one subspecies extending to the Sonoran Desert.",
+  "body_size_mm": "15–30",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Hendricks",
+    "Johnson",
+    "Monroe",
+    "Morgan",
+    "Newton",
+    "Owen",
+    "Perry",
+    "Posey",
+    "Starke"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Knulliana_cincta*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Johnson": 1,
+    "Morgan": 3,
+    "Brown": 1,
+    "Monroe": 2,
+    "Hendricks": 1,
+    "Perry": 1,
+    "Posey": 2,
+    "Starke": 1,
+    "Owen": 1,
+    "Newton": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

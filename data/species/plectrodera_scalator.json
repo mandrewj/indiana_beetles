@@ -7,13 +7,31 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1141861,
   "inat_taxon_id": 205777,
-  "diagnosis": "",
+  "diagnosis": "Plectrodera scalator is a species of beetle in the family Cerambycidae. It is the only species in the genus Plectrodera.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Lake",
+    "Porter"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Plectrodera_scalator*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Lake": 16,
+    "Porter": 3
+  },
+  "last_refreshed": "2026-05-22"
 }

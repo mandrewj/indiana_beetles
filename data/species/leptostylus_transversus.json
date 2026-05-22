@@ -6,13 +6,50 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 9001015,
   "inat_taxon_id": 223508,
-  "diagnosis": "",
+  "diagnosis": "Leptostylus transversus is a species of longhorn beetles of the subfamily Lamiinae. It was described by Gyllenhal in 1817.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    8
+  ],
+  "counties": [
+    "Dubois",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vermillion"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Leptostylus_transversus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Vermillion": 1,
+    "Marion": 3,
+    "Dubois": 2,
+    "Tippecanoe": 1,
+    "Monroe": 3,
+    "St. Joseph": 6,
+    "Morgan": 3,
+    "Lake": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -7,13 +7,44 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 9547557,
   "inat_taxon_id": 49004,
-  "diagnosis": "",
+  "diagnosis": "Enaphalodes rufulus is a species of beetle in the family Cerambycidae. It was described by Haldeman in 1847.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Clay",
+    "Dubois",
+    "Fayette",
+    "Monroe",
+    "Morgan",
+    "Owen",
+    "Porter",
+    "Starke",
+    "Tippecanoe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Enaphalodes_rufulus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Clay": 1,
+    "Fayette": 1,
+    "Porter": 5,
+    "Tippecanoe": 1,
+    "Brown": 2,
+    "Monroe": 5,
+    "Owen": 1,
+    "Morgan": 1,
+    "Starke": 1,
+    "Dubois": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -7,13 +7,39 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 4292834,
   "inat_taxon_id": 132680,
-  "diagnosis": "",
+  "diagnosis": "Batyle suturalis is a species of beetle in the Cerambycidae family. It was described by Thomas Say in 1824.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Elkhart",
+    "Lake",
+    "Newton",
+    "Porter",
+    "Starke",
+    "Tippecanoe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Batyle_suturalis*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Porter": 8,
+    "Lake": 4,
+    "Starke": 3,
+    "Tippecanoe": 1,
+    "Newton": 2,
+    "Elkhart": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

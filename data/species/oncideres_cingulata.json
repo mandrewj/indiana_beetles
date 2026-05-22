@@ -7,13 +7,46 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 9159095,
   "inat_taxon_id": 179369,
-  "diagnosis": "",
-  "body_size_mm": "",
+  "diagnosis": "Oncideres cingulata, the twig girdler, is a brownish-gray beetle, typically 1⁄2 to 5⁄8 inch (13 to 16 mm) in length, in the longhorn beetle family. It is characterized by long antennae, 1⁄2 to 1 inch (13 to 25 mm) long.",
+  "body_size_mm": "13–16",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    9
+  ],
+  "counties": [
+    "Dubois",
+    "Greene",
+    "Jefferson",
+    "Jennings",
+    "Lawrence",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Owen",
+    "Perry"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Oncideres_cingulata*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Greene": 1,
+    "Jennings": 5,
+    "Monroe": 2,
+    "Owen": 1,
+    "Morgan": 1,
+    "Marion": 1,
+    "Dubois": 1,
+    "Jefferson": 2,
+    "Perry": 1,
+    "Lawrence": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

@@ -7,13 +7,49 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 5998160,
   "inat_taxon_id": 202855,
-  "diagnosis": "",
+  "diagnosis": "Strangalia famelica is a species of flower longhorn in the family of beetles known as Cerambycidae. It is found in North America.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Bartholomew",
+    "Harrison",
+    "Kosciusko",
+    "Lake",
+    "Newton",
+    "Porter",
+    "Pulaski",
+    "St. Joseph",
+    "Starke",
+    "Vigo",
+    "Washington"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Strangalia_famelica*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Starke": 2,
+    "St. Joseph": 3,
+    "Porter": 6,
+    "Harrison": 1,
+    "Kosciusko": 1,
+    "Bartholomew": 1,
+    "Newton": 4,
+    "Lake": 2,
+    "Pulaski": 1,
+    "Vigo": 1,
+    "Washington": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

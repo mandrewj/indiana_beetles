@@ -7,13 +7,59 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 7763253,
   "inat_taxon_id": 133029,
-  "diagnosis": "",
+  "diagnosis": "Prionus laticollis, also known as the broad-necked root borer, is a root-boring longhorn beetle. The larvae damage trees and other plants by feeding on their roots.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Clark",
+    "Clay",
+    "Decatur",
+    "Dubois",
+    "Fayette",
+    "Floyd",
+    "Hendricks",
+    "Lawrence",
+    "Marion",
+    "Monroe",
+    "Orange",
+    "Owen",
+    "Parke",
+    "Putnam",
+    "Ripley",
+    "Wayne"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Prionus_laticollis*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Parke": 3,
+    "Brown": 14,
+    "Ripley": 2,
+    "Hendricks": 1,
+    "Orange": 4,
+    "Monroe": 9,
+    "Decatur": 1,
+    "Clay": 3,
+    "Owen": 1,
+    "Lawrence": 1,
+    "Floyd": 1,
+    "Putnam": 1,
+    "Fayette": 1,
+    "Marion": 1,
+    "Dubois": 1,
+    "Clark": 1,
+    "Wayne": 1
+  },
+  "last_refreshed": "2026-05-22"
 }

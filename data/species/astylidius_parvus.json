@@ -6,13 +6,33 @@
   "indiana_status": "confirmed",
   "gbif_taxon_key": 1122565,
   "inat_taxon_id": 324208,
-  "diagnosis": "",
+  "diagnosis": "Astylidius parvus is a species of longhorn beetles of the subfamily Lamiinae, and the only species in the genus Astylidius. It was described by LeConte in 1873.",
   "body_size_mm": "",
   "diagnostic_characters": [],
-  "phenology": [],
-  "phenology_peak": [],
-  "counties": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "DeKalb",
+    "Howard",
+    "Monroe",
+    "St. Joseph"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Astylidius_parvus*, retrieved 2026-05-22."
+  ],
+  "county_record_counts": {
+    "Howard": 2,
+    "Monroe": 1,
+    "DeKalb": 1,
+    "St. Joseph": 1
+  },
+  "last_refreshed": "2026-05-22"
 }
