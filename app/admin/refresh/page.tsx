@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { RankLabel } from "@/components/Badges";
+import { SignedInAs } from "@/components/admin/SignedInAs";
 import { getAllFamilies, getAllSpecies } from "@/lib/content";
-import { readGhTokenFromCookies } from "@/lib/auth";
+import { getAuthedLogin } from "@/lib/auth";
 
 export const metadata = {
   title: "Refresh species",
@@ -11,7 +12,8 @@ export const metadata = {
 export const dynamic = "force-dynamic";
 
 export default async function RefreshLanding() {
-  if (!readGhTokenFromCookies()) {
+  const login = await getAuthedLogin();
+  if (!login) {
     return (
       <div
         className="page container"
@@ -64,6 +66,7 @@ export default async function RefreshLanding() {
         <span className="sep">/</span>
         <span className="current">Refresh</span>
       </div>
+      <SignedInAs login={login} />
       <RankLabel>Editor tools</RankLabel>
       <h1
         className="display"

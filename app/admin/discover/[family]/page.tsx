@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RankLabel } from "@/components/Badges";
+import { SignedInAs } from "@/components/admin/SignedInAs";
 import { discoverFamily } from "@/lib/discover";
 import { getTaxonomy } from "@/lib/content";
-import { readGhTokenFromCookies } from "@/lib/auth";
+import { getAuthedLogin } from "@/lib/auth";
 import { DiscoverView } from "./DiscoverView";
 
 // Always server-render: auth + iNat data must be fresh.
@@ -22,7 +23,8 @@ export default async function DiscoverFamilyPage({
 }: {
   params: { family: string };
 }) {
-  if (!readGhTokenFromCookies()) {
+  const login = await getAuthedLogin();
+  if (!login) {
     return (
       <div
         className="page container"
@@ -70,6 +72,7 @@ export default async function DiscoverFamilyPage({
         <span className="sep">/</span>
         <span className="current">{result.family.name}</span>
       </div>
+      <SignedInAs login={login} />
 
       <div
         style={{

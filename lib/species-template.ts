@@ -28,6 +28,12 @@ export interface ApprovalInput {
   indiana_status?: IndianaStatus;
   inat_taxon_id?: number | null;
   gbif_taxon_key?: number | null;
+  /** Optional — auto-populated by Discover via lib/refresh + lib/inaturalist. */
+  counties?: string[];
+  county_record_counts?: Record<string, number>;
+  phenology?: number[];
+  phenology_peak?: number[];
+  last_refreshed?: string;
 }
 
 /**
@@ -35,7 +41,7 @@ export interface ApprovalInput {
  * empty so editors can fill them in via Decap once the species lands.
  */
 export function buildSpeciesJSON(input: ApprovalInput): string {
-  const sp: Species = {
+  const sp: Species & { county_record_counts?: Record<string, number> } = {
     id: input.id,
     scientific_name: input.scientific_name,
     authority: input.authority,
@@ -50,12 +56,14 @@ export function buildSpeciesJSON(input: ApprovalInput): string {
     diagnosis: "",
     body_size_mm: "",
     diagnostic_characters: [],
-    phenology: [],
-    phenology_peak: [],
-    counties: [],
+    phenology: input.phenology ?? [],
+    phenology_peak: input.phenology_peak ?? [],
+    counties: input.counties ?? [],
+    county_record_counts: input.county_record_counts ?? {},
     images: [],
     similar_species: [],
     references: [],
+    last_refreshed: input.last_refreshed,
   };
   return JSON.stringify(sp, null, 2) + "\n";
 }

@@ -18,6 +18,8 @@ import {
   titleCase,
   type ApprovalInput,
 } from "@/lib/species-template";
+import { fetchLiveDistribution } from "@/lib/distribution";
+import { fetchPhenology } from "@/lib/inaturalist";
 import type { CandidateSpecies } from "@/lib/discover";
 import type { Family, Taxonomy } from "@/lib/types";
 
@@ -50,41 +52,87 @@ interface RowMeta {
 
 type RowMap = Record<string, RowMeta>;
 
-async function lookupGbif(scientificName: string): Promise<{
-  key?: number;
+interface StagePayload {
+  gbifKey: number | null;
   authority?: string;
-}> {
-  try {
-    const url = new URL("https://api.gbif.org/v1/species/match");
-    url.searchParams.set("name", scientificName);
-    url.searchParams.set("strict", "true");
-    url.searchParams.set("kingdom", "Animalia");
-    const res = await fetch(url.toString());
-    if (!res.ok) return {};
-    const data = (await res.json()) as {
-      usageKey?: number;
-      speciesKey?: number;
-      canonicalName?: string;
-      authorship?: string;
-    };
-    const key = data.usageKey ?? data.speciesKey;
-    if (
-      key &&
-      data.canonicalName &&
-      data.canonicalName.toLowerCase() === scientificName.toLowerCase()
-    ) {
-      return { key, authority: data.authorship?.trim() || undefined };
+  countyCounts: Record<string, number>;
+  counties: string[];
+  phenology: number[];
+  phenologyPeak: number[];
+}
+
+async function gatherStageData(
+  candidate: CandidateSpecies
+): Promise<StagePayload> {
+  // GBIF match + iNat distribution + iNat phenology in parallel. Each can
+  // fail independently — staging still proceeds with partial data.
+  const gbifP = (async () => {
+    try {
+      const url = new URL("https://api.gbif.org/v1/species/match");
+      url.searchParams.set("name", candidate.scientific_name);
+      url.searchParams.set("strict", "true");
+      url.searchParams.set("kingdom", "Animalia");
+      const res = await fetch(url.toString());
+      if (!res.ok) return {};
+      const data = (await res.json()) as {
+        usageKey?: number;
+        speciesKey?: number;
+        canonicalName?: string;
+        authorship?: string;
+      };
+      const key = data.usageKey ?? data.speciesKey;
+      if (
+        key &&
+        data.canonicalName &&
+        data.canonicalName.toLowerCase() ===
+          candidate.scientific_name.toLowerCase()
+      ) {
+        return { key, authority: data.authorship?.trim() || undefined };
+      }
+    } catch {
+      /* leave empty */
     }
-  } catch {
-    // Ignore — author will edit later.
-  }
-  return {};
+    return {} as { key?: number; authority?: string };
+  })();
+
+  const phenoP = fetchPhenology(candidate.inat_taxon_id, undefined, {
+    force: true,
+  }).catch(() => ({ active: [], peak: [], monthCounts: {}, total: 0 }));
+
+  const gbif = await gbifP;
+  const pheno = await phenoP;
+
+  // Distribution needs the GBIF key (if any) — fetch after gbif resolves.
+  const dist = await fetchLiveDistribution(
+    {
+      id: candidate.suggested_id,
+      gbif_taxon_key: gbif.key ?? null,
+      inat_taxon_id: candidate.inat_taxon_id,
+    },
+    { force: true }
+  ).catch(() => ({
+    countyCounts: {},
+    total: 0,
+    gbifTotal: 0,
+    inatTotal: 0,
+  }));
+
+  return {
+    gbifKey: typeof gbif.key === "number" ? gbif.key : null,
+    authority: gbif.authority,
+    countyCounts: dist.countyCounts,
+    counties: Object.keys(dist.countyCounts).sort((a, b) =>
+      a.localeCompare(b)
+    ),
+    phenology: pheno.active,
+    phenologyPeak: pheno.peak,
+  };
 }
 
 function buildApprovalInput(
   family: Family,
   candidate: CandidateSpecies,
-  gbif: { key?: number; authority?: string }
+  payload: StagePayload
 ): ApprovalInput {
   return {
     familyId: family.id,
@@ -92,11 +140,16 @@ function buildApprovalInput(
     scientific_name: candidate.scientific_name,
     genus: candidate.genus,
     genus_display: titleCase(candidate.genus),
-    authority: gbif.authority,
+    authority: payload.authority,
     common_name: candidate.common_name ?? undefined,
     indiana_status: "confirmed",
     inat_taxon_id: candidate.inat_taxon_id,
-    gbif_taxon_key: typeof gbif.key === "number" ? gbif.key : null,
+    gbif_taxon_key: payload.gbifKey,
+    counties: payload.counties,
+    county_record_counts: payload.countyCounts,
+    phenology: payload.phenology,
+    phenology_peak: payload.phenologyPeak,
+    last_refreshed: new Date().toISOString().slice(0, 10),
   };
 }
 
@@ -105,6 +158,9 @@ export function DiscoverView({ family, candidates, taxonomy }: Props) {
   const [rows, setRows] = useState<RowMap>({});
   const [batchPhase, setBatchPhase] = useState<"idle" | "committing">("idle");
   const [batchError, setBatchError] = useState<string | null>(null);
+  // Track an evolving taxonomy locally so successive batches see the
+  // previous batch's additions (and don't overwrite them).
+  const [workingTaxonomy, setWorkingTaxonomy] = useState<Taxonomy>(taxonomy);
 
   const stagedIds = useMemo(
     () =>
@@ -145,9 +201,16 @@ export function DiscoverView({ family, candidates, taxonomy }: Props) {
   async function stage(candidate: CandidateSpecies) {
     if (stagedIds.length >= STAGE_LIMIT) return;
     setRow(candidate.suggested_id, { phase: "preparing", message: undefined });
-    const gbif = await lookupGbif(candidate.scientific_name);
-    const input = buildApprovalInput(family, candidate, gbif);
-    setRow(candidate.suggested_id, { phase: "staged", input });
+    try {
+      const payload = await gatherStageData(candidate);
+      const input = buildApprovalInput(family, candidate, payload);
+      setRow(candidate.suggested_id, { phase: "staged", input });
+    } catch (err) {
+      setRow(candidate.suggested_id, {
+        phase: "error",
+        message: (err as Error).message,
+      });
+    }
   }
 
   function unstage(id: string) {
@@ -171,8 +234,8 @@ export function DiscoverView({ family, candidates, taxonomy }: Props) {
     setBatchPhase("committing");
     setBatchError(null);
 
-    // Build the file set: one JSON per species + one updated taxonomy.json.
-    let workingTax: Taxonomy = taxonomy;
+    // Start from the working taxonomy (carries prior batches' additions).
+    let workingTax: Taxonomy = workingTaxonomy;
     const createdGenusFor: Record<string, boolean> = {};
     const files: CommitFile[] = [];
     for (const input of stagedInputs) {
@@ -200,6 +263,9 @@ export function DiscoverView({ family, candidates, taxonomy }: Props) {
     const result = await commitFiles(message, files);
 
     if (result.ok) {
+      // Persist the new taxonomy so the NEXT batch builds on top of this one
+      // rather than restarting from the server-rendered prop.
+      setWorkingTaxonomy(workingTax);
       setRows((prev) => {
         const next = { ...prev };
         for (const input of stagedInputs) {

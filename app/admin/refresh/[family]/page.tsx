@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RankLabel } from "@/components/Badges";
+import { SignedInAs } from "@/components/admin/SignedInAs";
 import { getAllFamilies, getAllSpecies } from "@/lib/content";
-import { readGhTokenFromCookies } from "@/lib/auth";
+import { getAuthedLogin } from "@/lib/auth";
 import { RefreshView } from "./RefreshView";
 
 export const dynamic = "force-dynamic";
@@ -20,7 +21,8 @@ export default async function RefreshFamilyPage({
 }: {
   params: { family: string };
 }) {
-  if (!readGhTokenFromCookies()) {
+  const login = await getAuthedLogin();
+  if (!login) {
     return (
       <div
         className="page container"
@@ -67,6 +69,7 @@ export default async function RefreshFamilyPage({
         <span className="sep">/</span>
         <span className="current">{family.name}</span>
       </div>
+      <SignedInAs login={login} />
       <RankLabel>Refresh</RankLabel>
       <h1
         className="display"

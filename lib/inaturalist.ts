@@ -81,6 +81,70 @@ export interface INatTaxonThumbnail {
   attribution: string;
 }
 
+export interface PhenologyResult {
+  /** All months (1–12) with at least one Indiana observation. */
+  active: number[];
+  /** Subset of `active` — months where count >= 50% of the max month. */
+  peak: number[];
+  /** Raw month-of-year counts. */
+  monthCounts: Record<number, number>;
+  /** Total observation count across all months. */
+  total: number;
+}
+
+/**
+ * Phenology histogram for a taxon, scoped to Indiana by default. Buckets all
+ * observed-on dates into month-of-year. Used to auto-populate phenology when
+ * a species is added via Discover or refreshed.
+ */
+export async function fetchPhenology(
+  taxonId: number,
+  placeId: number | null = INDIANA_PLACE_ID,
+  options: { force?: boolean } = {}
+): Promise<PhenologyResult> {
+  const empty: PhenologyResult = {
+    active: [],
+    peak: [],
+    monthCounts: {},
+    total: 0,
+  };
+  if (!Number.isInteger(taxonId) || taxonId <= 0) return empty;
+  return withCache(
+    "inat-phenology",
+    `${taxonId}-${placeId ?? "global"}`,
+    async () => {
+      const url = new URL(`${API}/observations/histogram`);
+      url.searchParams.set("taxon_id", String(taxonId));
+      if (placeId !== null) url.searchParams.set("place_id", String(placeId));
+      url.searchParams.set("date_field", "observed");
+      url.searchParams.set("interval", "month_of_year");
+      const res = await fetch(url.toString());
+      if (!res.ok) return empty;
+      const data = (await res.json()) as {
+        results?: { month_of_year?: Record<string, number> };
+      };
+      const monthCounts: Record<number, number> = {};
+      const raw = data.results?.month_of_year ?? {};
+      for (const [k, v] of Object.entries(raw)) {
+        const m = Number(k);
+        if (Number.isInteger(m) && m >= 1 && m <= 12 && v > 0) {
+          monthCounts[m] = v;
+        }
+      }
+      const counts = Object.values(monthCounts);
+      const max = counts.length ? Math.max(...counts) : 0;
+      const total = counts.reduce((a, b) => a + b, 0);
+      const active = Object.keys(monthCounts)
+        .map((k) => Number(k))
+        .sort((a, b) => a - b);
+      const threshold = max * 0.5;
+      const peak = active.filter((m) => monthCounts[m] >= threshold);
+      return { active, peak, monthCounts, total };
+    },
+    { force: options.force }
+  );
+}
+
 const COUNTY_FROM_PLACE_GUESS = /([A-Z][a-z\.]+(?:\s[A-Z][a-z]+)*) Co\.?/;
 const COUNTY_FROM_NAME = /^([A-Z][a-z\.]+(?:\s[A-Z][a-z]+)*) County/;
 

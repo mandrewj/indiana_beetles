@@ -1,17 +1,20 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { RankLabel } from "@/components/Badges";
+import { SignedInAs } from "@/components/admin/SignedInAs";
 import { getAllFamilies } from "@/lib/content";
 import { familyDiscoverSummary } from "@/lib/discover";
-import { readGhTokenFromCookies } from "@/lib/auth";
+import { getAuthedLogin } from "@/lib/auth";
 
 export const metadata = {
   title: "Discover species",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function DiscoverLanding() {
-  const authed = readGhTokenFromCookies() !== null;
-  if (!authed) {
+  const login = await getAuthedLogin();
+  if (!login) {
     return <SignInGate />;
   }
 
@@ -34,6 +37,7 @@ export default async function DiscoverLanding() {
         <span className="sep">/</span>
         <span className="current">Discover</span>
       </div>
+      <SignedInAs login={login} />
       <RankLabel>Editor tools</RankLabel>
       <h1
         className="display"

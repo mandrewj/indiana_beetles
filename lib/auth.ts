@@ -30,3 +30,28 @@ export function readGhTokenFromRequest(req: NextRequest): string | null {
 export const REPO_OWNER = "mandrewj";
 export const REPO_NAME = "indiana_beetles";
 export const REPO_BRANCH = "main";
+
+/**
+ * Server-side: read the cookie, verify the token with GitHub, return the
+ * authenticated login. Returns null on any failure (no cookie, expired
+ * token, GitHub down). Cheap — one /user call, no caching.
+ */
+export async function getAuthedLogin(): Promise<string | null> {
+  const token = readGhTokenFromCookies();
+  if (!token) return null;
+  try {
+    const res = await fetch("https://api.github.com/user", {
+      headers: {
+        authorization: `Bearer ${token}`,
+        accept: "application/vnd.github+json",
+        "x-github-api-version": "2022-11-28",
+      },
+      cache: "no-store",
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { login?: string };
+    return data.login ?? null;
+  } catch {
+    return null;
+  }
+}

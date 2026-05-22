@@ -10,6 +10,7 @@
  *   - last_refreshed                  (now)
  */
 import { fetchLiveDistribution } from "./distribution";
+import { fetchPhenology } from "./inaturalist";
 import type { Species } from "./types";
 import { taxonIdOrNull } from "./types";
 
@@ -18,6 +19,8 @@ export interface RefreshDelta {
   gbif_taxon_key: number | null;
   counties: string[];
   county_record_counts: Record<string, number>;
+  phenology: number[];
+  phenology_peak: number[];
   last_refreshed: string;
 
   // Display-only diffs:
@@ -28,6 +31,7 @@ export interface RefreshDelta {
   countiesAdded: string[];
   countiesRemoved: string[];
   recordTotal: number;
+  phenologyChanged: boolean;
 }
 
 async function verifyOrLookupINat(
@@ -128,15 +132,25 @@ export async function refreshSpecies(species: Species): Promise<RefreshDelta> {
     verifyOrLookupGbif(species.scientific_name, gbifPrev),
   ]);
 
-  // 2. Fetch fresh county distribution using the (possibly updated) IDs.
-  const dist = await fetchLiveDistribution(
-    {
-      id: species.id,
-      gbif_taxon_key: gbifNew,
-      inat_taxon_id: inatNew,
-    },
-    { force: true }
-  );
+  // 2. Fetch fresh county distribution + phenology in parallel.
+  const [dist, pheno] = await Promise.all([
+    fetchLiveDistribution(
+      {
+        id: species.id,
+        gbif_taxon_key: gbifNew,
+        inat_taxon_id: inatNew,
+      },
+      { force: true }
+    ),
+    inatNew
+      ? fetchPhenology(inatNew, undefined, { force: true })
+      : Promise.resolve({
+          active: [],
+          peak: [],
+          monthCounts: {},
+          total: 0,
+        }),
+  ]);
 
   const counties = Object.keys(dist.countyCounts).sort((a, b) =>
     a.localeCompare(b)
@@ -149,11 +163,19 @@ export async function refreshSpecies(species: Species): Promise<RefreshDelta> {
     (c) => !newCountiesSet.has(c)
   );
 
+  const prevPheno = (species.phenology ?? []).map((m) => Number(m)).sort();
+  const nextPheno = pheno.active.slice().sort();
+  const phenologyChanged =
+    prevPheno.length !== nextPheno.length ||
+    prevPheno.some((m, i) => m !== nextPheno[i]);
+
   return {
     inat_taxon_id: inatNew,
     gbif_taxon_key: gbifNew,
     counties,
     county_record_counts: dist.countyCounts,
+    phenology: pheno.active,
+    phenology_peak: pheno.peak,
     last_refreshed: new Date().toISOString().slice(0, 10),
     inatIdChanged: inatPrev !== inatNew,
     gbifKeyChanged: gbifPrev !== gbifNew,
@@ -162,6 +184,7 @@ export async function refreshSpecies(species: Species): Promise<RefreshDelta> {
     countiesAdded,
     countiesRemoved,
     recordTotal: dist.total,
+    phenologyChanged,
   };
 }
 
@@ -179,6 +202,8 @@ export function applyRefreshDelta(
     gbif_taxon_key: delta.gbif_taxon_key,
     counties: delta.counties,
     county_record_counts: delta.county_record_counts,
+    phenology: delta.phenology.map((m) => Number(m)),
+    phenology_peak: delta.phenology_peak.map((m) => Number(m)),
     last_refreshed: delta.last_refreshed,
   };
   return JSON.stringify(next, null, 2) + "\n";
