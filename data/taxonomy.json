@@ -240,35 +240,35 @@
           ]
         },
         {
-          "id": "anaedus",
-          "name": "Anaedus",
+          "id": "alphitobius",
+          "name": "Alphitobius",
           "species": [
             {
-              "id": "anaedus_brunneus",
-              "name": "Anaedus brunneus",
+              "id": "alphitobius_diaperinus",
+              "name": "Alphitobius diaperinus",
+              "common_name": "Lesser Mealworm",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "androchirus",
-          "name": "Androchirus",
+          "id": "alphitophagus",
+          "name": "Alphitophagus",
           "species": [
             {
-              "id": "androchirus_erythropus",
-              "name": "Androchirus erythropus",
+              "id": "alphitophagus_bifasciatus",
+              "name": "Alphitophagus bifasciatus",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "arthromacra",
-          "name": "Arthromacra",
+          "id": "blapstinus",
+          "name": "Blapstinus",
           "species": [
             {
-              "id": "arthromacra_aenea",
-              "name": "Arthromacra aenea",
-              "common_name": "Bronze Darkling Beetle",
+              "id": "blapstinus_fortis",
+              "name": "Blapstinus fortis",
               "indiana_status": "confirmed"
             }
           ]
@@ -286,36 +286,24 @@
           ]
         },
         {
-          "id": "capnochroa",
-          "name": "Capnochroa",
+          "id": "cynaeus",
+          "name": "Cynaeus",
           "species": [
             {
-              "id": "capnochroa_fuliginosa",
-              "name": "Capnochroa fuliginosa",
-              "common_name": "Comb-clawed Beetle",
+              "id": "cynaeus_angustus",
+              "name": "Cynaeus angustus",
+              "common_name": "Larger Black Flour Beetle",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "centronopus",
-          "name": "Centronopus",
+          "id": "idiobates",
+          "name": "Idiobates",
           "species": [
             {
-              "id": "centronopus_calcaratus",
-              "name": "Centronopus calcaratus",
-              "common_name": "Spurred Darkling Beetle",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "haplandrus",
-          "name": "Haplandrus",
-          "species": [
-            {
-              "id": "haplandrus_fulvipes",
-              "name": "Haplandrus fulvipes",
+              "id": "idiobates_castaneus",
+              "name": "Idiobates castaneus",
               "indiana_status": "confirmed"
             }
           ]
@@ -333,13 +321,18 @@
           ]
         },
         {
-          "id": "neatus",
-          "name": "Neatus",
+          "id": "platydema",
+          "name": "Platydema",
           "species": [
             {
-              "id": "neatus_tenebrioides",
-              "name": "Neatus tenebrioides",
-              "common_name": "Forest Darkling Beetle",
+              "id": "platydema_elliptica",
+              "name": "Platydema elliptica",
+              "common_name": "Orange-banded Darkling Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "platydema_excavata",
+              "name": "Platydema excavata",
               "indiana_status": "confirmed"
             }
           ]
@@ -349,33 +342,13 @@
           "name": "Strongylium",
           "species": [
             {
-              "id": "strongylium_tenuicolle",
-              "name": "Strongylium tenuicolle",
-              "common_name": "Narrow-necked Strongylium",
+              "id": "strongylium_crenatum",
+              "name": "Strongylium crenatum",
               "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "tenebrio",
-          "name": "Tenebrio",
-          "species": [
+            },
             {
-              "id": "tenebrio_obscurus",
-              "name": "Tenebrio obscurus",
-              "common_name": "Dark Mealworm",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "zophobas",
-          "name": "Zophobas",
-          "species": [
-            {
-              "id": "zophobas_atratus",
-              "name": "Zophobas atratus",
-              "common_name": "Giant Mealworm Beetle",
+              "id": "strongylium_terminatum",
+              "name": "Strongylium terminatum",
               "indiana_status": "confirmed"
             }
           ]
