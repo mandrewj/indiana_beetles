@@ -165,108 +165,108 @@
       "species_count": 268,
       "genera": [
         {
-          "id": "analeptura",
-          "name": "Analeptura",
+          "id": "batyle",
+          "name": "Batyle",
           "species": [
             {
-              "id": "analeptura_lineola",
-              "name": "Analeptura lineola",
-              "common_name": "Lined Longhorn Beetle",
+              "id": "batyle_suturalis",
+              "name": "Batyle suturalis",
+              "common_name": "Sutured Longhorn Beetle",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "astyleiopus",
-          "name": "Astyleiopus",
+          "id": "ecyrus",
+          "name": "Ecyrus",
           "species": [
             {
-              "id": "astyleiopus_variegatus",
-              "name": "Astyleiopus variegatus",
-              "common_name": "Variegated Longhorned Beetle",
+              "id": "ecyrus_dasycerus",
+              "name": "Ecyrus dasycerus",
+              "common_name": "Rough-coated Longhorned Beetle",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "clytus",
-          "name": "Clytus",
+          "id": "enaphalodes",
+          "name": "Enaphalodes",
           "species": [
             {
-              "id": "clytus_ruricola",
-              "name": "Clytus ruricola",
-              "common_name": "Round-necked Longhorn Beetle",
+              "id": "enaphalodes_rufulus",
+              "name": "Enaphalodes rufulus",
+              "common_name": "Red Oak Borer",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "cyrtophorus",
-          "name": "Cyrtophorus",
+          "id": "hippopsis",
+          "name": "Hippopsis",
           "species": [
             {
-              "id": "cyrtophorus_verrucosus",
-              "name": "Cyrtophorus verrucosus",
-              "common_name": "Ant-like Longhorn Beetle",
+              "id": "hippopsis_lemniscata",
+              "name": "Hippopsis lemniscata",
+              "common_name": "Ribbon Longhorn Beetle",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "graphisurus",
-          "name": "Graphisurus",
+          "id": "molorchus",
+          "name": "Molorchus",
           "species": [
             {
-              "id": "graphisurus_fasciatus",
-              "name": "Graphisurus fasciatus",
-              "common_name": "Banded Graphisurus",
+              "id": "molorchus_bimaculatus",
+              "name": "Molorchus bimaculatus",
+              "common_name": "Bimaculate Longhorn Beetle",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "leptostylus",
-          "name": "Leptostylus",
+          "id": "neoclytus",
+          "name": "Neoclytus",
           "species": [
             {
-              "id": "leptostylus_transversus",
-              "name": "Leptostylus transversus",
+              "id": "neoclytus_mucronatus",
+              "name": "Neoclytus mucronatus",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "monochamus",
-          "name": "Monochamus",
+          "id": "oncideres",
+          "name": "Oncideres",
           "species": [
             {
-              "id": "monochamus_carolinensis",
-              "name": "Monochamus carolinensis",
-              "common_name": "Carolina Pine Sawyer",
+              "id": "oncideres_cingulata",
+              "name": "Oncideres cingulata",
+              "common_name": "Eastern Twig Girdler",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "prionus",
-          "name": "Prionus",
+          "id": "plectrodera",
+          "name": "Plectrodera",
           "species": [
             {
-              "id": "prionus_laticollis",
-              "name": "Prionus laticollis",
-              "common_name": "Broad-necked Root Borer",
+              "id": "plectrodera_scalator",
+              "name": "Plectrodera scalator",
+              "common_name": "Cottonwood Borer",
               "indiana_status": "confirmed"
             }
           ]
         },
         {
-          "id": "stenocorus",
-          "name": "Stenocorus",
+          "id": "saperda",
+          "name": "Saperda",
           "species": [
             {
-              "id": "stenocorus_cinnamopterus",
-              "name": "Stenocorus cinnamopterus",
-              "common_name": "Cinnamon-winged Flower Longhorn",
+              "id": "saperda_tridentata",
+              "name": "Saperda tridentata",
+              "common_name": "Elm Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -276,9 +276,9 @@
           "name": "Strangalia",
           "species": [
             {
-              "id": "strangalia_luteicornis",
-              "name": "Strangalia luteicornis",
-              "common_name": "Yellow-horned Flower Longhorn Beetle",
+              "id": "strangalia_famelica",
+              "name": "Strangalia famelica",
+              "common_name": "Slender Flower Longhorn Beetle",
               "indiana_status": "confirmed"
             }
           ]
