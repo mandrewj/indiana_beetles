@@ -1965,6 +1965,17 @@
           ]
         },
         {
+          "id": "centrinites",
+          "name": "Centrinites",
+          "species": [
+            {
+              "id": "centrinites_strigicollis",
+              "name": "Centrinites strigicollis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "ceutorhynchus",
           "name": "Ceutorhynchus",
           "species": [

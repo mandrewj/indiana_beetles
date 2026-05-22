@@ -3,11 +3,14 @@
   "name": "Curculionidae",
   "common_name": "Snout & Bark Beetles",
   "authority": "",
-  "diagnosis": "",
+  "diagnosis": "The Curculionidae are the family of the \"true\" weevils (or \"snout beetles\"). They are one of the largest animal families, with 5,489 genera and 86,100 species described worldwide.",
   "species_count": 612,
   "genus_count": 198,
   "confirmed_count": null,
   "historical_count": null,
   "adventive_count": null,
-  "inat_taxon_id": 48736
+  "inat_taxon_id": 48736,
+  "genus_notes": {
+    "centrinites": "Centrinites is a genus of flower weevils in the beetle family Curculionidae."
+  }
 }

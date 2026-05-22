@@ -1,0 +1,30 @@
+{
+  "id": "centrinites_strigicollis",
+  "scientific_name": "Centrinites strigicollis",
+  "family": "curculionidae",
+  "genus": "centrinites",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1202309,
+  "inat_taxon_id": 544325,
+  "diagnosis": "Centrinites strigicollis is a species of flower weevil in the family of beetles known as Curculionidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Centrinites_strigicollis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}
