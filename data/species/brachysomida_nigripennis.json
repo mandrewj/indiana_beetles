@@ -1,0 +1,31 @@
+{
+  "id": "brachysomida_nigripennis",
+  "scientific_name": "Brachysomida nigripennis",
+  "common_name": "Black-winged Long-horned Beetle",
+  "family": "cerambycidae",
+  "genus": "brachysomida",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4292580,
+  "inat_taxon_id": 455411,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Boone",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Boone": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

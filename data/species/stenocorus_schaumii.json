@@ -1,0 +1,40 @@
+{
+  "id": "stenocorus_schaumii",
+  "scientific_name": "Stenocorus schaumii",
+  "common_name": "Schaum's Longhorn Beetle",
+  "family": "cerambycidae",
+  "genus": "stenocorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7832383,
+  "inat_taxon_id": 231543,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Clark",
+    "Hamilton",
+    "Hendricks",
+    "Parke",
+    "Shelby",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Hamilton": 1,
+    "Hendricks": 1,
+    "Parke": 1,
+    "Shelby": 1,
+    "Wayne": 1,
+    "Clark": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

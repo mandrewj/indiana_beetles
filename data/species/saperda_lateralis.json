@@ -1,0 +1,42 @@
+{
+  "id": "saperda_lateralis",
+  "scientific_name": "Saperda lateralis",
+  "common_name": "Red-edged Saperda",
+  "family": "cerambycidae",
+  "genus": "saperda",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1102779,
+  "inat_taxon_id": 230393,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    8
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Dubois",
+    "Lake",
+    "Monroe",
+    "Shelby",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Shelby": 1,
+    "Brown": 2,
+    "Monroe": 1,
+    "Dubois": 1,
+    "Lake": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

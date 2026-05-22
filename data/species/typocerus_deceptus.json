@@ -1,0 +1,36 @@
+{
+  "id": "typocerus_deceptus",
+  "scientific_name": "Typocerus deceptus",
+  "family": "cerambycidae",
+  "genus": "typocerus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1140076,
+  "inat_taxon_id": 322965,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Lake",
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Porter": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

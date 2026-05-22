@@ -1,0 +1,29 @@
+{
+  "id": "enaphalodes_atomarius",
+  "scientific_name": "Enaphalodes atomarius",
+  "common_name": "Robust Oak Borer",
+  "family": "cerambycidae",
+  "genus": "enaphalodes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1134488,
+  "inat_taxon_id": 219122,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    9
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

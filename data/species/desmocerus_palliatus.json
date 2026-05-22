@@ -1,0 +1,33 @@
+{
+  "id": "desmocerus_palliatus",
+  "scientific_name": "Desmocerus palliatus",
+  "common_name": "Eastern Elderberry Borer",
+  "family": "cerambycidae",
+  "genus": "desmocerus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1137335,
+  "inat_taxon_id": 47962,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "LaPorte"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "LaPorte": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

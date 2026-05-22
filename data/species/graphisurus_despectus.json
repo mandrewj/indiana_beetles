@@ -1,0 +1,36 @@
+{
+  "id": "graphisurus_despectus",
+  "scientific_name": "Graphisurus despectus",
+  "common_name": "Salt-and-pepper Long-horned Beetle",
+  "family": "cerambycidae",
+  "genus": "graphisurus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5003966,
+  "inat_taxon_id": 452366,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    8
+  ],
+  "counties": [
+    "Grant",
+    "Monroe",
+    "Morgan"
+  ],
+  "county_record_counts": {
+    "Monroe": 4,
+    "Grant": 1,
+    "Morgan": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

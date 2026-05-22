@@ -1,0 +1,37 @@
+{
+  "id": "tetraopes_femoratus",
+  "scientific_name": "Tetraopes femoratus",
+  "common_name": "Red-femured Milkweed Borer",
+  "family": "cerambycidae",
+  "genus": "tetraopes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5002773,
+  "inat_taxon_id": 209338,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Hamilton",
+    "Lawrence",
+    "Marion",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Hamilton": 1,
+    "Vanderburgh": 1,
+    "Lawrence": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

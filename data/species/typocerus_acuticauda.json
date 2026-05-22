@@ -1,0 +1,41 @@
+{
+  "id": "typocerus_acuticauda",
+  "scientific_name": "Typocerus acuticauda",
+  "common_name": "Thin-tailed Longhorned Beetle",
+  "family": "cerambycidae",
+  "genus": "typocerus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4292710,
+  "inat_taxon_id": 233172,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Clark",
+    "Monroe",
+    "Posey",
+    "Shelby",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Posey": 1,
+    "Monroe": 1,
+    "Shelby": 1,
+    "Clark": 1,
+    "Starke": 1,
+    "Brown": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

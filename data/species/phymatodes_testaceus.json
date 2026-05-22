@@ -1,0 +1,40 @@
+{
+  "id": "phymatodes_testaceus",
+  "scientific_name": "Phymatodes testaceus",
+  "common_name": "Tanbark Borer",
+  "family": "cerambycidae",
+  "genus": "phymatodes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8961343,
+  "inat_taxon_id": 228022,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Jefferson",
+    "Johnson",
+    "LaPorte",
+    "Porter",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Jefferson": 1,
+    "Johnson": 6,
+    "Allen": 1,
+    "St. Joseph": 1,
+    "Porter": 1,
+    "LaPorte": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

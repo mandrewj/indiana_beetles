@@ -192,9 +192,26 @@
           "name": "Anelaphus",
           "species": [
             {
+              "id": "anelaphus_pumilus",
+              "name": "Anelaphus pumilus",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "anelaphus_villosus",
               "name": "Anelaphus villosus",
               "common_name": "Twig Pruner",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "anoplodera",
+          "name": "Anoplodera",
+          "species": [
+            {
+              "id": "anoplodera_pubera",
+              "name": "Anoplodera pubera",
+              "common_name": "Downy Long-horned Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -223,6 +240,24 @@
           ]
         },
         {
+          "id": "astylopsis",
+          "name": "Astylopsis",
+          "species": [
+            {
+              "id": "astylopsis_macula",
+              "name": "Astylopsis macula",
+              "common_name": "Spotted Long-horned Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "astylopsis_sexguttata",
+              "name": "Astylopsis sexguttata",
+              "common_name": "Six-speckled Long-horned Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "batyle",
           "name": "Batyle",
           "species": [
@@ -235,6 +270,18 @@
           ]
         },
         {
+          "id": "bellamira",
+          "name": "Bellamira",
+          "species": [
+            {
+              "id": "bellamira_scalaris",
+              "name": "Bellamira scalaris",
+              "common_name": "Ladder-marked Longhorn Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "brachyleptura",
           "name": "Brachyleptura",
           "species": [
@@ -242,6 +289,36 @@
               "id": "brachyleptura_rubrica",
               "name": "Brachyleptura rubrica",
               "common_name": "Red-winged Longhorn Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "brachysomida",
+          "name": "Brachysomida",
+          "species": [
+            {
+              "id": "brachysomida_bivittata",
+              "name": "Brachysomida bivittata",
+              "common_name": "Double-lined Longhorn Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "brachysomida_nigripennis",
+              "name": "Brachysomida nigripennis",
+              "common_name": "Black-winged Long-horned Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "clytoleptus",
+          "name": "Clytoleptus",
+          "species": [
+            {
+              "id": "clytoleptus_albofasciatus",
+              "name": "Clytoleptus albofasciatus",
+              "common_name": "Grape Trunk Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -287,8 +364,26 @@
           "name": "Dectes",
           "species": [
             {
+              "id": "dectes_sayi",
+              "name": "Dectes sayi",
+              "common_name": "Soybean Stem Borer",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "dectes_texanus",
               "name": "Dectes texanus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "desmocerus",
+          "name": "Desmocerus",
+          "species": [
+            {
+              "id": "desmocerus_palliatus",
+              "name": "Desmocerus palliatus",
+              "common_name": "Eastern Elderberry Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -352,6 +447,12 @@
           "name": "Enaphalodes",
           "species": [
             {
+              "id": "enaphalodes_atomarius",
+              "name": "Enaphalodes atomarius",
+              "common_name": "Robust Oak Borer",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "enaphalodes_rufulus",
               "name": "Enaphalodes rufulus",
               "common_name": "Red Oak Borer",
@@ -388,9 +489,38 @@
           ]
         },
         {
+          "id": "gaurotes",
+          "name": "Gaurotes",
+          "species": [
+            {
+              "id": "gaurotes_cyanipennis",
+              "name": "Gaurotes cyanipennis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "goes",
+          "name": "Goes",
+          "species": [
+            {
+              "id": "goes_pulverulentus",
+              "name": "Goes pulverulentus",
+              "common_name": "Living Beech Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "graphisurus",
           "name": "Graphisurus",
           "species": [
+            {
+              "id": "graphisurus_despectus",
+              "name": "Graphisurus despectus",
+              "common_name": "Salt-and-pepper Long-horned Beetle",
+              "indiana_status": "confirmed"
+            },
             {
               "id": "graphisurus_fasciatus",
               "name": "Graphisurus fasciatus",
@@ -451,6 +581,11 @@
           "name": "Lepturges",
           "species": [
             {
+              "id": "lepturges_angulatus",
+              "name": "Lepturges angulatus",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "lepturges_confluens",
               "name": "Lepturges confluens",
               "common_name": "Dark-stained Longhorned Beetle",
@@ -496,6 +631,12 @@
               "id": "monochamus_carolinensis",
               "name": "Monochamus carolinensis",
               "common_name": "Carolina Pine Sawyer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "monochamus_scutellatus",
+              "name": "Monochamus scutellatus",
+              "common_name": "White-spotted Sawyer",
               "indiana_status": "confirmed"
             }
           ]
@@ -544,6 +685,24 @@
               "id": "neoclytus_mucronatus",
               "name": "Neoclytus mucronatus",
               "indiana_status": "confirmed"
+            },
+            {
+              "id": "neoclytus_scutellaris",
+              "name": "Neoclytus scutellaris",
+              "common_name": "Split-necked Neoclytus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "oberea",
+          "name": "Oberea",
+          "species": [
+            {
+              "id": "oberea_tripunctata",
+              "name": "Oberea tripunctata",
+              "common_name": "Dogwood Twig Borer",
+              "indiana_status": "confirmed"
             }
           ]
         },
@@ -585,6 +744,18 @@
               "id": "orthosoma_brunneum",
               "name": "Orthosoma brunneum",
               "common_name": "Brown Prionid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "phymatodes",
+          "name": "Phymatodes",
+          "species": [
+            {
+              "id": "phymatodes_testaceus",
+              "name": "Phymatodes testaceus",
+              "common_name": "Tanbark Borer",
               "indiana_status": "confirmed"
             }
           ]
@@ -644,6 +815,18 @@
           ]
         },
         {
+          "id": "rhopalophora",
+          "name": "Rhopalophora",
+          "species": [
+            {
+              "id": "rhopalophora_longipes",
+              "name": "Rhopalophora longipes",
+              "common_name": "Eastern Rhopalophora",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "saperda",
           "name": "Saperda",
           "species": [
@@ -654,9 +837,39 @@
               "indiana_status": "confirmed"
             },
             {
+              "id": "saperda_imitans",
+              "name": "Saperda imitans",
+              "common_name": "Oblique-banded Longhorn Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "saperda_lateralis",
+              "name": "Saperda lateralis",
+              "common_name": "Red-edged Saperda",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "saperda_tridentata",
               "name": "Saperda tridentata",
               "common_name": "Elm Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "saperda_vestita",
+              "name": "Saperda vestita",
+              "common_name": "Linden Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "sarosesthes",
+          "name": "Sarosesthes",
+          "species": [
+            {
+              "id": "sarosesthes_fulminans",
+              "name": "Sarosesthes fulminans",
+              "common_name": "Fulminating Long-horned Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -693,6 +906,12 @@
               "name": "Stenocorus cinnamopterus",
               "common_name": "Cinnamon-winged Flower Longhorn",
               "indiana_status": "confirmed"
+            },
+            {
+              "id": "stenocorus_schaumii",
+              "name": "Stenocorus schaumii",
+              "common_name": "Schaum's Longhorn Beetle",
+              "indiana_status": "confirmed"
             }
           ]
         },
@@ -704,6 +923,18 @@
               "id": "sternidius_alpha",
               "name": "Sternidius alpha",
               "common_name": "Alpha Long-horned Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "strangalepta",
+          "name": "Strangalepta",
+          "species": [
+            {
+              "id": "strangalepta_abbreviata",
+              "name": "Strangalepta abbreviata",
+              "common_name": "Strangalepta Flower Longhorn Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -743,6 +974,12 @@
           "name": "Tetraopes",
           "species": [
             {
+              "id": "tetraopes_femoratus",
+              "name": "Tetraopes femoratus",
+              "common_name": "Red-femured Milkweed Borer",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "tetraopes_quinquemaculatus",
               "name": "Tetraopes quinquemaculatus",
               "indiana_status": "confirmed"
@@ -772,9 +1009,26 @@
           "name": "Typocerus",
           "species": [
             {
+              "id": "typocerus_acuticauda",
+              "name": "Typocerus acuticauda",
+              "common_name": "Thin-tailed Longhorned Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "typocerus_deceptus",
+              "name": "Typocerus deceptus",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "typocerus_lugubris",
               "name": "Typocerus lugubris",
               "common_name": "Mournful Long-horned Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "typocerus_octonotatus",
+              "name": "Typocerus octonotatus",
+              "common_name": "Eight-spotted Flower Longhorn Beetle",
               "indiana_status": "confirmed"
             },
             {
@@ -1238,35 +1492,12 @@
           ]
         },
         {
-          "id": "anaedus",
-          "name": "Anaedus",
-          "species": [
-            {
-              "id": "anaedus_brunneus",
-              "name": "Anaedus brunneus",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
           "id": "androchirus",
           "name": "Androchirus",
           "species": [
             {
               "id": "androchirus_erythropus",
               "name": "Androchirus erythropus",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "arthromacra",
-          "name": "Arthromacra",
-          "species": [
-            {
-              "id": "arthromacra_aenea",
-              "name": "Arthromacra aenea",
-              "common_name": "Bronze Darkling Beetle",
               "indiana_status": "confirmed"
             }
           ]
@@ -1306,29 +1537,6 @@
           ]
         },
         {
-          "id": "bothrotes",
-          "name": "Bothrotes",
-          "species": [
-            {
-              "id": "bothrotes_canaliculatus",
-              "name": "Bothrotes canaliculatus",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "capnochroa",
-          "name": "Capnochroa",
-          "species": [
-            {
-              "id": "capnochroa_fuliginosa",
-              "name": "Capnochroa fuliginosa",
-              "common_name": "Comb-clawed Beetle",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
           "id": "centronopus",
           "name": "Centronopus",
           "species": [
@@ -1336,18 +1544,6 @@
               "id": "centronopus_calcaratus",
               "name": "Centronopus calcaratus",
               "common_name": "Spurred Darkling Beetle",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "chromatia",
-          "name": "Chromatia",
-          "species": [
-            {
-              "id": "chromatia_amoena",
-              "name": "Chromatia amoena",
-              "common_name": "Charming Red-and-Black Teneb",
               "indiana_status": "confirmed"
             }
           ]
@@ -1423,30 +1619,6 @@
           ]
         },
         {
-          "id": "merinus",
-          "name": "Merinus",
-          "species": [
-            {
-              "id": "merinus_laevis",
-              "name": "Merinus laevis",
-              "common_name": "Smooth Darkling Beetle",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "neatus",
-          "name": "Neatus",
-          "species": [
-            {
-              "id": "neatus_tenebrioides",
-              "name": "Neatus tenebrioides",
-              "common_name": "Forest Darkling Beetle",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
           "id": "neomida",
           "name": "Neomida",
           "species": [
@@ -1504,24 +1676,6 @@
           ]
         },
         {
-          "id": "tenebrio",
-          "name": "Tenebrio",
-          "species": [
-            {
-              "id": "tenebrio_molitor",
-              "name": "Tenebrio molitor",
-              "common_name": "Yellow Mealworm Beetle",
-              "indiana_status": "confirmed"
-            },
-            {
-              "id": "tenebrio_obscurus",
-              "name": "Tenebrio obscurus",
-              "common_name": "Dark Mealworm",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
           "id": "xylopinus",
           "name": "Xylopinus",
           "species": [
@@ -1529,18 +1683,6 @@
               "id": "xylopinus_saperdoides",
               "name": "Xylopinus saperdoides",
               "common_name": "Decaying Darkling Beetle",
-              "indiana_status": "confirmed"
-            }
-          ]
-        },
-        {
-          "id": "zophobas",
-          "name": "Zophobas",
-          "species": [
-            {
-              "id": "zophobas_atratus",
-              "name": "Zophobas atratus",
-              "common_name": "Giant Mealworm Beetle",
               "indiana_status": "confirmed"
             }
           ]

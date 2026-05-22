@@ -1,0 +1,40 @@
+{
+  "id": "sarosesthes_fulminans",
+  "scientific_name": "Sarosesthes fulminans",
+  "common_name": "Fulminating Long-horned Beetle",
+  "family": "cerambycidae",
+  "genus": "sarosesthes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1103918,
+  "inat_taxon_id": 230430,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Fulton",
+    "Jackson",
+    "Lake",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Fulton": 1,
+    "Tippecanoe": 1,
+    "Jackson": 1,
+    "Lake": 3,
+    "Brown": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}
