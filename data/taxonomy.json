@@ -1255,6 +1255,57 @@
       "species_count": 612,
       "genera": [
         {
+          "id": "acanthoscelidius",
+          "name": "Acanthoscelidius",
+          "species": [
+            {
+              "id": "acanthoscelidius_acephalus",
+              "name": "Acanthoscelidius acephalus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "anthonomus",
+          "name": "Anthonomus",
+          "species": [
+            {
+              "id": "anthonomus_quadrigibbus",
+              "name": "Anthonomus quadrigibbus",
+              "common_name": "Apple curculio",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anthonomus_suturalis",
+              "name": "Anthonomus suturalis",
+              "common_name": "Sutured Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "aphrastus",
+          "name": "Aphrastus",
+          "species": [
+            {
+              "id": "aphrastus_taeniatus",
+              "name": "Aphrastus taeniatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "apteromechus",
+          "name": "Apteromechus",
+          "species": [
+            {
+              "id": "apteromechus_ferratus",
+              "name": "Apteromechus ferratus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "brachypera",
           "name": "Brachypera",
           "species": [
@@ -1262,6 +1313,18 @@
               "id": "brachypera_zoilus",
               "name": "Brachypera zoilus",
               "common_name": "Clover Leaf Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "brachystylus",
+          "name": "Brachystylus",
+          "species": [
+            {
+              "id": "brachystylus_sayi",
+              "name": "Brachystylus sayi",
+              "common_name": "Banded Persimmon Weevil",
               "indiana_status": "confirmed"
             }
           ]
@@ -1301,15 +1364,49 @@
               "indiana_status": "confirmed"
             },
             {
+              "id": "conotrachelus_fissunguis",
+              "name": "Conotrachelus fissunguis",
+              "common_name": "Hibiscus Curculio",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "conotrachelus_nenuphar",
               "name": "Conotrachelus nenuphar",
               "common_name": "Plum Curculio",
               "indiana_status": "confirmed"
             },
             {
+              "id": "conotrachelus_posticatus",
+              "name": "Conotrachelus posticatus",
+              "common_name": "Oak Curculio",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "conotrachelus_seniculus",
               "name": "Conotrachelus seniculus",
               "common_name": "Pigweed Curculio",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cophes",
+          "name": "Cophes",
+          "species": [
+            {
+              "id": "cophes_fallax",
+              "name": "Cophes fallax",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cryptorhynchus",
+          "name": "Cryptorhynchus",
+          "species": [
+            {
+              "id": "cryptorhynchus_fuscatus",
+              "name": "Cryptorhynchus fuscatus",
               "indiana_status": "confirmed"
             }
           ]
@@ -1338,6 +1435,18 @@
           ]
         },
         {
+          "id": "dryophthorus",
+          "name": "Dryophthorus",
+          "species": [
+            {
+              "id": "dryophthorus_americanus",
+              "name": "Dryophthorus americanus",
+              "common_name": "American Billbug Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "exomias",
           "name": "Exomias",
           "species": [
@@ -1361,6 +1470,30 @@
           ]
         },
         {
+          "id": "hylobius",
+          "name": "Hylobius",
+          "species": [
+            {
+              "id": "hylobius_pales",
+              "name": "Hylobius pales",
+              "common_name": "Pales Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hypera",
+          "name": "Hypera",
+          "species": [
+            {
+              "id": "hypera_postica",
+              "name": "Hypera postica",
+              "common_name": "Alfalfa Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "larinus",
           "name": "Larinus",
           "species": [
@@ -1373,6 +1506,17 @@
           ]
         },
         {
+          "id": "lechriops",
+          "name": "Lechriops",
+          "species": [
+            {
+              "id": "lechriops_oculatus",
+              "name": "Lechriops oculatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "lixus",
           "name": "Lixus",
           "species": [
@@ -1380,6 +1524,23 @@
               "id": "lixus_concavus",
               "name": "Lixus concavus",
               "common_name": "Rhubarb Weevil",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lixus_macer",
+              "name": "Lixus macer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "madarellus",
+          "name": "Madarellus",
+          "species": [
+            {
+              "id": "madarellus_undulatus",
+              "name": "Madarellus undulatus",
+              "common_name": "Wavy Flower Weevil",
               "indiana_status": "confirmed"
             }
           ]
@@ -1424,6 +1585,12 @@
           "id": "odontocorynus",
           "name": "Odontocorynus",
           "species": [
+            {
+              "id": "odontocorynus_salebrosus",
+              "name": "Odontocorynus salebrosus",
+              "common_name": "Rugged Flower Weevil",
+              "indiana_status": "confirmed"
+            },
             {
               "id": "odontocorynus_umbellae",
               "name": "Odontocorynus umbellae",
@@ -1493,6 +1660,18 @@
           ]
         },
         {
+          "id": "phyrdenus",
+          "name": "Phyrdenus",
+          "species": [
+            {
+              "id": "phyrdenus_divergens",
+              "name": "Phyrdenus divergens",
+              "common_name": "Divergent Nightshade Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "polydrusus",
           "name": "Polydrusus",
           "species": [
@@ -1500,6 +1679,12 @@
               "id": "polydrusus_formosus",
               "name": "Polydrusus formosus",
               "common_name": "Green Immigrant Leaf Weevil",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "polydrusus_impressifrons",
+              "name": "Polydrusus impressifrons",
+              "common_name": "Pale Green Weevil",
               "indiana_status": "confirmed"
             }
           ]
@@ -1524,6 +1709,18 @@
               "id": "pseudoedophrys_hilleri",
               "name": "Pseudoedophrys hilleri",
               "common_name": "Peach Root Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "rhinocyllus",
+          "name": "Rhinocyllus",
+          "species": [
+            {
+              "id": "rhinocyllus_conicus",
+              "name": "Rhinocyllus conicus",
+              "common_name": "Nodding Thistle Receptacle Weevil",
               "indiana_status": "confirmed"
             }
           ]
@@ -1559,6 +1756,18 @@
           ]
         },
         {
+          "id": "scolytus",
+          "name": "Scolytus",
+          "species": [
+            {
+              "id": "scolytus_multistriatus",
+              "name": "Scolytus multistriatus",
+              "common_name": "Elm Bark Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "sitona",
           "name": "Sitona",
           "species": [
@@ -1571,13 +1780,91 @@
           ]
         },
         {
+          "id": "sitophilus",
+          "name": "Sitophilus",
+          "species": [
+            {
+              "id": "sitophilus_oryzae",
+              "name": "Sitophilus oryzae",
+              "common_name": "Rice Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "sphenophorus",
           "name": "Sphenophorus",
           "species": [
             {
+              "id": "sphenophorus_aequalis",
+              "name": "Sphenophorus aequalis",
+              "common_name": "Clay-colored Billbug",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "sphenophorus_australis",
+              "name": "Sphenophorus australis",
+              "common_name": "Tule Billbug",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "sphenophorus_minimus",
+              "name": "Sphenophorus minimus",
+              "common_name": "Lesser Billbug",
+              "indiana_status": "confirmed"
+            },
+            {
               "id": "sphenophorus_parvulus",
               "name": "Sphenophorus parvulus",
               "common_name": "Bluegrass Billbug",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "sphenophorus_venatus",
+              "name": "Sphenophorus venatus",
+              "common_name": "Hunting Billbug",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "sphenophorus_zeae",
+              "name": "Sphenophorus zeae",
+              "common_name": "Timothy Billbug",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tychius",
+          "name": "Tychius",
+          "species": [
+            {
+              "id": "tychius_picirostris",
+              "name": "Tychius picirostris",
+              "common_name": "Clover Seed Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tyloderma",
+          "name": "Tyloderma",
+          "species": [
+            {
+              "id": "tyloderma_foveolatum",
+              "name": "Tyloderma foveolatum",
+              "common_name": "Pitted Hidden Snout Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "xylosandrus",
+          "name": "Xylosandrus",
+          "species": [
+            {
+              "id": "xylosandrus_crassiusculus",
+              "name": "Xylosandrus crassiusculus",
+              "common_name": "Granulate Ambrosia Beetle",
               "indiana_status": "confirmed"
             }
           ]

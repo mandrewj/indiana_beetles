@@ -1,0 +1,61 @@
+{
+  "id": "scolytus_multistriatus",
+  "scientific_name": "Scolytus multistriatus",
+  "common_name": "Elm Bark Beetle",
+  "family": "curculionidae",
+  "genus": "scolytus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1189289,
+  "inat_taxon_id": 209112,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "phenology_peak": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "counties": [
+    "Bartholomew",
+    "Floyd",
+    "Hendricks",
+    "Johnson",
+    "LaPorte",
+    "Marion",
+    "Porter",
+    "Randolph",
+    "Shelby",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Bartholomew": 2,
+    "St. Joseph": 4,
+    "Johnson": 1,
+    "Porter": 1,
+    "LaPorte": 1,
+    "Hendricks": 1,
+    "Randolph": 1,
+    "Shelby": 3,
+    "Marion": 1,
+    "Floyd": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

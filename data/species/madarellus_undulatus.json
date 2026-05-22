@@ -1,0 +1,51 @@
+{
+  "id": "madarellus_undulatus",
+  "scientific_name": "Madarellus undulatus",
+  "common_name": "Wavy Flower Weevil",
+  "family": "curculionidae",
+  "genus": "madarellus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1174597,
+  "inat_taxon_id": 203408,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Greene",
+    "Howard",
+    "Johnson",
+    "Lake",
+    "Marion",
+    "St. Joseph",
+    "Vanderburgh",
+    "Warren"
+  ],
+  "county_record_counts": {
+    "Warren": 1,
+    "Vanderburgh": 1,
+    "Johnson": 1,
+    "St. Joseph": 1,
+    "Lake": 1,
+    "Howard": 1,
+    "Marion": 2,
+    "Greene": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

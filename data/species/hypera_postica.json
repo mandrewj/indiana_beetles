@@ -1,0 +1,41 @@
+{
+  "id": "hypera_postica",
+  "scientific_name": "Hypera postica",
+  "common_name": "Alfalfa Weevil",
+  "family": "curculionidae",
+  "genus": "hypera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1191191,
+  "inat_taxon_id": 196616,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    4,
+    5,
+    6,
+    9,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    11
+  ],
+  "counties": [
+    "Hamilton",
+    "Jennings",
+    "Marion",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Marion": 3,
+    "Hamilton": 1,
+    "Jennings": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

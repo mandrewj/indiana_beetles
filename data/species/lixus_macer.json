@@ -1,0 +1,43 @@
+{
+  "id": "lixus_macer",
+  "scientific_name": "Lixus macer",
+  "family": "curculionidae",
+  "genus": "lixus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 9345468,
+  "inat_taxon_id": 224032,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Carroll",
+    "Hancock",
+    "Howard",
+    "Knox",
+    "Porter",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Howard": 2,
+    "Allen": 1,
+    "Porter": 3,
+    "Knox": 1,
+    "Carroll": 2,
+    "Starke": 1,
+    "Hancock": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

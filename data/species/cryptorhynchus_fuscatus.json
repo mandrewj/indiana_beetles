@@ -1,0 +1,48 @@
+{
+  "id": "cryptorhynchus_fuscatus",
+  "scientific_name": "Cryptorhynchus fuscatus",
+  "family": "curculionidae",
+  "genus": "cryptorhynchus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4292041,
+  "inat_taxon_id": 217842,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    9
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Henry",
+    "Lake",
+    "Marion",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Henry": 3,
+    "Porter": 2,
+    "Allen": 1,
+    "Marion": 1,
+    "Tippecanoe": 1,
+    "St. Joseph": 1,
+    "Brown": 1,
+    "Lake": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

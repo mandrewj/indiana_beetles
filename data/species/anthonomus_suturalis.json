@@ -1,0 +1,33 @@
+{
+  "id": "anthonomus_suturalis",
+  "scientific_name": "Anthonomus suturalis",
+  "common_name": "Sutured Weevil",
+  "family": "curculionidae",
+  "genus": "anthonomus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1196009,
+  "inat_taxon_id": 213784,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Lake",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 18,
+    "Lake": 3
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

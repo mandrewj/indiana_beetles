@@ -1,0 +1,39 @@
+{
+  "id": "polydrusus_impressifrons",
+  "scientific_name": "Polydrusus impressifrons",
+  "common_name": "Pale Green Weevil",
+  "family": "curculionidae",
+  "genus": "polydrusus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1176504,
+  "inat_taxon_id": 228590,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Hendricks",
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 3,
+    "Porter": 2,
+    "Allen": 1,
+    "Hendricks": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

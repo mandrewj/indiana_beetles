@@ -1,0 +1,45 @@
+{
+  "id": "anthonomus_quadrigibbus",
+  "scientific_name": "Anthonomus quadrigibbus",
+  "common_name": "Apple curculio",
+  "family": "curculionidae",
+  "genus": "anthonomus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5013721,
+  "inat_taxon_id": 213778,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Henry",
+    "Knox",
+    "Marion",
+    "Monroe",
+    "St. Joseph",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Marion": 2,
+    "Monroe": 3,
+    "St. Joseph": 2,
+    "Knox": 2,
+    "Henry": 1,
+    "Wayne": 1,
+    "Allen": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

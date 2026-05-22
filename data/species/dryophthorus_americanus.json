@@ -1,0 +1,42 @@
+{
+  "id": "dryophthorus_americanus",
+  "scientific_name": "Dryophthorus americanus",
+  "common_name": "American Billbug Weevil",
+  "family": "curculionidae",
+  "genus": "dryophthorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1170596,
+  "inat_taxon_id": 218781,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    9,
+    12
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Hamilton",
+    "Harrison",
+    "Jennings",
+    "Marion",
+    "Ripley",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Ripley": 2,
+    "Jennings": 2,
+    "Marion": 1,
+    "Hamilton": 4,
+    "Wayne": 2,
+    "Harrison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "sphenophorus_australis",
+  "scientific_name": "Sphenophorus australis",
+  "common_name": "Tule Billbug",
+  "family": "curculionidae",
+  "genus": "sphenophorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4291604,
+  "inat_taxon_id": 231358,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    10
+  ],
+  "counties": [
+    "Allen",
+    "Grant",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Grant": 1,
+    "Allen": 1,
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

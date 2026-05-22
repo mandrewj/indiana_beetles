@@ -1,0 +1,47 @@
+{
+  "id": "lechriops_oculatus",
+  "scientific_name": "Lechriops oculatus",
+  "family": "curculionidae",
+  "genus": "lechriops",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1237341,
+  "inat_taxon_id": 222976,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Grant",
+    "Greene",
+    "Hamilton",
+    "Marion",
+    "Owen",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Allen": 1,
+    "Grant": 1,
+    "Marion": 3,
+    "Tippecanoe": 2,
+    "Owen": 1,
+    "Greene": 1,
+    "Boone": 1,
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tyloderma_foveolatum",
+  "scientific_name": "Tyloderma foveolatum",
+  "common_name": "Pitted Hidden Snout Weevil",
+  "family": "curculionidae",
+  "genus": "tyloderma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5017620,
+  "inat_taxon_id": 233128,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

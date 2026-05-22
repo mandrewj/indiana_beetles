@@ -1,0 +1,39 @@
+{
+  "id": "tychius_picirostris",
+  "scientific_name": "Tychius picirostris",
+  "common_name": "Clover Seed Weevil",
+  "family": "curculionidae",
+  "genus": "tychius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1214072,
+  "inat_taxon_id": 233118,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Hendricks",
+    "Marion",
+    "Montgomery",
+    "Parke"
+  ],
+  "county_record_counts": {
+    "Montgomery": 2,
+    "Parke": 1,
+    "Marion": 1,
+    "Hendricks": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}

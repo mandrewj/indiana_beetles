@@ -1,0 +1,38 @@
+{
+  "id": "acanthoscelidius_acephalus",
+  "scientific_name": "Acanthoscelidius acephalus",
+  "family": "curculionidae",
+  "genus": "acanthoscelidius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4291349,
+  "inat_taxon_id": 212226,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7,
+    9
+  ],
+  "counties": [
+    "Greene",
+    "Marion",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 3,
+    "Greene": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-22"
+}
