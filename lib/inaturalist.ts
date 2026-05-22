@@ -136,25 +136,30 @@ async function fetchObservations(params: URLSearchParams): Promise<RawINatRespon
 }
 
 /**
- * Top community photos for a taxon in Indiana — best-of for the gallery.
+ * Top community photos for a taxon. Defaults to Indiana-scoped (the
+ * "Community observations · iNaturalist" grid on the species page), but
+ * pass `placeId: null` to drop the place filter — useful when no Indiana
+ * observations exist (e.g. Calosoma externum) and we still want a hero
+ * image from anywhere on iNat.
  */
 export async function fetchTopINatPhotos(
   taxonId: number,
-  limit: number = 12
+  limit: number = 12,
+  placeId: number | null = INDIANA_PLACE_ID
 ): Promise<INatPhoto[]> {
   if (!Number.isInteger(taxonId) || taxonId <= 0) return [];
   return withCache(
     "inat-photos",
-    `${taxonId}-${limit}`,
+    `${taxonId}-${limit}-${placeId ?? "global"}`,
     async () => {
       const params = new URLSearchParams({
         taxon_id: String(taxonId),
-        place_id: String(INDIANA_PLACE_ID),
         photos: "true",
         per_page: String(limit),
         order: "desc",
         order_by: "votes",
       });
+      if (placeId !== null) params.set("place_id", String(placeId));
       const data = await fetchObservations(params);
       const photos: INatPhoto[] = [];
       const withPhotos = data.results.filter((obs) => obs.photos[0]);

@@ -22,21 +22,39 @@ export function SpeciesImageGallery({ species }: { species: Species }) {
     setAdminBroken(false);
   }, [species.id, iIdx]);
 
+  const [fallbackIsGlobal, setFallbackIsGlobal] = useState(false);
+
   // Prefetch the iNat top photo so we can swap to it instantly if the admin
-  // image fails to load (or if there are no admin images at all).
+  // image fails to load (or if there are no admin images at all). Try
+  // Indiana first; if there are no Indiana observations with photos, fall
+  // back to the best photo anywhere on iNaturalist.
   useEffect(() => {
     if (inatId === null) {
       setInatFallback(null);
+      setFallbackIsGlobal(false);
       return;
     }
     let live = true;
-    fetchTopINatPhotos(inatId, 1)
-      .then((photos) => {
-        if (live) setInatFallback(photos[0] ?? null);
-      })
-      .catch(() => {
-        if (live) setInatFallback(null);
-      });
+    (async () => {
+      try {
+        const indiana = await fetchTopINatPhotos(inatId, 1);
+        if (!live) return;
+        if (indiana[0]) {
+          setInatFallback(indiana[0]);
+          setFallbackIsGlobal(false);
+          return;
+        }
+        const global = await fetchTopINatPhotos(inatId, 1, null);
+        if (!live) return;
+        setInatFallback(global[0] ?? null);
+        setFallbackIsGlobal(global[0] != null);
+      } catch {
+        if (live) {
+          setInatFallback(null);
+          setFallbackIsGlobal(false);
+        }
+      }
+    })();
     return () => {
       live = false;
     };
@@ -134,7 +152,12 @@ export function SpeciesImageGallery({ species }: { species: Species }) {
               via iNaturalist
               {inatFallback.county && <> · {inatFallback.county} Co.</>}
               {inatFallback.date && <> · {inatFallback.date}</>}
-              {adminBroken && (
+              {fallbackIsGlobal && (
+                <span style={{ color: "var(--gray-500)", marginLeft: 8 }}>
+                  (no Indiana observations yet — showing best photo globally)
+                </span>
+              )}
+              {adminBroken && !fallbackIsGlobal && (
                 <span style={{ color: "var(--gray-500)", marginLeft: 8 }}>
                   (admin image unavailable — showing community photo)
                 </span>

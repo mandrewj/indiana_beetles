@@ -12,40 +12,62 @@ interface Props {
   speciesId: string;
 }
 
+interface State {
+  photos: INatPhoto[];
+  scope: "indiana" | "global";
+}
+
 export function INatTileGrid({ taxonId, speciesId }: Props) {
-  const [photos, setPhotos] = useState<INatPhoto[] | null>(null);
+  const [state, setState] = useState<State | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let live = true;
-    setPhotos(null);
+    setState(null);
     setError(null);
-    fetchTopINatPhotos(taxonId, 12)
-      .then((res) => {
+    (async () => {
+      try {
+        const indiana = await fetchTopINatPhotos(taxonId, 12);
         if (!live) return;
-        setPhotos(res);
-      })
-      .catch((err: Error) => {
+        if (indiana.length > 0) {
+          setState({ photos: indiana, scope: "indiana" });
+          return;
+        }
+        const global = await fetchTopINatPhotos(taxonId, 12, null);
         if (!live) return;
-        setError(err.message);
-      });
+        setState({ photos: global, scope: "global" });
+      } catch (err) {
+        if (!live) return;
+        setError((err as Error).message);
+      }
+    })();
     return () => {
       live = false;
     };
   }, [taxonId, speciesId]);
+
+  const photos = state?.photos ?? null;
+  const scope = state?.scope;
 
   const status = error
     ? "Unavailable"
     : photos === null
     ? "Loading…"
     : photos.length === 0
-    ? "No Indiana observations yet"
-    : `${photos.length} CC-licensed photos`;
+    ? "No observations yet"
+    : scope === "global"
+    ? `${photos.length} photos (no Indiana observations)`
+    : `${photos.length} Indiana photos`;
+
+  const title =
+    scope === "global"
+      ? "Photos · iNaturalist (global)"
+      : "Community observations · iNaturalist (Indiana)";
 
   return (
     <div className="gallery-source-band">
       <div className="head">
-        <div className="title">Community observations · iNaturalist</div>
+        <div className="title">{title}</div>
         <div className="ct">{status}</div>
       </div>
       {photos === null ? (
@@ -117,7 +139,7 @@ export function INatTileGrid({ taxonId, speciesId }: Props) {
               </a>
             </>
           ) : (
-            "No research-grade Indiana observations on iNaturalist yet."
+            "No observations with photos on iNaturalist yet."
           )}
         </div>
       )}

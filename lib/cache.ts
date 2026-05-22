@@ -6,9 +6,9 @@
  */
 
 // Bump on any change that affects cached payload shape OR query scoping
-// (e.g. correcting iNat place_id from 30 → 20). Old entries become unreadable
-// and the next visit will re-fetch.
-const VERSION = 2;
+// (e.g. correcting iNat place_id from 30 → 20, adding point-in-polygon county
+// resolver). Old entries become unreadable and the next visit will re-fetch.
+const VERSION = 3;
 const PREFIX = `bin:v${VERSION}:`;
 
 interface Entry<T> {
