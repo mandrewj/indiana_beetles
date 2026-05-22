@@ -1,0 +1,30 @@
+{
+  "id": "nicagus_obscurus",
+  "scientific_name": "Nicagus obscurus",
+  "family": "lucanidae",
+  "genus": "nicagus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6957723,
+  "inat_taxon_id": 176663,
+  "diagnosis": "Nicagus obscurus is a species of stag beetle in the family Lucanidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Boone"
+  ],
+  "county_record_counts": {
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Nicagus obscurus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

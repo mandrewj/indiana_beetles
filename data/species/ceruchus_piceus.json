@@ -1,0 +1,48 @@
+{
+  "id": "ceruchus_piceus",
+  "scientific_name": "Ceruchus piceus",
+  "common_name": "Red-rot Decay Stag Beetle",
+  "family": "lucanidae",
+  "genus": "ceruchus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8148354,
+  "inat_taxon_id": 216534,
+  "diagnosis": "Ceruchus piceus is a species of stag beetle in the family Lucanidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Hamilton",
+    "Harrison",
+    "Lake",
+    "Marion",
+    "Miami",
+    "Parke"
+  ],
+  "county_record_counts": {
+    "Marion": 5,
+    "Miami": 1,
+    "Hamilton": 1,
+    "Harrison": 1,
+    "Brown": 1,
+    "Lake": 2,
+    "Parke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ceruchus piceus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

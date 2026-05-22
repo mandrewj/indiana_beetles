@@ -2164,7 +2164,79 @@
       "sort_index": 6,
       "genera_count": 7,
       "species_count": 12,
-      "genera": []
+      "genera": [
+        {
+          "id": "ceruchus",
+          "name": "Ceruchus",
+          "species": [
+            {
+              "id": "ceruchus_piceus",
+              "name": "Ceruchus piceus",
+              "common_name": "Red-rot Decay Stag Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dorcus",
+          "name": "Dorcus",
+          "species": [
+            {
+              "id": "dorcus_parallelus",
+              "name": "Dorcus parallelus",
+              "common_name": "Antelope Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lucanus",
+          "name": "Lucanus",
+          "species": [
+            {
+              "id": "lucanus_capreolus",
+              "name": "Lucanus capreolus",
+              "common_name": "Reddish-brown Stag Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lucanus_elaphus",
+              "name": "Lucanus elaphus",
+              "common_name": "Elk Stag Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "lucanus_placidus",
+              "name": "Lucanus placidus",
+              "common_name": "Smooth Stag Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "nicagus",
+          "name": "Nicagus",
+          "species": [
+            {
+              "id": "nicagus_obscurus",
+              "name": "Nicagus obscurus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "platycerus",
+          "name": "Platycerus",
+          "species": [
+            {
+              "id": "platycerus_quercus",
+              "name": "Platycerus quercus",
+              "common_name": "Oak Stag Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "coccinellidae",

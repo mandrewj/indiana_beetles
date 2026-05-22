@@ -1,0 +1,72 @@
+{
+  "id": "lucanus_placidus",
+  "scientific_name": "Lucanus placidus",
+  "common_name": "Smooth Stag Beetle",
+  "family": "lucanidae",
+  "genus": "lucanus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7886486,
+  "inat_taxon_id": 224156,
+  "diagnosis": "Lucanus placidus is a beetle of the family Lucanidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    12
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Bartholomew",
+    "Elkhart",
+    "Fulton",
+    "Hamilton",
+    "Jasper",
+    "Knox",
+    "Kosciusko",
+    "Lake",
+    "LaPorte",
+    "Marshall",
+    "Newton",
+    "Porter",
+    "Pulaski",
+    "St. Joseph",
+    "Starke",
+    "Steuben",
+    "Vigo",
+    "White"
+  ],
+  "county_record_counts": {
+    "Porter": 27,
+    "Lake": 13,
+    "Bartholomew": 1,
+    "Knox": 1,
+    "St. Joseph": 15,
+    "LaPorte": 8,
+    "Vigo": 6,
+    "Fulton": 1,
+    "Jasper": 2,
+    "Newton": 4,
+    "Starke": 5,
+    "Marshall": 3,
+    "Hamilton": 2,
+    "Steuben": 1,
+    "Elkhart": 3,
+    "White": 3,
+    "Pulaski": 1,
+    "Kosciusko": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Lucanus_placidus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

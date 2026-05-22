@@ -1,0 +1,72 @@
+{
+  "id": "lucanus_elaphus",
+  "scientific_name": "Lucanus elaphus",
+  "common_name": "Elk Stag Beetle",
+  "family": "lucanidae",
+  "genus": "lucanus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7831408,
+  "inat_taxon_id": 84834,
+  "diagnosis": "The giant stag beetle (Lucanus elaphus) is a beetle of the family Lucanidae native to eastern North America. They are sometimes kept as pets.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Daviess",
+    "Dubois",
+    "Floyd",
+    "Gibson",
+    "Harrison",
+    "Jennings",
+    "Knox",
+    "Lawrence",
+    "Martin",
+    "Monroe",
+    "Orange",
+    "Perry",
+    "Pike",
+    "Posey",
+    "Scott",
+    "Spencer",
+    "Vanderburgh",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Brown": 15,
+    "Martin": 1,
+    "Floyd": 3,
+    "Daviess": 2,
+    "Jennings": 1,
+    "Harrison": 3,
+    "Pike": 1,
+    "Knox": 1,
+    "Vanderburgh": 5,
+    "Dubois": 2,
+    "Monroe": 5,
+    "Lawrence": 2,
+    "Posey": 1,
+    "Gibson": 1,
+    "Spencer": 4,
+    "Perry": 2,
+    "Scott": 2,
+    "Warrick": 1,
+    "Orange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lucanus elaphus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

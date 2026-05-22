@@ -1,0 +1,73 @@
+{
+  "id": "dorcus_parallelus",
+  "scientific_name": "Dorcus parallelus",
+  "common_name": "Antelope Beetle",
+  "family": "lucanidae",
+  "genus": "dorcus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7863078,
+  "inat_taxon_id": 218677,
+  "diagnosis": "Dorcus parallelus is a species of beetles in the family Lucanidae. It was described by Say in 1823.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "DeKalb",
+    "Hamilton",
+    "Jennings",
+    "Knox",
+    "Kosciusko",
+    "Madison",
+    "Marion",
+    "Miami",
+    "Monroe",
+    "Noble",
+    "Orange",
+    "Perry",
+    "Porter",
+    "Scott",
+    "Shelby",
+    "St. Joseph",
+    "Tippecanoe",
+    "Warren"
+  ],
+  "county_record_counts": {
+    "Marion": 7,
+    "Hamilton": 3,
+    "St. Joseph": 5,
+    "Allen": 3,
+    "Jennings": 1,
+    "Knox": 1,
+    "DeKalb": 1,
+    "Madison": 2,
+    "Kosciusko": 1,
+    "Scott": 1,
+    "Warren": 1,
+    "Shelby": 1,
+    "Miami": 1,
+    "Perry": 1,
+    "Porter": 1,
+    "Monroe": 2,
+    "Tippecanoe": 1,
+    "Noble": 1,
+    "Orange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Dorcus parallelus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -11,7 +11,8 @@
     "cms:dev": "decap-server",
     "data:counties": "tsx scripts/build-counties.ts",
     "data:taxon-ids": "tsx scripts/enrich-taxon-ids.ts",
-    "data:family-ids": "tsx scripts/enrich-family-ids.ts"
+    "data:family-ids": "tsx scripts/enrich-family-ids.ts",
+    "bulk:import": "tsx scripts/bulk-import.ts"
   },
   "dependencies": {
     "@types/d3-geo": "^3.1.0",

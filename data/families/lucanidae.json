@@ -3,11 +3,18 @@
   "name": "Lucanidae",
   "common_name": "Stag Beetles",
   "authority": "",
-  "diagnosis": "",
+  "diagnosis": "Stag beetles are a group of about 1,200 species of beetles in the family Lucanidae, presently classified in four subfamilies. Some species grow up to over 12 cm (4.7 in), but most are about 5 cm (2.0 in).",
   "species_count": 12,
   "genus_count": 7,
   "confirmed_count": null,
   "historical_count": null,
   "adventive_count": null,
-  "inat_taxon_id": 49083
+  "inat_taxon_id": 49083,
+  "genus_notes": {
+    "lucanus": "Lucanus may refer to:",
+    "platycerus": "Platycerus is a genus of stag beetles (Lucanidae), belonging to the subfamily Lucaninae.",
+    "dorcus": "Dorcus is a genus in the stag beetle subfamily Lucaninae and typical of the tribe Dorcini.",
+    "ceruchus": "Ceruchus is a genus of stag beetles in the family Lucanidae.",
+    "nicagus": "Nicagus is a genus of stag beetles in the family Lucanidae: representing the monogeneric tribe Nicagini in the subfamily Aesalinae."
+  }
 }
