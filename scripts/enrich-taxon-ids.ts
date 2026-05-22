@@ -1,10 +1,13 @@
 /**
  * One-shot: walk every species JSON file under data/species/, query iNat
  * (and optionally GBIF) for the scientific name, write the matched taxon IDs
- * back. Skips files that already have valid IDs unless --force is passed.
+ * back. Strict by default — verifies the matched taxon's name equals the
+ * queried name (case-insensitive) before accepting; otherwise logs and
+ * leaves the field as null so a human can resolve.
  *
  * Usage:  npm run data:taxon-ids
- *         npm run data:taxon-ids -- --force        (re-fetch even if set)
+ *         npm run data:taxon-ids -- --force        (re-fetch + verify even if set)
+ *         npm run data:taxon-ids -- --verify       (verify existing IDs only)
  *         npm run data:taxon-ids -- --skip-gbif    (iNat only)
  *         npm run data:taxon-ids -- --skip-inat    (GBIF only)
  */
@@ -15,6 +18,7 @@ const SPECIES_DIR = join(process.cwd(), "data", "species");
 
 const args = new Set(process.argv.slice(2));
 const FORCE = args.has("--force");
+const VERIFY = args.has("--verify");
 const SKIP_GBIF = args.has("--skip-gbif");
 const SKIP_INAT = args.has("--skip-inat");
 
@@ -35,28 +39,37 @@ function isValidId(v: unknown): boolean {
   return false;
 }
 
+async function fetchINatTaxonName(id: number): Promise<string | null> {
+  const res = await fetch(`https://api.inaturalist.org/v1/taxa/${id}`);
+  if (!res.ok) return null;
+  const data = (await res.json()) as { results?: Array<{ name?: string }> };
+  return data.results?.[0]?.name ?? null;
+}
+
 async function lookupINat(name: string): Promise<number | null> {
+  // Scan up to 10 candidates and require an exact (case-insensitive) name
+  // match. Falls through to null if no candidate matches — better to leave
+  // the field empty than to bind a wrong species like Clemensia albata to
+  // Calosoma scrutator (iNat ID 81672 was wrong in the prototype data).
   const url =
     "https://api.inaturalist.org/v1/taxa?q=" +
     encodeURIComponent(name) +
-    "&rank=species&per_page=1";
+    "&rank=species&per_page=10";
   const res = await fetch(url);
   if (!res.ok) throw new Error(`iNat ${res.status}`);
   const data = (await res.json()) as { results?: Array<{ id: number; name?: string }> };
-  const top = data.results?.[0];
-  if (!top) return null;
-  // Sanity check: top result's name should fuzzy-match the queried name.
-  if (top.name && top.name.toLowerCase() !== name.toLowerCase()) {
-    process.stdout.write(`  ! iNat top match was "${top.name}" (queried "${name}") — using anyway\n`);
+  const target = name.toLowerCase();
+  for (const r of data.results ?? []) {
+    if (r.name && r.name.toLowerCase() === target) return r.id;
   }
-  return top.id;
+  return null;
 }
 
 async function lookupGbif(name: string): Promise<number | null> {
   const url =
     "https://api.gbif.org/v1/species/match?name=" +
     encodeURIComponent(name) +
-    "&strict=false";
+    "&strict=true&kingdom=Animalia";
   const res = await fetch(url);
   if (!res.ok) throw new Error(`GBIF ${res.status}`);
   const data = (await res.json()) as {
@@ -67,8 +80,12 @@ async function lookupGbif(name: string): Promise<number | null> {
   };
   const key = data.usageKey ?? data.speciesKey;
   if (!key) return null;
-  if (data.canonicalName && data.canonicalName.toLowerCase() !== name.toLowerCase()) {
-    process.stdout.write(`  ! GBIF top match was "${data.canonicalName}" (queried "${name}") — using anyway\n`);
+  // GBIF's strict mode + canonicalName check.
+  if (
+    data.canonicalName &&
+    data.canonicalName.toLowerCase() !== name.toLowerCase()
+  ) {
+    return null;
   }
   return key;
 }
@@ -94,6 +111,21 @@ async function main() {
       process.stdout.write(`SKIP  ${sp.id} — no scientific_name\n`);
       skipped++;
       continue;
+    }
+
+    // In --verify mode, re-resolve existing IDs and reject mismatches.
+    if (VERIFY) {
+      if (!SKIP_INAT && isValidId(sp.inat_taxon_id)) {
+        const id = Number(sp.inat_taxon_id);
+        const actualName = await fetchINatTaxonName(id);
+        if (actualName && actualName.toLowerCase() !== name.toLowerCase()) {
+          process.stdout.write(
+            `BAD   ${name} — iNat ${id} resolves to "${actualName}" (clearing)\n`
+          );
+          sp.inat_taxon_id = null;
+        }
+        await sleep(400);
+      }
     }
 
     const needsInat = !SKIP_INAT && (FORCE || !isValidId(sp.inat_taxon_id));

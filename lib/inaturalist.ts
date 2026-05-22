@@ -9,7 +9,9 @@
 import { withCache } from "./cache";
 
 const API = "https://api.inaturalist.org/v1";
-const INDIANA_PLACE_ID = 30;
+// Indiana, US — verified via /v1/places/autocomplete. (place_id 30 is
+// North Carolina; we had it wrong in earlier revisions.)
+const INDIANA_PLACE_ID = 20;
 
 interface RawINatPhoto {
   id: number;

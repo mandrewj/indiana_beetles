@@ -33,7 +33,7 @@ export function Footer() {
               <ExternalLink size={11} style={{ verticalAlign: "-2px" }} />
             </a>
             <a
-              href="https://www.inaturalist.org/observations?place_id=30&taxon_id=47208"
+              href="https://www.inaturalist.org/observations?place_id=20&taxon_id=47208"
               target="_blank"
               rel="noreferrer"
             >

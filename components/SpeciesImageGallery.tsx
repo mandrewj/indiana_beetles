@@ -10,23 +10,29 @@ import { fetchTopINatPhotos, type INatPhoto } from "@/lib/inaturalist";
 
 export function SpeciesImageGallery({ species }: { species: Species }) {
   const admin: SpeciesImage[] = species.images ?? [];
-  const [iIdx, setIIdx] = useState(0);
-  const activeAdmin = admin.length ? admin[Math.min(iIdx, admin.length - 1)] : null;
   const inatId = taxonIdOrNull(species.inat_taxon_id);
 
-  // When admin hasn't curated any images, fall back to the top community
-  // photo from iNaturalist (Indiana-scoped, votes-sorted).
+  const [iIdx, setIIdx] = useState(0);
+  const [adminBroken, setAdminBroken] = useState(false);
   const [inatFallback, setInatFallback] = useState<INatPhoto | null>(null);
+
+  // Reset error state if the user clicks a different thumbnail or the species
+  // changes.
   useEffect(() => {
-    if (admin.length > 0 || inatId === null) {
+    setAdminBroken(false);
+  }, [species.id, iIdx]);
+
+  // Prefetch the iNat top photo so we can swap to it instantly if the admin
+  // image fails to load (or if there are no admin images at all).
+  useEffect(() => {
+    if (inatId === null) {
       setInatFallback(null);
       return;
     }
     let live = true;
     fetchTopINatPhotos(inatId, 1)
       .then((photos) => {
-        if (!live) return;
-        setInatFallback(photos[0] ?? null);
+        if (live) setInatFallback(photos[0] ?? null);
       })
       .catch(() => {
         if (live) setInatFallback(null);
@@ -34,13 +40,21 @@ export function SpeciesImageGallery({ species }: { species: Species }) {
     return () => {
       live = false;
     };
-  }, [admin.length, inatId]);
+  }, [inatId]);
+
+  const activeAdmin = admin.length ? admin[Math.min(iIdx, admin.length - 1)] : null;
+  const showAdmin = activeAdmin !== null && !adminBroken;
 
   return (
     <div className="gallery">
-      {activeAdmin ? (
+      {showAdmin ? (
         <>
           <div className="gallery-main">
+            {/* Ph first (background) — img stacks on top once it loads. */}
+            <Ph
+              label={`Admin · ${activeAdmin.type}`}
+              style={{ position: "absolute", inset: 0 }}
+            />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={activeAdmin.url}
@@ -52,14 +66,7 @@ export function SpeciesImageGallery({ species }: { species: Species }) {
                 height: "100%",
                 objectFit: "cover",
               }}
-              onError={(e) => {
-                // Image not yet uploaded — collapse to placeholder.
-                (e.currentTarget as HTMLImageElement).style.display = "none";
-              }}
-            />
-            <Ph
-              label={`Admin · ${activeAdmin.type}`}
-              style={{ position: "absolute", inset: 0 }}
+              onError={() => setAdminBroken(true)}
             />
           </div>
           <div className="gallery-credit">
@@ -127,6 +134,11 @@ export function SpeciesImageGallery({ species }: { species: Species }) {
               via iNaturalist
               {inatFallback.county && <> · {inatFallback.county} Co.</>}
               {inatFallback.date && <> · {inatFallback.date}</>}
+              {adminBroken && (
+                <span style={{ color: "var(--gray-500)", marginLeft: 8 }}>
+                  (admin image unavailable — showing community photo)
+                </span>
+              )}
             </div>
             <a
               href={inatFallback.observationUrl}
@@ -162,7 +174,7 @@ export function SpeciesImageGallery({ species }: { species: Species }) {
             tile to view the observation on iNaturalist.
           </span>
           <a
-            href={`https://www.inaturalist.org/observations?taxon_id=${inatId}&place_id=30&photos=true`}
+            href={`https://www.inaturalist.org/observations?taxon_id=${inatId}&place_id=20&photos=true`}
             target="_blank"
             rel="noreferrer"
           >
