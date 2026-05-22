@@ -240,6 +240,17 @@
           ]
         },
         {
+          "id": "asiopus",
+          "name": "Asiopus",
+          "species": [
+            {
+              "id": "asiopus_minimus",
+              "name": "Asiopus minimus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "bolitotherus",
           "name": "Bolitotherus",
           "species": [
@@ -252,6 +263,53 @@
           ]
         },
         {
+          "id": "bothrotes",
+          "name": "Bothrotes",
+          "species": [
+            {
+              "id": "bothrotes_canaliculatus",
+              "name": "Bothrotes canaliculatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chromatia",
+          "name": "Chromatia",
+          "species": [
+            {
+              "id": "chromatia_amoena",
+              "name": "Chromatia amoena",
+              "common_name": "Charming Red-and-Black Teneb",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "diaperis",
+          "name": "Diaperis",
+          "species": [
+            {
+              "id": "diaperis_maculata",
+              "name": "Diaperis maculata",
+              "common_name": "Two-spotted Diaperis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dinomus",
+          "name": "Dinomus",
+          "species": [
+            {
+              "id": "dinomus_micans",
+              "name": "Dinomus micans",
+              "common_name": "Rainbow Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
           "id": "meracantha",
           "name": "Meracantha",
           "species": [
@@ -259,6 +317,66 @@
               "id": "meracantha_contracta",
               "name": "Meracantha contracta",
               "common_name": "Contracted Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "merinus",
+          "name": "Merinus",
+          "species": [
+            {
+              "id": "merinus_laevis",
+              "name": "Merinus laevis",
+              "common_name": "Smooth Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "neomida",
+          "name": "Neomida",
+          "species": [
+            {
+              "id": "neomida_bicornis",
+              "name": "Neomida bicornis",
+              "common_name": "Two-horned Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "platydema",
+          "name": "Platydema",
+          "species": [
+            {
+              "id": "platydema_ruficornis",
+              "name": "Platydema ruficornis",
+              "common_name": "Red-horned Darkling Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tenebrio",
+          "name": "Tenebrio",
+          "species": [
+            {
+              "id": "tenebrio_molitor",
+              "name": "Tenebrio molitor",
+              "common_name": "Yellow Mealworm Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "xylopinus",
+          "name": "Xylopinus",
+          "species": [
+            {
+              "id": "xylopinus_saperdoides",
+              "name": "Xylopinus saperdoides",
+              "common_name": "Decaying Darkling Beetle",
               "indiana_status": "confirmed"
             }
           ]
