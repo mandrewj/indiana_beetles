@@ -1,0 +1,37 @@
+{
+  "id": "polemius_laticornis",
+  "scientific_name": "Polemius laticornis",
+  "common_name": "Wide-horned Soldier Beetle",
+  "family": "cantharidae",
+  "genus": "polemius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6067427,
+  "inat_taxon_id": 212059,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Lake",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Starke": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Polemius_laticornis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

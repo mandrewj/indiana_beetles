@@ -1,0 +1,71 @@
+{
+  "id": "podabrus_flavicollis",
+  "scientific_name": "Podabrus flavicollis",
+  "common_name": "Yellow-necked Soldier Beetle",
+  "family": "cantharidae",
+  "genus": "podabrus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6067140,
+  "inat_taxon_id": 228432,
+  "diagnosis": "Podabrus flavicollis is a species of soldier beetle in the family Cantharidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Brown",
+    "Hamilton",
+    "Hancock",
+    "Hendricks",
+    "Jennings",
+    "Lake",
+    "LaPorte",
+    "Marion",
+    "Miami",
+    "Monroe",
+    "Montgomery",
+    "Morgan",
+    "Noble",
+    "Porter",
+    "Putnam",
+    "Tippecanoe",
+    "Vermillion",
+    "White"
+  ],
+  "county_record_counts": {
+    "Vermillion": 1,
+    "Allen": 5,
+    "White": 1,
+    "Porter": 4,
+    "Tippecanoe": 11,
+    "Brown": 4,
+    "Marion": 8,
+    "Jennings": 2,
+    "Hendricks": 13,
+    "Montgomery": 1,
+    "Hamilton": 3,
+    "Noble": 1,
+    "Putnam": 1,
+    "Hancock": 1,
+    "Morgan": 1,
+    "LaPorte": 1,
+    "Boone": 1,
+    "Monroe": 2,
+    "Miami": 1,
+    "Lake": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Podabrus_flavicollis*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

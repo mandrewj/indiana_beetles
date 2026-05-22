@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { SpecimenPh } from "@/components/Placeholders";
+import { SpeciesThumb } from "@/components/SpeciesThumb";
 import { StatusBadge } from "@/components/Badges";
 import { getAllFamilies, getAllSpecies, getTaxonomy } from "@/lib/content";
 import { findSpeciesContext } from "@/lib/content";
@@ -27,9 +27,20 @@ export default async function Home() {
     0
   );
 
-  // Featured: first six confirmed species we have full treatments for.
-  const featuredSpecies = species
-    .filter((s) => s.indiana_status === "confirmed")
+  // Recently-added: prefer species with a last_refreshed timestamp (touched
+  // by bulk-import or refresh), most recent first. Falls back to alphabetical
+  // confirmed if none are stamped.
+  const eligibleSpecies = species.filter((s) => s.indiana_status === "confirmed");
+  const featuredSpecies = eligibleSpecies
+    .slice()
+    .sort((a, b) => {
+      const ar = a.last_refreshed ?? "";
+      const br = b.last_refreshed ?? "";
+      if (ar && br) return br.localeCompare(ar);
+      if (ar) return -1;
+      if (br) return 1;
+      return a.scientific_name.localeCompare(b.scientific_name);
+    })
     .slice(0, 6);
   const featuredContexts = await Promise.all(
     featuredSpecies.map(async (s) => ({
@@ -37,6 +48,14 @@ export default async function Home() {
       ctx: await findSpeciesContext(s.id),
     }))
   );
+
+  // Hero specimen: pick the species with the most documented Indiana counties
+  // among the featured set (visually compelling + likely has a good photo).
+  const heroPick = featuredContexts.slice().sort((a, b) => {
+    const ac = a.species.counties?.length ?? 0;
+    const bc = b.species.counties?.length ?? 0;
+    return bc - ac;
+  })[0];
 
   return (
     <div className="page">
@@ -68,23 +87,50 @@ export default async function Home() {
               </div>
             </div>
             <div className="hero-spec">
-              <SpecimenPh seed="hero" label="Featured specimen plate" />
-              <div className="hero-label">
-                <div className="row">
-                  <span className="k">Plate</span>
-                  <span className="v">01 / 12</span>
+              {heroPick ? (
+                <SpeciesThumb
+                  species={{
+                    id: heroPick.species.id,
+                    inat_taxon_id: heroPick.species.inat_taxon_id,
+                    adminImageUrl: heroPick.species.images?.[0]?.url ?? null,
+                  }}
+                  className="thumb"
+                  wrapperStyle={{
+                    position: "absolute",
+                    inset: 0,
+                    borderRadius: "var(--radius-card)",
+                  }}
+                  placeholderLabel="Featured specimen"
+                />
+              ) : null}
+              {heroPick && (
+                <div className="hero-label">
+                  <div className="row">
+                    <span className="k">Family</span>
+                    <span className="v">{heroPick.ctx?.family.name}</span>
+                  </div>
+                  <div className="row">
+                    <span className="k">Species</span>
+                    <span className="v sci">
+                      <em>{heroPick.species.scientific_name}</em>
+                    </span>
+                  </div>
+                  {heroPick.species.common_name && (
+                    <div className="row">
+                      <span className="k">Common</span>
+                      <span className="v">{heroPick.species.common_name}</span>
+                    </div>
+                  )}
+                  {(heroPick.species.counties?.length ?? 0) > 0 && (
+                    <div className="row">
+                      <span className="k">Counties</span>
+                      <span className="v">
+                        {heroPick.species.counties.length} / 92
+                      </span>
+                    </div>
+                  )}
                 </div>
-                <div className="row">
-                  <span className="k">Species</span>
-                  <span className="v">
-                    <em>Calosoma scrutator</em>
-                  </span>
-                </div>
-                <div className="row">
-                  <span className="k">Locality</span>
-                  <span className="v">Monroe Co., IN</span>
-                </div>
-              </div>
+              )}
             </div>
           </div>
         </div>
@@ -190,10 +236,15 @@ export default async function Home() {
                 : "/browse";
               return (
                 <Link key={s.id} className="feat" href={href}>
-                  <SpecimenPh
-                    seed={`${s.id}_feat`}
+                  <SpeciesThumb
+                    species={{
+                      id: s.id,
+                      inat_taxon_id: s.inat_taxon_id,
+                      adminImageUrl: s.images?.[0]?.url ?? null,
+                    }}
+                    className="img"
                     ratio="4/3"
-                    label={`plate ${String(i + 1).padStart(2, "0")}`}
+                    placeholderLabel={`plate ${String(i + 1).padStart(2, "0")}`}
                   />
                   <div className="meta">
                     <div>

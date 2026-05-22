@@ -1,0 +1,32 @@
+{
+  "id": "podabrus_protensus",
+  "scientific_name": "Podabrus protensus",
+  "family": "cantharidae",
+  "genus": "podabrus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6067113,
+  "inat_taxon_id": 228441,
+  "diagnosis": "Podabrus protensus is a species of soldier beetle in the family Cantharidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Podabrus_protensus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rhagonycha_angulata",
+  "scientific_name": "Rhagonycha angulata",
+  "common_name": "Angular Soldier Beetle",
+  "family": "cantharidae",
+  "genus": "rhagonycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6066961,
+  "inat_taxon_id": 455360,
+  "diagnosis": "Rhagonycha angulata is a species of soldier beetle in the family Cantharidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Morgan"
+  ],
+  "county_record_counts": {
+    "Morgan": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Rhagonycha_angulata*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

@@ -20,6 +20,8 @@ interface Props {
   ratio?: string;
   /** Label shown on the placeholder if no image is found. */
   placeholderLabel?: string;
+  /** Extra style merged into the wrapper (e.g. position:absolute for hero). */
+  wrapperStyle?: React.CSSProperties;
 }
 
 // Module-level batch coalescer: when many <SpeciesThumb> mount in the same
@@ -68,6 +70,7 @@ export function SpeciesThumb({
   className,
   ratio,
   placeholderLabel,
+  wrapperStyle: extraStyle,
 }: Props) {
   const inatId = taxonIdOrNull(species.inat_taxon_id);
   const adminUrl = species.adminImageUrl?.trim() ?? null;
@@ -96,6 +99,7 @@ export function SpeciesThumb({
     position: "relative",
     overflow: "hidden",
     ...(ratio ? { aspectRatio: ratio } : null),
+    ...extraStyle,
   };
 
   if (photoUrl) {

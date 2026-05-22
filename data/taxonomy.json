@@ -2903,6 +2903,171 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cantharidae",
+      "name": "Cantharidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 22,
+      "genera": [
+        {
+          "id": "atalantycha",
+          "name": "Atalantycha",
+          "species": [
+            {
+              "id": "atalantycha_bilineata",
+              "name": "Atalantycha bilineata",
+              "common_name": "Two-lined Leatherwing",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "atalantycha_dentigera",
+              "name": "Atalantycha dentigera",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "atalantycha_neglecta",
+              "name": "Atalantycha neglecta",
+              "common_name": "Neglected Soldier Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chauliognathus",
+          "name": "Chauliognathus",
+          "species": [
+            {
+              "id": "chauliognathus_marginatus",
+              "name": "Chauliognathus marginatus",
+              "common_name": "Margined Leatherwing Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "chauliognathus_pensylvanicus",
+              "name": "Chauliognathus pensylvanicus",
+              "common_name": "Goldenrod Soldier Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "podabrus",
+          "name": "Podabrus",
+          "species": [
+            {
+              "id": "podabrus_appendiculatus",
+              "name": "Podabrus appendiculatus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_basillaris",
+              "name": "Podabrus basillaris",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_brevicollis",
+              "name": "Podabrus brevicollis",
+              "common_name": "Short-collared Soldier Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_brunnicollis",
+              "name": "Podabrus brunnicollis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_fayi",
+              "name": "Podabrus fayi",
+              "common_name": "Fay's Soldier Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_flavicollis",
+              "name": "Podabrus flavicollis",
+              "common_name": "Yellow-necked Soldier Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_protensus",
+              "name": "Podabrus protensus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_rugosulus",
+              "name": "Podabrus rugosulus",
+              "common_name": "Wrinkled Soldier Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_tomentosus",
+              "name": "Podabrus tomentosus",
+              "common_name": "Tomentous Soldier Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "podabrus_tricostatus",
+              "name": "Podabrus tricostatus",
+              "common_name": "Three-ribbed Soldier Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "polemius",
+          "name": "Polemius",
+          "species": [
+            {
+              "id": "polemius_laticornis",
+              "name": "Polemius laticornis",
+              "common_name": "Wide-horned Soldier Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "rhagonycha",
+          "name": "Rhagonycha",
+          "species": [
+            {
+              "id": "rhagonycha_angulata",
+              "name": "Rhagonycha angulata",
+              "common_name": "Angular Soldier Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "rhaxonycha",
+          "name": "Rhaxonycha",
+          "species": [
+            {
+              "id": "rhaxonycha_bilobata",
+              "name": "Rhaxonycha bilobata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "rhaxonycha_carolina",
+              "name": "Rhaxonycha carolina",
+              "common_name": "Carolina Cantharid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trypherus",
+          "name": "Trypherus",
+          "species": [
+            {
+              "id": "trypherus_frisoni",
+              "name": "Trypherus frisoni",
+              "common_name": "Frison's Soldier Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

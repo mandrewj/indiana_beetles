@@ -1,0 +1,34 @@
+{
+  "id": "podabrus_tricostatus",
+  "scientific_name": "Podabrus tricostatus",
+  "common_name": "Three-ribbed Soldier Beetle",
+  "family": "cantharidae",
+  "genus": "podabrus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6067133,
+  "inat_taxon_id": 228447,
+  "diagnosis": "Podabrus tricostatus is a species of soldier beetle in the family Cantharidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Lake"
+  ],
+  "county_record_counts": {
+    "Lake": 7
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Podabrus_tricostatus*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

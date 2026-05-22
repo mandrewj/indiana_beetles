@@ -1,0 +1,48 @@
+{
+  "id": "trypherus_frisoni",
+  "scientific_name": "Trypherus frisoni",
+  "common_name": "Frison's Soldier Beetle",
+  "family": "cantharidae",
+  "genus": "trypherus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6067149,
+  "inat_taxon_id": 233090,
+  "diagnosis": "Trypherus frisoni is a species of soldier beetles in the family Cantharidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Hamilton",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Tippecanoe",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Monroe": 1,
+    "Vigo": 1,
+    "Marion": 1,
+    "Tippecanoe": 1,
+    "Allen": 1,
+    "Madison": 2,
+    "Lake": 1,
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trypherus_frisoni*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

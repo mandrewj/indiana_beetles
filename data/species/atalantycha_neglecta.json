@@ -1,0 +1,35 @@
+{
+  "id": "atalantycha_neglecta",
+  "scientific_name": "Atalantycha neglecta",
+  "common_name": "Neglected Soldier Beetle",
+  "family": "cantharidae",
+  "genus": "atalantycha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6067037,
+  "inat_taxon_id": 357626,
+  "diagnosis": "Atalantycha neglecta is a species of soldier beetle in the family Cantharidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Jefferson",
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Jefferson": 1,
+    "Monroe": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Atalantycha_neglecta*, retrieved 2026-05-22."
+  ],
+  "last_refreshed": "2026-05-22"
+}

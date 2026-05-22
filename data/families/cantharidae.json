@@ -1,0 +1,22 @@
+{
+  "id": "cantharidae",
+  "name": "Cantharidae",
+  "common_name": "Soldier Beetles",
+  "authority": "",
+  "diagnosis": "The soldier beetles (Cantharidae) are relatively soft-bodied, straight-sided beetles. They are cosmopolitan in distribution. One of the first described species has a color pattern reminiscent of the red coats of early British soldiers, hence the common name.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 52932,
+  "genus_notes": {
+    "chauliognathus": "Chauliognathus is a genus of soldier beetles in the family Cantharidae.",
+    "atalantycha": "Atalantycha is a genus of soldier beetles in the family Cantharidae.",
+    "podabrus": "Podabrus is a genus of soldier beetles in the family Cantharidae.",
+    "trypherus": "Trypherus is a genus of soldier beetles in the family Cantharidae.",
+    "polemius": "Polemius is a genus of soldier beetles in the family Cantharidae.",
+    "rhaxonycha": "Rhaxonycha is a genus of soldier beetles in the family Cantharidae.",
+    "rhagonycha": "Rhagonycha is a genus of soldier beetle belonging to the family Cantharidae."
+  }
+}
