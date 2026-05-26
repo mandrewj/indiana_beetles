@@ -6663,6 +6663,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "bothrideridae",
+      "name": "Bothrideridae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 31,
+      "genera": []
     }
   ]
 }
