@@ -1,0 +1,27 @@
+{
+  "id": "pentaria_trifasciata",
+  "scientific_name": "Pentaria trifasciata",
+  "common_name": "Three-banded False Flower Beetle",
+  "family": "scraptiidae",
+  "genus": "pentaria",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990421,
+  "inat_taxon_id": 227428,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pentaria_trifasciata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
