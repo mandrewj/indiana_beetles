@@ -1,0 +1,53 @@
+{
+  "id": "apterodela_unipunctata",
+  "scientific_name": "Apterodela unipunctata",
+  "common_name": "One-spotted Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "apterodela",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 11008432,
+  "inat_taxon_id": 1065054,
+  "diagnosis": "Apterodela unipunctata, the one-spotted tiger beetle, is a species of flashy tiger beetle in the family Cicindelidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Brown",
+    "Greene",
+    "Harrison",
+    "Lawrence",
+    "Monroe",
+    "Morgan",
+    "Orange",
+    "Perry",
+    "Pike",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 2,
+    "Orange": 1,
+    "Pike": 1,
+    "Morgan": 1,
+    "Monroe": 5,
+    "Greene": 1,
+    "Brown": 2,
+    "Lawrence": 1,
+    "Perry": 3,
+    "Harrison": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Apterodela_unipunctata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tetracha_virginica",
+  "scientific_name": "Tetracha virginica",
+  "common_name": "Virginia Metallic Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "tetracha",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1034671,
+  "inat_taxon_id": 232393,
+  "diagnosis": "Tetracha virginica, known generally as the Virginia metallic tiger beetle or Virginia big-headed tiger beetle, is a species of big-headed tiger beetle in the family Carabidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Clark",
+    "Clay",
+    "Dubois",
+    "Fountain",
+    "Knox",
+    "Lawrence",
+    "Morgan",
+    "Orange",
+    "Parke",
+    "Perry",
+    "Posey",
+    "Putnam",
+    "Vanderburgh",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Knox": 1,
+    "Morgan": 1,
+    "Dubois": 1,
+    "Putnam": 2,
+    "Clay": 1,
+    "Vanderburgh": 2,
+    "Orange": 1,
+    "Fountain": 1,
+    "Vigo": 1,
+    "Posey": 2,
+    "Lawrence": 1,
+    "Clark": 1,
+    "Parke": 1,
+    "Perry": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tetracha_virginica*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

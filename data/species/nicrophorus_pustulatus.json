@@ -1,0 +1,64 @@
+{
+  "id": "nicrophorus_pustulatus",
+  "scientific_name": "Nicrophorus pustulatus",
+  "common_name": "Pustulated Carrion Beetle",
+  "family": "staphylinidae",
+  "genus": "nicrophorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1038990,
+  "inat_taxon_id": 225950,
+  "diagnosis": "Nicrophorus pustulatus is a burying beetle described by Johann Dietrich Herschel in 1807.",
+  "body_size_mm": "14.0–22.2",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Brown",
+    "Clay",
+    "Dubois",
+    "Fayette",
+    "Franklin",
+    "Greene",
+    "Hamilton",
+    "Jackson",
+    "Jay",
+    "Jefferson",
+    "Monroe",
+    "Montgomery",
+    "Morgan",
+    "Newton"
+  ],
+  "county_record_counts": {
+    "Monroe": 7,
+    "Jackson": 1,
+    "Morgan": 2,
+    "Greene": 1,
+    "Hamilton": 3,
+    "Montgomery": 1,
+    "Dubois": 1,
+    "Fayette": 1,
+    "Clay": 2,
+    "Brown": 1,
+    "Jefferson": 1,
+    "Franklin": 1,
+    "Jay": 1,
+    "Newton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Nicrophorus_pustulatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

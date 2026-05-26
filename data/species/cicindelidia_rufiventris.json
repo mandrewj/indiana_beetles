@@ -1,0 +1,44 @@
+{
+  "id": "cicindelidia_rufiventris",
+  "scientific_name": "Cicindelidia rufiventris",
+  "common_name": "Eastern Red-bellied Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "cicindelidia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 9315960,
+  "inat_taxon_id": 1643822,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Crawford",
+    "Harrison",
+    "Hendricks",
+    "Jefferson",
+    "Marion",
+    "Orange",
+    "Perry"
+  ],
+  "county_record_counts": {
+    "Orange": 1,
+    "Harrison": 1,
+    "Hendricks": 2,
+    "Marion": 1,
+    "Perry": 2,
+    "Crawford": 1,
+    "Jefferson": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

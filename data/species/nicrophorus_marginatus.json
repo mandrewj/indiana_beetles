@@ -1,0 +1,45 @@
+{
+  "id": "nicrophorus_marginatus",
+  "scientific_name": "Nicrophorus marginatus",
+  "common_name": "Margined Burying Beetle",
+  "family": "staphylinidae",
+  "genus": "nicrophorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1039011,
+  "inat_taxon_id": 64145,
+  "diagnosis": "For the species misidentified by Gistel in 1857 and declared a new species under the name Nicrophorus marginatus, but later corrected, see Nicrophorus tomentosus",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "counties": [
+    "Fountain",
+    "Newton",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 3,
+    "Newton": 1,
+    "Fountain": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Nicrophorus_marginatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "palporus_nitidulus",
+  "scientific_name": "Palporus nitidulus",
+  "family": "staphylinidae",
+  "genus": "palporus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 11734988,
+  "inat_taxon_id": 1465894,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    3,
+    8,
+    9
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

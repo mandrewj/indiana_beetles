@@ -1,0 +1,33 @@
+{
+  "id": "astenus_discopunctatus",
+  "scientific_name": "Astenus discopunctatus",
+  "common_name": "Black-tailed Tomcat Rove Beetle",
+  "family": "staphylinidae",
+  "genus": "astenus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7603523,
+  "inat_taxon_id": 214501,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    10,
+    12
+  ],
+  "phenology_peak": [
+    2,
+    10,
+    12
+  ],
+  "counties": [
+    "Madison"
+  ],
+  "county_record_counts": {
+    "Madison": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

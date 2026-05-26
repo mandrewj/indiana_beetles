@@ -1,0 +1,60 @@
+{
+  "id": "cicindela_formosa",
+  "scientific_name": "Cicindela formosa",
+  "common_name": "Big Sand Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "cicindela",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1034951,
+  "inat_taxon_id": 82453,
+  "diagnosis": "Cicindela formosa, the big sand tiger beetle, is a species of flashy tiger beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "Jasper",
+    "Lake",
+    "LaPorte",
+    "Newton",
+    "Porter",
+    "Putnam",
+    "St. Joseph",
+    "Starke",
+    "Vigo",
+    "Warren",
+    "White"
+  ],
+  "county_record_counts": {
+    "Porter": 62,
+    "Newton": 12,
+    "Vigo": 1,
+    "White": 1,
+    "Jasper": 2,
+    "Warren": 1,
+    "LaPorte": 1,
+    "St. Joseph": 2,
+    "Lake": 4,
+    "Starke": 2,
+    "Putnam": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_formosa*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

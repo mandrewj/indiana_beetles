@@ -1,0 +1,32 @@
+{
+  "id": "philonthus_cognatus",
+  "scientific_name": "Philonthus cognatus",
+  "family": "staphylinidae",
+  "genus": "philonthus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4436983,
+  "inat_taxon_id": 130096,
+  "diagnosis": "Philonthus cognatus is a rove beetle. Adults are 8 to 10 mm long.",
+  "body_size_mm": "8–10",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    6
+  ],
+  "counties": [
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Philonthus_cognatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

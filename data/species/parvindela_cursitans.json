@@ -1,0 +1,29 @@
+{
+  "id": "parvindela_cursitans",
+  "scientific_name": "Parvindela cursitans",
+  "common_name": "Ant-like Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "parvindela",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 11367731,
+  "inat_taxon_id": 1065066,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 4
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

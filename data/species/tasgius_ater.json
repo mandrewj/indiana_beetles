@@ -1,0 +1,35 @@
+{
+  "id": "tasgius_ater",
+  "scientific_name": "Tasgius ater",
+  "family": "staphylinidae",
+  "genus": "tasgius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4437553,
+  "inat_taxon_id": 232334,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    9
+  ],
+  "counties": [
+    "Hendricks"
+  ],
+  "county_record_counts": {
+    "Hendricks": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tasgius_ater*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

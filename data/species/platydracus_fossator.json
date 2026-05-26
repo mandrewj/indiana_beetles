@@ -1,0 +1,35 @@
+{
+  "id": "platydracus_fossator",
+  "scientific_name": "Platydracus fossator",
+  "common_name": "Red-spotted Rove Beetle",
+  "family": "staphylinidae",
+  "genus": "platydracus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7413719,
+  "inat_taxon_id": 228322,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Franklin",
+    "Montgomery",
+    "Orange"
+  ],
+  "county_record_counts": {
+    "Orange": 1,
+    "Franklin": 1,
+    "Montgomery": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

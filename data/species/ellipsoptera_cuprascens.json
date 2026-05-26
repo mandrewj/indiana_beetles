@@ -1,0 +1,33 @@
+{
+  "id": "ellipsoptera_cuprascens",
+  "scientific_name": "Ellipsoptera cuprascens",
+  "common_name": "Coppery Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "ellipsoptera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8200642,
+  "inat_taxon_id": 624606,
+  "diagnosis": "Ellipsoptera cuprascens, the coppery tiger beetle, is a species of flashy tiger beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    8
+  ],
+  "counties": [
+    "Clark"
+  ],
+  "county_record_counts": {
+    "Clark": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ellipsoptera_cuprascens*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

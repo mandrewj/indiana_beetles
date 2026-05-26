@@ -5057,7 +5057,128 @@
       "sort_index": 11,
       "genera_count": 5,
       "species_count": 24,
-      "genera": []
+      "genera": [
+        {
+          "id": "apterodela",
+          "name": "Apterodela",
+          "species": [
+            {
+              "id": "apterodela_unipunctata",
+              "name": "Apterodela unipunctata",
+              "common_name": "One-spotted Tiger Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cicindela",
+          "name": "Cicindela",
+          "species": [
+            {
+              "id": "cicindela_duodecimguttata",
+              "name": "Cicindela duodecimguttata",
+              "common_name": "Twelve-spotted Tiger Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cicindela_formosa",
+              "name": "Cicindela formosa",
+              "common_name": "Big Sand Tiger Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cicindela_hirticollis",
+              "name": "Cicindela hirticollis",
+              "common_name": "Hairy-necked Tiger Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cicindela_repanda",
+              "name": "Cicindela repanda",
+              "common_name": "Bronzed Tiger Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cicindela_scutellaris",
+              "name": "Cicindela scutellaris",
+              "common_name": "Festive Tiger Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cicindela_sexguttata",
+              "name": "Cicindela sexguttata",
+              "common_name": "Six-spotted Tiger Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cicindelidia",
+          "name": "Cicindelidia",
+          "species": [
+            {
+              "id": "cicindelidia_punctulata",
+              "name": "Cicindelidia punctulata",
+              "common_name": "Punctured Tiger Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cicindelidia_rufiventris",
+              "name": "Cicindelidia rufiventris",
+              "common_name": "Eastern Red-bellied Tiger Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ellipsoptera",
+          "name": "Ellipsoptera",
+          "species": [
+            {
+              "id": "ellipsoptera_cuprascens",
+              "name": "Ellipsoptera cuprascens",
+              "common_name": "Coppery Tiger Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "ellipsoptera_lepida",
+              "name": "Ellipsoptera lepida",
+              "common_name": "Ghost Tiger Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "ellipsoptera_macra",
+              "name": "Ellipsoptera macra",
+              "common_name": "Sandy Stream Tiger Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "parvindela",
+          "name": "Parvindela",
+          "species": [
+            {
+              "id": "parvindela_cursitans",
+              "name": "Parvindela cursitans",
+              "common_name": "Ant-like Tiger Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tetracha",
+          "name": "Tetracha",
+          "species": [
+            {
+              "id": "tetracha_virginica",
+              "name": "Tetracha virginica",
+              "common_name": "Virginia Metallic Tiger Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "gyrinidae",

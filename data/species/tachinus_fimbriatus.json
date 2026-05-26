@@ -1,0 +1,35 @@
+{
+  "id": "tachinus_fimbriatus",
+  "scientific_name": "Tachinus fimbriatus",
+  "family": "staphylinidae",
+  "genus": "tachinus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8120146,
+  "inat_taxon_id": 232200,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    10
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Orange",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1,
+    "Tippecanoe": 1,
+    "Orange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

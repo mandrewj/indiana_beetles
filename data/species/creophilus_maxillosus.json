@@ -1,0 +1,65 @@
+{
+  "id": "creophilus_maxillosus",
+  "scientific_name": "Creophilus maxillosus",
+  "common_name": "hairy rove beetle",
+  "family": "staphylinidae",
+  "genus": "creophilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1039254,
+  "inat_taxon_id": 82463,
+  "diagnosis": "Creophilus maxillosus belongs to the order Coleoptera and is most commonly referred to as the hairy rove beetle. The rove beetles are a large family, having almost 2,900 species in North America.",
+  "body_size_mm": "12–18",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Clay",
+    "Dearborn",
+    "Hendricks",
+    "Jennings",
+    "Kosciusko",
+    "Marion",
+    "Monroe",
+    "Newton",
+    "Parke",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Clay": 1,
+    "Allen": 2,
+    "Tippecanoe": 5,
+    "Dearborn": 2,
+    "Monroe": 1,
+    "Marion": 2,
+    "Porter": 3,
+    "St. Joseph": 2,
+    "Jennings": 1,
+    "Parke": 1,
+    "Brown": 1,
+    "Hendricks": 1,
+    "Newton": 2,
+    "Kosciusko": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Creophilus_maxillosus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

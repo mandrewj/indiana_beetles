@@ -1,0 +1,40 @@
+{
+  "id": "belonuchus_rufipennis",
+  "scientific_name": "Belonuchus rufipennis",
+  "family": "staphylinidae",
+  "genus": "belonuchus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1040390,
+  "inat_taxon_id": 214974,
+  "diagnosis": "Belonuchus rufipennis is a species of large rove beetle in the family Staphylinidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    8
+  ],
+  "counties": [
+    "Hendricks",
+    "Jackson",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Jackson": 1,
+    "Hendricks": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Belonuchus_rufipennis*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

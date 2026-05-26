@@ -1,0 +1,31 @@
+{
+  "id": "paederus_iowensis",
+  "scientific_name": "Paederus iowensis",
+  "common_name": "Iowa Tomcat Rove Beetle",
+  "family": "staphylinidae",
+  "genus": "paederus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7917190,
+  "inat_taxon_id": 458242,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    10
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

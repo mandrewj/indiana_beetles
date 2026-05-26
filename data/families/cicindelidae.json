@@ -3,11 +3,17 @@
   "name": "Cicindelidae",
   "common_name": "Tiger Beetles",
   "authority": "",
-  "diagnosis": "",
+  "diagnosis": "Tiger beetles are a large group of beetles, from the Cicindelinae subfamily, known for their aggressive predatory habits and running speed. The fastest species of tiger beetle, Cicindela hudsoni, can run at a speed of 9 km/h (5.6 mph), or about 125 body lengths per second. As of 2005, about 2,600 species and subspecies were known, with the richest diversity in the Oriental (Indo-Malayan) region, followed by the Neotropics.",
   "species_count": 24,
   "genus_count": 5,
   "confirmed_count": null,
   "historical_count": null,
   "adventive_count": null,
-  "inat_taxon_id": 149026
+  "inat_taxon_id": 149026,
+  "genus_notes": {
+    "cicindela": "Cicindela, commonly known as common tiger beetles are generally brightly colored and metallic beetles, often with some sort of patterning of ivory or cream-colored markings.",
+    "cicindelidia": "Cicindela is a large genus of tiger beetles, found worldwide.",
+    "ellipsoptera": "Ellipsoptera is a genus of beetles in the family Carabidae, containing the following species:",
+    "tetracha": "Tetracha is a genus of beetles belonging to the Carabidae family."
+  }
 }

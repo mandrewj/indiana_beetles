@@ -1,0 +1,24 @@
+{
+  "id": "homaeotarsus_cribratus",
+  "scientific_name": "Homaeotarsus cribratus",
+  "family": "staphylinidae",
+  "genus": "homaeotarsus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7812963,
+  "inat_taxon_id": 221433,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3
+  ],
+  "phenology_peak": [
+    3
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

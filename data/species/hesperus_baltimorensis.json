@@ -1,0 +1,30 @@
+{
+  "id": "hesperus_baltimorensis",
+  "scientific_name": "Hesperus baltimorensis",
+  "family": "staphylinidae",
+  "genus": "hesperus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 10352166,
+  "inat_taxon_id": 177873,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    6
+  ],
+  "counties": [
+    "Warren"
+  ],
+  "county_record_counts": {
+    "Warren": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

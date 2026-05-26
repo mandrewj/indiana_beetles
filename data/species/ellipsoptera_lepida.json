@@ -1,0 +1,38 @@
+{
+  "id": "ellipsoptera_lepida",
+  "scientific_name": "Ellipsoptera lepida",
+  "common_name": "Ghost Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "ellipsoptera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8177087,
+  "inat_taxon_id": 120478,
+  "diagnosis": "Ellipsoptera lepida, the ghost tiger beetle, is a species of flashy tiger beetle in the family Carabidae. It is found in Central America and North America.",
+  "body_size_mm": "9–11",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Lake",
+    "Newton",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Porter": 9,
+    "Lake": 1,
+    "Newton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ellipsoptera_lepida*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

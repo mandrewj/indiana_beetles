@@ -1,0 +1,45 @@
+{
+  "id": "philonthus_caeruleipennis",
+  "scientific_name": "Philonthus caeruleipennis",
+  "common_name": "Blue-winged Rove Beetle",
+  "family": "staphylinidae",
+  "genus": "philonthus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7348923,
+  "inat_taxon_id": 360845,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Allen",
+    "LaGrange",
+    "Marion",
+    "Morgan",
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Morgan": 1,
+    "Marion": 1,
+    "Tippecanoe": 1,
+    "Porter": 1,
+    "Allen": 1,
+    "LaGrange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

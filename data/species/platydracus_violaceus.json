@@ -1,0 +1,36 @@
+{
+  "id": "platydracus_violaceus",
+  "scientific_name": "Platydracus violaceus",
+  "family": "staphylinidae",
+  "genus": "platydracus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7720366,
+  "inat_taxon_id": 228325,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    8,
+    11
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Marion",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 2,
+    "St. Joseph": 1,
+    "Vanderburgh": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

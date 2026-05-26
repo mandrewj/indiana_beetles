@@ -1,0 +1,30 @@
+{
+  "id": "meronera_venustula",
+  "scientific_name": "Meronera venustula",
+  "family": "staphylinidae",
+  "genus": "meronera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1041692,
+  "inat_taxon_id": 224909,
+  "diagnosis": "Meronera venustula is a species of rove beetle in the family Staphylinidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    3,
+    11,
+    12
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Meronera_venustula*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

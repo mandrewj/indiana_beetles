@@ -1,0 +1,33 @@
+{
+  "id": "cicindela_duodecimguttata",
+  "scientific_name": "Cicindela duodecimguttata",
+  "common_name": "Twelve-spotted Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "cicindela",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1034770,
+  "inat_taxon_id": 82446,
+  "diagnosis": "Cicindela duodecimguttata, commonly known as the twelve-spotted tiger beetle, is a species of tiger beetle that is 12–15 millimetres (0.47–0.59 in) long and is dark brown to black. In most of the beetles in the species, there are twelve spots on the elytra.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    9
+  ],
+  "phenology_peak": [
+    9
+  ],
+  "counties": [
+    "Boone",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Boone": 2,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_duodecimguttata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "coproporus_ventriculus",
+  "scientific_name": "Coproporus ventriculus",
+  "family": "staphylinidae",
+  "genus": "coproporus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8011518,
+  "inat_taxon_id": 217569,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4
+  ],
+  "phenology_peak": [
+    3,
+    4
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

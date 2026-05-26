@@ -1,0 +1,49 @@
+{
+  "id": "cicindela_scutellaris",
+  "scientific_name": "Cicindela scutellaris",
+  "common_name": "Festive Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "cicindela",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1034775,
+  "inat_taxon_id": 82435,
+  "diagnosis": "Cicindela scutellaris, the festive tiger beetle, is a species of flashy tiger beetle in the family Carabidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    9
+  ],
+  "counties": [
+    "Fountain",
+    "Jasper",
+    "Lake",
+    "Newton",
+    "Porter",
+    "Pulaski",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Starke": 9,
+    "Jasper": 3,
+    "Fountain": 1,
+    "Porter": 14,
+    "Lake": 1,
+    "Newton": 4,
+    "Pulaski": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_scutellaris*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

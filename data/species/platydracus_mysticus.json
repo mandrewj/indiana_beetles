@@ -1,0 +1,35 @@
+{
+  "id": "platydracus_mysticus",
+  "scientific_name": "Platydracus mysticus",
+  "common_name": "Mystic Rove Beetle",
+  "family": "staphylinidae",
+  "genus": "platydracus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7503460,
+  "inat_taxon_id": 228323,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    8,
+    9,
+    12
+  ],
+  "phenology_peak": [
+    4,
+    8,
+    9,
+    12
+  ],
+  "counties": [
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

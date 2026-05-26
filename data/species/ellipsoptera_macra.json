@@ -1,0 +1,35 @@
+{
+  "id": "ellipsoptera_macra",
+  "scientific_name": "Ellipsoptera macra",
+  "common_name": "Sandy Stream Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "ellipsoptera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8277381,
+  "inat_taxon_id": 696573,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "LaPorte",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Porter": 18,
+    "LaPorte": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Ellipsoptera_macra*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

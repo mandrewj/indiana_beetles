@@ -1,0 +1,41 @@
+{
+  "id": "cicindela_hirticollis",
+  "scientific_name": "Cicindela hirticollis",
+  "common_name": "Hairy-necked Tiger Beetle",
+  "family": "cicindelidae",
+  "genus": "cicindela",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1034829,
+  "inat_taxon_id": 52619,
+  "diagnosis": "Cicindela hirticollis is a species of tiger beetle that is commonly found in sand bars and sandy beaches, is medium sized, is about 2–14 mm (0.08–0.55 in) long, and is active in the summer. The dorsal surfaces of the head, prothorax, and elytra are dark brown.",
+  "body_size_mm": "2–14",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "Lake",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Lake": 5,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_hirticollis*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

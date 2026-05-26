@@ -1,0 +1,66 @@
+{
+  "id": "oiceoptoma_inaequale",
+  "scientific_name": "Oiceoptoma inaequale",
+  "common_name": "Ridged Carrion Beetle",
+  "family": "staphylinidae",
+  "genus": "oiceoptoma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7780651,
+  "inat_taxon_id": 226274,
+  "diagnosis": "Oiceoptoma inaequale, the ridged carrion beetle, is a species of carrion beetle in the family Silphidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    3,
+    4
+  ],
+  "counties": [
+    "Allen",
+    "Clark",
+    "Dubois",
+    "Franklin",
+    "Hamilton",
+    "Henry",
+    "Johnson",
+    "Lake",
+    "Marion",
+    "Marshall",
+    "Monroe",
+    "Spencer",
+    "Tippecanoe",
+    "Vermillion",
+    "Warren",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Clark": 1,
+    "Henry": 2,
+    "Allen": 2,
+    "Monroe": 2,
+    "Vermillion": 1,
+    "Marion": 2,
+    "Hamilton": 2,
+    "Johnson": 1,
+    "Warrick": 1,
+    "Tippecanoe": 2,
+    "Warren": 2,
+    "Lake": 1,
+    "Dubois": 1,
+    "Franklin": 1,
+    "Marshall": 1,
+    "Spencer": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Oiceoptoma_inaequale*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
