@@ -7332,6 +7332,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "latridiidae",
+      "name": "Latridiidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 42,
+      "genera": []
     }
   ]
 }
