@@ -7381,6 +7381,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lymexylidae",
+      "name": "Lymexylidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 44,
+      "genera": [
+        {
+          "id": "melittomma",
+          "name": "Melittomma",
+          "species": [
+            {
+              "id": "melittomma_sericeum",
+              "name": "Melittomma sericeum",
+              "common_name": "Chestnut Timberworm Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
