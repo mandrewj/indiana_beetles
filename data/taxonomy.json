@@ -7402,6 +7402,345 @@
           ]
         }
       ]
+    },
+    {
+      "id": "staphylinidae",
+      "name": "Staphylinidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 45,
+      "genera": [
+        {
+          "id": "achenomorphus",
+          "name": "Achenomorphus",
+          "species": [
+            {
+              "id": "achenomorphus_corticinus",
+              "name": "Achenomorphus corticinus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "astenus",
+          "name": "Astenus",
+          "species": [
+            {
+              "id": "astenus_discopunctatus",
+              "name": "Astenus discopunctatus",
+              "common_name": "Black-tailed Tomcat Rove Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "belonuchus",
+          "name": "Belonuchus",
+          "species": [
+            {
+              "id": "belonuchus_rufipennis",
+              "name": "Belonuchus rufipennis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "coproporus",
+          "name": "Coproporus",
+          "species": [
+            {
+              "id": "coproporus_ventriculus",
+              "name": "Coproporus ventriculus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "creophilus",
+          "name": "Creophilus",
+          "species": [
+            {
+              "id": "creophilus_maxillosus",
+              "name": "Creophilus maxillosus",
+              "common_name": "hairy rove beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hesperus",
+          "name": "Hesperus",
+          "species": [
+            {
+              "id": "hesperus_apicialis",
+              "name": "Hesperus apicialis",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "hesperus_baltimorensis",
+              "name": "Hesperus baltimorensis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "homaeotarsus",
+          "name": "Homaeotarsus",
+          "species": [
+            {
+              "id": "homaeotarsus_bicolor",
+              "name": "Homaeotarsus bicolor",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "homaeotarsus_cribratus",
+              "name": "Homaeotarsus cribratus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "leistotrophus",
+          "name": "Leistotrophus",
+          "species": [
+            {
+              "id": "leistotrophus_cingulatus",
+              "name": "Leistotrophus cingulatus",
+              "common_name": "gold-and-brown rove beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lordithon",
+          "name": "Lordithon",
+          "species": [
+            {
+              "id": "lordithon_cinctus",
+              "name": "Lordithon cinctus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "meronera",
+          "name": "Meronera",
+          "species": [
+            {
+              "id": "meronera_venustula",
+              "name": "Meronera venustula",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "necrodes",
+          "name": "Necrodes",
+          "species": [
+            {
+              "id": "necrodes_surinamensis",
+              "name": "Necrodes surinamensis",
+              "common_name": "Red-lined Carrion Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "necrophila",
+          "name": "Necrophila",
+          "species": [
+            {
+              "id": "necrophila_americana",
+              "name": "Necrophila americana",
+              "common_name": "American Carrion Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "nicrophorus",
+          "name": "Nicrophorus",
+          "species": [
+            {
+              "id": "nicrophorus_marginatus",
+              "name": "Nicrophorus marginatus",
+              "common_name": "Margined Burying Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "nicrophorus_orbicollis",
+              "name": "Nicrophorus orbicollis",
+              "common_name": "Roundneck Sexton Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "nicrophorus_pustulatus",
+              "name": "Nicrophorus pustulatus",
+              "common_name": "Pustulated Carrion Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "nicrophorus_tomentosus",
+              "name": "Nicrophorus tomentosus",
+              "common_name": "Tomentose Burying Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "oiceoptoma",
+          "name": "Oiceoptoma",
+          "species": [
+            {
+              "id": "oiceoptoma_inaequale",
+              "name": "Oiceoptoma inaequale",
+              "common_name": "Ridged Carrion Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "oiceoptoma_noveboracense",
+              "name": "Oiceoptoma noveboracense",
+              "common_name": "Margined Carrion Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "olophrum",
+          "name": "Olophrum",
+          "species": [
+            {
+              "id": "olophrum_obtectum",
+              "name": "Olophrum obtectum",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "oxyporus",
+          "name": "Oxyporus",
+          "species": [
+            {
+              "id": "oxyporus_major",
+              "name": "Oxyporus major",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "oxyporus_quinquemaculatus",
+              "name": "Oxyporus quinquemaculatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "paederus",
+          "name": "Paederus",
+          "species": [
+            {
+              "id": "paederus_iowensis",
+              "name": "Paederus iowensis",
+              "common_name": "Iowa Tomcat Rove Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "palporus",
+          "name": "Palporus",
+          "species": [
+            {
+              "id": "palporus_nitidulus",
+              "name": "Palporus nitidulus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "philonthus",
+          "name": "Philonthus",
+          "species": [
+            {
+              "id": "philonthus_caeruleipennis",
+              "name": "Philonthus caeruleipennis",
+              "common_name": "Blue-winged Rove Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "philonthus_cognatus",
+              "name": "Philonthus cognatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "platydracus",
+          "name": "Platydracus",
+          "species": [
+            {
+              "id": "platydracus_cinnamopterus",
+              "name": "Platydracus cinnamopterus",
+              "common_name": "Cinnamon Rove Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "platydracus_fossator",
+              "name": "Platydracus fossator",
+              "common_name": "Red-spotted Rove Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "platydracus_maculosus",
+              "name": "Platydracus maculosus",
+              "common_name": "Brown Rove Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "platydracus_mysticus",
+              "name": "Platydracus mysticus",
+              "common_name": "Mystic Rove Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "platydracus_violaceus",
+              "name": "Platydracus violaceus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "sunius",
+          "name": "Sunius",
+          "species": [
+            {
+              "id": "sunius_confluentus",
+              "name": "Sunius confluentus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tachinus",
+          "name": "Tachinus",
+          "species": [
+            {
+              "id": "tachinus_fimbriatus",
+              "name": "Tachinus fimbriatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tasgius",
+          "name": "Tasgius",
+          "species": [
+            {
+              "id": "tasgius_ater",
+              "name": "Tasgius ater",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
