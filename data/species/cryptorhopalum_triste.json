@@ -1,0 +1,34 @@
+{
+  "id": "cryptorhopalum_triste",
+  "scientific_name": "Cryptorhopalum triste",
+  "family": "dermestidae",
+  "genus": "cryptorhopalum",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095816,
+  "inat_taxon_id": 217841,
+  "diagnosis": "Cryptorhopalum triste is a species of carpet beetle in the family Dermestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    9
+  ],
+  "phenology_peak": [
+    4,
+    9
+  ],
+  "counties": [
+    "Marion",
+    "Putnam"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Putnam": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cryptorhopalum_triste*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

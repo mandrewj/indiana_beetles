@@ -1,0 +1,33 @@
+{
+  "id": "anthrenus_fuscus",
+  "scientific_name": "Anthrenus fuscus",
+  "common_name": "Mill Carpet Beetle",
+  "family": "dermestidae",
+  "genus": "anthrenus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095903,
+  "inat_taxon_id": 130586,
+  "diagnosis": "Anthrenus fuscus is a species of carpet beetle in the family Dermestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Hendricks",
+    "Lake"
+  ],
+  "county_record_counts": {
+    "Hendricks": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Anthrenus_fuscus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

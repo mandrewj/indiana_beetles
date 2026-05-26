@@ -1,0 +1,24 @@
+{
+  "id": "lanorus_aequalis",
+  "scientific_name": "Lanorus aequalis",
+  "family": "dermestidae",
+  "genus": "lanorus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 1600260,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "anthrenus_scrophulariae",
+  "scientific_name": "Anthrenus scrophulariae",
+  "common_name": "Common Carpet Beetle",
+  "family": "dermestidae",
+  "genus": "anthrenus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095899,
+  "inat_taxon_id": 128264,
+  "diagnosis": "Anthrenus (Anthrenus) scrophulariae, also known as the common carpet beetle or buffalo carpet beetle, is a species of beetle originally found in Europe, the Middle East and the Nearctic, which has now spread to most of the world. Adult beetles feed on pollen and nectar, but the larvae feed on animal fibres and can be damaging pests to carpets, fabrics and museum specimens.",
+  "body_size_mm": "2.5–3.8",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    11
+  ],
+  "phenology_peak": [
+    3,
+    4,
+    5
+  ],
+  "counties": [
+    "Jay",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Marion": 8,
+    "Tippecanoe": 1,
+    "St. Joseph": 1,
+    "Morgan": 1,
+    "Monroe": 2,
+    "Jay": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anthrenus_scrophulariae*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

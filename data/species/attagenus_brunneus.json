@@ -1,0 +1,32 @@
+{
+  "id": "attagenus_brunneus",
+  "scientific_name": "Attagenus brunneus",
+  "family": "dermestidae",
+  "genus": "attagenus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095954,
+  "inat_taxon_id": 214601,
+  "diagnosis": "Attagenus brunneus is a species of carpet beetle in the family Dermestidae. It is found in North America.",
+  "body_size_mm": "2.9–5",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    7
+  ],
+  "phenology_peak": [
+    2,
+    7
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Attagenus_brunneus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

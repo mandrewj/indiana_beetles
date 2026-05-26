@@ -1,0 +1,49 @@
+{
+  "id": "anthrenus_coloratus",
+  "scientific_name": "Anthrenus coloratus",
+  "common_name": "Asian Carpet Beetle",
+  "family": "dermestidae",
+  "genus": "anthrenus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095893,
+  "inat_taxon_id": 447554,
+  "diagnosis": "Anthrenus coloratus is a species in the family Dermestidae (\"carpet beetles\"), in the order Coleoptera (\"beetles\"). The species is known generally as the \"Asian carpet beetle\".",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Boone",
+    "Clark",
+    "Marion",
+    "Morgan",
+    "Randolph",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Marion": 8,
+    "St. Joseph": 1,
+    "Morgan": 1,
+    "Boone": 1,
+    "Clark": 1,
+    "Randolph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anthrenus_coloratus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

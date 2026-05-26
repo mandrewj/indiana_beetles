@@ -1,0 +1,32 @@
+{
+  "id": "trogoderma_ornatum",
+  "scientific_name": "Trogoderma ornatum",
+  "family": "dermestidae",
+  "genus": "trogoderma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095982,
+  "inat_taxon_id": 233045,
+  "diagnosis": "Trogoderma ornatum, known generally as the ornate carpet beetle or ornate cabinet beetle, is a species of carpet beetle in the family Dermestidae. It is found in North America and Oceania.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    8
+  ],
+  "phenology_peak": [
+    5,
+    8
+  ],
+  "counties": [
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trogoderma_ornatum*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

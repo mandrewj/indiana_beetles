@@ -1,0 +1,26 @@
+{
+  "id": "anthrenus_polonicus",
+  "scientific_name": "Anthrenus polonicus",
+  "family": "dermestidae",
+  "genus": "anthrenus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4427288,
+  "inat_taxon_id": 868029,
+  "diagnosis": "Anthrenus polonicus is a species of carpet beetle in the subgenus Helocerus of the genus Anthrenus, family Dermestidae. It is known from Belarus, Bulgaria, Czech Republic, Slovakia, \"Yugoslavia\" (now Serbia and possibly other former Yugoslav republics), United Kingdom, Estonia, Germany, Hungary, Latvia, Russia (Astrakhan, Dagestan, Krasnodar, Stavropol, Ural), and Ukraine.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anthrenus_polonicus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

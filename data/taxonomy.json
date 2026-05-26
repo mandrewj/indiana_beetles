@@ -6925,6 +6925,123 @@
       "authority": "",
       "sort_index": 36,
       "genera": []
+    },
+    {
+      "id": "dermestidae",
+      "name": "Dermestidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 37,
+      "genera": [
+        {
+          "id": "anthrenus",
+          "name": "Anthrenus",
+          "species": [
+            {
+              "id": "anthrenus_coloratus",
+              "name": "Anthrenus coloratus",
+              "common_name": "Asian Carpet Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anthrenus_fuscus",
+              "name": "Anthrenus fuscus",
+              "common_name": "Mill Carpet Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anthrenus_polonicus",
+              "name": "Anthrenus polonicus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anthrenus_scrophulariae",
+              "name": "Anthrenus scrophulariae",
+              "common_name": "Common Carpet Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "anthrenus_verbasci",
+              "name": "Anthrenus verbasci",
+              "common_name": "Varied Carpet Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "attagenus",
+          "name": "Attagenus",
+          "species": [
+            {
+              "id": "attagenus_brunneus",
+              "name": "Attagenus brunneus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cryptorhopalum",
+          "name": "Cryptorhopalum",
+          "species": [
+            {
+              "id": "cryptorhopalum_triste",
+              "name": "Cryptorhopalum triste",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dermestes",
+          "name": "Dermestes",
+          "species": [
+            {
+              "id": "dermestes_lardarius",
+              "name": "Dermestes lardarius",
+              "common_name": "Larder Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "dermestes_undulatus",
+              "name": "Dermestes undulatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lanorus",
+          "name": "Lanorus",
+          "species": [
+            {
+              "id": "lanorus_aequalis",
+              "name": "Lanorus aequalis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trogoderma",
+          "name": "Trogoderma",
+          "species": [
+            {
+              "id": "trogoderma_glabrum",
+              "name": "Trogoderma glabrum",
+              "common_name": "Glabrous Cabinet Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "trogoderma_ornatum",
+              "name": "Trogoderma ornatum",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "trogoderma_sternale",
+              "name": "Trogoderma sternale",
+              "common_name": "Tricolored Carpet Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "id": "dermestidae",
+  "name": "Dermestidae",
+  "common_name": "Skin Beetles",
+  "authority": "",
+  "diagnosis": "Dermestidae are a family of Coleoptera that are commonly referred to as skin beetles. Other common names include larder beetle, hide or leather beetles, carpet beetles, and khapra beetles. There are approximately 500 to 700 species worldwide.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 81951,
+  "genus_notes": {
+    "anthrenus": "Anthrenus is a genus of beetles in the family Dermestidae, the skin beetles.",
+    "dermestes": "Dermestes is a genus of beetles in the family Dermestidae, the skin beetles.",
+    "trogoderma": "Trogoderma is a genus of beetles in the family Dermestidae, the skin beetles.",
+    "attagenus": "Attagenus is a genus of beetles.",
+    "cryptorhopalum": "Cryptorhopalum is a genus of beetles in the family Dermestidae, containing the following species:",
+    "lanorus": "Lanorus (formerly Paranovelsis) is a genus of beetles in the family Dermestidae, containing the following species:"
+  }
+}

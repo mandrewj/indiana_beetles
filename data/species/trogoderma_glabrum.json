@@ -1,0 +1,35 @@
+{
+  "id": "trogoderma_glabrum",
+  "scientific_name": "Trogoderma glabrum",
+  "common_name": "Glabrous Cabinet Beetle",
+  "family": "dermestidae",
+  "genus": "trogoderma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095973,
+  "inat_taxon_id": 233043,
+  "diagnosis": "Trogoderma glabrum, known generally as the glabrous cabinet beetle or colored cabinet beetle, is a species of carpet beetle in the family Dermestidae. It is found in Europe &amp; Northern Asia (excluding China) and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "DeKalb",
+    "Lake"
+  ],
+  "county_record_counts": {
+    "DeKalb": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trogoderma_glabrum*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
