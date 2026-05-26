@@ -1,0 +1,29 @@
+{
+  "id": "pyropyga_decipiens",
+  "scientific_name": "Pyropyga decipiens",
+  "common_name": "Sneaky Elf",
+  "family": "lampyridae",
+  "genus": "pyropyga",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1162802,
+  "inat_taxon_id": 229682,
+  "diagnosis": "Pyropyga decipiens is a species of firefly in the family of beetles known as Lampyridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pyropyga_decipiens*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "pyractomena_lucifera",
+  "scientific_name": "Pyractomena lucifera",
+  "common_name": "Marsh imp",
+  "family": "lampyridae",
+  "genus": "pyractomena",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1162795,
+  "inat_taxon_id": 229519,
+  "diagnosis": "Pyractomena lucifera is a species of firefly in the beetle family Lampyridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Hamilton",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 2,
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pyractomena_lucifera*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lampyridae",
+  "name": "Lampyridae",
+  "common_name": "Fireflies",
+  "authority": "",
+  "diagnosis": "The Lampyridae are a family of insects in the beetle order Coleoptera. They are winged beetles, commonly called fireflies or lightning bugs for their conspicuous use of bioluminescence during twilight to attract mates or prey. Fireflies produce a \"cold light\", with no infrared or ultraviolet frequencies.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 47731,
+  "genus_notes": {
+    "photinus": "The rover fireflies (Photinus) are a genus of fireflies (family Lampyridae).",
+    "lucidota": "Lucidota is a genus of fireflies in the family of beetles known as Lampyridae.",
+    "pyractomena": "Pyractomena is a genus of fireflies in the family Lampyridae.",
+    "pyropyga": "Pyropyga is a genus of fireflies in the family of beetles known as Lampyridae.",
+    "photuris": "Photuris is a genus of fireflies (beetles of the family Lampyridae)."
+  }
+}

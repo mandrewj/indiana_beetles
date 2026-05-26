@@ -1,0 +1,33 @@
+{
+  "id": "photuris_lucicrescens",
+  "scientific_name": "Photuris lucicrescens",
+  "common_name": "July Comet",
+  "family": "lampyridae",
+  "genus": "photuris",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1162827,
+  "inat_taxon_id": 227890,
+  "diagnosis": "Photuris lucicrescens, the long crescendo Photuris, July comet, big scary, or big Lucy, is a species of beetle in the Lampyridae family. It is found in the eastern United States.",
+  "body_size_mm": "15–20",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Photuris_lucicrescens*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

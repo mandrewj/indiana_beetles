@@ -1,0 +1,35 @@
+{
+  "id": "photinus_marginellus",
+  "scientific_name": "Photinus marginellus",
+  "common_name": "Little Gray Firefly",
+  "family": "lampyridae",
+  "genus": "photinus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1162750,
+  "inat_taxon_id": 227880,
+  "diagnosis": "Photinus marginellus is a species of firefly in the family of beetles known as Lampyridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Morgan",
+    "Newton"
+  ],
+  "county_record_counts": {
+    "Morgan": 2,
+    "Newton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Photinus_marginellus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

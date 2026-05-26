@@ -1,0 +1,42 @@
+{
+  "id": "pyropyga_nigricans",
+  "scientific_name": "Pyropyga nigricans",
+  "common_name": "Dark Firefly",
+  "family": "lampyridae",
+  "genus": "pyropyga",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1162800,
+  "inat_taxon_id": 229683,
+  "diagnosis": "Pyropyga nigricans is a species of firefly in the family of beetles known as Lampyridae. It is found in Central America, North America and Central Europe.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "LaGrange",
+    "Marion",
+    "Monroe",
+    "Steuben"
+  ],
+  "county_record_counts": {
+    "Steuben": 1,
+    "LaGrange": 1,
+    "Marion": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pyropyga_nigricans*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -5872,6 +5872,105 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lampyridae",
+      "name": "Lampyridae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 25,
+      "genera": [
+        {
+          "id": "lucidota",
+          "name": "Lucidota",
+          "species": [
+            {
+              "id": "lucidota_atra",
+              "name": "Lucidota atra",
+              "common_name": "Black Firefly",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "photinus",
+          "name": "Photinus",
+          "species": [
+            {
+              "id": "photinus_corruscus",
+              "name": "Photinus corruscus",
+              "common_name": "Winter Firefly",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "photinus_marginellus",
+              "name": "Photinus marginellus",
+              "common_name": "Little Gray Firefly",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "photinus_pyralis",
+              "name": "Photinus pyralis",
+              "common_name": "Common Eastern Firefly",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "photuris",
+          "name": "Photuris",
+          "species": [
+            {
+              "id": "photuris_lucicrescens",
+              "name": "Photuris lucicrescens",
+              "common_name": "July Comet",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pyractomena",
+          "name": "Pyractomena",
+          "species": [
+            {
+              "id": "pyractomena_angulata",
+              "name": "Pyractomena angulata",
+              "common_name": "Say's Firefly",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "pyractomena_borealis",
+              "name": "Pyractomena borealis",
+              "common_name": "Spring Treetop Flasher",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "pyractomena_lucifera",
+              "name": "Pyractomena lucifera",
+              "common_name": "Marsh imp",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pyropyga",
+          "name": "Pyropyga",
+          "species": [
+            {
+              "id": "pyropyga_decipiens",
+              "name": "Pyropyga decipiens",
+              "common_name": "Sneaky Elf",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "pyropyga_nigricans",
+              "name": "Pyropyga nigricans",
+              "common_name": "Dark Firefly",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

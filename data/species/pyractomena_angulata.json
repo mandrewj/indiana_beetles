@@ -1,0 +1,31 @@
+{
+  "id": "pyractomena_angulata",
+  "scientific_name": "Pyractomena angulata",
+  "common_name": "Say's Firefly",
+  "family": "lampyridae",
+  "genus": "pyractomena",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1162782,
+  "inat_taxon_id": 229515,
+  "diagnosis": "Pyractomena angulata is a species of firefly in the family of beetles known as Lampyridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pyractomena_angulata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

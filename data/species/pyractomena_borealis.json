@@ -1,0 +1,72 @@
+{
+  "id": "pyractomena_borealis",
+  "scientific_name": "Pyractomena borealis",
+  "common_name": "Spring Treetop Flasher",
+  "family": "lampyridae",
+  "genus": "pyractomena",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1162783,
+  "inat_taxon_id": 229516,
+  "diagnosis": "Pyractomena borealis is a species of firefly in the family of beetles known as Lampyridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    9,
+    11
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Benton",
+    "Boone",
+    "Brown",
+    "Elkhart",
+    "Franklin",
+    "Johnson",
+    "Knox",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Orange",
+    "Owen",
+    "Parke",
+    "Porter",
+    "Shelby",
+    "Switzerland",
+    "Vanderburgh",
+    "Vermillion",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Elkhart": 1,
+    "Marion": 2,
+    "Boone": 1,
+    "Brown": 7,
+    "Shelby": 2,
+    "Franklin": 1,
+    "Wayne": 2,
+    "Vermillion": 1,
+    "Morgan": 2,
+    "Benton": 1,
+    "Monroe": 2,
+    "Owen": 1,
+    "Vanderburgh": 1,
+    "Parke": 1,
+    "Switzerland": 1,
+    "Johnson": 1,
+    "Orange": 1,
+    "Knox": 1,
+    "Porter": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pyractomena_borealis*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
