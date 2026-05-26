@@ -1,0 +1,63 @@
+{
+  "id": "neopyrochroa_femoralis",
+  "scientific_name": "Neopyrochroa femoralis",
+  "common_name": "Thighed Fire-colored Beetle",
+  "family": "pyrochroidae",
+  "genus": "neopyrochroa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6947388,
+  "inat_taxon_id": 176719,
+  "diagnosis": "Neopyrochroa femoralis is a species of fire-colored beetle in the family Pyrochroidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Clark",
+    "Delaware",
+    "Hamilton",
+    "Hendricks",
+    "Jay",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Porter",
+    "St. Joseph",
+    "Sullivan",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Jay": 1,
+    "Tippecanoe": 1,
+    "Monroe": 10,
+    "Wayne": 1,
+    "Marion": 2,
+    "Hamilton": 1,
+    "Clark": 1,
+    "Delaware": 1,
+    "Hendricks": 2,
+    "St. Joseph": 1,
+    "Allen": 1,
+    "Brown": 1,
+    "Porter": 1,
+    "Morgan": 3,
+    "Sullivan": 1,
+    "Vanderburgh": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Neopyrochroa_femoralis*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

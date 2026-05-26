@@ -6671,6 +6671,63 @@
       "authority": "",
       "sort_index": 31,
       "genera": []
+    },
+    {
+      "id": "pyrochroidae",
+      "name": "Pyrochroidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 32,
+      "genera": [
+        {
+          "id": "dendroides",
+          "name": "Dendroides",
+          "species": [
+            {
+              "id": "dendroides_canadensis",
+              "name": "Dendroides canadensis",
+              "common_name": "Canada Fire-colored Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "dendroides_concolor",
+              "name": "Dendroides concolor",
+              "common_name": "Uniform Fire-coloured Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "neopyrochroa",
+          "name": "Neopyrochroa",
+          "species": [
+            {
+              "id": "neopyrochroa_femoralis",
+              "name": "Neopyrochroa femoralis",
+              "common_name": "Thighed Fire-colored Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "neopyrochroa_flabellata",
+              "name": "Neopyrochroa flabellata",
+              "common_name": "Fan-shaped Fire-colored Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pedilus",
+          "name": "Pedilus",
+          "species": [
+            {
+              "id": "pedilus_lugubris",
+              "name": "Pedilus lugubris",
+              "common_name": "Mourning Fire-colored Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

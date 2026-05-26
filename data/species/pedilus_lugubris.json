@@ -1,0 +1,33 @@
+{
+  "id": "pedilus_lugubris",
+  "scientific_name": "Pedilus lugubris",
+  "common_name": "Mourning Fire-colored Beetle",
+  "family": "pyrochroidae",
+  "genus": "pedilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045159,
+  "inat_taxon_id": 227345,
+  "diagnosis": "Pedilus lugubris is a species of fire-colored beetle in the family Pyrochroidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pedilus_lugubris*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
