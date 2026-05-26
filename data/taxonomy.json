@@ -5661,6 +5661,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zopheridae",
+      "name": "Zopheridae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 24,
+      "genera": [
+        {
+          "id": "colydium",
+          "name": "Colydium",
+          "species": [
+            {
+              "id": "colydium_lineola",
+              "name": "Colydium lineola",
+              "common_name": "Lined Cylindrical Bark Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

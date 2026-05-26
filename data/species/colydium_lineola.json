@@ -1,0 +1,33 @@
+{
+  "id": "colydium_lineola",
+  "scientific_name": "Colydium lineola",
+  "common_name": "Lined Cylindrical Bark Beetle",
+  "family": "zopheridae",
+  "genus": "colydium",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045181,
+  "inat_taxon_id": 217477,
+  "diagnosis": "Colydium lineola is a species of cylindrical bark beetle in the family Zopheridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    7
+  ],
+  "counties": [
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Colydium_lineola*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
