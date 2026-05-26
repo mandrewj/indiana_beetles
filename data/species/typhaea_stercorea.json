@@ -1,0 +1,29 @@
+{
+  "id": "typhaea_stercorea",
+  "scientific_name": "Typhaea stercorea",
+  "common_name": "Hairy Fungus Beetle",
+  "family": "mycetophagidae",
+  "genus": "typhaea",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045506,
+  "inat_taxon_id": 203380,
+  "diagnosis": "Typhaea stercorea is a cosmopolitan species of beetle of the family Mycetophagidae, known by the common name hairy fungus beetle.",
+  "body_size_mm": "2.2–3.0",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Marion",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Typhaea_stercorea*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

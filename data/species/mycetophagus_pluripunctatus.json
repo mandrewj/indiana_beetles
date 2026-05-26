@@ -1,0 +1,35 @@
+{
+  "id": "mycetophagus_pluripunctatus",
+  "scientific_name": "Mycetophagus pluripunctatus",
+  "common_name": "Multi-spotted Hairy Fungus Beetle",
+  "family": "mycetophagidae",
+  "genus": "mycetophagus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045485,
+  "inat_taxon_id": 225319,
+  "diagnosis": "Mycetophagus pluripunctatus is a species of hairy fungus beetle in the family Mycetophagidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    8
+  ],
+  "phenology_peak": [
+    5,
+    8
+  ],
+  "counties": [
+    "Marion",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mycetophagus_pluripunctatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

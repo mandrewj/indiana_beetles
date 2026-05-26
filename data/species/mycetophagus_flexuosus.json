@@ -1,0 +1,28 @@
+{
+  "id": "mycetophagus_flexuosus",
+  "scientific_name": "Mycetophagus flexuosus",
+  "family": "mycetophagidae",
+  "genus": "mycetophagus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045489,
+  "inat_taxon_id": 225318,
+  "diagnosis": "Mycetophagus flexuosus is a species of hairy fungus beetle in the family Mycetophagidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "St. Joseph",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 2,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mycetophagus_flexuosus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

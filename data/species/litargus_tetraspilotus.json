@@ -1,0 +1,29 @@
+{
+  "id": "litargus_tetraspilotus",
+  "scientific_name": "Litargus tetraspilotus",
+  "common_name": "Four-spotted Hairy Fungus Beetle",
+  "family": "mycetophagidae",
+  "genus": "litargus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045526,
+  "inat_taxon_id": 223963,
+  "diagnosis": "Litargus tetraspilotus is a species of hairy fungus beetle in the family Mycetophagidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Hancock",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Wayne": 1,
+    "Hancock": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Litargus_tetraspilotus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

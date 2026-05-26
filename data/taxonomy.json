@@ -7271,6 +7271,67 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mycetophagidae",
+      "name": "Mycetophagidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 41,
+      "genera": [
+        {
+          "id": "litargus",
+          "name": "Litargus",
+          "species": [
+            {
+              "id": "litargus_tetraspilotus",
+              "name": "Litargus tetraspilotus",
+              "common_name": "Four-spotted Hairy Fungus Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "mycetophagus",
+          "name": "Mycetophagus",
+          "species": [
+            {
+              "id": "mycetophagus_flexuosus",
+              "name": "Mycetophagus flexuosus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "mycetophagus_obsoletus",
+              "name": "Mycetophagus obsoletus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "mycetophagus_pluripunctatus",
+              "name": "Mycetophagus pluripunctatus",
+              "common_name": "Multi-spotted Hairy Fungus Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "mycetophagus_punctatus",
+              "name": "Mycetophagus punctatus",
+              "common_name": "Punctured Hairy Fungus Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "typhaea",
+          "name": "Typhaea",
+          "species": [
+            {
+              "id": "typhaea_stercorea",
+              "name": "Typhaea stercorea",
+              "common_name": "Hairy Fungus Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "id": "mycetophagidae",
+  "name": "Mycetophagidae",
+  "common_name": "Hairy Fungus Beetles",
+  "authority": "",
+  "diagnosis": "The Mycetophagidae or hairy fungus beetles are a family of beetles in the large suborder Polyphaga. The different species are between 1.0 and 6.5 mm in length. The larvae and adults live in decaying leaf litter, fungi, and under bark.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 85909,
+  "genus_notes": {
+    "mycetophagus": "Mycetophagus is a genus of hairy fungus beetles in the family Mycetophagidae.",
+    "typhaea": "Typhaea is a genus of beetles belonging to the family Mycetophagidae.",
+    "litargus": "Litargus is a genus of hairy fungus beetles in the family Mycetophagidae."
+  }
+}

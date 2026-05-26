@@ -1,0 +1,43 @@
+{
+  "id": "mycetophagus_punctatus",
+  "scientific_name": "Mycetophagus punctatus",
+  "common_name": "Punctured Hairy Fungus Beetle",
+  "family": "mycetophagidae",
+  "genus": "mycetophagus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045488,
+  "inat_taxon_id": 225320,
+  "diagnosis": "Mycetophagus punctatus, sometimes called the hairy fungus beetle, is a species of fungus beetle.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Brown",
+    "Hamilton",
+    "Monroe",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Hamilton": 1,
+    "Allen": 1,
+    "Brown": 1,
+    "Monroe": 1,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mycetophagus_punctatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
