@@ -1,0 +1,28 @@
+{
+  "id": "cyphogastra_javanica",
+  "scientific_name": "Cyphogastra javanica",
+  "family": "buprestidae",
+  "genus": "cyphogastra",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 9451142,
+  "inat_taxon_id": 549092,
+  "diagnosis": "Cyphogastra javanica is a Jewel Beetle of the Buprestidae family.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    12
+  ],
+  "phenology_peak": [
+    4,
+    12
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Cyphogastra_javanica*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

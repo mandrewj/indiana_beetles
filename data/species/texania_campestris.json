@@ -1,0 +1,51 @@
+{
+  "id": "texania_campestris",
+  "scientific_name": "Texania campestris",
+  "common_name": "Hardwood Heartwood Buprestid",
+  "family": "buprestidae",
+  "genus": "texania",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003187,
+  "inat_taxon_id": 232436,
+  "diagnosis": "Texania campestris is a species in the family Buprestidae (\"metallic wood-boring beetles\"). The species is known generally as the \"hardwood heartwood buprestid\".",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Dearborn",
+    "Harrison",
+    "Jefferson",
+    "Lawrence",
+    "Marion",
+    "Monroe",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Brown": 1,
+    "Monroe": 4,
+    "Dearborn": 1,
+    "Marion": 3,
+    "Vigo": 1,
+    "Lawrence": 1,
+    "Jefferson": 1,
+    "Harrison": 1,
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Texania_campestris*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

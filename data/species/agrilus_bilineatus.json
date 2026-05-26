@@ -1,0 +1,39 @@
+{
+  "id": "agrilus_bilineatus",
+  "scientific_name": "Agrilus bilineatus",
+  "common_name": "Two-lined Chestnut Borer",
+  "family": "buprestidae",
+  "genus": "agrilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003962,
+  "inat_taxon_id": 494812,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Lake",
+    "Madison",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Lake": 4,
+    "Starke": 1,
+    "Brown": 1,
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agrilus_bilineatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

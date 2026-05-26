@@ -3,11 +3,26 @@
   "name": "Buprestidae",
   "common_name": "Jewel Beetles",
   "authority": "",
-  "diagnosis": "",
+  "diagnosis": "Buprestidae is a family of beetles known as jewel beetles or metallic wood-boring beetles because of their glossy iridescent colors. Larvae of this family are known as flatheaded borers. The family is among the largest of the beetles, with some 15,000 species known in 450 genera.",
   "species_count": 88,
   "genus_count": 24,
   "confirmed_count": null,
   "historical_count": null,
   "adventive_count": null,
-  "inat_taxon_id": 54964
+  "inat_taxon_id": 54964,
+  "genus_notes": {
+    "agrilus": "Agrilus is a genus of jewel beetles, notable for having the largest number of species (about 3000) of any single genus in the animal kingdom.",
+    "ptosima": "Ptosima is a genus of beetles in the family Buprestidae....",
+    "buprestis": "Buprestis is a genus of beetles in the family Buprestidae, the jewel beetles.",
+    "acmaeodera": "Acmaeodera is a genus of beetles in the family Buprestidae, a group of metallic wood-boring beetles favored by insect collectors.",
+    "texania": "Texania is a genus of beetles in the family Buprestidae, containing the following species:",
+    "dicerca": "Dicerca is a genus of beetles in the family Buprestidae, containing the following species:",
+    "brachys": "Brachys is a genus of beetles in the family Buprestidae, containing the following species:",
+    "chrysobothris": "Chrysobothris is a genus of beetles in the family Buprestidae, containing the following species:",
+    "anthaxia": "Anthaxia is a genus of beetles in the family Buprestidae, containing the following species:",
+    "actenodes": "Actenodes is a genus of beetles in the family Buprestidae, containing the following species:",
+    "agrilaxia": "Agrilaxia is a genus of beetles in the family Buprestidae, containing the following species:",
+    "pachyschelus": "Pachyschelus is a genus of beetles in the family Buprestidae, containing the following species:",
+    "cyphogastra": "Cyphogastra is a genus of beetles in the family Buprestidae, containing the following species:"
+  }
 }

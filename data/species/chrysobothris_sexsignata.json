@@ -1,0 +1,39 @@
+{
+  "id": "chrysobothris_sexsignata",
+  "scientific_name": "Chrysobothris sexsignata",
+  "common_name": "Six-marked Jewel Beetle",
+  "family": "buprestidae",
+  "genus": "chrysobothris",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003062,
+  "inat_taxon_id": 216836,
+  "diagnosis": "Chrysobothris sexsignata is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Elkhart",
+    "Lake",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Vigo": 1,
+    "Elkhart": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chrysobothris_sexsignata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

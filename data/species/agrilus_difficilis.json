@@ -1,0 +1,35 @@
+{
+  "id": "agrilus_difficilis",
+  "scientific_name": "Agrilus difficilis",
+  "common_name": "Honeylocust Agrilus",
+  "family": "buprestidae",
+  "genus": "agrilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6004142,
+  "inat_taxon_id": 492654,
+  "diagnosis": "Agrilus difficilis, the honeylocust agrilus, is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    9
+  ],
+  "counties": [
+    "Dubois",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Dubois": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agrilus_difficilis*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

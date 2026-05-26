@@ -1,0 +1,66 @@
+{
+  "id": "buprestis_rufipes",
+  "scientific_name": "Buprestis rufipes",
+  "common_name": "Red-legged Buprestis Beetle",
+  "family": "buprestidae",
+  "genus": "buprestis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003652,
+  "inat_taxon_id": 322974,
+  "diagnosis": "Buprestis rufipes (Red-legged Buprestis) is a green metallic wood boring beetle native to southern and eastern United States in North America. Little is known about this beetle.",
+  "body_size_mm": "18–25",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Bartholomew",
+    "Clay",
+    "Daviess",
+    "Greene",
+    "Hamilton",
+    "Jefferson",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Perry",
+    "Pike",
+    "Posey",
+    "Sullivan",
+    "Vanderburgh",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Marion": 2,
+    "Pike": 1,
+    "Allen": 2,
+    "Vanderburgh": 3,
+    "Morgan": 1,
+    "Hamilton": 2,
+    "Lake": 1,
+    "Sullivan": 1,
+    "Monroe": 2,
+    "Daviess": 1,
+    "Perry": 3,
+    "Jefferson": 1,
+    "Posey": 1,
+    "Clay": 1,
+    "Bartholomew": 1,
+    "Greene": 1,
+    "Warrick": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Buprestis_rufipes*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

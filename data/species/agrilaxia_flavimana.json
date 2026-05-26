@@ -1,0 +1,32 @@
+{
+  "id": "agrilaxia_flavimana",
+  "scientific_name": "Agrilaxia flavimana",
+  "family": "buprestidae",
+  "genus": "agrilaxia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003747,
+  "inat_taxon_id": 212805,
+  "diagnosis": "Agrilaxia flavimana is a species of metallic wood-boring beetle in the family Buprestidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    6
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agrilaxia_flavimana*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

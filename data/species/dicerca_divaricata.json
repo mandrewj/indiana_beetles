@@ -1,0 +1,35 @@
+{
+  "id": "dicerca_divaricata",
+  "scientific_name": "Dicerca divaricata",
+  "common_name": "Flat-headed Hardwood Borer",
+  "family": "buprestidae",
+  "genus": "dicerca",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5744554,
+  "inat_taxon_id": 218347,
+  "diagnosis": "Dicerca divaricata is a species of black coloured beetle from Chrysochroinae subfamily which is 15–22 millimetres (0.59–0.87 in) long and is found throughout West Virginia. The species is known for feeding on various maples such as Acer saccharum and Acer rubrum as well as Ulmus americana and Cercis species.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    7,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Elkhart"
+  ],
+  "county_record_counts": {
+    "Elkhart": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Dicerca_divaricata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "pachyschelus_purpureus",
+  "scientific_name": "Pachyschelus purpureus",
+  "family": "buprestidae",
+  "genus": "pachyschelus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003536,
+  "inat_taxon_id": 226843,
+  "diagnosis": "Pachyschelus purpureus is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Noble"
+  ],
+  "county_record_counts": {
+    "Noble": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pachyschelus_purpureus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

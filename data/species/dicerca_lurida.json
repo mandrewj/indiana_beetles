@@ -1,0 +1,53 @@
+{
+  "id": "dicerca_lurida",
+  "scientific_name": "Dicerca lurida",
+  "common_name": "Hickory Jewel Beetle",
+  "family": "buprestidae",
+  "genus": "dicerca",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003485,
+  "inat_taxon_id": 218350,
+  "diagnosis": "Dicerca lurida is a species of black coloured beetle from Chrysochroinae subfamily which is 12–20 millimetres (0.47–0.79 in) long and is known for feeding on various hickory species. The species fly from April to May during which they also sunning on tree trunks and logs.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Greene",
+    "Hendricks",
+    "Henry",
+    "Lake",
+    "Monroe",
+    "Orange",
+    "Parke",
+    "Whitley"
+  ],
+  "county_record_counts": {
+    "Monroe": 2,
+    "Whitley": 1,
+    "Parke": 1,
+    "Greene": 1,
+    "Orange": 1,
+    "Hendricks": 1,
+    "Henry": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Dicerca_lurida*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dicerca_obscura",
+  "scientific_name": "Dicerca obscura",
+  "family": "buprestidae",
+  "genus": "dicerca",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5744569,
+  "inat_taxon_id": 218351,
+  "diagnosis": "Dicerca obscura is a species of brownish-black coloured beetle from Chrysochroinae subfamily which is known from Hummelstown, Pennsylvania where it feeds on various persimmon species (including Diospyros virginiana) and staghorn sumach.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "counties": [
+    "Marion",
+    "Marshall",
+    "Warrick"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Warrick": 1,
+    "Marshall": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Dicerca_obscura*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "acmaeodera_tubulus",
+  "scientific_name": "Acmaeodera tubulus",
+  "family": "buprestidae",
+  "genus": "acmaeodera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003251,
+  "inat_taxon_id": 129179,
+  "diagnosis": "Acmaeodera tubulus is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Jennings",
+    "Monroe",
+    "Morgan",
+    "Newton",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Morgan": 2,
+    "Monroe": 1,
+    "Jennings": 1,
+    "Newton": 1,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Acmaeodera_tubulus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

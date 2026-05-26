@@ -5048,7 +5048,240 @@
       "sort_index": 10,
       "genera_count": 24,
       "species_count": 88,
-      "genera": []
+      "genera": [
+        {
+          "id": "acmaeodera",
+          "name": "Acmaeodera",
+          "species": [
+            {
+              "id": "acmaeodera_pulchella",
+              "name": "Acmaeodera pulchella",
+              "common_name": "Flat-headed Baldcypress Sapwood Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "acmaeodera_tubulus",
+              "name": "Acmaeodera tubulus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "actenodes",
+          "name": "Actenodes",
+          "species": [
+            {
+              "id": "actenodes_simi",
+              "name": "Actenodes simi",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "agrilaxia",
+          "name": "Agrilaxia",
+          "species": [
+            {
+              "id": "agrilaxia_flavimana",
+              "name": "Agrilaxia flavimana",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "agrilus",
+          "name": "Agrilus",
+          "species": [
+            {
+              "id": "agrilus_bilineatus",
+              "name": "Agrilus bilineatus",
+              "common_name": "Two-lined Chestnut Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agrilus_cyanescens",
+              "name": "Agrilus cyanescens",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agrilus_difficilis",
+              "name": "Agrilus difficilis",
+              "common_name": "Honeylocust Agrilus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agrilus_lecontei",
+              "name": "Agrilus lecontei",
+              "common_name": "Common Hackberry Agrilus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agrilus_obsoletoguttatus",
+              "name": "Agrilus obsoletoguttatus",
+              "common_name": "Beech Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agrilus_planipennis",
+              "name": "Agrilus planipennis",
+              "common_name": "Emerald Ash Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agrilus_ruficollis",
+              "name": "Agrilus ruficollis",
+              "common_name": "Red-necked Cane Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "agrilus_subcinctus",
+              "name": "Agrilus subcinctus",
+              "common_name": "Native Ash Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "anthaxia",
+          "name": "Anthaxia",
+          "species": [
+            {
+              "id": "anthaxia_quercata",
+              "name": "Anthaxia quercata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "brachys",
+          "name": "Brachys",
+          "species": [
+            {
+              "id": "brachys_aerosus",
+              "name": "Brachys aerosus",
+              "common_name": "Northern Red Oak Jewel Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "brachys_ovatus",
+              "name": "Brachys ovatus",
+              "common_name": "Oval Jewel Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "buprestis",
+          "name": "Buprestis",
+          "species": [
+            {
+              "id": "buprestis_rufipes",
+              "name": "Buprestis rufipes",
+              "common_name": "Red-legged Buprestis Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "buprestis_striata",
+              "name": "Buprestis striata",
+              "common_name": "Striated Jewel Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "chrysobothris",
+          "name": "Chrysobothris",
+          "species": [
+            {
+              "id": "chrysobothris_femorata",
+              "name": "Chrysobothris femorata",
+              "common_name": "Flat-headed Apple Tree Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "chrysobothris_sexsignata",
+              "name": "Chrysobothris sexsignata",
+              "common_name": "Six-marked Jewel Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cyphogastra",
+          "name": "Cyphogastra",
+          "species": [
+            {
+              "id": "cyphogastra_javanica",
+              "name": "Cyphogastra javanica",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "dicerca",
+          "name": "Dicerca",
+          "species": [
+            {
+              "id": "dicerca_divaricata",
+              "name": "Dicerca divaricata",
+              "common_name": "Flat-headed Hardwood Borer",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "dicerca_lurida",
+              "name": "Dicerca lurida",
+              "common_name": "Hickory Jewel Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "dicerca_obscura",
+              "name": "Dicerca obscura",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "pachyschelus",
+          "name": "Pachyschelus",
+          "species": [
+            {
+              "id": "pachyschelus_laevigatus",
+              "name": "Pachyschelus laevigatus",
+              "common_name": "Desmodium Leaf-mining Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "pachyschelus_purpureus",
+              "name": "Pachyschelus purpureus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ptosima",
+          "name": "Ptosima",
+          "species": [
+            {
+              "id": "ptosima_gibbicollis",
+              "name": "Ptosima gibbicollis",
+              "common_name": "Redbud Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "texania",
+          "name": "Texania",
+          "species": [
+            {
+              "id": "texania_campestris",
+              "name": "Texania campestris",
+              "common_name": "Hardwood Heartwood Buprestid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cicindelidae",

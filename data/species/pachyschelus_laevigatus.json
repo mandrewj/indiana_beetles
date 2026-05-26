@@ -1,0 +1,27 @@
+{
+  "id": "pachyschelus_laevigatus",
+  "scientific_name": "Pachyschelus laevigatus",
+  "common_name": "Desmodium Leaf-mining Beetle",
+  "family": "buprestidae",
+  "genus": "pachyschelus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003547,
+  "inat_taxon_id": 226842,
+  "diagnosis": "Pachyschelus laevigatus is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pachyschelus_laevigatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "brachys_ovatus",
+  "scientific_name": "Brachys ovatus",
+  "common_name": "Oval Jewel Beetle",
+  "family": "buprestidae",
+  "genus": "brachys",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6004193,
+  "inat_taxon_id": 215404,
+  "diagnosis": "Brachys ovatus is a species of metallic wood-boring beetle in the family Buprestidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Jackson"
+  ],
+  "county_record_counts": {
+    "Jackson": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Brachys_ovatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

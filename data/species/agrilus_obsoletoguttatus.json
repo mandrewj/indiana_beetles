@@ -1,0 +1,39 @@
+{
+  "id": "agrilus_obsoletoguttatus",
+  "scientific_name": "Agrilus obsoletoguttatus",
+  "common_name": "Beech Borer",
+  "family": "buprestidae",
+  "genus": "agrilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6004053,
+  "inat_taxon_id": 212831,
+  "diagnosis": "Agrilus obsoletoguttatus is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Hendricks",
+    "Monroe",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Allen": 1,
+    "Hendricks": 1,
+    "St. Joseph": 2,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Agrilus_obsoletoguttatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

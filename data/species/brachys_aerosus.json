@@ -1,0 +1,39 @@
+{
+  "id": "brachys_aerosus",
+  "scientific_name": "Brachys aerosus",
+  "common_name": "Northern Red Oak Jewel Beetle",
+  "family": "buprestidae",
+  "genus": "brachys",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6004203,
+  "inat_taxon_id": 215402,
+  "diagnosis": "Brachys aerosus is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Monroe",
+    "Parke",
+    "Porter",
+    "White"
+  ],
+  "county_record_counts": {
+    "White": 1,
+    "Monroe": 1,
+    "Parke": 1,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Brachys_aerosus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

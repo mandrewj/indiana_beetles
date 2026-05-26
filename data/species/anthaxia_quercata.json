@@ -1,0 +1,36 @@
+{
+  "id": "anthaxia_quercata",
+  "scientific_name": "Anthaxia quercata",
+  "family": "buprestidae",
+  "genus": "anthaxia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003581,
+  "inat_taxon_id": 213746,
+  "diagnosis": "Anthaxia quercata is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Boone",
+    "Hancock",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Hancock": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anthaxia_quercata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

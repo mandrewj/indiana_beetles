@@ -1,0 +1,31 @@
+{
+  "id": "chrysobothris_femorata",
+  "scientific_name": "Chrysobothris femorata",
+  "common_name": "Flat-headed Apple Tree Borer",
+  "family": "buprestidae",
+  "genus": "chrysobothris",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 5878502,
+  "inat_taxon_id": 203326,
+  "diagnosis": "Chrysobothris femorata, the flatheaded appletree borer, is a species of metallic wood-boring beetle in the family Buprestidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Chrysobothris_femorata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "actenodes_simi",
+  "scientific_name": "Actenodes simi",
+  "family": "buprestidae",
+  "genus": "actenodes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003419,
+  "inat_taxon_id": 212474,
+  "diagnosis": "Actenodes simi is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Vigo": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Actenodes_simi*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

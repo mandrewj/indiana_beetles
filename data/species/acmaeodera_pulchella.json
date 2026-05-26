@@ -1,0 +1,50 @@
+{
+  "id": "acmaeodera_pulchella",
+  "scientific_name": "Acmaeodera pulchella",
+  "common_name": "Flat-headed Baldcypress Sapwood Beetle",
+  "family": "buprestidae",
+  "genus": "acmaeodera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6003217,
+  "inat_taxon_id": 212357,
+  "diagnosis": "Acmaeodera pulchella, the flat-headed bald cypress sapwood borer, is a species of metallic wood-boring beetle in the family Buprestidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Clark",
+    "Delaware",
+    "Hamilton",
+    "Marion",
+    "Monroe",
+    "Porter",
+    "Starke",
+    "Warrick",
+    "Washington"
+  ],
+  "county_record_counts": {
+    "Delaware": 1,
+    "Clark": 1,
+    "Starke": 4,
+    "Hamilton": 4,
+    "Warrick": 1,
+    "Porter": 3,
+    "Monroe": 1,
+    "Marion": 1,
+    "Washington": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Acmaeodera_pulchella*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

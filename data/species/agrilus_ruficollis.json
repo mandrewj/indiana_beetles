@@ -1,0 +1,53 @@
+{
+  "id": "agrilus_ruficollis",
+  "scientific_name": "Agrilus ruficollis",
+  "common_name": "Red-necked Cane Borer",
+  "family": "buprestidae",
+  "genus": "agrilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6004139,
+  "inat_taxon_id": 130012,
+  "diagnosis": "Agrilus ruficollis, the red-necked cane borer, is a species of metallic wood-boring beetle in the family Buprestidae. It is found in Europe &amp; Northern Asia (excluding China) and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Jackson",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "Orange",
+    "Porter",
+    "Scott",
+    "St. Joseph",
+    "Sullivan"
+  ],
+  "county_record_counts": {
+    "Morgan": 1,
+    "Sullivan": 1,
+    "Marion": 3,
+    "Orange": 1,
+    "Monroe": 1,
+    "St. Joseph": 1,
+    "Scott": 1,
+    "Jackson": 1,
+    "Lake": 8,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agrilus_ruficollis*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
