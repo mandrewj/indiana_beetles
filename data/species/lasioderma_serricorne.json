@@ -1,0 +1,29 @@
+{
+  "id": "lasioderma_serricorne",
+  "scientific_name": "Lasioderma serricorne",
+  "common_name": "Tobacco Beetle",
+  "family": "ptinidae",
+  "genus": "lasioderma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4998194,
+  "inat_taxon_id": 47493,
+  "diagnosis": "Lasioderma serricorne, commonly known as the cigarette beetle, cigar beetle, or tobacco beetle, is an insect very similar in appearance to the drugstore beetle (Stegobium paniceum) and the common furniture beetle (Anobium punctatum). All three species belong to the family Anobiidae.",
+  "body_size_mm": "0.18–0.25",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    9
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lasioderma_serricorne*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

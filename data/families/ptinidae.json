@@ -1,0 +1,21 @@
+{
+  "id": "ptinidae",
+  "name": "Ptinidae",
+  "common_name": "Deathwatch, Spider, and Wood-borer Beetles",
+  "authority": "",
+  "diagnosis": "Spider beetles are the approximately 500 species of beetles in the subfamily Ptininae of the family Anobiidae. They are sometimes considered a family in their own right, which is then called Ptinidae. Spider beetles have round bodies with long, slender legs, and lack wings.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 82167,
+  "genus_notes": {
+    "stegobium": "The drugstore beetle (Stegobium paniceum), also known as the bread beetle, biscuit beetle, and misnamed as the biscuit weevil (despite not being a true weevil), is a tiny, brown beetle that can be found infesting a wide variety of dried plant products, where it is among the most common non-weevils to be found.",
+    "ptinus": "Ptinus is a genus of beetles distributed throughout much of the world, including Africa, the Australian region, the Palearctic, the Near East, the Nearctic, and the Neotropic ecozone.",
+    "trichodesma": "Trichodesma is a genus of flowering plants in the borage family, Boraginaceae.",
+    "gibbium": "Gibbium is a genus of beetles in the family Anobiidae.",
+    "lasioderma": "Lasioderma is a genus of beetles in the family Anobiidae.",
+    "anobium": "Anobium is a genus of beetles in the family Anobiidae."
+  }
+}

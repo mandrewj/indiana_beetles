@@ -1,0 +1,41 @@
+{
+  "id": "trichodesma_gibbosa",
+  "scientific_name": "Trichodesma gibbosa",
+  "common_name": "Gibbous Death-watch Beetle",
+  "family": "ptinidae",
+  "genus": "trichodesma",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4998181,
+  "inat_taxon_id": 232888,
+  "diagnosis": "Trichodesma gibbosa is a species of death-watch beetle in the family Ptinidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6,
+    9
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Boone",
+    "Lake",
+    "Monroe",
+    "Morgan",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Boone": 1,
+    "Monroe": 1,
+    "Morgan": 1,
+    "Tippecanoe": 1,
+    "Lake": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trichodesma_gibbosa*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

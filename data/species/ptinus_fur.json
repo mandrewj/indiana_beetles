@@ -1,0 +1,38 @@
+{
+  "id": "ptinus_fur",
+  "scientific_name": "Ptinus fur",
+  "common_name": "White-marked Spider-beetle",
+  "family": "ptinidae",
+  "genus": "ptinus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095795,
+  "inat_taxon_id": 131939,
+  "diagnosis": "Ptinus fur, the whitemarked spider beetle, is a species of spider beetle in the genus Ptinus (family Anobiidae), with a nearly cosmopolitan distribution.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    2,
+    3,
+    7,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    1,
+    3,
+    12
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ptinus_fur*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

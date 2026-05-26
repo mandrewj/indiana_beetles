@@ -1,0 +1,29 @@
+{
+  "id": "anobium_punctatum",
+  "scientific_name": "Anobium punctatum",
+  "common_name": "House Borer",
+  "family": "ptinidae",
+  "genus": "anobium",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095310,
+  "inat_taxon_id": 130577,
+  "diagnosis": "The common furniture beetle or common house borer (Anobium punctatum) is a woodboring beetle. In the larval stage it bores in wood and feeds upon it.",
+  "body_size_mm": "1–1.5",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    10
+  ],
+  "phenology_peak": [
+    5,
+    10
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Common_furniture_beetle*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

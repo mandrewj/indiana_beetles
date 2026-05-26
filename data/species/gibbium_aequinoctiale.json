@@ -1,0 +1,35 @@
+{
+  "id": "gibbium_aequinoctiale",
+  "scientific_name": "Gibbium aequinoctiale",
+  "common_name": "Smooth Spider Beetle",
+  "family": "ptinidae",
+  "genus": "gibbium",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095751,
+  "inat_taxon_id": 220380,
+  "diagnosis": "Gibbium aequinoctiale, the smooth spider beetle, is a species of spider beetle in the family Ptinidae. It is found in the Caribbean, Europe &amp; Northern Asia (excluding China), Central America, North America, and South America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    3,
+    11
+  ],
+  "phenology_peak": [
+    1,
+    3,
+    11
+  ],
+  "counties": [
+    "Johnson"
+  ],
+  "county_record_counts": {
+    "Johnson": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Gibbium_aequinoctiale*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

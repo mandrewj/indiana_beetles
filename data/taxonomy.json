@@ -5971,6 +5971,87 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ptinidae",
+      "name": "Ptinidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 26,
+      "genera": [
+        {
+          "id": "anobium",
+          "name": "Anobium",
+          "species": [
+            {
+              "id": "anobium_punctatum",
+              "name": "Anobium punctatum",
+              "common_name": "House Borer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "gibbium",
+          "name": "Gibbium",
+          "species": [
+            {
+              "id": "gibbium_aequinoctiale",
+              "name": "Gibbium aequinoctiale",
+              "common_name": "Smooth Spider Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lasioderma",
+          "name": "Lasioderma",
+          "species": [
+            {
+              "id": "lasioderma_serricorne",
+              "name": "Lasioderma serricorne",
+              "common_name": "Tobacco Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ptinus",
+          "name": "Ptinus",
+          "species": [
+            {
+              "id": "ptinus_fur",
+              "name": "Ptinus fur",
+              "common_name": "White-marked Spider-beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "stegobium",
+          "name": "Stegobium",
+          "species": [
+            {
+              "id": "stegobium_paniceum",
+              "name": "Stegobium paniceum",
+              "common_name": "Drugstore Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trichodesma",
+          "name": "Trichodesma",
+          "species": [
+            {
+              "id": "trichodesma_gibbosa",
+              "name": "Trichodesma gibbosa",
+              "common_name": "Gibbous Death-watch Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

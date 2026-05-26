@@ -1,0 +1,52 @@
+{
+  "id": "stegobium_paniceum",
+  "scientific_name": "Stegobium paniceum",
+  "common_name": "Drugstore Beetle",
+  "family": "ptinidae",
+  "genus": "stegobium",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1095652,
+  "inat_taxon_id": 231494,
+  "diagnosis": "The drugstore beetle (Stegobium paniceum), also known as the bread beetle or biscuit beetle, is a tiny, brown beetle that can be found infesting a wide variety of dried plant products, where it is among the most common non-weevils to be found. It is the only member of the monotypic genus Stegobium.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Gibson",
+    "Hendricks",
+    "Marion",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Tippecanoe": 1,
+    "Gibson": 1,
+    "Hendricks": 1,
+    "Vanderburgh": 1,
+    "Wayne": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stegobium_paniceum*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
