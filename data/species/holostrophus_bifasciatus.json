@@ -1,0 +1,34 @@
+{
+  "id": "holostrophus_bifasciatus",
+  "scientific_name": "Holostrophus bifasciatus",
+  "family": "tetratomidae",
+  "genus": "holostrophus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045097,
+  "inat_taxon_id": 221426,
+  "diagnosis": "Holostrophus bifasciatus is a species of polypore fungus beetle in the family Tetratomidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Tippecanoe",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Wayne": 1,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Holostrophus_bifasciatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

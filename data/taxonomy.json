@@ -5612,6 +5612,55 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tetratomidae",
+      "name": "Tetratomidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 23,
+      "genera": [
+        {
+          "id": "eustrophopsis",
+          "name": "Eustrophopsis",
+          "species": [
+            {
+              "id": "eustrophopsis_bicolor",
+              "name": "Eustrophopsis bicolor",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "holostrophus",
+          "name": "Holostrophus",
+          "species": [
+            {
+              "id": "holostrophus_bifasciatus",
+              "name": "Holostrophus bifasciatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "penthe",
+          "name": "Penthe",
+          "species": [
+            {
+              "id": "penthe_obliquata",
+              "name": "Penthe obliquata",
+              "common_name": "Oblique Polypore Fungus Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "penthe_pimelia",
+              "name": "Penthe pimelia",
+              "common_name": "Velvety bark beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

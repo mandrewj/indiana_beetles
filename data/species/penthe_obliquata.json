@@ -1,0 +1,61 @@
+{
+  "id": "penthe_obliquata",
+  "scientific_name": "Penthe obliquata",
+  "common_name": "Oblique Polypore Fungus Beetle",
+  "family": "tetratomidae",
+  "genus": "penthe",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045083,
+  "inat_taxon_id": 227430,
+  "diagnosis": "Penthe obliquata is a species of polypore fungus beetle in the family Tetratomidae. It is found in North America.",
+  "body_size_mm": "11–14",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "Brown",
+    "Cass",
+    "Jennings",
+    "Marion",
+    "Miami",
+    "Monroe",
+    "Morgan",
+    "Orange",
+    "Porter",
+    "Starke",
+    "Vermillion",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Brown": 3,
+    "Vermillion": 1,
+    "Morgan": 1,
+    "Jennings": 2,
+    "Monroe": 3,
+    "Porter": 2,
+    "Vigo": 1,
+    "Miami": 1,
+    "Cass": 1,
+    "Marion": 1,
+    "Starke": 1,
+    "Orange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Penthe_obliquata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "eustrophopsis_bicolor",
+  "scientific_name": "Eustrophopsis bicolor",
+  "family": "tetratomidae",
+  "genus": "eustrophopsis",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045127,
+  "inat_taxon_id": 219899,
+  "diagnosis": "Eustrophopsis bicolor is a species of polypore fungus beetle in the family Tetratomidae. It is found in the Caribbean and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    6,
+    7,
+    9
+  ],
+  "counties": [
+    "Lake",
+    "Marion",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Marion": 4,
+    "St. Joseph": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Eustrophopsis_bicolor*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
