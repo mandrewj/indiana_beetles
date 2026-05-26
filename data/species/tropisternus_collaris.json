@@ -1,0 +1,47 @@
+{
+  "id": "tropisternus_collaris",
+  "scientific_name": "Tropisternus collaris",
+  "family": "hydrophilidae",
+  "genus": "tropisternus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1034232,
+  "inat_taxon_id": 366992,
+  "diagnosis": "Tropisternus collaris, the collared water scavenger beetle, is a species of water scavenger beetle in the family Hydrophilidae. It is found in the Caribbean, North America, and South America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    7,
+    10
+  ],
+  "counties": [
+    "Bartholomew",
+    "Fayette",
+    "Jackson",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 3,
+    "Bartholomew": 2,
+    "Tippecanoe": 1,
+    "Wayne": 1,
+    "Fayette": 1,
+    "Jackson": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tropisternus_collaris*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

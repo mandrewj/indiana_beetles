@@ -1,0 +1,65 @@
+{
+  "id": "tropisternus_lateralis",
+  "scientific_name": "Tropisternus lateralis",
+  "common_name": "Lateral-lined Water Beetle",
+  "family": "hydrophilidae",
+  "genus": "tropisternus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1034206,
+  "inat_taxon_id": 133622,
+  "diagnosis": "Tropisternus lateralis is a species of hydrophilid beetle that ranges across much of the Americas.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Bartholomew",
+    "Hamilton",
+    "Howard",
+    "Jackson",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Montgomery",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1,
+    "Wayne": 5,
+    "St. Joseph": 2,
+    "Jackson": 2,
+    "Bartholomew": 3,
+    "Montgomery": 1,
+    "Lake": 1,
+    "Tippecanoe": 2,
+    "Porter": 1,
+    "Marion": 3,
+    "Hamilton": 1,
+    "Howard": 1,
+    "Monroe": 2,
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tropisternus_lateralis*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

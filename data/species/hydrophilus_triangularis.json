@@ -1,0 +1,72 @@
+{
+  "id": "hydrophilus_triangularis",
+  "scientific_name": "Hydrophilus triangularis",
+  "common_name": "Giant Water Scavenger Beetle",
+  "family": "hydrophilidae",
+  "genus": "hydrophilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988136,
+  "inat_taxon_id": 221649,
+  "diagnosis": "Hydrophilus triangularis, known generally as the giant black water beetle or giant water scavenger, is a species of water scavenger beetle in the family Hydrophilidae. It is the most common and widespread species of Hydrophilus in North America, being found across the contiguous United States, southern Canada, and Mexico.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "Boone",
+    "Brown",
+    "Dubois",
+    "Fayette",
+    "Jackson",
+    "Lake",
+    "LaPorte",
+    "Lawrence",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Porter",
+    "Tippecanoe",
+    "Vigo",
+    "Washington",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Lawrence": 1,
+    "Marion": 3,
+    "Madison": 1,
+    "Washington": 1,
+    "Porter": 1,
+    "Jackson": 1,
+    "Vigo": 2,
+    "Tippecanoe": 2,
+    "LaPorte": 1,
+    "Monroe": 4,
+    "Brown": 1,
+    "Boone": 1,
+    "Dubois": 1,
+    "Lake": 1,
+    "Wayne": 1,
+    "Fayette": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hydrophilus_triangularis*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

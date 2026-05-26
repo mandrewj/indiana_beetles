@@ -5084,7 +5084,76 @@
       "sort_index": 14,
       "genera_count": 18,
       "species_count": 58,
-      "genera": []
+      "genera": [
+        {
+          "id": "cymbiodyta",
+          "name": "Cymbiodyta",
+          "species": [
+            {
+              "id": "cymbiodyta_bifida",
+              "name": "Cymbiodyta bifida",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hydrobius",
+          "name": "Hydrobius",
+          "species": [
+            {
+              "id": "hydrobius_fuscipes",
+              "name": "Hydrobius fuscipes",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hydrophilus",
+          "name": "Hydrophilus",
+          "species": [
+            {
+              "id": "hydrophilus_ovatus",
+              "name": "Hydrophilus ovatus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "hydrophilus_triangularis",
+              "name": "Hydrophilus triangularis",
+              "common_name": "Giant Water Scavenger Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "sperchopsis",
+          "name": "Sperchopsis",
+          "species": [
+            {
+              "id": "sperchopsis_tessellata",
+              "name": "Sperchopsis tessellata",
+              "common_name": "Checkered Water Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tropisternus",
+          "name": "Tropisternus",
+          "species": [
+            {
+              "id": "tropisternus_collaris",
+              "name": "Tropisternus collaris",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "tropisternus_lateralis",
+              "name": "Tropisternus lateralis",
+              "common_name": "Lateral-lined Water Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "histeridae",

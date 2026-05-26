@@ -1,0 +1,40 @@
+{
+  "id": "hydrobius_fuscipes",
+  "scientific_name": "Hydrobius fuscipes",
+  "family": "hydrophilidae",
+  "genus": "hydrobius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988130,
+  "inat_taxon_id": 221612,
+  "diagnosis": "Hydrobius fuscipes is a species of beetles in the family Hydrophilidae that is found across much of the temperate Northern Hemisphere.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    4,
+    6,
+    9
+  ],
+  "phenology_peak": [
+    2,
+    4,
+    6,
+    9
+  ],
+  "counties": [
+    "Allen",
+    "Porter",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1,
+    "Allen": 1,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hydrobius_fuscipes*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

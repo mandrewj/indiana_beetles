@@ -1,0 +1,49 @@
+{
+  "id": "hydrophilus_ovatus",
+  "scientific_name": "Hydrophilus ovatus",
+  "family": "hydrophilidae",
+  "genus": "hydrophilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4988133,
+  "inat_taxon_id": 221648,
+  "diagnosis": "Hydrophilus ovatus is a species of water scavenger beetle in the family Hydrophilidae. It is found in the eastern United States from Maine south to Florida and west to Texas and Kansas, as well as southern Ontario.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Greene",
+    "LaGrange",
+    "Lake",
+    "Monroe",
+    "Newton",
+    "Porter",
+    "Scott"
+  ],
+  "county_record_counts": {
+    "Brown": 1,
+    "Monroe": 1,
+    "LaGrange": 1,
+    "Greene": 1,
+    "Newton": 1,
+    "Porter": 2,
+    "Lake": 1,
+    "Scott": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hydrophilus_ovatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

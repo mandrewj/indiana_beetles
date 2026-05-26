@@ -3,11 +3,18 @@
   "name": "Hydrophilidae",
   "common_name": "Water Scavenger Beetles",
   "authority": "",
-  "diagnosis": "",
+  "diagnosis": "Hydrophilidae, also called water scavenger beetles, is a family of chiefly aquatic beetles. Aquatic hydrophilids are notable for their long maxillary palps, which are longer than their antennae. Several of the former subfamilies of Hydrophilidae have recently been removed and elevated to family rank; Epimetopidae, Georissidae (= Georyssinae), Helophoridae, Hydrochidae, and Spercheidae (= Sphaeridiinae).",
   "species_count": 58,
   "genus_count": 18,
   "confirmed_count": null,
   "historical_count": null,
   "adventive_count": null,
-  "inat_taxon_id": 127444
+  "inat_taxon_id": 127444,
+  "genus_notes": {
+    "hydrophilus": "Hydrophilus is a genus of beetles in the family Hydrophilidae, the water scavenger beetles.",
+    "tropisternus": "Tropisternus is a genus of hydrophilid beetles with 63 species in five subgenera in North and South America.",
+    "hydrobius": "Hydrobius is a genus of hydrophilid beetles that contains nine species distributed throughout the Holarctic ecozone.",
+    "sperchopsis": "Sperchopsis is a genus of water scavenger beetles in the family Hydrophilidae.",
+    "cymbiodyta": "Cymbiodyta is a genus of hydrophilid beetles with 31 species."
+  }
 }
