@@ -1,0 +1,24 @@
+{
+  "id": "contacyphon_setulipennis",
+  "scientific_name": "Contacyphon setulipennis",
+  "family": "scirtidae",
+  "genus": "contacyphon",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 9389843,
+  "inat_taxon_id": 1572306,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "scirtidae",
+  "name": "Scirtidae",
+  "common_name": "Marsh Beetles",
+  "authority": "",
+  "diagnosis": "Scirtidae is a family of beetles (Coleoptera). These beetles are commonly referred to as marsh beetles, as the larvae are typically associated with stagnant water, but can be found in flowing water. Adults prefer decomposing plant material near the water's edge.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 47595,
+  "genus_notes": {
+    "scirtes": "Scirtes is a genus of marsh beetles in the family Scirtidae.",
+    "prionocyphon": "Prionocyphon is a genus of marsh beetles in the family Scirtidae.",
+    "sacodes": "Sacodes is a genus of marsh beetles in the family Scirtidae.",
+    "contacyphon": "Contacyphon is a genus of marsh beetles in the family Scirtidae."
+  }
+}

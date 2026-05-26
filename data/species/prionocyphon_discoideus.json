@@ -1,0 +1,40 @@
+{
+  "id": "prionocyphon_discoideus",
+  "scientific_name": "Prionocyphon discoideus",
+  "common_name": "Disk-shaped Marsh Beetle",
+  "family": "scirtidae",
+  "genus": "prionocyphon",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1161944,
+  "inat_taxon_id": 228710,
+  "diagnosis": "Prionocyphon discoideus is a species of marsh beetle in the family Scirtidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Lake",
+    "Morgan"
+  ],
+  "county_record_counts": {
+    "Brown": 1,
+    "Morgan": 1,
+    "Lake": 4
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Prionocyphon_discoideus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

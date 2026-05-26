@@ -1,0 +1,42 @@
+{
+  "id": "scirtes_orbiculatus",
+  "scientific_name": "Scirtes orbiculatus",
+  "common_name": "Red-sutured Marsh Beetle",
+  "family": "scirtidae",
+  "genus": "scirtes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1161931,
+  "inat_taxon_id": 230632,
+  "diagnosis": "Scirtes orbiculatus is a species of marsh beetle in the family Scirtidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    5,
+    6,
+    8
+  ],
+  "counties": [
+    "Boone",
+    "Marion",
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Marion": 7,
+    "Tippecanoe": 1,
+    "Porter": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Scirtes_orbiculatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

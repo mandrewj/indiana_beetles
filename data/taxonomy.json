@@ -7042,6 +7042,67 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scirtidae",
+      "name": "Scirtidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 38,
+      "genera": [
+        {
+          "id": "contacyphon",
+          "name": "Contacyphon",
+          "species": [
+            {
+              "id": "contacyphon_setulipennis",
+              "name": "Contacyphon setulipennis",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "prionocyphon",
+          "name": "Prionocyphon",
+          "species": [
+            {
+              "id": "prionocyphon_discoideus",
+              "name": "Prionocyphon discoideus",
+              "common_name": "Disk-shaped Marsh Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "sacodes",
+          "name": "Sacodes",
+          "species": [
+            {
+              "id": "sacodes_pulchella",
+              "name": "Sacodes pulchella",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "scirtes",
+          "name": "Scirtes",
+          "species": [
+            {
+              "id": "scirtes_orbiculatus",
+              "name": "Scirtes orbiculatus",
+              "common_name": "Red-sutured Marsh Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "scirtes_tibialis",
+              "name": "Scirtes tibialis",
+              "common_name": "Red-legged Marsh Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
