@@ -1,0 +1,34 @@
+{
+  "id": "trichodes_nuttalli",
+  "scientific_name": "Trichodes nuttalli",
+  "family": "cleridae",
+  "genus": "trichodes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 984193,
+  "diagnosis": "Trichodes nuttalli, known generally as the red-blue checkered beetle or Nuttall's shaggy beetle, is a species of checkered beetle in the family Cleridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Lake",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Lake": 1,
+    "Porter": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trichodes_nuttalli*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

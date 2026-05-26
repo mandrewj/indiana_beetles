@@ -1,0 +1,45 @@
+{
+  "id": "placopterus_thoracicus",
+  "scientific_name": "Placopterus thoracicus",
+  "common_name": "Black and Red Checkered Beetle",
+  "family": "cleridae",
+  "genus": "placopterus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8133156,
+  "inat_taxon_id": 211848,
+  "diagnosis": "Placopterus thoracicus is a species of checkered beetle in the family Cleridae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5
+  ],
+  "counties": [
+    "Brown",
+    "Huntington",
+    "Jennings",
+    "LaPorte",
+    "Monroe",
+    "Tippecanoe",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 2,
+    "Brown": 1,
+    "Jennings": 1,
+    "Huntington": 1,
+    "Monroe": 1,
+    "Vanderburgh": 1,
+    "LaPorte": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Placopterus_thoracicus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

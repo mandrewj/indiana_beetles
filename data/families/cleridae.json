@@ -1,0 +1,25 @@
+{
+  "id": "cleridae",
+  "name": "Cleridae",
+  "common_name": "Checkered Beetles",
+  "authority": "",
+  "diagnosis": "Cleridae are a family of beetles of the superfamily Cleroidea. They are commonly known as checkered beetles. The family Cleridae has a worldwide distribution, and a variety of habitats and feeding preferences.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 55051,
+  "genus_notes": {
+    "enoclerus": "Enoclerus is a genus of beetles in the subfamily Clerinae.",
+    "placopterus": "Placopterus is a genus of checkered beetles in the family Cleridae.",
+    "priocera": "Priocera is a genus of beetles in the subfamily Clerinae.",
+    "cymatodera": "Cymatodera is a genus of checkered beetles in the family Cleridae.",
+    "chariessa": "Chariessa is a genus of checkered beetles in the family Cleridae.",
+    "necrobia": "Necrobia is a genus of beetles belonging to the family Cleridae.",
+    "neorthopleura": "Neorthopleura is a genus of checkered beetles in the family Cleridae.",
+    "madoniella": "Madoniella is a genus of checkered beetles in the family Cleridae.",
+    "trichodes": "Trichodes is a genus of checkered beetles belonging to the family Cleridae, subfamily Clerinae.",
+    "cregya": "Cregya is a genus of checkered beetles in the family Cleridae."
+  }
+}

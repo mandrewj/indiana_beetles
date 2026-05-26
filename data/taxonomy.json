@@ -7124,6 +7124,153 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cleridae",
+      "name": "Cleridae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 40,
+      "genera": [
+        {
+          "id": "chariessa",
+          "name": "Chariessa",
+          "species": [
+            {
+              "id": "chariessa_pilosa",
+              "name": "Chariessa pilosa",
+              "common_name": "Pilose Checkered Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cregya",
+          "name": "Cregya",
+          "species": [
+            {
+              "id": "cregya_oculata",
+              "name": "Cregya oculata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cymatodera",
+          "name": "Cymatodera",
+          "species": [
+            {
+              "id": "cymatodera_bicolor",
+              "name": "Cymatodera bicolor",
+              "common_name": "Bicolored Checkered Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cymatodera_inornata",
+              "name": "Cymatodera inornata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "cymatodera_undulata",
+              "name": "Cymatodera undulata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "enoclerus",
+          "name": "Enoclerus",
+          "species": [
+            {
+              "id": "enoclerus_ichneumoneus",
+              "name": "Enoclerus ichneumoneus",
+              "common_name": "Orange-banded Clerid",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "enoclerus_nigripes",
+              "name": "Enoclerus nigripes",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "enoclerus_rosmarus",
+              "name": "Enoclerus rosmarus",
+              "common_name": "Reddish Checkered Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "madoniella",
+          "name": "Madoniella",
+          "species": [
+            {
+              "id": "madoniella_dislocata",
+              "name": "Madoniella dislocata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "necrobia",
+          "name": "Necrobia",
+          "species": [
+            {
+              "id": "necrobia_rufipes",
+              "name": "Necrobia rufipes",
+              "common_name": "Red-legged Ham Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "neorthopleura",
+          "name": "Neorthopleura",
+          "species": [
+            {
+              "id": "neorthopleura_thoracica",
+              "name": "Neorthopleura thoracica",
+              "common_name": "Thoracic Checkered Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "placopterus",
+          "name": "Placopterus",
+          "species": [
+            {
+              "id": "placopterus_thoracicus",
+              "name": "Placopterus thoracicus",
+              "common_name": "Black and Red Checkered Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "priocera",
+          "name": "Priocera",
+          "species": [
+            {
+              "id": "priocera_castanea",
+              "name": "Priocera castanea",
+              "common_name": "Chestnut-colored Clerid",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trichodes",
+          "name": "Trichodes",
+          "species": [
+            {
+              "id": "trichodes_nuttalli",
+              "name": "Trichodes nuttalli",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

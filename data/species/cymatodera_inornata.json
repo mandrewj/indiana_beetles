@@ -1,0 +1,26 @@
+{
+  "id": "cymatodera_inornata",
+  "scientific_name": "Cymatodera inornata",
+  "family": "cleridae",
+  "genus": "cymatodera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8052066,
+  "inat_taxon_id": 218003,
+  "diagnosis": "Cymatodera inornata, the inornate checkered beetle, is a species of checkered beetle in the family Cleridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Madison"
+  ],
+  "county_record_counts": {
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cymatodera_inornata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

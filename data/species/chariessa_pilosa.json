@@ -1,0 +1,33 @@
+{
+  "id": "chariessa_pilosa",
+  "scientific_name": "Chariessa pilosa",
+  "common_name": "Pilose Checkered Beetle",
+  "family": "cleridae",
+  "genus": "chariessa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8032521,
+  "inat_taxon_id": 174380,
+  "diagnosis": "Chariessa pilosa is a species of checkered beetle in the family Cleridae. It is found in Europe &amp; Northern Asia (excluding China) and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Brown",
+    "Clark",
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Clark": 1,
+    "Porter": 1,
+    "Tippecanoe": 1,
+    "Brown": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chariessa_pilosa*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

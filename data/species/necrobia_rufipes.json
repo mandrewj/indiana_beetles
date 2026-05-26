@@ -1,0 +1,31 @@
+{
+  "id": "necrobia_rufipes",
+  "scientific_name": "Necrobia rufipes",
+  "common_name": "Red-legged Ham Beetle",
+  "family": "cleridae",
+  "genus": "necrobia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1161902,
+  "inat_taxon_id": 176817,
+  "diagnosis": "The red-legged ham beetle, Necrobia rufipes is a species of predatory beetle, in the family Cleridae, with a cosmopolitan distribution, first described by De Geer in 1775.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Madison",
+    "Newton",
+    "Porter"
+  ],
+  "county_record_counts": {
+    "Madison": 1,
+    "Porter": 1,
+    "Newton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Necrobia_rufipes*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

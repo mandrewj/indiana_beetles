@@ -1,0 +1,44 @@
+{
+  "id": "enoclerus_ichneumoneus",
+  "scientific_name": "Enoclerus ichneumoneus",
+  "common_name": "Orange-banded Clerid",
+  "family": "cleridae",
+  "genus": "enoclerus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1161904,
+  "inat_taxon_id": 132228,
+  "diagnosis": "Enoclerus ichneumoneus is a species of checkered beetle in the family Cleridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    6,
+    7,
+    11
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Clark",
+    "Knox",
+    "Miami",
+    "Orange",
+    "Perry",
+    "Wabash"
+  ],
+  "county_record_counts": {
+    "Knox": 1,
+    "Orange": 1,
+    "Perry": 1,
+    "Miami": 1,
+    "Wabash": 2,
+    "Clark": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Enoclerus_ichneumoneus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

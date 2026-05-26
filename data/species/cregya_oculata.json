@@ -1,0 +1,26 @@
+{
+  "id": "cregya_oculata",
+  "scientific_name": "Cregya oculata",
+  "family": "cleridae",
+  "genus": "cregya",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6947705,
+  "inat_taxon_id": 174148,
+  "diagnosis": "Cregya oculata is a species of checkered beetle in the family Cleridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Lake"
+  ],
+  "county_record_counts": {
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cregya_oculata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

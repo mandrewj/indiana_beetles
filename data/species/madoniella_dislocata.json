@@ -1,0 +1,36 @@
+{
+  "id": "madoniella_dislocata",
+  "scientific_name": "Madoniella dislocata",
+  "family": "cleridae",
+  "genus": "madoniella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7930338,
+  "inat_taxon_id": 455656,
+  "diagnosis": "Madoniella dislocata is a species of checkered beetle in the family Cleridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Lake",
+    "Madison"
+  ],
+  "county_record_counts": {
+    "Brown": 1,
+    "Lake": 1,
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Madoniella_dislocata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

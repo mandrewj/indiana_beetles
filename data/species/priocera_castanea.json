@@ -1,0 +1,46 @@
+{
+  "id": "priocera_castanea",
+  "scientific_name": "Priocera castanea",
+  "common_name": "Chestnut-colored Clerid",
+  "family": "cleridae",
+  "genus": "priocera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7401313,
+  "inat_taxon_id": 212035,
+  "diagnosis": "Priocera castanea is a species of checkered beetle in the family Cleridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Hamilton",
+    "Jennings",
+    "Monroe",
+    "Morgan",
+    "Noble",
+    "St. Joseph",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Noble": 2,
+    "Jennings": 1,
+    "Monroe": 1,
+    "Morgan": 1,
+    "Tippecanoe": 1,
+    "St. Joseph": 2,
+    "Hamilton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Priocera_castanea*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

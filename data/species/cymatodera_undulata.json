@@ -1,0 +1,35 @@
+{
+  "id": "cymatodera_undulata",
+  "scientific_name": "Cymatodera undulata",
+  "family": "cleridae",
+  "genus": "cymatodera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1161899,
+  "inat_taxon_id": 218004,
+  "diagnosis": "Cymatodera undulata, the undulate checkered beetle, is a species of checkered beetle in the family Cleridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8,
+    10
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Madison",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 2,
+    "Madison": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cymatodera_undulata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

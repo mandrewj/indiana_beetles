@@ -1,0 +1,63 @@
+{
+  "id": "enoclerus_rosmarus",
+  "scientific_name": "Enoclerus rosmarus",
+  "common_name": "Reddish Checkered Beetle",
+  "family": "cleridae",
+  "genus": "enoclerus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8279495,
+  "inat_taxon_id": 219188,
+  "diagnosis": "Enoclerus rosmarus is a species of checkered beetle in the family Cleridae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Allen",
+    "Boone",
+    "Grant",
+    "Hamilton",
+    "Lake",
+    "LaPorte",
+    "Lawrence",
+    "Madison",
+    "Marion",
+    "Newton",
+    "St. Joseph",
+    "Starke",
+    "Steuben",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Marion": 12,
+    "Steuben": 1,
+    "Boone": 3,
+    "Hamilton": 1,
+    "Allen": 5,
+    "Starke": 1,
+    "Vigo": 1,
+    "Tippecanoe": 1,
+    "Vanderburgh": 2,
+    "Lake": 2,
+    "Grant": 1,
+    "Madison": 2,
+    "LaPorte": 1,
+    "Lawrence": 1,
+    "Newton": 1,
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Enoclerus_rosmarus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

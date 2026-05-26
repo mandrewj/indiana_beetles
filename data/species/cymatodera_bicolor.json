@@ -1,0 +1,27 @@
+{
+  "id": "cymatodera_bicolor",
+  "scientific_name": "Cymatodera bicolor",
+  "common_name": "Bicolored Checkered Beetle",
+  "family": "cleridae",
+  "genus": "cymatodera",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7545010,
+  "inat_taxon_id": 218002,
+  "diagnosis": "Cymatodera bicolor is a species of checkered beetle in the family Cleridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [],
+  "phenology_peak": [],
+  "counties": [
+    "Grant"
+  ],
+  "county_record_counts": {
+    "Grant": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cymatodera_bicolor*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
