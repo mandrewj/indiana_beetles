@@ -1,0 +1,16 @@
+{
+  "id": "passalidae",
+  "name": "Passalidae",
+  "common_name": "Bess Beetles",
+  "authority": "",
+  "diagnosis": "Passalidae is a family of beetles known variously as \"bessbugs\", \"bess beetles\", \"betsy beetles\" or \"horned passalus beetles\". Nearly all of the 500-odd species are tropical; species found in North America are notable for their size, ranging from 20–43 mm, for having a single \"horn\" on the head, and for a form of social behavior unusual among beetles.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 84443,
+  "genus_notes": {
+    "odontotaenius": "Odontotaenius is a genus of bess beetles in the family Passalidae."
+  }
+}

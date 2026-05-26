@@ -7103,6 +7103,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "passalidae",
+      "name": "Passalidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 39,
+      "genera": [
+        {
+          "id": "odontotaenius",
+          "name": "Odontotaenius",
+          "species": [
+            {
+              "id": "odontotaenius_disjunctus",
+              "name": "Odontotaenius disjunctus",
+              "common_name": "Horned Passalus Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
