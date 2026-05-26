@@ -1,0 +1,33 @@
+{
+  "id": "mordellina_pustulata",
+  "scientific_name": "Mordellina pustulata",
+  "common_name": "Blistered Tumbling Flower Beetle",
+  "family": "mordellidae",
+  "genus": "mordellina",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4990380,
+  "inat_taxon_id": 225247,
+  "diagnosis": "Mordellina pustulata is a species of tumbling flower beetle in the family Mordellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Allen"
+  ],
+  "county_record_counts": {
+    "Allen": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mordellina_pustulata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

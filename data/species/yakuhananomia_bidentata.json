@@ -1,0 +1,39 @@
+{
+  "id": "yakuhananomia_bidentata",
+  "scientific_name": "Yakuhananomia bidentata",
+  "common_name": "Two-toothed Tumbling Flower Beetle",
+  "family": "mordellidae",
+  "genus": "yakuhananomia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046028,
+  "inat_taxon_id": 233901,
+  "diagnosis": "Yakuhananomia bidentata is a species of beetle in the family Mordellidae, which is in the genus Yakuhananomia. It was described in 1824 by Thomas Say.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    12
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    12
+  ],
+  "counties": [
+    "Allen",
+    "Marion",
+    "Switzerland"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Switzerland": 1,
+    "Allen": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Yakuhananomia_bidentata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

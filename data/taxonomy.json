@@ -6749,6 +6749,153 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mordellidae",
+      "name": "Mordellidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 34,
+      "genera": [
+        {
+          "id": "falsomordellistena",
+          "name": "Falsomordellistena",
+          "species": [
+            {
+              "id": "falsomordellistena_bihamata",
+              "name": "Falsomordellistena bihamata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "falsomordellistena_hebraica",
+              "name": "Falsomordellistena hebraica",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "glipa",
+          "name": "Glipa",
+          "species": [
+            {
+              "id": "glipa_hilaris",
+              "name": "Glipa hilaris",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "glipa_oculata",
+              "name": "Glipa oculata",
+              "common_name": "Eye-spotted Tumbling Flower Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "hoshihananomia",
+          "name": "Hoshihananomia",
+          "species": [
+            {
+              "id": "hoshihananomia_octopunctata",
+              "name": "Hoshihananomia octopunctata",
+              "common_name": "Eight-spotted Tumbling Flower Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "mordella",
+          "name": "Mordella",
+          "species": [
+            {
+              "id": "mordella_marginata",
+              "name": "Mordella marginata",
+              "common_name": "Tumbling Ragdoll",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "mordellina",
+          "name": "Mordellina",
+          "species": [
+            {
+              "id": "mordellina_pustulata",
+              "name": "Mordellina pustulata",
+              "common_name": "Blistered Tumbling Flower Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "mordellistena",
+          "name": "Mordellistena",
+          "species": [
+            {
+              "id": "mordellistena_cervicalis",
+              "name": "Mordellistena cervicalis",
+              "common_name": "Cervical Tumbling Flower Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "mordellistena_liturata",
+              "name": "Mordellistena liturata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "mordellistena_vera",
+              "name": "Mordellistena vera",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "mordellochroa",
+          "name": "Mordellochroa",
+          "species": [
+            {
+              "id": "mordellochroa_scapularis",
+              "name": "Mordellochroa scapularis",
+              "common_name": "Yellow-shouldered Tumbling Flower Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "paramordellaria",
+          "name": "Paramordellaria",
+          "species": [
+            {
+              "id": "paramordellaria_triloba",
+              "name": "Paramordellaria triloba",
+              "common_name": "Three-lobed Tumbling Flower Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "tolidomordella",
+          "name": "Tolidomordella",
+          "species": [
+            {
+              "id": "tolidomordella_discoidea",
+              "name": "Tolidomordella discoidea",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "yakuhananomia",
+          "name": "Yakuhananomia",
+          "species": [
+            {
+              "id": "yakuhananomia_bidentata",
+              "name": "Yakuhananomia bidentata",
+              "common_name": "Two-toothed Tumbling Flower Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "id": "paramordellaria_triloba",
+  "scientific_name": "Paramordellaria triloba",
+  "common_name": "Three-lobed Tumbling Flower Beetle",
+  "family": "mordellidae",
+  "genus": "paramordellaria",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045950,
+  "inat_taxon_id": 132231,
+  "diagnosis": "Paramordellaria triloba is a species of tumbling flower beetle in the family Mordellidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Brown",
+    "Elkhart",
+    "Hamilton",
+    "Marion",
+    "St. Joseph",
+    "Switzerland",
+    "White"
+  ],
+  "county_record_counts": {
+    "Brown": 1,
+    "Marion": 2,
+    "St. Joseph": 2,
+    "Hamilton": 2,
+    "Switzerland": 1,
+    "Elkhart": 2,
+    "White": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Paramordellaria_triloba*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

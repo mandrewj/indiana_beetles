@@ -1,0 +1,28 @@
+{
+  "id": "mordellistena_vera",
+  "scientific_name": "Mordellistena vera",
+  "family": "mordellidae",
+  "genus": "mordellistena",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046171,
+  "inat_taxon_id": 457041,
+  "diagnosis": "Mordellistena vera is a species of beetle in the genus Mordellistena of the family Mordellidae. It was described by Liljeblad in 1917.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mordellistena_vera*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

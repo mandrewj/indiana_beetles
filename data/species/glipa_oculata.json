@@ -1,0 +1,48 @@
+{
+  "id": "glipa_oculata",
+  "scientific_name": "Glipa oculata",
+  "common_name": "Eye-spotted Tumbling Flower Beetle",
+  "family": "mordellidae",
+  "genus": "glipa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046032,
+  "inat_taxon_id": 220402,
+  "diagnosis": "Glipa oculata is a species of beetle in the Glipa genus. It was described in 1835.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Boone",
+    "Fountain",
+    "Hamilton",
+    "Hendricks",
+    "Jennings",
+    "Lake",
+    "Marion",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Fountain": 1,
+    "Tippecanoe": 1,
+    "Jennings": 1,
+    "Lake": 1,
+    "Boone": 1,
+    "Hamilton": 2,
+    "Marion": 4,
+    "Hendricks": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Glipa_oculata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

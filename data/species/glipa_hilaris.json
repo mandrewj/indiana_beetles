@@ -1,0 +1,34 @@
+{
+  "id": "glipa_hilaris",
+  "scientific_name": "Glipa hilaris",
+  "family": "mordellidae",
+  "genus": "glipa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046033,
+  "inat_taxon_id": 494850,
+  "diagnosis": "Glipa hilaris is a species of beetle in the Glipa genus. It was described in 1835.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Dearborn",
+    "Hamilton",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Hamilton": 1,
+    "Vanderburgh": 1,
+    "Dearborn": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Glipa_hilaris*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

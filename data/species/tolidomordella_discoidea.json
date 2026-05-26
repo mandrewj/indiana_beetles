@@ -1,0 +1,28 @@
+{
+  "id": "tolidomordella_discoidea",
+  "scientific_name": "Tolidomordella discoidea",
+  "family": "mordellidae",
+  "genus": "tolidomordella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046054,
+  "inat_taxon_id": 457046,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Lake"
+  ],
+  "county_record_counts": {
+    "Lake": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

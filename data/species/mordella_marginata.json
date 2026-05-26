@@ -1,0 +1,48 @@
+{
+  "id": "mordella_marginata",
+  "scientific_name": "Mordella marginata",
+  "common_name": "Tumbling Ragdoll",
+  "family": "mordellidae",
+  "genus": "mordella",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1046015,
+  "inat_taxon_id": 225244,
+  "diagnosis": "Mordella marginata is a species of Mordellidae that occurs in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Newton",
+    "Porter",
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Marion": 2,
+    "Monroe": 1,
+    "Newton": 2,
+    "Porter": 2,
+    "Starke": 2,
+    "Allen": 1,
+    "Madison": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mordella_marginata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

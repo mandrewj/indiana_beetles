@@ -1,0 +1,55 @@
+{
+  "id": "hoshihananomia_octopunctata",
+  "scientific_name": "Hoshihananomia octopunctata",
+  "common_name": "Eight-spotted Tumbling Flower Beetle",
+  "family": "mordellidae",
+  "genus": "hoshihananomia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045953,
+  "inat_taxon_id": 371074,
+  "diagnosis": "Hoshihananomia octopunctata is a species of beetle in the Hoshihananomia genus that is in the Mordellidae family, which is a part of the Tenebrionoidea superfamily. It was discovered in 1775.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    6,
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Bartholomew",
+    "Brown",
+    "Clay",
+    "Johnson",
+    "Marion",
+    "Montgomery",
+    "Newton",
+    "Porter",
+    "Starke",
+    "Vigo"
+  ],
+  "county_record_counts": {
+    "Starke": 4,
+    "Marion": 6,
+    "Clay": 1,
+    "Newton": 1,
+    "Montgomery": 1,
+    "Bartholomew": 1,
+    "Brown": 1,
+    "Allen": 1,
+    "Porter": 1,
+    "Johnson": 1,
+    "Vigo": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hoshihananomia_octopunctata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
