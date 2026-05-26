@@ -1,0 +1,34 @@
+{
+  "id": "macrosiagon_pectinata",
+  "scientific_name": "Macrosiagon pectinata",
+  "family": "ripiphoridae",
+  "genus": "macrosiagon",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6956115,
+  "inat_taxon_id": 224344,
+  "diagnosis": "Macrosiagon pectinata is a species of wedge-shaped beetle in the family Ripiphoridae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Boone",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Boone": 1,
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Macrosiagon_pectinata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

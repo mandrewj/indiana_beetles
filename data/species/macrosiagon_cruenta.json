@@ -1,0 +1,32 @@
+{
+  "id": "macrosiagon_cruenta",
+  "scientific_name": "Macrosiagon cruenta",
+  "family": "ripiphoridae",
+  "genus": "macrosiagon",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 512264,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    9
+  ],
+  "counties": [
+    "Dubois",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1,
+    "Dubois": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

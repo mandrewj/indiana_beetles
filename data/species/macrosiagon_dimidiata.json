@@ -1,0 +1,38 @@
+{
+  "id": "macrosiagon_dimidiata",
+  "scientific_name": "Macrosiagon dimidiata",
+  "family": "ripiphoridae",
+  "genus": "macrosiagon",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6956120,
+  "inat_taxon_id": 474639,
+  "diagnosis": "Macrosiagon dimidiata is a species of wedge-shaped beetle in the family Ripiphoridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Knox",
+    "Newton",
+    "Starke",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Knox": 1,
+    "Vanderburgh": 1,
+    "Newton": 1,
+    "Starke": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Macrosiagon_dimidiata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

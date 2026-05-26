@@ -7340,6 +7340,47 @@
       "authority": "",
       "sort_index": 42,
       "genera": []
+    },
+    {
+      "id": "ripiphoridae",
+      "name": "Ripiphoridae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 43,
+      "genera": [
+        {
+          "id": "macrosiagon",
+          "name": "Macrosiagon",
+          "species": [
+            {
+              "id": "macrosiagon_cruenta",
+              "name": "Macrosiagon cruenta",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "macrosiagon_dimidiata",
+              "name": "Macrosiagon dimidiata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "macrosiagon_limbata",
+              "name": "Macrosiagon limbata",
+              "common_name": "Bordered Wedge-shaped Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "macrosiagon_pectinata",
+              "name": "Macrosiagon pectinata",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "macrosiagon_sayi",
+              "name": "Macrosiagon sayi",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

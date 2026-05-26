@@ -1,0 +1,30 @@
+{
+  "id": "macrosiagon_sayi",
+  "scientific_name": "Macrosiagon sayi",
+  "family": "ripiphoridae",
+  "genus": "macrosiagon",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 6956101,
+  "inat_taxon_id": 505656,
+  "diagnosis": "Macrosiagon sayi is a species of wedge-shaped beetle in the family Ripiphoridae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Starke"
+  ],
+  "county_record_counts": {
+    "Starke": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Macrosiagon_sayi*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
