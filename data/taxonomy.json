@@ -6442,6 +6442,206 @@
           ]
         }
       ]
+    },
+    {
+      "id": "nitidulidae",
+      "name": "Nitidulidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 29,
+      "genera": [
+        {
+          "id": "aethina",
+          "name": "Aethina",
+          "species": [
+            {
+              "id": "aethina_tumida",
+              "name": "Aethina tumida",
+              "common_name": "Small Hive Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "amphicrossus",
+          "name": "Amphicrossus",
+          "species": [
+            {
+              "id": "amphicrossus_ciliatus",
+              "name": "Amphicrossus ciliatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "brassicogethes",
+          "name": "Brassicogethes",
+          "species": [
+            {
+              "id": "brassicogethes_aeneus",
+              "name": "Brassicogethes aeneus",
+              "common_name": "Common Pollen Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "caplothorax",
+          "name": "Caplothorax",
+          "species": [
+            {
+              "id": "caplothorax_lugubris",
+              "name": "Caplothorax lugubris",
+              "common_name": "Dusky Sap Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "caplothorax_melanopterus",
+              "name": "Caplothorax melanopterus",
+              "common_name": "Yucca Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "carpophilus",
+          "name": "Carpophilus",
+          "species": [
+            {
+              "id": "carpophilus_antiquus",
+              "name": "Carpophilus antiquus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "carpophilus_hemipterus",
+              "name": "Carpophilus hemipterus",
+              "common_name": "Dried Fruit Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "conotelus",
+          "name": "Conotelus",
+          "species": [
+            {
+              "id": "conotelus_obscurus",
+              "name": "Conotelus obscurus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "cryptarcha",
+          "name": "Cryptarcha",
+          "species": [
+            {
+              "id": "cryptarcha_ampla",
+              "name": "Cryptarcha ampla",
+              "common_name": "Ample Sap Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "epuraea",
+          "name": "Epuraea",
+          "species": [
+            {
+              "id": "epuraea_rufa",
+              "name": "Epuraea rufa",
+              "common_name": "Rufous Sap Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "glischrochilus",
+          "name": "Glischrochilus",
+          "species": [
+            {
+              "id": "glischrochilus_fasciatus",
+              "name": "Glischrochilus fasciatus",
+              "common_name": "Picnic Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "glischrochilus_quadrisignatus",
+              "name": "Glischrochilus quadrisignatus",
+              "common_name": "Four-spotted Sap Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "glischrochilus_sanguinolentus",
+              "name": "Glischrochilus sanguinolentus",
+              "common_name": "Bloody Sap Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "lobiopa",
+          "name": "Lobiopa",
+          "species": [
+            {
+              "id": "lobiopa_undulata",
+              "name": "Lobiopa undulata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "nitidula",
+          "name": "Nitidula",
+          "species": [
+            {
+              "id": "nitidula_flavomaculata",
+              "name": "Nitidula flavomaculata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "phenolia",
+          "name": "Phenolia",
+          "species": [
+            {
+              "id": "phenolia_grossa",
+              "name": "Phenolia grossa",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "prometopia",
+          "name": "Prometopia",
+          "species": [
+            {
+              "id": "prometopia_sexmaculata",
+              "name": "Prometopia sexmaculata",
+              "common_name": "Six-spotted Sap Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "stelidota",
+          "name": "Stelidota",
+          "species": [
+            {
+              "id": "stelidota_geminata",
+              "name": "Stelidota geminata",
+              "common_name": "Strawberry Sap Beetle",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "stelidota_octomaculata",
+              "name": "Stelidota octomaculata",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

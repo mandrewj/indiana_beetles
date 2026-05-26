@@ -1,0 +1,41 @@
+{
+  "id": "aethina_tumida",
+  "scientific_name": "Aethina tumida",
+  "common_name": "Small Hive Beetle",
+  "family": "nitidulidae",
+  "genus": "aethina",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8254044,
+  "inat_taxon_id": 457066,
+  "diagnosis": "The small hive beetle (Aethina tumida) is a beekeeping pest. It is endemic to sub-Saharan Africa, but has spread to many other locations, including North America, Australia, and the Philippines.",
+  "body_size_mm": "5–7",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    12
+  ],
+  "phenology_peak": [
+    4,
+    7,
+    8
+  ],
+  "counties": [
+    "Marion",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Marion": 7,
+    "Tippecanoe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Aethina_tumida*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

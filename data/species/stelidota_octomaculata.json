@@ -1,0 +1,32 @@
+{
+  "id": "stelidota_octomaculata",
+  "scientific_name": "Stelidota octomaculata",
+  "family": "nitidulidae",
+  "genus": "stelidota",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8284078,
+  "inat_taxon_id": 231504,
+  "diagnosis": "Stelidota octomaculata is a species of sap-feeding beetle in the family Nitidulidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    7
+  ],
+  "phenology_peak": [
+    5,
+    7
+  ],
+  "counties": [
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Marion": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stelidota_octomaculata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

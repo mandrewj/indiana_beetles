@@ -1,0 +1,34 @@
+{
+  "id": "carpophilus_antiquus",
+  "scientific_name": "Carpophilus antiquus",
+  "family": "nitidulidae",
+  "genus": "carpophilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8247128,
+  "inat_taxon_id": 457074,
+  "diagnosis": "Carpophilus antiquus is a species of sap-feeding beetle in the family Nitidulidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    5
+  ],
+  "phenology_peak": [
+    3,
+    5
+  ],
+  "counties": [
+    "Boone",
+    "Hendricks"
+  ],
+  "county_record_counts": {
+    "Hendricks": 1,
+    "Boone": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Carpophilus_antiquus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

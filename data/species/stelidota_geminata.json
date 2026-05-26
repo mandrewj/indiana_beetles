@@ -1,0 +1,47 @@
+{
+  "id": "stelidota_geminata",
+  "scientific_name": "Stelidota geminata",
+  "common_name": "Strawberry Sap Beetle",
+  "family": "nitidulidae",
+  "genus": "stelidota",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1043978,
+  "inat_taxon_id": 231503,
+  "diagnosis": "Stelidota geminata, the strawberry sap beetle, is a species of sap-feeding beetle in the family Nitidulidae. It is found in Central America, North America, Oceania, and South America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    9
+  ],
+  "counties": [
+    "Allen",
+    "DeKalb",
+    "Grant",
+    "Lake",
+    "Marion",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "Tippecanoe": 1,
+    "Marion": 2,
+    "DeKalb": 1,
+    "Grant": 1,
+    "Lake": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stelidota_geminata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

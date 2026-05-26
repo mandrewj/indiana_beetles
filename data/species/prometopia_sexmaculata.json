@@ -1,0 +1,35 @@
+{
+  "id": "prometopia_sexmaculata",
+  "scientific_name": "Prometopia sexmaculata",
+  "common_name": "Six-spotted Sap Beetle",
+  "family": "nitidulidae",
+  "genus": "prometopia",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 7792916,
+  "inat_taxon_id": 212003,
+  "diagnosis": "Prometopia sexmaculata is a species of sap-feeding beetle in the family Nitidulidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    11,
+    12
+  ],
+  "phenology_peak": [
+    5,
+    11,
+    12
+  ],
+  "counties": [
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Monroe": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Prometopia_sexmaculata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

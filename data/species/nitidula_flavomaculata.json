@@ -1,0 +1,30 @@
+{
+  "id": "nitidula_flavomaculata",
+  "scientific_name": "Nitidula flavomaculata",
+  "family": "nitidulidae",
+  "genus": "nitidula",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8251411,
+  "inat_taxon_id": 326504,
+  "diagnosis": "Nitidula flavomaculata is a species of sap-feeding beetle in the family Nitidulidae. It is found in Africa, Europe &amp; Northern Asia (excluding China), and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3
+  ],
+  "phenology_peak": [
+    3
+  ],
+  "counties": [
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Monroe": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Nitidula_flavomaculata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

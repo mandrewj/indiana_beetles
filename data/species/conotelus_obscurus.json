@@ -1,0 +1,28 @@
+{
+  "id": "conotelus_obscurus",
+  "scientific_name": "Conotelus obscurus",
+  "family": "nitidulidae",
+  "genus": "conotelus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1044045,
+  "inat_taxon_id": 217510,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Conotelus_obscurus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

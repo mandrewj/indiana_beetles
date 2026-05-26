@@ -1,0 +1,32 @@
+{
+  "id": "brassicogethes_aeneus",
+  "scientific_name": "Brassicogethes aeneus",
+  "common_name": "Common Pollen Beetle",
+  "family": "nitidulidae",
+  "genus": "brassicogethes",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4452928,
+  "inat_taxon_id": 765642,
+  "diagnosis": "...",
+  "body_size_mm": "2–3",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    4,
+    7,
+    9
+  ],
+  "phenology_peak": [
+    3,
+    4
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Brassicogethes_aeneus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

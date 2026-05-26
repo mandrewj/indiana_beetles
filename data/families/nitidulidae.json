@@ -1,0 +1,29 @@
+{
+  "id": "nitidulidae",
+  "name": "Nitidulidae",
+  "common_name": "Sap-feeding Beetles",
+  "authority": "",
+  "diagnosis": "The sap beetles are a family (Nitidulidae) of beetles.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 126791,
+  "genus_notes": {
+    "glischrochilus": "Glischrochilus (sometimes misspelled as Glisrochilus) is a genus of sap-feeding and predatory beetles under the family Nitidulidae, subfamily Cryptarchinae.",
+    "aethina": "Aethina is a genus of beetles belonging to the family Nitidulidae.",
+    "stelidota": "Stelidota is a genus of sap-feeding beetles in the family Nitidulidae.",
+    "epuraea": "Epuraea is a genus of sap-feeding beetles in the family Nitidulidae.",
+    "brassicogethes": "Brassicogethes is a genus of pollen beetles in the family Nitidulidae.",
+    "amphicrossus": "Amphicrossus is a genus of sap-feeding beetles in the family Nitidulidae.",
+    "carpophilus": "Carpophilus is a genus of sap beetles.",
+    "cryptarcha": "Cryptarcha is a genus of sap beetles, insects in the family Nitidulidae.",
+    "lobiopa": "...",
+    "prometopia": "...",
+    "conotelus": "...",
+    "phenolia": "Phenolia is a genus of sap-feeding beetles in the family Nitidulidae.",
+    "nitidula": "Nitidula is a genus of sap-feeding beetles in the family Nitidulidae.",
+    "caplothorax": "Caplothorax is a genus of sap beetles."
+  }
+}

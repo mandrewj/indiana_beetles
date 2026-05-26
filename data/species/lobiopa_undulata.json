@@ -1,0 +1,32 @@
+{
+  "id": "lobiopa_undulata",
+  "scientific_name": "Lobiopa undulata",
+  "family": "nitidulidae",
+  "genus": "lobiopa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8134553,
+  "inat_taxon_id": 177284,
+  "diagnosis": "Lobiopa undulata is a species of sap-feeding beetle in the family Nitidulidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    7
+  ],
+  "phenology_peak": [
+    4,
+    7
+  ],
+  "counties": [
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "St. Joseph": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lobiopa_undulata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "caplothorax_lugubris",
+  "scientific_name": "Caplothorax lugubris",
+  "common_name": "Dusky Sap Beetle",
+  "family": "nitidulidae",
+  "genus": "caplothorax",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 1281051,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    7
+  ],
+  "phenology_peak": [
+    4,
+    7
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

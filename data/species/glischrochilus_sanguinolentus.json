@@ -1,0 +1,40 @@
+{
+  "id": "glischrochilus_sanguinolentus",
+  "scientific_name": "Glischrochilus sanguinolentus",
+  "common_name": "Bloody Sap Beetle",
+  "family": "nitidulidae",
+  "genus": "glischrochilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 8383738,
+  "inat_taxon_id": 220405,
+  "diagnosis": "Glischrochilus sanguinolentus is a species of sap-feeding beetle in the family Nitidulidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6
+  ],
+  "phenology_peak": [
+    4,
+    5
+  ],
+  "counties": [
+    "Allen",
+    "Hamilton",
+    "Johnson",
+    "Vanderburgh"
+  ],
+  "county_record_counts": {
+    "Hamilton": 2,
+    "Johnson": 1,
+    "Allen": 1,
+    "Vanderburgh": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Glischrochilus_sanguinolentus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

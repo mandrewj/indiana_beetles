@@ -1,0 +1,37 @@
+{
+  "id": "carpophilus_hemipterus",
+  "scientific_name": "Carpophilus hemipterus",
+  "common_name": "Dried Fruit Beetle",
+  "family": "nitidulidae",
+  "genus": "carpophilus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1044111,
+  "inat_taxon_id": 216143,
+  "diagnosis": "Carpophilus hemipterus, the dried-fruit beetle, is a species of sap-feeding beetle in the family Nitidulidae. It is found in North America and Oceania.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8,
+    9
+  ],
+  "phenology_peak": [
+    7,
+    8,
+    9
+  ],
+  "counties": [
+    "DeKalb",
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Monroe": 1,
+    "DeKalb": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Carpophilus_hemipterus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

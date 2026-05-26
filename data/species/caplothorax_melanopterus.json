@@ -1,0 +1,29 @@
+{
+  "id": "caplothorax_melanopterus",
+  "scientific_name": "Caplothorax melanopterus",
+  "common_name": "Yucca Beetle",
+  "family": "nitidulidae",
+  "genus": "caplothorax",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 1281052,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6
+  ],
+  "phenology_peak": [
+    6
+  ],
+  "counties": [
+    "Hendricks"
+  ],
+  "county_record_counts": {
+    "Hendricks": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}
