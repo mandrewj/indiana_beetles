@@ -15,6 +15,36 @@
 - **County resolution.** Most iNat `place_guess` strings don't include "Co." — point-in-polygon against the bundled Indiana TopoJSON (`lib/county-resolver.ts`) is the authoritative path. Used as a fallback in both `lib/inaturalist.ts` and `lib/gbif.ts`.
 - **iNat ↔ GBIF dedup.** iNaturalist research-grade observations are mirrored into GBIF as dataset `50c9509d-22c7-4a22-a47d-8c48425ef4a7`. `lib/gbif.ts` filters them out so the distribution aggregator + records table don't double-count — the iNat side serves those records directly with richer metadata.
 
+## Admin editor tools beyond Decap
+
+Three editor surfaces live in this project, all gated by the same `gh_session` cookie set by `/api/callback`:
+
+- **Decap CMS at `/admin/`** — vanilla form editor with our custom widgets in `public/admin/widgets.js`.
+- **`/admin/discover`** — surfaces iNat-observed Indiana species not yet in `taxonomy.json`. Per-family staging panel (cap 30), single atomic commit per batch. Stage-time API calls populate counties + phenology + iNat default photo + GBIF authority/key.
+- **`/admin/refresh`** — re-snapshot live data + re-verify taxon IDs on existing species. Same staging panel + commit endpoint. **Touches only external-data fields** (counties, `county_record_counts`, IDs, `last_refreshed`). Manual fields (diagnosis, body_size_mm, diagnostic_characters, images, references) are preserved.
+
+Both Discover/Refresh write through `app/api/github/commit/route.ts`, which uses GitHub's Git Data API (blobs → tree → commit → ref) for atomic multi-file commits. Cookie + commit-endpoint code in `lib/auth.ts` + `lib/github-commit.ts`. Stage cap is 30 species per batch (tuned in `STAGE_LIMIT`); going higher risks brushing iNat's 100 req/min.
+
+## Bulk operations from the CLI
+
+For large data acquisition (more than ~30 species at once), use `scripts/bulk-import.ts`:
+
+```bash
+npm run bulk:import -- <family-id> [more…]
+npm run bulk:import -- all              # the canonical first-wave families
+npm run bulk:import -- carabidae --dry-run
+npm run bulk:import -- meloidae --no-commit  # writes JSON, skips git
+```
+
+Per family it: ensures the family JSON exists, fills `diagnosis` from Wikipedia if empty, queries iNat species_counts (place_id=20, count >= 2), filters out species marked `last_refreshed`, enriches each new species, writes the species JSON + updates `taxonomy.json` (auto-creating genus stubs), and commits per-family with `git add -A`.
+
+**Two important gotchas:**
+
+- **`git add -A` race**: the script sweeps the whole working tree into each per-family commit. Don't edit source files while it's running — your edits will land under a "Bulk import: Foo — N species" commit message instead of standing on their own. Either pause your edits until completion, or accept the mislabeled history.
+- **Per-family try/catch**: if a single family fails mid-run (e.g. transient `fetch failed`), the script logs the error and continues to the next family. The half-written species JSONs land in the next family's `git add -A` commit, but the failed family's `taxonomy.json` entry is missing. Re-run just that family to repair (`npm run bulk:import -- <id>` — the existing species JSONs are detected and skipped, then properly registered in the taxonomy).
+
+`scripts/` is excluded from the Next.js `tsconfig.json` so script-level TypeScript bugs don't gate the production build. Still keep the scripts well-typed for `tsx` runs.
+
 ## Decap quirks worth knowing
 
 - Custom widgets must register **before** `CMS.init()` runs. We use `window.CMS_MANUAL_INIT = true` in `public/admin/index.html` so `widgets.js` can register before validation. Don't change that pattern lightly.
