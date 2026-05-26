@@ -6896,6 +6896,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "synchroidae",
+      "name": "Synchroidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 35,
+      "genera": [
+        {
+          "id": "synchroa",
+          "name": "Synchroa",
+          "species": [
+            {
+              "id": "synchroa_punctata",
+              "name": "Synchroa punctata",
+              "common_name": "Punctate Synchronized Bark Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "id": "synchroa_punctata",
+  "scientific_name": "Synchroa punctata",
+  "common_name": "Punctate Synchronized Bark Beetle",
+  "family": "synchroidae",
+  "genus": "synchroa",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1045153,
+  "inat_taxon_id": 232133,
+  "diagnosis": "Synchroa punctata is a beetle of the family Synchroidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    12
+  ],
+  "phenology_peak": [
+    6,
+    7,
+    8
+  ],
+  "counties": [
+    "Allen",
+    "Delaware",
+    "Hamilton",
+    "Jennings",
+    "Lake",
+    "Marion",
+    "Monroe",
+    "Morgan",
+    "St. Joseph",
+    "Vanderburgh",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Marion": 1,
+    "Vanderburgh": 1,
+    "Allen": 2,
+    "Delaware": 1,
+    "Monroe": 5,
+    "Jennings": 2,
+    "Wayne": 2,
+    "St. Joseph": 6,
+    "Hamilton": 1,
+    "Lake": 2,
+    "Morgan": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/Synchroa_punctata*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

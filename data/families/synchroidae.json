@@ -1,0 +1,16 @@
+{
+  "id": "synchroidae",
+  "name": "Synchroidae",
+  "common_name": "Synchroa Bark Beetles",
+  "authority": "",
+  "diagnosis": "The Synchroidae are a small family of beetles with no vernacular common name, though recent authors have coined the name synchroa bark beetles. The family consists of three genera, Mallodrya, Synchroa, and Synchroina, with a total of five species.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 212152,
+  "genus_notes": {
+    "synchroa": "Synchroa is a genus of synchroa bark beetles in the family Synchroidae."
+  }
+}
