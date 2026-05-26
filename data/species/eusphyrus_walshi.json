@@ -1,0 +1,36 @@
+{
+  "id": "eusphyrus_walshi",
+  "scientific_name": "Eusphyrus walshi",
+  "family": "anthribidae",
+  "genus": "eusphyrus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 553353,
+  "diagnosis": "Eusphyrus walshi is a species of fungus weevil in the beetle family Anthribidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    6
+  ],
+  "phenology_peak": [
+    5,
+    6
+  ],
+  "counties": [
+    "Jennings",
+    "Lake",
+    "Marion"
+  ],
+  "county_record_counts": {
+    "Jennings": 1,
+    "Marion": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Eusphyrus_walshi*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

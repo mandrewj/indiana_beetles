@@ -1,0 +1,65 @@
+{
+  "id": "euparius_marmoreus",
+  "scientific_name": "Euparius marmoreus",
+  "common_name": "Marbled Fungus Weevil",
+  "family": "anthribidae",
+  "genus": "euparius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1166071,
+  "inat_taxon_id": 219767,
+  "diagnosis": "Euparius marmoreus is a species of fungus weevil in the family of beetles known as Anthribidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Boone",
+    "Brown",
+    "Grant",
+    "Hendricks",
+    "Madison",
+    "Marion",
+    "Monroe",
+    "Montgomery",
+    "Morgan",
+    "Orange",
+    "Porter",
+    "Tippecanoe",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Porter": 1,
+    "Monroe": 4,
+    "Marion": 5,
+    "Brown": 6,
+    "Wayne": 1,
+    "Morgan": 5,
+    "Tippecanoe": 2,
+    "Boone": 1,
+    "Hendricks": 2,
+    "Grant": 1,
+    "Montgomery": 1,
+    "Madison": 1,
+    "Orange": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euparius_marmoreus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

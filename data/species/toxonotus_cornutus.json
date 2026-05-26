@@ -1,0 +1,36 @@
+{
+  "id": "toxonotus_cornutus",
+  "scientific_name": "Toxonotus cornutus",
+  "common_name": "Oval-patched Fungus Weevil",
+  "family": "anthribidae",
+  "genus": "toxonotus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4290758,
+  "inat_taxon_id": 357163,
+  "diagnosis": "...",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    10
+  ],
+  "phenology_peak": [
+    4
+  ],
+  "counties": [
+    "Monroe",
+    "Posey",
+    "Warren"
+  ],
+  "county_record_counts": {
+    "Warren": 1,
+    "Posey": 1,
+    "Monroe": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Toxonotus_cornutus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

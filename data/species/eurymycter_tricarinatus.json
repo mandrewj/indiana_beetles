@@ -1,0 +1,34 @@
+{
+  "id": "eurymycter_tricarinatus",
+  "scientific_name": "Eurymycter tricarinatus",
+  "family": "anthribidae",
+  "genus": "eurymycter",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4290748,
+  "inat_taxon_id": 455123,
+  "diagnosis": "Eurymycter tricarinatus is a species of fungus weevil in the beetle family Anthribidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    5,
+    7,
+    8
+  ],
+  "phenology_peak": [
+    5,
+    7,
+    8
+  ],
+  "counties": [
+    "Monroe"
+  ],
+  "county_record_counts": {
+    "Monroe": 2
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Eurymycter_tricarinatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

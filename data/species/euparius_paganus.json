@@ -1,0 +1,36 @@
+{
+  "id": "euparius_paganus",
+  "scientific_name": "Euparius paganus",
+  "common_name": "Rustic Fungus Weevil",
+  "family": "anthribidae",
+  "genus": "euparius",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1166027,
+  "inat_taxon_id": 455121,
+  "diagnosis": "Euparius paganus is a species of fungus weevils in the family Anthribidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [
+    "Allen",
+    "Lake",
+    "St. Joseph"
+  ],
+  "county_record_counts": {
+    "Allen": 2,
+    "St. Joseph": 1,
+    "Lake": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euparius_paganus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

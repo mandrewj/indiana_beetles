@@ -1,0 +1,28 @@
+{
+  "id": "piesocorynus_mixtus",
+  "scientific_name": "Piesocorynus mixtus",
+  "family": "anthribidae",
+  "genus": "piesocorynus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4290747,
+  "inat_taxon_id": 563316,
+  "diagnosis": "Piesocorynus mixtus is a species of fungus weevil in the beetle family Anthribidae. It is found in North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    6,
+    10
+  ],
+  "phenology_peak": [
+    6,
+    10
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Piesocorynus_mixtus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

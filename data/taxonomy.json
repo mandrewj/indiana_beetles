@@ -6354,6 +6354,94 @@
           ]
         }
       ]
+    },
+    {
+      "id": "anthribidae",
+      "name": "Anthribidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 28,
+      "genera": [
+        {
+          "id": "anthribus",
+          "name": "Anthribus",
+          "species": [
+            {
+              "id": "anthribus_nebulosus",
+              "name": "Anthribus nebulosus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "euparius",
+          "name": "Euparius",
+          "species": [
+            {
+              "id": "euparius_marmoreus",
+              "name": "Euparius marmoreus",
+              "common_name": "Marbled Fungus Weevil",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "euparius_paganus",
+              "name": "Euparius paganus",
+              "common_name": "Rustic Fungus Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "eurymycter",
+          "name": "Eurymycter",
+          "species": [
+            {
+              "id": "eurymycter_tricarinatus",
+              "name": "Eurymycter tricarinatus",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "eusphyrus",
+          "name": "Eusphyrus",
+          "species": [
+            {
+              "id": "eusphyrus_walshi",
+              "name": "Eusphyrus walshi",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "piesocorynus",
+          "name": "Piesocorynus",
+          "species": [
+            {
+              "id": "piesocorynus_mixtus",
+              "name": "Piesocorynus mixtus",
+              "indiana_status": "confirmed"
+            },
+            {
+              "id": "piesocorynus_plagifer",
+              "name": "Piesocorynus plagifer",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "toxonotus",
+          "name": "Toxonotus",
+          "species": [
+            {
+              "id": "toxonotus_cornutus",
+              "name": "Toxonotus cornutus",
+              "common_name": "Oval-patched Fungus Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
