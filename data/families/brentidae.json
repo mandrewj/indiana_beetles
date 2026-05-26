@@ -1,0 +1,18 @@
+{
+  "id": "brentidae",
+  "name": "Brentidae",
+  "common_name": "Straight-snouted Weevils",
+  "authority": "",
+  "diagnosis": "Brentidae is a cosmopolitan family of primarily xylophagous beetles also known as straight-snouted weevils. The concept of this family has been recently expanded with the inclusion of three groups formerly placed in the Curculionidae; the subfamilies Apioninae, Cyladinae, and Nanophyinae, as well as the Ithycerinae, previously considered a separate family. They are most diverse in the tropics, but occur throughout the temperate regions of the world.",
+  "species_count": 0,
+  "genus_count": 0,
+  "confirmed_count": null,
+  "historical_count": null,
+  "adventive_count": null,
+  "inat_taxon_id": 61949,
+  "genus_notes": {
+    "arrenodes": "Arrenodes is a genus of primitive weevils belonging to the family Brentidae, containing a single described species, Arrenodes minutus, commonly known as the oak timberworm.",
+    "trichapion": "Trichapion is a genus of weevil in the family Brentidae.",
+    "ithycerus": "The New York weevil (Ithycerus noveboracensis) is a species of primitive weevil; large for weevils (12–18 mm), it is covered with fine bristles and has a regular pattern of light and dark spots."
+  }
+}

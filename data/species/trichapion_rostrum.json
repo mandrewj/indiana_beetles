@@ -1,0 +1,37 @@
+{
+  "id": "trichapion_rostrum",
+  "scientific_name": "Trichapion rostrum",
+  "common_name": "Baptisia Seed Pod Weevil",
+  "family": "brentidae",
+  "genus": "trichapion",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": null,
+  "inat_taxon_id": 232869,
+  "diagnosis": "Trichapion rostrum, the baptisia seed pod weevil or wild indigo weevil, is a species of weevil in the family Brentidae.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "phenology_peak": [
+    7,
+    8
+  ],
+  "counties": [
+    "Johnson",
+    "Newton"
+  ],
+  "county_record_counts": {
+    "Johnson": 1,
+    "Newton": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trichapion_rostrum*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

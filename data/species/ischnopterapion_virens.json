@@ -1,0 +1,30 @@
+{
+  "id": "ischnopterapion_virens",
+  "scientific_name": "Ischnopterapion virens",
+  "common_name": "White Clover Weevil",
+  "family": "brentidae",
+  "genus": "ischnopterapion",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4463290,
+  "inat_taxon_id": 366565,
+  "diagnosis": "",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    2,
+    3,
+    6,
+    8,
+    10
+  ],
+  "phenology_peak": [
+    2,
+    10
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [],
+  "last_refreshed": "2026-05-26"
+}

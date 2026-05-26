@@ -6285,6 +6285,75 @@
           ]
         }
       ]
+    },
+    {
+      "id": "brentidae",
+      "name": "Brentidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 27,
+      "genera": [
+        {
+          "id": "arrenodes",
+          "name": "Arrenodes",
+          "species": [
+            {
+              "id": "arrenodes_minutus",
+              "name": "Arrenodes minutus",
+              "common_name": "Oak Timberworm",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ischnopterapion",
+          "name": "Ischnopterapion",
+          "species": [
+            {
+              "id": "ischnopterapion_virens",
+              "name": "Ischnopterapion virens",
+              "common_name": "White Clover Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "ithycerus",
+          "name": "Ithycerus",
+          "species": [
+            {
+              "id": "ithycerus_noveboracensis",
+              "name": "Ithycerus noveboracensis",
+              "common_name": "New York Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "rhopalapion",
+          "name": "Rhopalapion",
+          "species": [
+            {
+              "id": "rhopalapion_longirostre",
+              "name": "Rhopalapion longirostre",
+              "common_name": "Hollyhock Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "trichapion",
+          "name": "Trichapion",
+          "species": [
+            {
+              "id": "trichapion_rostrum",
+              "name": "Trichapion rostrum",
+              "common_name": "Baptisia Seed Pod Weevil",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

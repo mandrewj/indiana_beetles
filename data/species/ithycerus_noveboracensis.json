@@ -1,0 +1,41 @@
+{
+  "id": "ithycerus_noveboracensis",
+  "scientific_name": "Ithycerus noveboracensis",
+  "common_name": "New York Weevil",
+  "family": "brentidae",
+  "genus": "ithycerus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 4292446,
+  "inat_taxon_id": 222451,
+  "diagnosis": "The New York weevil (Ithycerus noveboracensis) is a species of primitive weevil; large for weevils (12–18 mm), it is covered with fine bristles and has a regular pattern of light and dark spots. It occurs in the eastern United States and southern Canada.",
+  "body_size_mm": "12–18",
+  "diagnostic_characters": [],
+  "phenology": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "phenology_peak": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "counties": [
+    "Jackson",
+    "Porter",
+    "Wells"
+  ],
+  "county_record_counts": {
+    "Porter": 3,
+    "Jackson": 1,
+    "Wells": 1
+  },
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *http://en.wikipedia.org/wiki/New_York_weevil*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}
