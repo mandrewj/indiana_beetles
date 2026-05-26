@@ -1,0 +1,27 @@
+{
+  "id": "laemophloeus_biguttatus",
+  "scientific_name": "Laemophloeus biguttatus",
+  "common_name": "Two-spotted Flat Bark Beetle",
+  "family": "laemophloeidae",
+  "genus": "laemophloeus",
+  "indiana_status": "confirmed",
+  "gbif_taxon_key": 1042896,
+  "inat_taxon_id": 222605,
+  "diagnosis": "Laemophloeus biguttatus is a species of lined flat bark beetle in the family Laemophloeidae. It is found in Central America and North America.",
+  "body_size_mm": "",
+  "diagnostic_characters": [],
+  "phenology": [
+    7
+  ],
+  "phenology_peak": [
+    7
+  ],
+  "counties": [],
+  "county_record_counts": {},
+  "images": [],
+  "similar_species": [],
+  "references": [
+    "Source: Wikipedia, *https://en.wikipedia.org/wiki/Laemophloeus_biguttatus*, retrieved 2026-05-26."
+  ],
+  "last_refreshed": "2026-05-26"
+}

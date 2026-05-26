@@ -6642,6 +6642,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "laemophloeidae",
+      "name": "Laemophloeidae",
+      "common_name": "",
+      "authority": "",
+      "sort_index": 30,
+      "genera": [
+        {
+          "id": "laemophloeus",
+          "name": "Laemophloeus",
+          "species": [
+            {
+              "id": "laemophloeus_biguttatus",
+              "name": "Laemophloeus biguttatus",
+              "common_name": "Two-spotted Flat Bark Beetle",
+              "indiana_status": "confirmed"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
