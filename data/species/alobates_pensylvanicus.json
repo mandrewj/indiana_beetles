@@ -55,15 +55,9 @@
   "similar_species": [],
   "references": [],
   "county_record_counts": {
-    "Vigo": 2,
-    "Monroe": 4,
-    "Marion": 2,
     "Tippecanoe": 8,
-    "Jackson": 3,
+    "Jackson": 2,
     "Wabash": 1,
-    "Fayette": 2,
-    "Bartholomew": 2,
-    "St. Joseph": 6,
     "Brown": 7,
     "Switzerland": 1,
     "Newton": 5,
@@ -74,8 +68,14 @@
     "Clark": 1,
     "LaPorte": 3,
     "Wayne": 1,
+    "Monroe": 3,
     "Grant": 2,
+    "Vigo": 1,
+    "Marion": 2,
+    "Fayette": 1,
+    "Bartholomew": 1,
+    "St. Joseph": 3,
     "Harrison": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }
