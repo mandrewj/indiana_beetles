@@ -35,7 +35,8 @@
     "Morgan",
     "Porter",
     "Pulaski",
-    "Switzerland"
+    "Switzerland",
+    "Tippecanoe"
   ],
   "images": [],
   "similar_species": [],
@@ -52,13 +53,14 @@
     "Monroe": 4,
     "Hendricks": 3,
     "Elkhart": 1,
-    "Allen": 2,
+    "Allen": 4,
     "Grant": 1,
     "Brown": 1,
     "Switzerland": 1,
     "Pulaski": 1,
     "DeKalb": 1,
-    "Hamilton": 1
+    "Hamilton": 9,
+    "Tippecanoe": 2
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

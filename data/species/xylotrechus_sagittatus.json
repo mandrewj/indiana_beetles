@@ -19,6 +19,7 @@
     12
   ],
   "counties": [
+    "Lagrange",
     "LaGrange",
     "Monroe",
     "Porter",
@@ -26,14 +27,15 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
+    "Porter": 1,
+    "Monroe": 1,
     "Tippecanoe": 3,
     "Pulaski": 6,
-    "LaGrange": 5,
-    "Porter": 1,
-    "Monroe": 1
+    "Lagrange": 3,
+    "LaGrange": 2
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

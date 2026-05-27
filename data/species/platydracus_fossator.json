@@ -21,15 +21,17 @@
   "counties": [
     "Franklin",
     "Montgomery",
-    "Orange"
+    "Orange",
+    "Wayne"
   ],
   "county_record_counts": {
     "Orange": 1,
     "Franklin": 1,
-    "Montgomery": 1
+    "Montgomery": 1,
+    "Wayne": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

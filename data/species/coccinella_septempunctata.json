@@ -83,12 +83,12 @@
   ],
   "county_record_counts": {
     "Hamilton": 8,
+    "Porter": 18,
     "Clark": 5,
-    "Tippecanoe": 28,
+    "Tippecanoe": 29,
     "Lake": 5,
-    "Porter": 15,
     "Floyd": 3,
-    "Harrison": 2,
+    "Harrison": 3,
     "Spencer": 1,
     "Knox": 3,
     "Warrick": 4,
@@ -128,7 +128,7 @@
     "Orange": 1,
     "Elkhart": 2,
     "Putnam": 1,
-    "Jackson": 1,
+    "Jackson": 2,
     "DeKalb": 1,
     "Kosciusko": 1,
     "Rush": 1,
@@ -139,5 +139,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Coccinella_septempunctata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

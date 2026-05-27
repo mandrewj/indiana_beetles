@@ -20,16 +20,18 @@
   ],
   "counties": [
     "DeKalb",
-    "Lake"
+    "Lake",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "DeKalb": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Tippecanoe": 10
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trogoderma_glabrum*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

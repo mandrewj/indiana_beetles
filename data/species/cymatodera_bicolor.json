@@ -13,15 +13,17 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
-    "Grant"
+    "Grant",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Grant": 1
+    "Grant": 1,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cymatodera_bicolor*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -20,22 +20,28 @@
   ],
   "counties": [
     "Boone",
+    "Fountain",
+    "Hendricks",
     "Lake",
     "Monroe",
     "Morgan",
+    "Posey",
     "Tippecanoe"
   ],
   "county_record_counts": {
     "Boone": 1,
     "Monroe": 1,
     "Morgan": 1,
-    "Tippecanoe": 1,
-    "Lake": 2
+    "Tippecanoe": 5,
+    "Lake": 2,
+    "Fountain": 1,
+    "Posey": 1,
+    "Hendricks": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Trichodesma_gibbosa*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

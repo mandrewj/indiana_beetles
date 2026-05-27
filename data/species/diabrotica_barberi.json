@@ -23,7 +23,9 @@
     "Cass",
     "Elkhart",
     "Grant",
+    "LaGrange",
     "LaPorte",
+    "Marion",
     "St. Joseph",
     "Starke",
     "Steuben",
@@ -38,12 +40,14 @@
     "Grant": 1,
     "Adams": 1,
     "St. Joseph": 1,
-    "Starke": 2
+    "Starke": 2,
+    "LaGrange": 1,
+    "Marion": 12
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Diabrotica_barberi*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -31,6 +31,7 @@
     "Fayette",
     "Floyd",
     "Fountain",
+    "Fulton",
     "Hamilton",
     "Henry",
     "Jay",
@@ -45,6 +46,7 @@
     "Marion",
     "Miami",
     "Monroe",
+    "Montgomery",
     "Morgan",
     "Noble",
     "Porter",
@@ -65,8 +67,8 @@
     "Hamilton": 2,
     "Miami": 1,
     "Morgan": 3,
-    "Marion": 13,
-    "Lake": 4,
+    "Marion": 16,
+    "Lake": 5,
     "Fayette": 1,
     "Daviess": 1,
     "DeKalb": 1,
@@ -80,7 +82,7 @@
     "Allen": 5,
     "Porter": 3,
     "Brown": 1,
-    "Monroe": 2,
+    "Monroe": 4,
     "Vigo": 1,
     "Vanderburgh": 2,
     "Madison": 1,
@@ -92,12 +94,14 @@
     "Henry": 1,
     "Jay": 1,
     "Dearborn": 1,
-    "Wayne": 1
+    "Wayne": 2,
+    "Fulton": 1,
+    "Montgomery": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Osmoderma_eremicola*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -35,17 +35,24 @@
     "Dearborn",
     "Delaware",
     "Floyd",
+    "Harrison",
+    "Jefferson",
     "Johnson",
     "Lake",
+    "Lawrence",
     "Marion",
     "Porter",
+    "Putnam",
+    "Sherman",
     "St. Joseph",
     "Tippecanoe",
     "Vanderburgh",
+    "Warren",
+    "Wayne",
     "White"
   ],
   "county_record_counts": {
-    "Tippecanoe": 1,
+    "Tippecanoe": 6,
     "St. Joseph": 1,
     "Delaware": 2,
     "Dearborn": 1,
@@ -56,12 +63,19 @@
     "White": 4,
     "Vanderburgh": 1,
     "Porter": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Sherman": 1,
+    "Harrison": 3,
+    "Warren": 1,
+    "Lawrence": 2,
+    "Wayne": 3,
+    "Jefferson": 17,
+    "Putnam": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Harpalus_pensylvanicus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -25,6 +25,7 @@
     "Floyd",
     "Marion",
     "Morgan",
+    "Putnam",
     "Starke",
     "Tippecanoe",
     "Vigo"
@@ -35,14 +36,15 @@
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Euderces_picipes*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
+    "Tippecanoe": 2,
     "Floyd": 1,
     "Morgan": 1,
-    "Tippecanoe": 1,
     "Brown": 1,
     "Boone": 1,
     "Starke": 3,
     "Marion": 1,
-    "Vigo": 1
+    "Vigo": 1,
+    "Putnam": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

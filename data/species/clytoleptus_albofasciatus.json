@@ -24,12 +24,12 @@
     "Putnam"
   ],
   "county_record_counts": {
-    "Putnam": 1,
     "Marion": 1,
-    "Clark": 1
+    "Clark": 1,
+    "Putnam": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

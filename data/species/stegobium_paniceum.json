@@ -31,6 +31,8 @@
     "Gibson",
     "Hendricks",
     "Marion",
+    "Monroe",
+    "Morgan",
     "Tippecanoe",
     "Vanderburgh",
     "Wayne"
@@ -41,12 +43,14 @@
     "Gibson": 1,
     "Hendricks": 1,
     "Vanderburgh": 1,
-    "Wayne": 1
+    "Wayne": 1,
+    "Morgan": 7,
+    "Monroe": 5
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stegobium_paniceum*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

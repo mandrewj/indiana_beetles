@@ -19,18 +19,30 @@
   ],
   "counties": [
     "Brown",
+    "Huntington",
+    "Lagrange",
     "Lake",
-    "Madison"
+    "Madison",
+    "Porter",
+    "Pulaski",
+    "Steuben",
+    "Wabash"
   ],
   "county_record_counts": {
     "Brown": 1,
     "Lake": 1,
-    "Madison": 1
+    "Madison": 1,
+    "Huntington": 3,
+    "Wabash": 1,
+    "Lagrange": 4,
+    "Steuben": 3,
+    "Pulaski": 1,
+    "Porter": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Madoniella_dislocata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

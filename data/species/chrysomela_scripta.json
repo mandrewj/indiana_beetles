@@ -32,11 +32,13 @@
     "Monroe",
     "Posey",
     "Scott",
+    "Spencer",
     "Tippecanoe",
     "Vanderburgh",
     "Warrick"
   ],
   "county_record_counts": {
+    "Vanderburgh": 3,
     "Jackson": 1,
     "Tippecanoe": 1,
     "Clay": 1,
@@ -45,13 +47,13 @@
     "Posey": 1,
     "Harrison": 1,
     "Scott": 1,
-    "Vanderburgh": 2,
-    "Hamilton": 1
+    "Hamilton": 1,
+    "Spencer": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chrysomela_scripta*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

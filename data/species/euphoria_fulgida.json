@@ -22,6 +22,7 @@
     6
   ],
   "counties": [
+    "Boone",
     "Brown",
     "Clark",
     "Hamilton",
@@ -31,13 +32,17 @@
     "Martin",
     "Monroe",
     "Montgomery",
+    "Orange",
     "Putnam",
+    "Ripley",
     "Tippecanoe",
     "Vanderburgh",
     "Wabash",
-    "Warren"
+    "Warren",
+    "Washington"
   ],
   "county_record_counts": {
+    "Washington": 1,
     "Vanderburgh": 1,
     "Harrison": 1,
     "Monroe": 7,
@@ -45,18 +50,21 @@
     "Clark": 1,
     "Montgomery": 1,
     "Hamilton": 1,
-    "Brown": 2,
+    "Brown": 3,
     "Martin": 1,
-    "Lawrence": 1,
+    "Lawrence": 3,
     "Warren": 1,
-    "Tippecanoe": 2,
+    "Tippecanoe": 3,
     "Putnam": 1,
-    "Wabash": 1
+    "Wabash": 1,
+    "Ripley": 1,
+    "Orange": 3,
+    "Boone": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euphoria_fulgida*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

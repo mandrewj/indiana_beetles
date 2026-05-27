@@ -78,10 +78,10 @@
   "county_record_counts": {
     "Marion": 7,
     "Henry": 1,
-    "Monroe": 6,
+    "Monroe": 8,
     "Dearborn": 1,
     "St. Joseph": 6,
-    "Wayne": 2,
+    "Wayne": 3,
     "Tippecanoe": 21,
     "Vigo": 5,
     "Hamilton": 2,
@@ -92,9 +92,9 @@
     "Brown": 1,
     "Allen": 7,
     "Pike": 1,
-    "Ripley": 1,
+    "Ripley": 2,
     "Whitley": 3,
-    "Porter": 3,
+    "Porter": 4,
     "Putnam": 1,
     "DeKalb": 1,
     "Marshall": 1,
@@ -102,7 +102,7 @@
     "Jay": 1,
     "Harrison": 1,
     "Madison": 4,
-    "Montgomery": 1,
+    "Montgomery": 2,
     "Gibson": 1,
     "LaPorte": 1,
     "Clay": 1,
@@ -127,5 +127,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Dermestes_lardarius*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

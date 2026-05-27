@@ -18,15 +18,17 @@
     5
   ],
   "counties": [
+    "Harrison",
     "Marion",
     "Tippecanoe"
   ],
   "county_record_counts": {
     "Marion": 1,
-    "Tippecanoe": 1
+    "Tippecanoe": 1,
+    "Harrison": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

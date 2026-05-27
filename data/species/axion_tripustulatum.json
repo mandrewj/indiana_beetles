@@ -22,18 +22,20 @@
   ],
   "counties": [
     "Morgan",
+    "Porter",
     "St. Joseph",
     "Tippecanoe"
   ],
   "county_record_counts": {
     "Morgan": 1,
     "St. Joseph": 1,
-    "Tippecanoe": 1
+    "Tippecanoe": 1,
+    "Porter": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Axion_tripustulatum*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

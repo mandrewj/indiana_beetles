@@ -15,17 +15,19 @@
   "counties": [
     "Kosciusko",
     "Lake",
+    "Montgomery",
     "St. Joseph"
   ],
   "county_record_counts": {
     "Kosciusko": 1,
     "St. Joseph": 2,
-    "Lake": 1
+    "Lake": 1,
+    "Montgomery": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Galerucella_nymphaeae*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

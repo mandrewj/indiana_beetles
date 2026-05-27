@@ -64,7 +64,8 @@
     "Tippecanoe",
     "Vanderburgh",
     "Vigo",
-    "Wayne"
+    "Wayne",
+    "White"
   ],
   "county_record_counts": {
     "Vanderburgh": 8,
@@ -72,7 +73,7 @@
     "Marion": 46,
     "Hancock": 1,
     "Madison": 2,
-    "Monroe": 28,
+    "Monroe": 31,
     "Clark": 5,
     "Jackson": 2,
     "DeKalb": 3,
@@ -81,7 +82,7 @@
     "Huntington": 1,
     "Jennings": 8,
     "Hendricks": 10,
-    "Tippecanoe": 17,
+    "Tippecanoe": 20,
     "Bartholomew": 5,
     "St. Joseph": 6,
     "Boone": 3,
@@ -89,7 +90,7 @@
     "Dearborn": 1,
     "Vigo": 3,
     "Johnson": 5,
-    "Montgomery": 1,
+    "Montgomery": 3,
     "Greene": 1,
     "Clay": 2,
     "Wayne": 1,
@@ -101,12 +102,13 @@
     "Elkhart": 1,
     "Floyd": 1,
     "Dubois": 1,
-    "Switzerland": 1
+    "Switzerland": 1,
+    "White": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anthrenus_verbasci*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

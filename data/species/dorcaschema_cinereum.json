@@ -20,13 +20,15 @@
     6
   ],
   "counties": [
+    "Brown",
     "Hamilton",
     "Hancock",
     "Harrison",
     "Hendricks",
     "Lake",
     "Marion",
-    "Parke"
+    "Parke",
+    "Tippecanoe"
   ],
   "images": [],
   "similar_species": [],
@@ -34,13 +36,15 @@
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Dorcaschema_cinereum*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
+    "Hamilton": 2,
     "Hendricks": 2,
     "Marion": 1,
     "Parke": 1,
-    "Hamilton": 1,
     "Lake": 3,
     "Hancock": 1,
-    "Harrison": 1
+    "Harrison": 1,
+    "Tippecanoe": 4,
+    "Brown": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

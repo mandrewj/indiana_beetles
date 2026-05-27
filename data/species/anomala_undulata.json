@@ -22,17 +22,19 @@
   "counties": [
     "Monroe",
     "Morgan",
+    "Parke",
     "Starke"
   ],
   "county_record_counts": {
     "Morgan": 5,
     "Starke": 1,
-    "Monroe": 5
+    "Monroe": 5,
+    "Parke": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anomala_undulata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

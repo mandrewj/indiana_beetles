@@ -28,12 +28,17 @@
     "Crawford",
     "Fayette",
     "Huntington",
+    "LaGrange",
+    "Lake",
+    "LaPorte",
     "Marion",
     "Monroe",
     "Perry",
+    "Porter",
     "Putnam",
     "Tippecanoe",
-    "Vigo"
+    "Vigo",
+    "Washington"
   ],
   "county_record_counts": {
     "Vigo": 1,
@@ -44,13 +49,18 @@
     "Huntington": 1,
     "Perry": 1,
     "Putnam": 1,
-    "Tippecanoe": 1,
-    "Crawford": 1
+    "Tippecanoe": 4,
+    "Crawford": 1,
+    "LaGrange": 6,
+    "Porter": 6,
+    "Washington": 3,
+    "LaPorte": 3,
+    "Lake": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Copris_fricator*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

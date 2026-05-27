@@ -26,17 +26,19 @@
   "counties": [
     "Marion",
     "Marshall",
+    "Ripley",
     "Warrick"
   ],
   "county_record_counts": {
     "Marion": 1,
     "Warrick": 1,
-    "Marshall": 1
+    "Marshall": 1,
+    "Ripley": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Dicerca_obscura*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

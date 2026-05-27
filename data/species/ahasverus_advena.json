@@ -19,17 +19,21 @@
     11
   ],
   "counties": [
+    "Hamilton",
     "Johnson",
-    "Marion"
+    "Marion",
+    "Monroe"
   ],
   "county_record_counts": {
     "Johnson": 1,
-    "Marion": 2
+    "Marion": 2,
+    "Hamilton": 4,
+    "Monroe": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Foreign_grain_beetle*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

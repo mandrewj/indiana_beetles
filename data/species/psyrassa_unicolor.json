@@ -23,7 +23,8 @@
     "Grant",
     "Lake",
     "Monroe",
-    "Porter"
+    "Porter",
+    "Tippecanoe"
   ],
   "images": [],
   "similar_species": [],
@@ -34,7 +35,8 @@
     "Grant": 1,
     "Monroe": 1,
     "Porter": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Tippecanoe": 4
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -19,19 +19,19 @@
   "counties": [
     "LaPorte",
     "Porter",
-    "St. Joseph",
+    "Saint Joseph",
     "Tippecanoe"
   ],
   "county_record_counts": {
     "Tippecanoe": 2,
     "Porter": 20,
     "LaPorte": 1,
-    "St. Joseph": 2
+    "Saint Joseph": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Neatus_tenebrioides*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -28,18 +28,26 @@
   ],
   "counties": [
     "Fountain",
+    "Kosciusko",
+    "LaPorte",
     "Newton",
-    "Tippecanoe"
+    "Porter",
+    "Tippecanoe",
+    "Warren"
   ],
   "county_record_counts": {
-    "Tippecanoe": 3,
+    "Tippecanoe": 6,
     "Newton": 1,
-    "Fountain": 1
+    "Fountain": 1,
+    "Warren": 4,
+    "LaPorte": 2,
+    "Porter": 4,
+    "Kosciusko": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Nicrophorus_marginatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

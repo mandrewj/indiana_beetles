@@ -18,17 +18,31 @@
     9
   ],
   "counties": [
+    "Brown",
+    "Crawford",
+    "Lake",
     "Marion",
-    "Putnam"
+    "Monroe",
+    "Orange",
+    "Perry",
+    "Putnam",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Marion": 1,
-    "Putnam": 1
+    "Putnam": 1,
+    "Brown": 1,
+    "Monroe": 1,
+    "Tippecanoe": 2,
+    "Orange": 8,
+    "Perry": 1,
+    "Crawford": 1,
+    "Lake": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cryptorhopalum_triste*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -29,12 +29,14 @@
     "Carroll",
     "Cass",
     "Harrison",
+    "Lake",
     "Lawrence",
     "Marion",
     "Martin",
     "Miami",
     "Monroe",
     "Morgan",
+    "Parke",
     "Porter",
     "Putnam",
     "St. Joseph",
@@ -45,29 +47,31 @@
     "Washington"
   ],
   "county_record_counts": {
-    "Vermillion": 2,
+    "Vermillion": 3,
     "Morgan": 2,
     "Miami": 1,
     "Vigo": 3,
-    "Tippecanoe": 6,
-    "Marion": 3,
+    "Tippecanoe": 7,
+    "Marion": 4,
     "Vanderburgh": 3,
     "Monroe": 4,
     "Putnam": 3,
     "Cass": 1,
     "St. Joseph": 1,
-    "Porter": 2,
+    "Porter": 6,
     "Carroll": 1,
     "Washington": 1,
     "Brown": 2,
     "Martin": 1,
     "Lawrence": 1,
-    "Harrison": 1
+    "Harrison": 1,
+    "Lake": 1,
+    "Parke": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Galerita_bicolor*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

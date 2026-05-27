@@ -19,9 +19,11 @@
   ],
   "counties": [
     "Bartholomew",
+    "Dearborn",
     "Newton",
     "Porter",
     "Starke",
+    "Tippecanoe",
     "Warrick"
   ],
   "county_record_counts": {
@@ -29,12 +31,14 @@
     "Newton": 3,
     "Porter": 7,
     "Warrick": 2,
-    "Starke": 1
+    "Starke": 1,
+    "Dearborn": 1,
+    "Tippecanoe": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cotalpa_lanigera*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

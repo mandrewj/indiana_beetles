@@ -46,6 +46,7 @@
     "Marion",
     "Monroe",
     "Morgan",
+    "Owen Co.",
     "Perry",
     "Porter",
     "St. Joseph",
@@ -84,12 +85,13 @@
     "Dubois": 1,
     "Grant": 1,
     "Lake": 13,
-    "White": 1
+    "White": 1,
+    "Owen Co.": 4
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Cyclocephala_lurida*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

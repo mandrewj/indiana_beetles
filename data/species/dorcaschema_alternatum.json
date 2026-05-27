@@ -22,12 +22,16 @@
   "counties": [
     "Elkhart",
     "Hancock",
+    "Hendricks",
     "Lake",
+    "LaPorte",
     "Lawrence",
     "Marion",
     "Marshall",
     "Monroe",
+    "Sullivan",
     "Switzerland",
+    "Tippecanoe",
     "Wabash",
     "Whitley"
   ],
@@ -46,7 +50,11 @@
     "Hancock": 1,
     "Monroe": 1,
     "Marshall": 1,
-    "Lawrence": 1
+    "Lawrence": 1,
+    "Sullivan": 3,
+    "LaPorte": 1,
+    "Hendricks": 2,
+    "Tippecanoe": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

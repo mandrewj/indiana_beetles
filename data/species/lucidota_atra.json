@@ -71,6 +71,7 @@
     "Whitley"
   ],
   "county_record_counts": {
+    "Hamilton": 12,
     "Orange": 3,
     "Parke": 18,
     "Monroe": 16,
@@ -87,7 +88,6 @@
     "Johnson": 6,
     "Whitley": 1,
     "St. Joseph": 2,
-    "Hamilton": 11,
     "Floyd": 1,
     "Huntington": 2,
     "Hendricks": 14,
@@ -103,7 +103,7 @@
     "Clark": 4,
     "Newton": 2,
     "Fayette": 1,
-    "Putnam": 3,
+    "Putnam": 2,
     "Gibson": 1,
     "Hancock": 1,
     "Posey": 1,
@@ -124,5 +124,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lucidota_atra*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

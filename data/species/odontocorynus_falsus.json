@@ -25,14 +25,14 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Tippecanoe": 3,
-    "Johnson": 1,
     "Monroe": 1,
     "Brown": 1,
-    "Marion": 1
+    "Marion": 1,
+    "Tippecanoe": 3,
+    "Johnson": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

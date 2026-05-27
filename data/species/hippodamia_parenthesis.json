@@ -29,28 +29,42 @@
   ],
   "counties": [
     "Allen",
+    "Harrison",
     "Huntington",
+    "Kosciusko",
+    "Lake",
+    "LaPorte",
     "Marion",
+    "Monroe",
     "Newton",
     "Noble",
     "Porter",
+    "Saint Joseph",
     "St. Joseph",
-    "Tippecanoe"
+    "Tippecanoe",
+    "Wayne"
   ],
   "county_record_counts": {
     "Allen": 3,
     "Marion": 4,
-    "Tippecanoe": 3,
+    "Tippecanoe": 5,
     "Huntington": 1,
-    "Porter": 2,
+    "Porter": 12,
     "Noble": 1,
-    "Newton": 1,
-    "St. Joseph": 1
+    "Newton": 5,
+    "St. Joseph": 1,
+    "Lake": 7,
+    "Harrison": 1,
+    "Wayne": 1,
+    "Monroe": 6,
+    "LaPorte": 1,
+    "Kosciusko": 1,
+    "Saint Joseph": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hippodamia_parenthesis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

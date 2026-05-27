@@ -69,6 +69,7 @@
   ],
   "county_record_counts": {
     "Marion": 69,
+    "Howard": 3,
     "White": 1,
     "Hamilton": 10,
     "Kosciusko": 1,
@@ -76,20 +77,19 @@
     "Boone": 16,
     "Johnson": 1,
     "Morgan": 1,
+    "Montgomery": 3,
     "Tippecanoe": 17,
     "Brown": 4,
-    "Montgomery": 2,
     "St. Joseph": 2,
     "DeKalb": 1,
     "Hendricks": 14,
     "Porter": 6,
     "Monroe": 5,
     "Grant": 1,
-    "Howard": 2,
     "Clark": 2,
     "Putnam": 3,
     "Warren": 1,
-    "Fayette": 6,
+    "Fayette": 4,
     "Owen": 1,
     "Steuben": 2,
     "Lake": 1,
@@ -113,5 +113,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_sexguttata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

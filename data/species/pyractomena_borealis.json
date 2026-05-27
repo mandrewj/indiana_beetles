@@ -43,7 +43,9 @@
     "Wayne"
   ],
   "county_record_counts": {
+    "Porter": 3,
     "Elkhart": 1,
+    "Monroe": 3,
     "Marion": 2,
     "Boone": 1,
     "Brown": 7,
@@ -53,20 +55,18 @@
     "Vermillion": 1,
     "Morgan": 2,
     "Benton": 1,
-    "Monroe": 2,
     "Owen": 1,
     "Vanderburgh": 1,
     "Parke": 1,
     "Switzerland": 1,
     "Johnson": 1,
     "Orange": 1,
-    "Knox": 1,
-    "Porter": 2
+    "Knox": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pyractomena_borealis*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

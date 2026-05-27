@@ -25,15 +25,29 @@
     7
   ],
   "counties": [
+    "Daviess",
+    "Elkhart",
+    "LaPorte",
+    "Perry",
+    "Porter",
+    "St. Joseph",
+    "Tippecanoe",
     "White"
   ],
   "county_record_counts": {
-    "White": 2
+    "White": 2,
+    "Tippecanoe": 8,
+    "Daviess": 1,
+    "Porter": 4,
+    "Elkhart": 2,
+    "LaPorte": 2,
+    "Perry": 2,
+    "St. Joseph": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epuraea_rufa*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

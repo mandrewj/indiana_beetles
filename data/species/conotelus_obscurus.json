@@ -17,12 +17,20 @@
     7,
     8
   ],
-  "counties": [],
-  "county_record_counts": {},
+  "counties": [
+    "Hendricks",
+    "Porter",
+    "Shelby"
+  ],
+  "county_record_counts": {
+    "Shelby": 3,
+    "Porter": 1,
+    "Hendricks": 1
+  },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Conotelus_obscurus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -23,27 +23,37 @@
     9
   ],
   "counties": [
+    "Clark",
+    "Crawford",
     "Fountain",
     "Jasper",
     "Lake",
+    "LaPorte",
+    "Morgan",
     "Newton",
     "Porter",
     "Pulaski",
-    "Starke"
+    "Starke",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Starke": 9,
     "Jasper": 3,
     "Fountain": 1,
-    "Porter": 14,
-    "Lake": 1,
-    "Newton": 4,
-    "Pulaski": 1
+    "Porter": 16,
+    "Lake": 10,
+    "Newton": 7,
+    "Pulaski": 1,
+    "Clark": 1,
+    "Tippecanoe": 2,
+    "Morgan": 3,
+    "Crawford": 2,
+    "LaPorte": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_scutellaris*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -23,17 +23,19 @@
     9
   ],
   "counties": [
+    "Porter",
     "St. Joseph",
     "Starke"
   ],
   "county_record_counts": {
     "St. Joseph": 4,
-    "Starke": 1
+    "Starke": 1,
+    "Porter": 5
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anatis_mali*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

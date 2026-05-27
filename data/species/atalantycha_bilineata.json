@@ -25,11 +25,14 @@
     "Brown",
     "Cass",
     "Clark",
+    "Crawford",
     "Dubois",
     "Fayette",
+    "Floyd",
     "Gibson",
     "Hamilton",
     "Hancock",
+    "Harrison",
     "Hendricks",
     "Jackson",
     "Jennings",
@@ -85,21 +88,24 @@
     "Bartholomew": 2,
     "Shelby": 2,
     "Hancock": 1,
-    "Spencer": 1,
+    "Spencer": 2,
     "Lake": 2,
     "Brown": 1,
     "Boone": 2,
-    "Clark": 2,
-    "Jackson": 2,
+    "Clark": 4,
+    "Jackson": 3,
     "LaGrange": 1,
     "Noble": 1,
     "Cass": 1,
-    "Parke": 1
+    "Parke": 1,
+    "Harrison": 2,
+    "Floyd": 3,
+    "Crawford": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Atalantycha_bilineata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

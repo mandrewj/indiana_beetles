@@ -23,6 +23,7 @@
     "Allen",
     "Bartholomew",
     "Boone",
+    "Brown",
     "Dearborn",
     "Delaware",
     "Grant",
@@ -32,6 +33,7 @@
     "Madison",
     "Marion",
     "Miami",
+    "Monroe",
     "Morgan",
     "Porter",
     "Tippecanoe",
@@ -42,11 +44,11 @@
     "Bartholomew": 3,
     "Wayne": 2,
     "Whitley": 1,
-    "Grant": 2,
+    "Grant": 3,
     "Porter": 4,
-    "Lake": 5,
+    "Lake": 6,
     "Miami": 1,
-    "Tippecanoe": 2,
+    "Tippecanoe": 10,
     "Hamilton": 3,
     "Hendricks": 3,
     "Morgan": 1,
@@ -55,12 +57,14 @@
     "Delaware": 2,
     "Boone": 1,
     "Dearborn": 1,
-    "Madison": 3
+    "Madison": 3,
+    "Brown": 2,
+    "Monroe": 5
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Brachiacantha_ursina*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

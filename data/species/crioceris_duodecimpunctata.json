@@ -22,6 +22,8 @@
     "Allen",
     "Boone",
     "Jackson",
+    "LaGrange",
+    "Lawrence",
     "Miami",
     "Newton",
     "Noble",
@@ -34,10 +36,12 @@
     "Miami": 1,
     "Noble": 1,
     "Newton": 1,
-    "Jackson": 1
+    "Jackson": 1,
+    "Lawrence": 1,
+    "LaGrange": 3
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

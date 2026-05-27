@@ -36,8 +36,11 @@
     "Martin",
     "Monroe",
     "Morgan",
+    "Orange",
     "Owen",
     "Parke",
+    "Perry",
+    "Posey",
     "Putnam",
     "Sullivan",
     "Tippecanoe",
@@ -48,7 +51,7 @@
     "Vanderburgh": 3,
     "Monroe": 14,
     "Brown": 2,
-    "Lawrence": 1,
+    "Lawrence": 3,
     "Dearborn": 4,
     "Putnam": 3,
     "Parke": 3,
@@ -59,16 +62,19 @@
     "Sullivan": 2,
     "Morgan": 5,
     "Knox": 1,
-    "Clark": 1,
+    "Clark": 2,
     "Martin": 1,
     "Harrison": 1,
     "Marion": 1,
-    "Jackson": 1
+    "Jackson": 1,
+    "Posey": 2,
+    "Perry": 1,
+    "Orange": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epilachna_borealis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

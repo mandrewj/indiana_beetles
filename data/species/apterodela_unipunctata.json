@@ -30,9 +30,11 @@
     "Orange",
     "Perry",
     "Pike",
-    "Tippecanoe"
+    "Tippecanoe",
+    "Washington"
   ],
   "county_record_counts": {
+    "Washington": 1,
     "Tippecanoe": 2,
     "Orange": 1,
     "Pike": 1,
@@ -49,5 +51,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Apterodela_unipunctata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

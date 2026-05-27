@@ -18,10 +18,16 @@
   ],
   "counties": [
     "Brown",
+    "Clinton",
     "Delaware",
     "Harrison",
+    "LaGrange",
     "Marion",
     "Monroe",
+    "Morgan",
+    "Pulaski",
+    "Putnam",
+    "Steuben",
     "Union"
   ],
   "county_record_counts": {
@@ -30,10 +36,16 @@
     "Harrison": 1,
     "Delaware": 1,
     "Monroe": 1,
-    "Marion": 2
+    "Marion": 2,
+    "Morgan": 1,
+    "Steuben": 3,
+    "LaGrange": 8,
+    "Pulaski": 4,
+    "Putnam": 1,
+    "Clinton": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

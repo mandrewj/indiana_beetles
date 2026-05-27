@@ -34,22 +34,24 @@
     "Pulaski",
     "Shelby",
     "St. Joseph",
-    "Tippecanoe"
+    "Tippecanoe",
+    "Warren"
   ],
   "county_record_counts": {
     "Pulaski": 1,
-    "Tippecanoe": 2,
+    "Tippecanoe": 3,
     "Jennings": 1,
     "Marion": 2,
     "Shelby": 1,
     "Porter": 2,
     "St. Joseph": 1,
-    "Lake": 2
+    "Lake": 2,
+    "Warren": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Poecilus_lucublandus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

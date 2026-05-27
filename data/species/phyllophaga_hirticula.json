@@ -18,16 +18,20 @@
   ],
   "counties": [
     "Boone",
+    "Crawford",
     "Hancock",
-    "Monroe"
+    "Monroe",
+    "Washington"
   ],
   "county_record_counts": {
     "Hancock": 1,
     "Monroe": 1,
-    "Boone": 1
+    "Boone": 1,
+    "Crawford": 1,
+    "Washington": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

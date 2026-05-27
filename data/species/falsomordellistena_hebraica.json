@@ -18,13 +18,15 @@
     7
   ],
   "counties": [
-    "Jefferson"
+    "Jefferson",
+    "Ripley"
   ],
   "county_record_counts": {
-    "Jefferson": 1
+    "Jefferson": 1,
+    "Ripley": 3
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

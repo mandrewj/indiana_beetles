@@ -28,12 +28,16 @@
     "Floyd",
     "Grant",
     "Hamilton",
+    "Hancock",
     "Jennings",
+    "Knox",
     "Lake",
     "Marion",
     "Monroe",
     "Morgan",
     "Perry",
+    "Putnam",
+    "Ripley",
     "Shelby",
     "Tippecanoe",
     "Vanderburgh",
@@ -45,21 +49,25 @@
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Elaphidion_mucronatum*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
+    "Vanderburgh": 3,
     "Marion": 2,
     "Brown": 2,
-    "Morgan": 9,
-    "Tippecanoe": 1,
+    "Morgan": 11,
+    "Tippecanoe": 4,
     "Floyd": 2,
     "Vigo": 2,
     "Jennings": 4,
     "Shelby": 2,
-    "Vanderburgh": 2,
     "Monroe": 9,
     "Grant": 1,
     "Hamilton": 1,
     "Lake": 1,
     "Perry": 1,
-    "Boone": 1
+    "Boone": 1,
+    "Knox": 1,
+    "Putnam": 3,
+    "Ripley": 2,
+    "Hancock": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

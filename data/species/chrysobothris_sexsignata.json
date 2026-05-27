@@ -22,18 +22,24 @@
   ],
   "counties": [
     "Elkhart",
+    "Jackson",
+    "LaGrange",
     "Lake",
+    "Putnam",
     "Vigo"
   ],
   "county_record_counts": {
     "Vigo": 1,
     "Elkhart": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Jackson": 1,
+    "Putnam": 1,
+    "LaGrange": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chrysobothris_sexsignata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

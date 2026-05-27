@@ -26,6 +26,7 @@
     "Monroe",
     "Orange",
     "Porter",
+    "Ripley",
     "Switzerland",
     "Tippecanoe"
   ],
@@ -39,12 +40,13 @@
     "Greene": 1,
     "Brown": 1,
     "Jefferson": 1,
-    "Clark": 1
+    "Clark": 1,
+    "Ripley": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Melanactes_piceus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

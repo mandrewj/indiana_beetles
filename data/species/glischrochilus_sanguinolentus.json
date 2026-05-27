@@ -22,19 +22,25 @@
   "counties": [
     "Allen",
     "Hamilton",
+    "Jackson",
     "Johnson",
+    "Ripley",
+    "Tippecanoe",
     "Vanderburgh"
   ],
   "county_record_counts": {
     "Hamilton": 2,
     "Johnson": 1,
     "Allen": 1,
-    "Vanderburgh": 1
+    "Vanderburgh": 1,
+    "Tippecanoe": 9,
+    "Ripley": 2,
+    "Jackson": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Glischrochilus_sanguinolentus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

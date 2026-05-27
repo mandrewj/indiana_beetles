@@ -24,18 +24,20 @@
   ],
   "counties": [
     "Jackson",
+    "Marshall",
     "Porter",
     "Wells"
   ],
   "county_record_counts": {
     "Porter": 3,
     "Jackson": 1,
-    "Wells": 1
+    "Wells": 1,
+    "Marshall": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/New_York_weevil*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

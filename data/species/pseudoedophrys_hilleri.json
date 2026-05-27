@@ -50,6 +50,7 @@
     "Madison",
     "Marion",
     "Monroe",
+    "Montgomery",
     "Morgan",
     "Orange",
     "Porter",
@@ -58,7 +59,6 @@
     "Tippecanoe",
     "Vanderburgh",
     "Vigo",
-    "Wabash",
     "Warren",
     "Wayne",
     "White",
@@ -86,7 +86,7 @@
     "St. Joseph": 10,
     "Bartholomew": 2,
     "Delaware": 2,
-    "Wayne": 2,
+    "Wayne": 3,
     "Clark": 1,
     "Vanderburgh": 2,
     "Vigo": 1,
@@ -100,11 +100,11 @@
     "Clinton": 1,
     "Hancock": 1,
     "Henry": 4,
-    "Wabash": 1,
+    "Montgomery": 1,
     "Boone": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

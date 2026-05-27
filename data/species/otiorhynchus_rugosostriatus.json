@@ -50,13 +50,11 @@
     "Vigo"
   ],
   "county_record_counts": {
-    "Tippecanoe": 9,
-    "Union": 1,
-    "Huntington": 1,
     "Allen": 1,
     "St. Joseph": 2,
     "Marion": 8,
     "Vigo": 1,
+    "Tippecanoe": 9,
     "Decatur": 1,
     "Johnson": 1,
     "Jennings": 2,
@@ -71,10 +69,12 @@
     "Porter": 1,
     "Hamilton": 2,
     "Elkhart": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Union": 1,
+    "Huntington": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

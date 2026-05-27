@@ -24,18 +24,24 @@
   ],
   "counties": [
     "Brown",
+    "Clark",
     "Jackson",
-    "Monroe"
+    "Marion",
+    "Monroe",
+    "Posey"
   ],
   "county_record_counts": {
     "Brown": 2,
-    "Monroe": 1,
-    "Jackson": 1
+    "Monroe": 30,
+    "Jackson": 1,
+    "Clark": 1,
+    "Marion": 17,
+    "Posey": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epitrix_fuscula*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

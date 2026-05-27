@@ -19,14 +19,19 @@
     6
   ],
   "counties": [
+    "Allen",
     "Franklin",
+    "Henry",
     "Lake",
     "Madison",
+    "Marion",
     "Monroe",
+    "Montgomery",
     "Morgan",
     "Porter",
     "Starke",
     "Steuben",
+    "Tippecanoe",
     "Vanderburgh"
   ],
   "county_record_counts": {
@@ -38,12 +43,17 @@
     "Porter": 1,
     "Monroe": 4,
     "Madison": 2,
-    "Lake": 3
+    "Lake": 3,
+    "Henry": 4,
+    "Montgomery": 1,
+    "Tippecanoe": 1,
+    "Allen": 1,
+    "Marion": 4
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Leptotrachelus_dorsalis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -18,16 +18,24 @@
   ],
   "counties": [
     "Boone",
+    "Fountain",
+    "Harrison",
+    "Lake",
+    "Marion",
     "Starke"
   ],
   "county_record_counts": {
     "Boone": 2,
-    "Starke": 1
+    "Starke": 1,
+    "Harrison": 1,
+    "Fountain": 2,
+    "Marion": 1,
+    "Lake": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_duodecimguttata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

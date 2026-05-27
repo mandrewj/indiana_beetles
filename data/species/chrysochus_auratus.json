@@ -60,6 +60,7 @@
     "Martin",
     "Miami",
     "Monroe",
+    "Montgomery",
     "Morgan",
     "Newton",
     "Noble",
@@ -124,7 +125,7 @@
     "Jennings": 3,
     "Wayne": 1,
     "DeKalb": 1,
-    "Dearborn": 1,
+    "Dearborn": 2,
     "Steuben": 1,
     "Floyd": 1,
     "Kosciusko": 1,
@@ -137,12 +138,13 @@
     "Martin": 1,
     "Jasper": 1,
     "Jackson": 1,
-    "Howard": 1
+    "Howard": 1,
+    "Montgomery": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chrysochus_auratus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

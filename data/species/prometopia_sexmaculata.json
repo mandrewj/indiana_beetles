@@ -21,15 +21,19 @@
     12
   ],
   "counties": [
-    "Monroe"
+    "Monroe",
+    "Perry",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Monroe": 2
+    "Monroe": 2,
+    "Tippecanoe": 3,
+    "Perry": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Prometopia_sexmaculata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

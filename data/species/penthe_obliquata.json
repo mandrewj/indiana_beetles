@@ -28,6 +28,7 @@
     "Brown",
     "Cass",
     "Jennings",
+    "Lawrence",
     "Marion",
     "Miami",
     "Monroe",
@@ -35,6 +36,7 @@
     "Orange",
     "Porter",
     "Starke",
+    "Tippecanoe",
     "Vermillion",
     "Vigo"
   ],
@@ -48,14 +50,16 @@
     "Vigo": 1,
     "Miami": 1,
     "Cass": 1,
-    "Marion": 1,
+    "Marion": 2,
     "Starke": 1,
-    "Orange": 1
+    "Orange": 1,
+    "Tippecanoe": 4,
+    "Lawrence": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Penthe_obliquata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

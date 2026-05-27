@@ -21,15 +21,17 @@
     8
   ],
   "counties": [
-    "Brown"
+    "Brown",
+    "Monroe"
   ],
   "county_record_counts": {
-    "Brown": 2
+    "Brown": 2,
+    "Monroe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Xyloryctes_jamaicensis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

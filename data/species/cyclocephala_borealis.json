@@ -20,15 +20,25 @@
     12
   ],
   "counties": [
+    "Jackson",
+    "Lake Co.",
+    "Monroe",
+    "Monroe Co.",
     "Scott",
+    "Tippecanoe",
     "White"
   ],
   "county_record_counts": {
     "White": 1,
-    "Scott": 1
+    "Scott": 1,
+    "Monroe Co.": 38,
+    "Monroe": 31,
+    "Tippecanoe": 4,
+    "Lake Co.": 3,
+    "Jackson": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

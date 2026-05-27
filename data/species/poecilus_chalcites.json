@@ -36,10 +36,11 @@
     "Shelby",
     "Steuben",
     "Tippecanoe",
-    "Vigo"
+    "Vigo",
+    "Wayne"
   ],
   "county_record_counts": {
-    "Tippecanoe": 2,
+    "Tippecanoe": 5,
     "Monroe": 1,
     "Vigo": 1,
     "Marion": 2,
@@ -49,12 +50,13 @@
     "Porter": 1,
     "Daviess": 1,
     "Shelby": 1,
-    "Posey": 1
+    "Posey": 1,
+    "Wayne": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Poecilus_chalcites*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

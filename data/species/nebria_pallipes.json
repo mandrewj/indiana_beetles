@@ -18,13 +18,17 @@
     10
   ],
   "counties": [
-    "Monroe"
+    "Marion",
+    "Monroe",
+    "Parke"
   ],
   "county_record_counts": {
-    "Monroe": 1
+    "Monroe": 1,
+    "Parke": 2,
+    "Marion": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

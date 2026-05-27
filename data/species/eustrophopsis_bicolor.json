@@ -24,19 +24,27 @@
     9
   ],
   "counties": [
+    "Knox",
+    "LaGrange",
     "Lake",
     "Marion",
-    "St. Joseph"
+    "Pulaski",
+    "St. Joseph",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Marion": 4,
+    "Marion": 5,
     "St. Joseph": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Tippecanoe": 5,
+    "Knox": 1,
+    "LaGrange": 1,
+    "Pulaski": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Eustrophopsis_bicolor*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

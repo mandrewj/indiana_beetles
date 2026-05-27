@@ -18,15 +18,23 @@
     5
   ],
   "counties": [
-    "Brown"
+    "Brown",
+    "Jennings",
+    "Marion",
+    "Porter",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Brown": 4
+    "Brown": 12,
+    "Jennings": 1,
+    "Tippecanoe": 2,
+    "Porter": 2,
+    "Marion": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Necrodes_surinamensis*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -27,12 +27,12 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Tippecanoe": 3,
     "Greene": 1,
-    "Marion": 1
+    "Marion": 1,
+    "Tippecanoe": 3
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

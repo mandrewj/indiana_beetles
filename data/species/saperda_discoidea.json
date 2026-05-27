@@ -20,7 +20,8 @@
   "counties": [
     "Hamilton",
     "Lake",
-    "Monroe"
+    "Monroe",
+    "Putnam"
   ],
   "images": [],
   "similar_species": [],
@@ -30,7 +31,8 @@
   "county_record_counts": {
     "Hamilton": 1,
     "Monroe": 5,
-    "Lake": 2
+    "Lake": 2,
+    "Putnam": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

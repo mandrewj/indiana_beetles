@@ -27,25 +27,29 @@
     8
   ],
   "counties": [
+    "Allen",
     "Clark",
     "DeKalb",
     "Jennings",
     "Lake",
     "Orange",
+    "Saint Joseph",
     "St. Joseph"
   ],
   "county_record_counts": {
+    "Allen": 1,
     "St. Joseph": 1,
     "Clark": 1,
     "DeKalb": 1,
     "Jennings": 1,
     "Lake": 1,
-    "Orange": 1
+    "Orange": 1,
+    "Saint Joseph": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Disonycha_xanthomelas*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

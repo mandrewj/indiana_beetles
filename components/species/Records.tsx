@@ -40,7 +40,7 @@ export function Records({ species }: { species: Species }) {
           merged.push({
             county: r.county ?? "—",
             date: r.date ?? "—",
-            observer: r.observer ?? "—",
+            observer: r.observer ?? "[unknown]",
             source: "gbif",
             license: r.license ?? undefined,
             url: r.detailUrl,

@@ -19,15 +19,17 @@
     8
   ],
   "counties": [
-    "Clark"
+    "Clark",
+    "Porter"
   ],
   "county_record_counts": {
-    "Clark": 1
+    "Clark": 1,
+    "Porter": 14
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ellipsoptera_cuprascens*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

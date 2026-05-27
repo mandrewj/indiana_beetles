@@ -13,15 +13,23 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
-    "Brown"
+    "Brown",
+    "Jackson",
+    "LaGrange",
+    "Monroe",
+    "Orange"
   ],
   "county_record_counts": {
-    "Brown": 1
+    "Brown": 1,
+    "LaGrange": 2,
+    "Jackson": 1,
+    "Monroe": 2,
+    "Orange": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Valgus_seticollis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

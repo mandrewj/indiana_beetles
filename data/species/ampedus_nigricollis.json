@@ -27,7 +27,10 @@
   "counties": [
     "Allen",
     "Boone",
+    "Floyd",
     "Hamilton",
+    "Jackson",
+    "Knox",
     "Lake",
     "Madison",
     "Marion",
@@ -50,10 +53,13 @@
     "Marion": 4,
     "Madison": 1,
     "Parke": 2,
-    "Allen": 1
+    "Allen": 1,
+    "Jackson": 2,
+    "Knox": 1,
+    "Floyd": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -45,7 +45,7 @@
     "Allen": 2,
     "Tippecanoe": 5,
     "Dearborn": 2,
-    "Monroe": 1,
+    "Monroe": 2,
     "Marion": 2,
     "Porter": 3,
     "St. Joseph": 2,
@@ -61,5 +61,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Creophilus_maxillosus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

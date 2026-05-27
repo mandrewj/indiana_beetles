@@ -34,6 +34,7 @@
     "Hamilton",
     "Hancock",
     "Hendricks",
+    "Huntington",
     "Jennings",
     "Johnson",
     "Lake",
@@ -49,7 +50,7 @@
     "Wayne"
   ],
   "county_record_counts": {
-    "Marion": 10,
+    "Marion": 11,
     "Jennings": 1,
     "Hamilton": 1,
     "St. Joseph": 2,
@@ -60,7 +61,7 @@
     "Tippecanoe": 1,
     "LaPorte": 1,
     "Brown": 1,
-    "Monroe": 4,
+    "Monroe": 6,
     "Vigo": 1,
     "Bartholomew": 1,
     "Boone": 2,
@@ -68,12 +69,13 @@
     "Porter": 1,
     "Madison": 1,
     "Lake": 1,
-    "Wayne": 1
+    "Wayne": 5,
+    "Huntington": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lebia_viridis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

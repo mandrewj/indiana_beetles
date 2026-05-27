@@ -29,6 +29,7 @@
     "Boone",
     "Cass",
     "Clark",
+    "Clay",
     "Clinton",
     "Dearborn",
     "Decatur",
@@ -74,7 +75,7 @@
     "White"
   ],
   "county_record_counts": {
-    "Tippecanoe": 23,
+    "Tippecanoe": 24,
     "St. Joseph": 3,
     "Warren": 1,
     "Huntington": 6,
@@ -92,7 +93,7 @@
     "Delaware": 5,
     "Madison": 3,
     "Dubois": 2,
-    "Putnam": 1,
+    "Putnam": 2,
     "Johnson": 1,
     "Noble": 2,
     "Wabash": 1,
@@ -102,7 +103,7 @@
     "Clinton": 1,
     "Warrick": 1,
     "Dearborn": 5,
-    "Howard": 2,
+    "Howard": 3,
     "Decatur": 1,
     "Ripley": 1,
     "Elkhart": 1,
@@ -114,19 +115,20 @@
     "Hancock": 1,
     "Shelby": 1,
     "White": 1,
-    "Parke": 9,
+    "Parke": 10,
     "Jasper": 1,
     "Tipton": 1,
     "Steuben": 2,
     "Wells": 1,
     "Jennings": 7,
     "Lawrence": 1,
-    "Jackson": 1
+    "Jackson": 1,
+    "Clay": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Popillia_japonica*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

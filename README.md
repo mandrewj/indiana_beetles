@@ -29,6 +29,13 @@ npm run data:family-ids   # populate iNat IDs across data/families/
 npm run bulk:import -- <family-id> [more…]  # for each family: pull all IN-observed species from
                                             # iNat, enrich via GBIF + Wikipedia + iNat summary,
                                             # commit per family. Pass `all` for the 15-family set.
+                                            # Distribution snapshot combines iNat + GBIF
+                                            # (non-iNat-mirror) records.
+npm run data:backfill-distribution          # one-off rebuild of county_record_counts for every
+                                            # species in data/species/. Touches only `counties`,
+                                            # `county_record_counts`, `last_refreshed`. Pass
+                                            # `--only id1,id2`, `--dry-run`, `--no-commit`, or
+                                            # `--resume` (skip species already touched today).
 ```
 
 ## Editor tools

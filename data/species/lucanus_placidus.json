@@ -44,6 +44,7 @@
     "White"
   ],
   "county_record_counts": {
+    "Starke": 6,
     "Porter": 27,
     "Lake": 13,
     "Bartholomew": 1,
@@ -54,7 +55,6 @@
     "Fulton": 1,
     "Jasper": 2,
     "Newton": 4,
-    "Starke": 5,
     "Marshall": 3,
     "Hamilton": 2,
     "Steuben": 1,
@@ -68,5 +68,5 @@
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Lucanus_placidus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

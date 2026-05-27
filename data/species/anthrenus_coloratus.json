@@ -30,20 +30,22 @@
     "Marion",
     "Morgan",
     "Randolph",
-    "St. Joseph"
+    "St. Joseph",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Marion": 8,
+    "Marion": 9,
     "St. Joseph": 1,
     "Morgan": 1,
     "Boone": 1,
     "Clark": 1,
-    "Randolph": 1
+    "Randolph": 1,
+    "Tippecanoe": 4
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anthrenus_coloratus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -23,6 +23,7 @@
   "counties": [
     "Elkhart",
     "Lake",
+    "Montgomery",
     "Newton",
     "Porter",
     "Starke",
@@ -34,12 +35,13 @@
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Batyle_suturalis*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
-    "Porter": 8,
+    "Porter": 13,
     "Lake": 4,
     "Starke": 3,
-    "Tippecanoe": 1,
+    "Tippecanoe": 2,
     "Newton": 2,
-    "Elkhart": 1
+    "Elkhart": 1,
+    "Montgomery": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

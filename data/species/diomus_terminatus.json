@@ -20,12 +20,22 @@
     7,
     8
   ],
-  "counties": [],
-  "county_record_counts": {},
+  "counties": [
+    "Bartholomew",
+    "Porter",
+    "Posey",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 8,
+    "Porter": 1,
+    "Bartholomew": 1,
+    "Posey": 1
+  },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Diomus_terminatus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

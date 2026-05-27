@@ -26,16 +26,22 @@
   ],
   "counties": [
     "Lake",
+    "LaPorte",
+    "Monroe",
+    "Morgan",
     "Porter"
   ],
   "county_record_counts": {
-    "Lake": 5,
-    "Porter": 1
+    "Lake": 6,
+    "Porter": 62,
+    "Morgan": 5,
+    "Monroe": 1,
+    "LaPorte": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_hirticollis*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

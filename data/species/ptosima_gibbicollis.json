@@ -34,8 +34,8 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Marion": 9,
-    "Brown": 2,
+    "Brown": 3,
+    "Marion": 10,
     "Lawrence": 1,
     "Tippecanoe": 2,
     "Bartholomew": 1,
@@ -51,5 +51,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ptosima_gibbicollis*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

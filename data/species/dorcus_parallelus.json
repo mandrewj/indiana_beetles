@@ -37,6 +37,7 @@
     "Orange",
     "Perry",
     "Porter",
+    "Putnam",
     "Scott",
     "Shelby",
     "St. Joseph",
@@ -59,15 +60,16 @@
     "Miami": 1,
     "Perry": 1,
     "Porter": 1,
-    "Monroe": 2,
-    "Tippecanoe": 1,
+    "Monroe": 4,
+    "Tippecanoe": 2,
     "Noble": 1,
-    "Orange": 1
+    "Orange": 1,
+    "Putnam": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Dorcus_parallelus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

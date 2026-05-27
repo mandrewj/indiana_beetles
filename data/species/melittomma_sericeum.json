@@ -19,16 +19,18 @@
   ],
   "counties": [
     "Monroe",
-    "Morgan"
+    "Morgan",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Morgan": 3,
-    "Monroe": 3
+    "Monroe": 3,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Melittomma_sericeum*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

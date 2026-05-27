@@ -30,21 +30,27 @@
     "Bartholomew",
     "Brown",
     "Clark",
+    "Clinton",
+    "Crawford",
     "Dubois",
     "Fayette",
     "Floyd",
     "Franklin",
+    "Harrison",
     "Monroe",
+    "Montgomery",
     "Orange",
+    "Parke",
     "Posey",
     "Putnam",
     "Switzerland",
-    "Vigo"
+    "Vigo",
+    "Washington"
   ],
   "county_record_counts": {
-    "Brown": 2,
+    "Brown": 3,
     "Clark": 3,
-    "Monroe": 8,
+    "Monroe": 9,
     "Putnam": 1,
     "Orange": 1,
     "Vigo": 1,
@@ -54,12 +60,18 @@
     "Bartholomew": 1,
     "Posey": 1,
     "Switzerland": 1,
-    "Fayette": 1
+    "Fayette": 1,
+    "Harrison": 1,
+    "Crawford": 6,
+    "Clinton": 1,
+    "Parke": 1,
+    "Washington": 9,
+    "Montgomery": 5
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Dichotomius_carolinus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

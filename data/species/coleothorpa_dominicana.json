@@ -21,21 +21,25 @@
   "counties": [
     "Hamilton",
     "Hendricks",
+    "Jasper",
+    "Jefferson",
     "Madison",
     "Starke",
     "Warrick"
   ],
   "county_record_counts": {
+    "Jasper": 1,
     "Warrick": 1,
     "Starke": 1,
     "Hamilton": 1,
     "Hendricks": 2,
-    "Madison": 1
+    "Madison": 1,
+    "Jefferson": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Coleothorpa_dominicana*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

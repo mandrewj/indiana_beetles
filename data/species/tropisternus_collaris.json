@@ -26,6 +26,9 @@
     "Bartholomew",
     "Fayette",
     "Jackson",
+    "Lawrence",
+    "Monroe",
+    "Posey",
     "Tippecanoe",
     "Vanderburgh",
     "Wayne"
@@ -33,15 +36,18 @@
   "county_record_counts": {
     "Vanderburgh": 3,
     "Bartholomew": 2,
-    "Tippecanoe": 1,
+    "Tippecanoe": 3,
     "Wayne": 1,
     "Fayette": 1,
-    "Jackson": 1
+    "Jackson": 1,
+    "Monroe": 1,
+    "Lawrence": 1,
+    "Posey": 4
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tropisternus_collaris*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

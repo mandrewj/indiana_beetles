@@ -29,12 +29,14 @@
     "Allen",
     "Bartholomew",
     "Boone",
+    "Crawford",
     "Delaware",
     "Elkhart",
     "Fulton",
     "Grant",
     "Hamilton",
     "Hancock",
+    "Harrison",
     "Hendricks",
     "Henry",
     "Howard",
@@ -55,7 +57,9 @@
     "Parke",
     "Porter",
     "Posey",
+    "Ripley",
     "Shelby",
+    "Spencer",
     "St. Joseph",
     "Starke",
     "Steuben",
@@ -68,12 +72,12 @@
   ],
   "county_record_counts": {
     "Warrick": 1,
-    "Monroe": 4,
+    "Monroe": 5,
     "Boone": 3,
     "Hendricks": 14,
     "Porter": 5,
     "Hamilton": 8,
-    "Tippecanoe": 26,
+    "Tippecanoe": 53,
     "Marion": 6,
     "Elkhart": 3,
     "Allen": 6,
@@ -94,7 +98,7 @@
     "St. Joseph": 2,
     "Kosciusko": 2,
     "Delaware": 2,
-    "Huntington": 1,
+    "Huntington": 2,
     "White": 4,
     "Jasper": 6,
     "Grant": 2,
@@ -105,12 +109,16 @@
     "Wayne": 1,
     "Tipton": 1,
     "Starke": 1,
-    "Shelby": 1
+    "Shelby": 1,
+    "Ripley": 1,
+    "Harrison": 1,
+    "Spencer": 2,
+    "Crawford": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Glischrochilus_quadrisignatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

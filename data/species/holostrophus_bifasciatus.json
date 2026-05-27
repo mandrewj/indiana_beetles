@@ -18,17 +18,21 @@
     5
   ],
   "counties": [
+    "Jennings",
+    "Ripley",
     "Tippecanoe",
     "Wayne"
   ],
   "county_record_counts": {
     "Wayne": 1,
-    "Tippecanoe": 1
+    "Tippecanoe": 10,
+    "Jennings": 1,
+    "Ripley": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Holostrophus_bifasciatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

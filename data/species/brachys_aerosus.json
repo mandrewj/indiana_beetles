@@ -19,21 +19,25 @@
     5
   ],
   "counties": [
+    "Brown",
     "Monroe",
     "Parke",
     "Porter",
+    "Starke",
     "White"
   ],
   "county_record_counts": {
     "White": 1,
     "Monroe": 1,
     "Parke": 1,
-    "Porter": 1
+    "Porter": 1,
+    "Brown": 1,
+    "Starke": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Brachys_aerosus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

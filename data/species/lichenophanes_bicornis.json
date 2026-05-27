@@ -22,15 +22,23 @@
     8
   ],
   "counties": [
+    "Allen",
+    "Clinton",
+    "Jackson",
+    "Lawrence",
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Tippecanoe": 1
+    "Tippecanoe": 11,
+    "Clinton": 1,
+    "Jackson": 1,
+    "Lawrence": 1,
+    "Allen": 4
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lichenophanes_bicornis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

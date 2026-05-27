@@ -14,16 +14,26 @@
   "phenology_peak": [],
   "counties": [
     "Elkhart",
-    "St. Joseph"
+    "La Porte",
+    "Marion",
+    "Parke",
+    "Posey",
+    "St. Joseph",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Elkhart": 1,
-    "St. Joseph": 1
+    "St. Joseph": 1,
+    "Tippecanoe": 9,
+    "La Porte": 1,
+    "Parke": 1,
+    "Posey": 1,
+    "Marion": 10
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epitrix_cucumeris*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

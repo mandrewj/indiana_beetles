@@ -18,13 +18,15 @@
     7
   ],
   "counties": [
+    "Lawrence",
     "Vanderburgh"
   ],
   "county_record_counts": {
-    "Vanderburgh": 2
+    "Vanderburgh": 2,
+    "Lawrence": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

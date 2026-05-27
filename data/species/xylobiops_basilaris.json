@@ -24,18 +24,22 @@
   ],
   "counties": [
     "Allen",
+    "Parke",
     "Tippecanoe",
-    "Vanderburgh"
+    "Vanderburgh",
+    "Warren"
   ],
   "county_record_counts": {
-    "Tippecanoe": 2,
+    "Tippecanoe": 15,
     "Vanderburgh": 3,
-    "Allen": 1
+    "Allen": 1,
+    "Parke": 1,
+    "Warren": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Xylobiops_basilaris*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

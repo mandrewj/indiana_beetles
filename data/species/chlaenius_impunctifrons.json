@@ -18,13 +18,19 @@
     5
   ],
   "counties": [
-    "Noble"
+    "Jackson",
+    "Kosciusko",
+    "Noble",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Noble": 1
+    "Noble": 1,
+    "Tippecanoe": 1,
+    "Jackson": 1,
+    "Kosciusko": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

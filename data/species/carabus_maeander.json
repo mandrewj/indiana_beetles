@@ -13,9 +13,14 @@
   "diagnostic_characters": [],
   "phenology": [],
   "phenology_peak": [],
-  "counties": [],
-  "county_record_counts": {},
+  "counties": [
+    "Steuben"
+  ],
+  "county_record_counts": {
+    "Steuben": 1
+  },
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "last_refreshed": "2026-05-27"
 }

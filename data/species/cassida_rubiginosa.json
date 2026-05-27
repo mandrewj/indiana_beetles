@@ -48,6 +48,7 @@
     "Whitley"
   ],
   "county_record_counts": {
+    "Allen": 4,
     "Howard": 2,
     "Porter": 2,
     "Boone": 2,
@@ -57,7 +58,6 @@
     "Hendricks": 1,
     "Marion": 8,
     "Huntington": 1,
-    "Allen": 3,
     "Whitley": 1,
     "Delaware": 1,
     "Monroe": 2,
@@ -76,5 +76,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cassida_rubiginosa*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

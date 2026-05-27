@@ -114,7 +114,9 @@ export async function fetchGbifOccurrences(
         id: occ.key,
         county: counties[i],
         date: formatDate(occ),
-        observer: occ.recordedBy || occ.identifiedBy || null,
+        // GBIF's `identifiedBy` is the determiner, not the collector — never
+        // fall back to it. Display layer surfaces a placeholder when null.
+        observer: occ.recordedBy?.trim() || null,
         license: occ.license || null,
         detailUrl: `https://www.gbif.org/occurrence/${occ.key}`,
       }));

@@ -18,15 +18,17 @@
     5
   ],
   "counties": [
-    "St. Joseph"
+    "St. Joseph",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "St. Joseph": 1
+    "St. Joseph": 1,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Amphicrossus_ciliatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

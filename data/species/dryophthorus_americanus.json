@@ -28,15 +28,15 @@
     "Wayne"
   ],
   "county_record_counts": {
-    "Ripley": 2,
-    "Jennings": 2,
     "Marion": 1,
     "Hamilton": 4,
     "Wayne": 2,
-    "Harrison": 1
+    "Harrison": 1,
+    "Ripley": 2,
+    "Jennings": 2
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

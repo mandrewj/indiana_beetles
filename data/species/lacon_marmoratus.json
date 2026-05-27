@@ -19,15 +19,17 @@
     9
   ],
   "counties": [
+    "Randolph",
     "St. Joseph"
   ],
   "county_record_counts": {
-    "St. Joseph": 1
+    "St. Joseph": 1,
+    "Randolph": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lacon_marmoratus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

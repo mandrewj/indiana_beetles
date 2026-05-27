@@ -24,28 +24,40 @@
   ],
   "counties": [
     "Allen",
+    "Bartholomew",
     "Brown",
+    "Crawford",
+    "Jackson",
     "Jennings",
     "Lake",
+    "Marion",
     "Monroe",
+    "Montgomery",
+    "Parke",
     "Porter",
     "Tippecanoe",
     "White"
   ],
   "county_record_counts": {
     "Allen": 2,
-    "Monroe": 1,
-    "Brown": 1,
+    "Monroe": 11,
+    "Brown": 3,
     "Jennings": 1,
-    "Lake": 1,
+    "Lake": 3,
     "White": 1,
-    "Porter": 1,
-    "Tippecanoe": 1
+    "Porter": 34,
+    "Tippecanoe": 6,
+    "Jackson": 1,
+    "Montgomery": 2,
+    "Marion": 1,
+    "Parke": 1,
+    "Bartholomew": 1,
+    "Crawford": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anatis_labiculata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

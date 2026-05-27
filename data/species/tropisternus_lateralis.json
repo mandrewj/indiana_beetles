@@ -26,12 +26,18 @@
   ],
   "counties": [
     "Bartholomew",
+    "Brown",
+    "Greene",
     "Hamilton",
     "Howard",
     "Jackson",
+    "Knox",
     "Lake",
+    "LaPorte",
+    "Lawrence",
     "Madison",
     "Marion",
+    "Marshall",
     "Monroe",
     "Montgomery",
     "Porter",
@@ -42,24 +48,30 @@
   ],
   "county_record_counts": {
     "Vanderburgh": 1,
-    "Wayne": 5,
+    "Wayne": 8,
     "St. Joseph": 2,
     "Jackson": 2,
-    "Bartholomew": 3,
+    "Bartholomew": 4,
     "Montgomery": 1,
-    "Lake": 1,
-    "Tippecanoe": 2,
-    "Porter": 1,
-    "Marion": 3,
+    "Lake": 9,
+    "Tippecanoe": 5,
+    "Porter": 4,
+    "Marion": 4,
     "Hamilton": 1,
     "Howard": 1,
-    "Monroe": 2,
-    "Madison": 1
+    "Monroe": 5,
+    "Madison": 1,
+    "Lawrence": 1,
+    "Brown": 8,
+    "Knox": 1,
+    "Greene": 2,
+    "LaPorte": 4,
+    "Marshall": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tropisternus_lateralis*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

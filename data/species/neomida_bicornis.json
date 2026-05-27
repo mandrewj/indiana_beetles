@@ -26,13 +26,24 @@
     5
   ],
   "counties": [
+    "Brown",
     "Carroll",
     "Fayette",
     "Jackson",
     "Johnson",
+    "Lake",
+    "LaPorte",
+    "Lawrence",
     "Marion",
+    "Monroe",
+    "Montgomery",
+    "Parke",
     "Porter",
-    "Vanderburgh"
+    "Shelby",
+    "Tippecanoe",
+    "Vanderburgh",
+    "Vigo",
+    "Wabash"
   ],
   "images": [],
   "similar_species": [],
@@ -42,9 +53,20 @@
     "Marion": 2,
     "Carroll": 1,
     "Fayette": 1,
-    "Porter": 2,
+    "Porter": 6,
     "Johnson": 1,
-    "Jackson": 1
+    "Jackson": 1,
+    "Tippecanoe": 18,
+    "Lawrence": 1,
+    "Wabash": 1,
+    "Montgomery": 8,
+    "Shelby": 4,
+    "Brown": 2,
+    "Monroe": 7,
+    "Parke": 1,
+    "LaPorte": 17,
+    "Lake": 9,
+    "Vigo": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

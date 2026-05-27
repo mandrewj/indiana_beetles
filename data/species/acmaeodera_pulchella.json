@@ -23,6 +23,7 @@
     "Clark",
     "Delaware",
     "Hamilton",
+    "Madison",
     "Marion",
     "Monroe",
     "Porter",
@@ -36,15 +37,16 @@
     "Starke": 4,
     "Hamilton": 4,
     "Warrick": 1,
-    "Porter": 3,
+    "Porter": 4,
     "Monroe": 1,
     "Marion": 1,
-    "Washington": 1
+    "Washington": 1,
+    "Madison": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Acmaeodera_pulchella*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

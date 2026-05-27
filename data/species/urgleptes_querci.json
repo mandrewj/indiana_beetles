@@ -22,8 +22,12 @@
     "Elkhart",
     "Hendricks",
     "Knox",
+    "LaGrange",
     "Lake",
+    "Pulaski",
+    "Putnam",
     "St. Joseph",
+    "Steuben",
     "Tippecanoe",
     "White"
   ],
@@ -34,12 +38,16 @@
   ],
   "county_record_counts": {
     "St. Joseph": 4,
-    "Tippecanoe": 1,
+    "Tippecanoe": 2,
     "Hendricks": 1,
     "Knox": 1,
     "Elkhart": 2,
     "Lake": 1,
-    "White": 1
+    "White": 1,
+    "Putnam": 1,
+    "LaGrange": 1,
+    "Steuben": 1,
+    "Pulaski": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

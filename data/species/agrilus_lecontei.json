@@ -18,15 +18,23 @@
     5
   ],
   "counties": [
-    "Boone"
+    "Allen",
+    "Boone",
+    "Cass",
+    "Lake",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Boone": 1
+    "Boone": 1,
+    "Cass": 1,
+    "Allen": 1,
+    "Tippecanoe": 21,
+    "Lake": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agrilus_lecontei*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

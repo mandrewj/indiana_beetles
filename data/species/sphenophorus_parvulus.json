@@ -42,12 +42,12 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Tippecanoe": 7,
     "Allen": 10,
     "Hamilton": 1,
     "Henry": 1,
     "Marion": 2,
     "Johnson": 1,
+    "Tippecanoe": 7,
     "Grant": 1,
     "Huntington": 1,
     "Monroe": 4,
@@ -59,5 +59,5 @@
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

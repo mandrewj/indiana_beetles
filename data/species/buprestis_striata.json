@@ -19,17 +19,19 @@
     5
   ],
   "counties": [
+    "LaGrange",
     "LaPorte",
     "St. Joseph"
   ],
   "county_record_counts": {
     "St. Joseph": 1,
-    "LaPorte": 1
+    "LaPorte": 1,
+    "LaGrange": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Buprestis_striata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

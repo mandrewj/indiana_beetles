@@ -25,7 +25,8 @@
     "Lake",
     "Marion",
     "Porter",
-    "Ripley"
+    "Ripley",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Ripley": 1,
@@ -33,12 +34,13 @@
     "Brown": 1,
     "Porter": 1,
     "Hendricks": 1,
-    "Lake": 7
+    "Lake": 7,
+    "Tippecanoe": 7
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Amphasia_sericea*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

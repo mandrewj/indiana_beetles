@@ -20,15 +20,17 @@
   "counties": [
     "Hendricks",
     "Lake",
-    "Porter"
+    "Porter",
+    "Posey"
   ],
   "county_record_counts": {
     "Porter": 1,
     "Hendricks": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Posey": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

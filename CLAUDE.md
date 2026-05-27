@@ -38,10 +38,16 @@ npm run bulk:import -- meloidae --no-commit  # writes JSON, skips git
 
 Per family it: ensures the family JSON exists, fills `diagnosis` from Wikipedia if empty, queries iNat species_counts (place_id=20, count >= 2), filters out species marked `last_refreshed`, enriches each new species, writes the species JSON + updates `taxonomy.json` (auto-creating genus stubs), and commits per-family with `git add -A`.
 
+**Distribution snapshot:** `fetchCountyDistribution` queries iNat (research-grade Indiana observations) **and** GBIF (Indiana, hasCoordinate, non-iNat-mirror) and merges the per-county counts. Both sources are point-in-polygon resolved against the bundled topojson. Earlier revisions of this script were iNat-only — that gap left GBIF museum specimens (Purdue UKIC, NHMUK, etc.) invisible on the distribution map, since the Distribution component treats any populated `county_record_counts` as an admin override and skips the in-browser live fetch.
+
 **Two important gotchas:**
 
 - **`git add -A` race**: the script sweeps the whole working tree into each per-family commit. Don't edit source files while it's running — your edits will land under a "Bulk import: Foo — N species" commit message instead of standing on their own. Either pause your edits until completion, or accept the mislabeled history.
 - **Per-family try/catch**: if a single family fails mid-run (e.g. transient `fetch failed`), the script logs the error and continues to the next family. The half-written species JSONs land in the next family's `git add -A` commit, but the failed family's `taxonomy.json` entry is missing. Re-run just that family to repair (`npm run bulk:import -- <id>` — the existing species JSONs are detected and skipped, then properly registered in the taxonomy).
+
+## Rebuilding distribution snapshots without re-enriching
+
+`scripts/backfill-distribution.ts` (`npm run data:backfill-distribution`) re-snapshots `counties` / `county_record_counts` / `last_refreshed` for every existing species without touching any other field. It calls the same iNat + GBIF endpoints as `bulk-import` but skips all of the Wikipedia/diagnosis/size/phenology work and writes a single end-of-run commit. Use it when only the distribution path changes (e.g. a new dataset filter, a new source, a county-resolver fix). Per-species errors are logged and counted; rerun with `--only <ids>` to repair.
 
 `scripts/` is excluded from the Next.js `tsconfig.json` so script-level TypeScript bugs don't gate the production build. Still keep the scripts well-typed for `tsx` runs.
 

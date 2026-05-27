@@ -19,14 +19,24 @@
   ],
   "counties": [
     "Hancock",
-    "Lake"
+    "Jennings",
+    "Lake",
+    "Porter",
+    "Ripley",
+    "Starke",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Hancock": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Tippecanoe": 12,
+    "Ripley": 2,
+    "Jennings": 1,
+    "Starke": 15,
+    "Porter": 17
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

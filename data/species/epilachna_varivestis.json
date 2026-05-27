@@ -30,26 +30,36 @@
     "Bartholomew",
     "Brown",
     "Clark",
+    "Elkhart",
     "Franklin",
     "Monroe",
+    "Porter",
     "Randolph",
     "Ripley",
-    "Washington"
+    "Spencer",
+    "Tippecanoe",
+    "Washington",
+    "Wayne"
   ],
   "county_record_counts": {
     "Franklin": 2,
     "Monroe": 3,
-    "Clark": 2,
+    "Clark": 6,
     "Brown": 4,
     "Ripley": 1,
     "Bartholomew": 1,
     "Randolph": 1,
-    "Washington": 1
+    "Washington": 1,
+    "Elkhart": 1,
+    "Porter": 15,
+    "Spencer": 2,
+    "Tippecanoe": 4,
+    "Wayne": 5
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epilachna_varivestis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -29,15 +29,15 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Allen": 1,
-    "Tippecanoe": 3,
     "St. Joseph": 1,
     "Johnson": 1,
     "Hancock": 1,
-    "Hendricks": 2
+    "Hendricks": 2,
+    "Tippecanoe": 3,
+    "Allen": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

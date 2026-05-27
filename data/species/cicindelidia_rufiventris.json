@@ -20,6 +20,7 @@
     8
   ],
   "counties": [
+    "Clark",
     "Crawford",
     "Harrison",
     "Hendricks",
@@ -35,10 +36,11 @@
     "Marion": 1,
     "Perry": 2,
     "Crawford": 1,
-    "Jefferson": 1
+    "Jefferson": 1,
+    "Clark": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

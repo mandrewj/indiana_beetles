@@ -26,6 +26,7 @@
     "Delaware",
     "Greene",
     "Hamilton",
+    "Jackson",
     "Jennings",
     "Johnson",
     "Lake",
@@ -71,12 +72,13 @@
     "Marshall": 1,
     "Posey": 1,
     "Allen": 2,
-    "Orange": 2
+    "Orange": 2,
+    "Jackson": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lytta_aenea*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

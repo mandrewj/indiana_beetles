@@ -18,15 +18,17 @@
     5
   ],
   "counties": [
+    "LaGrange",
     "Monroe",
     "Morgan"
   ],
   "county_record_counts": {
     "Morgan": 1,
-    "Monroe": 1
+    "Monroe": 1,
+    "LaGrange": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

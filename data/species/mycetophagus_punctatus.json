@@ -25,19 +25,23 @@
     "Brown",
     "Hamilton",
     "Monroe",
-    "Starke"
+    "Perry",
+    "Starke",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Hamilton": 1,
     "Allen": 1,
     "Brown": 1,
     "Monroe": 1,
-    "Starke": 1
+    "Starke": 1,
+    "Tippecanoe": 16,
+    "Perry": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mycetophagus_punctatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

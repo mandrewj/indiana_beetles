@@ -26,6 +26,7 @@
     "Delaware",
     "Hamilton",
     "Hendricks",
+    "Lake",
     "Madison",
     "Marion",
     "Monroe",
@@ -38,20 +39,21 @@
     "Delaware": 1,
     "Marion": 1,
     "Tippecanoe": 2,
-    "Monroe": 1,
+    "Monroe": 2,
     "Morgan": 2,
     "Shelby": 1,
     "Hendricks": 1,
     "Hamilton": 2,
-    "Newton": 1,
+    "Newton": 2,
     "Allen": 2,
     "Madison": 2,
-    "Boone": 1
+    "Boone": 1,
+    "Lake": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_pensylvanica*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

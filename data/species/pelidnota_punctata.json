@@ -63,6 +63,7 @@
     "Parke",
     "Porter",
     "Putnam",
+    "Saint Joseph",
     "Scott",
     "Shelby",
     "Spencer",
@@ -80,10 +81,10 @@
     "Whitley"
   ],
   "county_record_counts": {
-    "Wayne": 7,
+    "Wayne": 10,
     "Hamilton": 5,
     "Vigo": 3,
-    "Jackson": 2,
+    "Jackson": 3,
     "Brown": 5,
     "Monroe": 10,
     "Jennings": 8,
@@ -98,9 +99,9 @@
     "Washington": 3,
     "Scott": 1,
     "Vanderburgh": 1,
-    "Union": 1,
+    "Union": 2,
     "Howard": 1,
-    "Tippecanoe": 17,
+    "Tippecanoe": 20,
     "Allen": 10,
     "Bartholomew": 4,
     "Porter": 5,
@@ -115,7 +116,7 @@
     "Spencer": 1,
     "Lake": 5,
     "Whitley": 2,
-    "Lawrence": 1,
+    "Lawrence": 3,
     "Grant": 2,
     "Johnson": 2,
     "White": 2,
@@ -132,12 +133,13 @@
     "Parke": 1,
     "Jefferson": 1,
     "Switzerland": 1,
-    "Daviess": 1
+    "Daviess": 1,
+    "Saint Joseph": 4
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pelidnota_punctata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

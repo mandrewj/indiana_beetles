@@ -25,12 +25,14 @@
   ],
   "counties": [
     "Brown",
+    "Clark",
     "Daviess",
     "Elkhart",
     "Gibson",
     "Hamilton",
     "Hendricks",
     "Jackson",
+    "LaGrange",
     "Lake",
     "LaPorte",
     "Marion",
@@ -42,10 +44,10 @@
   ],
   "county_record_counts": {
     "Gibson": 1,
-    "Tippecanoe": 1,
+    "Tippecanoe": 2,
     "Daviess": 1,
     "St. Joseph": 4,
-    "Marion": 4,
+    "Marion": 16,
     "Hamilton": 4,
     "Hendricks": 3,
     "Brown": 1,
@@ -55,12 +57,14 @@
     "Elkhart": 1,
     "LaPorte": 1,
     "Jackson": 3,
-    "Monroe": 1
+    "Monroe": 1,
+    "Clark": 1,
+    "LaGrange": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Crioceris_asparagi*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

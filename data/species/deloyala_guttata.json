@@ -55,21 +55,25 @@
     "Posey",
     "Ripley",
     "St. Joseph",
+    "Steuben",
     "Tippecanoe",
     "Tipton",
     "Vanderburgh",
     "Vermillion",
     "Vigo",
     "Wayne",
-    "Wells"
+    "Wells",
+    "White"
   ],
   "county_record_counts": {
+    "Vanderburgh": 4,
+    "White": 1,
+    "Marion": 17,
     "Porter": 1,
     "Owen": 2,
     "Hancock": 2,
     "Greene": 2,
     "Wayne": 2,
-    "Marion": 16,
     "Hamilton": 2,
     "Newton": 1,
     "Hendricks": 2,
@@ -90,7 +94,6 @@
     "Clark": 1,
     "Dearborn": 2,
     "LaPorte": 2,
-    "Vanderburgh": 3,
     "Madison": 3,
     "St. Joseph": 2,
     "Brown": 1,
@@ -98,12 +101,13 @@
     "Tipton": 1,
     "Perry": 1,
     "Posey": 1,
-    "Wells": 1
+    "Wells": 1,
+    "Steuben": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Deloyala_guttata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -34,6 +34,7 @@
     "Grant",
     "Greene",
     "Hamilton",
+    "Harrison",
     "Hendricks",
     "Henry",
     "Howard",
@@ -80,17 +81,17 @@
     "Grant": 1,
     "Lawrence": 2,
     "Monroe": 19,
-    "Hamilton": 5,
+    "Hamilton": 7,
     "Spencer": 1,
     "St. Joseph": 8,
     "LaGrange": 1,
     "Johnson": 3,
     "Dearborn": 1,
     "Delaware": 8,
-    "Tippecanoe": 32,
+    "Tippecanoe": 33,
     "Wayne": 9,
     "Putnam": 2,
-    "Clark": 1,
+    "Clark": 2,
     "Whitley": 1,
     "Greene": 2,
     "Madison": 1,
@@ -113,7 +114,8 @@
     "Ripley": 1,
     "Dubois": 1,
     "Jefferson": 1,
-    "Union": 1
+    "Union": 1,
+    "Harrison": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

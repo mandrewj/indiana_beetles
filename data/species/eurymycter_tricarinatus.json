@@ -20,15 +20,17 @@
     8
   ],
   "counties": [
-    "Monroe"
+    "Monroe",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Monroe": 2
+    "Monroe": 2,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Eurymycter_tricarinatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -19,15 +19,19 @@
     7
   ],
   "counties": [
+    "LaPorte",
+    "Parke",
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Tippecanoe": 1
+    "Tippecanoe": 12,
+    "Parke": 3,
+    "LaPorte": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Colydium_lineola*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

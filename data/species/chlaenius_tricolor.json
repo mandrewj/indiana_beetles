@@ -27,8 +27,10 @@
   "counties": [
     "Benton",
     "Hancock",
+    "Harrison",
     "Porter",
     "Steuben",
+    "Tippecanoe",
     "Whitley"
   ],
   "county_record_counts": {
@@ -36,12 +38,14 @@
     "Whitley": 1,
     "Benton": 1,
     "Porter": 1,
-    "Steuben": 1
+    "Steuben": 1,
+    "Harrison": 5,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chlaenius_tricolor*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

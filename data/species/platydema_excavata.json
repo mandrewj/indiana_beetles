@@ -11,8 +11,26 @@
   "diagnostic_characters": [],
   "phenology": [],
   "phenology_peak": [],
-  "counties": [],
+  "counties": [
+    "Brown",
+    "Lake",
+    "LaPorte",
+    "Monroe",
+    "Porter",
+    "Posey",
+    "Tippecanoe"
+  ],
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "county_record_counts": {
+    "Tippecanoe": 9,
+    "Monroe": 6,
+    "Brown": 1,
+    "LaPorte": 2,
+    "Porter": 3,
+    "Posey": 1,
+    "Lake": 1
+  },
+  "last_refreshed": "2026-05-27"
 }

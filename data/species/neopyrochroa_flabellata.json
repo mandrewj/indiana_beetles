@@ -41,6 +41,7 @@
     "Morgan",
     "Noble",
     "Porter",
+    "Ripley",
     "St. Joseph",
     "Tippecanoe",
     "Vermillion",
@@ -61,19 +62,20 @@
     "Marion": 8,
     "Hendricks": 4,
     "Montgomery": 1,
-    "Tippecanoe": 5,
+    "Tippecanoe": 6,
     "Boone": 1,
     "Porter": 1,
     "Monroe": 5,
     "Howard": 1,
     "Wayne": 1,
     "St. Joseph": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Ripley": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Neopyrochroa_flabellata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -29,6 +29,7 @@
   "counties": [
     "Allen",
     "Bartholomew",
+    "Boone",
     "Brown",
     "Clark",
     "Clay",
@@ -65,8 +66,9 @@
     "Wells"
   ],
   "county_record_counts": {
+    "Clark": 2,
+    "Lawrence": 5,
     "Morgan": 3,
-    "Lawrence": 4,
     "Vanderburgh": 4,
     "Greene": 3,
     "Monroe": 40,
@@ -76,12 +78,11 @@
     "Marion": 1,
     "DeKalb": 1,
     "Huntington": 2,
-    "Wells": 1,
+    "Wells": 2,
     "Dubois": 3,
     "Franklin": 4,
     "Fayette": 1,
     "Owen": 4,
-    "Clark": 1,
     "Knox": 1,
     "Clay": 2,
     "St. Joseph": 1,
@@ -97,15 +98,16 @@
     "Grant": 1,
     "Wayne": 1,
     "Jefferson": 3,
-    "Floyd": 3,
+    "Floyd": 4,
     "Warrick": 1,
     "Jackson": 1,
-    "Decatur": 1
+    "Decatur": 1,
+    "Boone": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Leptinotarsa_juncta*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

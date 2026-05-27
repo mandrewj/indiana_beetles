@@ -30,9 +30,11 @@
     "Delaware",
     "Dubois",
     "Huntington",
+    "Jackson",
     "Jay",
     "Jennings",
     "Johnson",
+    "Knox",
     "LaGrange",
     "Lake",
     "LaPorte",
@@ -42,14 +44,19 @@
     "Parke",
     "Perry",
     "Porter",
+    "Pulaski",
+    "Putnam",
+    "Ripley",
     "Spencer",
     "Starke",
     "Sullivan",
     "Tippecanoe",
     "Vanderburgh",
+    "Vermillion",
     "Washington"
   ],
   "county_record_counts": {
+    "Vermillion": 1,
     "Huntington": 1,
     "Brown": 8,
     "Porter": 5,
@@ -68,18 +75,23 @@
     "Johnson": 1,
     "Clark": 1,
     "Perry": 2,
-    "Tippecanoe": 1,
+    "Tippecanoe": 8,
     "Starke": 1,
     "LaGrange": 1,
     "Orange": 1,
     "Spencer": 2,
     "Lake": 3,
-    "Jay": 2
+    "Jay": 2,
+    "Knox": 2,
+    "Jackson": 3,
+    "Pulaski": 1,
+    "Putnam": 4,
+    "Ripley": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Arrenodes_minutus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

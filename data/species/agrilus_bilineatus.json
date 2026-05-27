@@ -19,21 +19,29 @@
     7
   ],
   "counties": [
+    "Bartholomew",
     "Brown",
     "Lake",
     "Madison",
-    "Starke"
+    "Porter",
+    "Putnam",
+    "Starke",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Lake": 4,
-    "Starke": 1,
-    "Brown": 1,
-    "Madison": 1
+    "Starke": 3,
+    "Brown": 2,
+    "Madison": 1,
+    "Putnam": 1,
+    "Tippecanoe": 8,
+    "Bartholomew": 1,
+    "Porter": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agrilus_bilineatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

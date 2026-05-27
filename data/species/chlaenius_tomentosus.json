@@ -13,6 +13,7 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
+    "Harrison",
     "Lake",
     "Porter",
     "Switzerland"
@@ -20,12 +21,13 @@
   "county_record_counts": {
     "Switzerland": 1,
     "Porter": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Harrison": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chlaenius*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

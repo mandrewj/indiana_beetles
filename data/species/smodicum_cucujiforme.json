@@ -24,8 +24,11 @@
     "Brown",
     "Lake",
     "Marion",
+    "Putnam",
     "St. Joseph",
-    "Starke"
+    "Starke",
+    "Tippecanoe",
+    "Vanderburgh"
   ],
   "images": [],
   "similar_species": [],
@@ -33,12 +36,15 @@
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Smodicum_cucujiforme*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
+    "Vanderburgh": 1,
     "Lake": 1,
     "Brown": 1,
     "Allen": 1,
     "St. Joseph": 2,
     "Marion": 2,
-    "Starke": 1
+    "Starke": 1,
+    "Putnam": 1,
+    "Tippecanoe": 11
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

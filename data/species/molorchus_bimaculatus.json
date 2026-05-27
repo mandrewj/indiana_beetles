@@ -28,7 +28,8 @@
     "Putnam",
     "St. Joseph",
     "Starke",
-    "Vanderburgh"
+    "Vanderburgh",
+    "Wabash"
   ],
   "images": [],
   "similar_species": [],
@@ -44,7 +45,8 @@
     "Noble": 1,
     "Starke": 4,
     "Monroe": 1,
-    "Putnam": 1
+    "Putnam": 1,
+    "Wabash": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

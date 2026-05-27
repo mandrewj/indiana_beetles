@@ -19,17 +19,31 @@
     9
   ],
   "counties": [
+    "Bartholomew",
+    "Jackson",
+    "Lake",
     "Morgan",
+    "Newton",
+    "Parke",
+    "Porter",
     "Tippecanoe",
-    "Vanderburgh"
+    "Vanderburgh",
+    "Vigo"
   ],
   "images": [],
   "similar_species": [],
   "references": [],
   "county_record_counts": {
-    "Tippecanoe": 1,
+    "Tippecanoe": 10,
     "Morgan": 1,
-    "Vanderburgh": 1
+    "Vanderburgh": 1,
+    "Newton": 1,
+    "Jackson": 1,
+    "Parke": 5,
+    "Bartholomew": 5,
+    "Porter": 1,
+    "Vigo": 3,
+    "Lake": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -30,6 +30,7 @@
     "Hamilton",
     "Jennings",
     "Monroe",
+    "Montgomery",
     "Morgan",
     "Tippecanoe",
     "Vermillion"
@@ -39,13 +40,14 @@
     "Monroe": 8,
     "Jennings": 1,
     "Hamilton": 1,
-    "Tippecanoe": 2,
-    "Morgan": 2
+    "Tippecanoe": 3,
+    "Morgan": 2,
+    "Montgomery": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Penthe_pimelia*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

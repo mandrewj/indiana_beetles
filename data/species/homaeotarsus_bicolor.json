@@ -21,16 +21,20 @@
   ],
   "counties": [
     "Allen",
+    "Harrison",
     "Marion",
+    "Spencer",
     "Vanderburgh"
   ],
   "county_record_counts": {
     "Vanderburgh": 1,
     "Allen": 1,
-    "Marion": 1
+    "Marion": 1,
+    "Harrison": 1,
+    "Spencer": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

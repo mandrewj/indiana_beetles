@@ -20,10 +20,16 @@
     6,
     7
   ],
-  "counties": [],
-  "county_record_counts": {},
+  "counties": [
+    "Porter",
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1,
+    "Porter": 1
+  },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

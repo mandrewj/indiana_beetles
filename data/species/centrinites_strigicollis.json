@@ -16,15 +16,17 @@
     5
   ],
   "counties": [
-    "Marion"
+    "Marion",
+    "Starke"
   ],
   "county_record_counts": {
-    "Marion": 2
+    "Marion": 2,
+    "Starke": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Centrinites_strigicollis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

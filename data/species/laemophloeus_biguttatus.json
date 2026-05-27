@@ -16,12 +16,16 @@
   "phenology_peak": [
     7
   ],
-  "counties": [],
-  "county_record_counts": {},
+  "counties": [
+    "Tippecanoe"
+  ],
+  "county_record_counts": {
+    "Tippecanoe": 1
+  },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Laemophloeus_biguttatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -23,6 +23,7 @@
     "Marion",
     "Morgan",
     "Noble",
+    "Tippecanoe",
     "Wayne"
   ],
   "county_record_counts": {
@@ -30,12 +31,13 @@
     "Hendricks": 2,
     "Morgan": 1,
     "Wayne": 1,
-    "Marion": 1
+    "Marion": 1,
+    "Tippecanoe": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Omophron_americanum*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

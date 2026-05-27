@@ -70,6 +70,7 @@
     "Wayne"
   ],
   "county_record_counts": {
+    "Vanderburgh": 3,
     "Grant": 1,
     "Orange": 1,
     "Hendricks": 8,
@@ -81,7 +82,7 @@
     "Marion": 38,
     "Monroe": 8,
     "Wayne": 5,
-    "Tippecanoe": 16,
+    "Tippecanoe": 17,
     "Howard": 3,
     "Allen": 15,
     "Hancock": 1,
@@ -92,7 +93,6 @@
     "Jennings": 2,
     "Morgan": 4,
     "Steuben": 1,
-    "Vanderburgh": 2,
     "Huntington": 1,
     "Parke": 1,
     "Dearborn": 2,
@@ -111,12 +111,12 @@
     "Jackson": 1,
     "Tipton": 1,
     "Lawrence": 1,
-    "Posey": 2
+    "Posey": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Photinus_pyralis*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

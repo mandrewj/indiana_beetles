@@ -30,6 +30,7 @@
     "Pulaski",
     "St. Joseph",
     "Starke",
+    "Tippecanoe",
     "Vigo",
     "Washington"
   ],
@@ -49,7 +50,8 @@
     "Lake": 2,
     "Pulaski": 1,
     "Vigo": 1,
-    "Washington": 1
+    "Washington": 1,
+    "Tippecanoe": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

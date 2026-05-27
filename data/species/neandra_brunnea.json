@@ -27,10 +27,13 @@
     "Benton",
     "Boone",
     "Cass",
+    "Clinton",
     "Hamilton",
     "Hendricks",
     "Henry",
+    "Jackson",
     "Johnson",
+    "Kosciusko",
     "Lake",
     "Marion",
     "Monroe",
@@ -52,7 +55,7 @@
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Neandra_brunnea*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
-    "Tippecanoe": 6,
+    "Tippecanoe": 10,
     "Bartholomew": 1,
     "Hendricks": 2,
     "Johnson": 1,
@@ -72,9 +75,12 @@
     "Allen": 4,
     "Starke": 2,
     "Tipton": 1,
-    "Cass": 4,
+    "Cass": 5,
     "Benton": 1,
-    "Orange": 1
+    "Orange": 1,
+    "Clinton": 1,
+    "Kosciusko": 1,
+    "Jackson": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

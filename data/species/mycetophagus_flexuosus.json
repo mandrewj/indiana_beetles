@@ -12,17 +12,23 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
+    "Jennings",
+    "Ripley",
     "St. Joseph",
-    "Starke"
+    "Starke",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "St. Joseph": 2,
-    "Starke": 1
+    "Starke": 1,
+    "Tippecanoe": 38,
+    "Ripley": 1,
+    "Jennings": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mycetophagus_flexuosus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

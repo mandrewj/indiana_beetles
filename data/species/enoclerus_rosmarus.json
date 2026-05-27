@@ -23,18 +23,22 @@
     "Boone",
     "Grant",
     "Hamilton",
+    "Jefferson",
+    "Knox",
     "Lake",
     "LaPorte",
     "Lawrence",
     "Madison",
     "Marion",
+    "Monroe",
     "Newton",
     "St. Joseph",
     "Starke",
     "Steuben",
     "Tippecanoe",
     "Vanderburgh",
-    "Vigo"
+    "Vigo",
+    "Warren"
   ],
   "county_record_counts": {
     "Marion": 12,
@@ -44,7 +48,7 @@
     "Allen": 5,
     "Starke": 1,
     "Vigo": 1,
-    "Tippecanoe": 1,
+    "Tippecanoe": 3,
     "Vanderburgh": 2,
     "Lake": 2,
     "Grant": 1,
@@ -52,12 +56,16 @@
     "LaPorte": 1,
     "Lawrence": 1,
     "Newton": 1,
-    "St. Joseph": 1
+    "St. Joseph": 1,
+    "Warren": 3,
+    "Monroe": 1,
+    "Knox": 1,
+    "Jefferson": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Enoclerus_rosmarus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

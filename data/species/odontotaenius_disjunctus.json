@@ -67,6 +67,7 @@
     "Pike",
     "Porter",
     "Putnam",
+    "Ripley",
     "Spencer",
     "St. Joseph",
     "Starke",
@@ -92,13 +93,13 @@
     "Vanderburgh": 6,
     "Hendricks": 3,
     "Huntington": 1,
-    "Clark": 7,
-    "Crawford": 1,
+    "Clark": 10,
+    "Crawford": 3,
     "Marion": 28,
     "St. Joseph": 5,
     "Tippecanoe": 30,
     "Vermillion": 2,
-    "Hamilton": 7,
+    "Hamilton": 8,
     "Starke": 1,
     "Wayne": 10,
     "Marshall": 1,
@@ -114,7 +115,7 @@
     "Morgan": 2,
     "Decatur": 1,
     "Jennings": 1,
-    "Harrison": 1,
+    "Harrison": 2,
     "Pike": 1,
     "Putnam": 1,
     "Daviess": 1,
@@ -125,12 +126,13 @@
     "Miami": 1,
     "Perry": 1,
     "Fountain": 1,
-    "Allen": 1
+    "Allen": 1,
+    "Ripley": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Odontotaenius_disjunctus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

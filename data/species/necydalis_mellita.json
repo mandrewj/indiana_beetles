@@ -23,6 +23,7 @@
     "Lake",
     "Orange",
     "Porter",
+    "Ripley",
     "St. Joseph",
     "Starke"
   ],
@@ -38,7 +39,8 @@
     "Porter": 2,
     "Delaware": 1,
     "Starke": 1,
-    "St. Joseph": 1
+    "St. Joseph": 1,
+    "Ripley": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

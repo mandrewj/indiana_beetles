@@ -17,15 +17,17 @@
     6
   ],
   "counties": [
+    "Decatur",
     "Starke"
   ],
   "county_record_counts": {
-    "Starke": 1
+    "Starke": 1,
+    "Decatur": 6
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Pyractomena_angulata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

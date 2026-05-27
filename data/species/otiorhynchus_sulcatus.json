@@ -49,15 +49,13 @@
   ],
   "county_record_counts": {
     "Marion": 11,
-    "Wells": 1,
-    "Allen": 7,
-    "Kosciusko": 1,
     "Tippecanoe": 13,
     "Porter": 3,
     "Hamilton": 4,
     "Montgomery": 1,
     "St. Joseph": 8,
     "Lake": 2,
+    "Allen": 7,
     "Shelby": 1,
     "Morgan": 1,
     "Benton": 1,
@@ -68,10 +66,12 @@
     "Monroe": 1,
     "Marshall": 1,
     "Steuben": 1,
-    "Madison": 1
+    "Madison": 1,
+    "Wells": 1,
+    "Kosciusko": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

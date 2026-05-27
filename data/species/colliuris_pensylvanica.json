@@ -24,6 +24,7 @@
   ],
   "counties": [
     "Brown",
+    "Clark",
     "Henry",
     "Howard",
     "Madison",
@@ -31,23 +32,28 @@
     "Monroe",
     "Morgan",
     "Perry",
+    "Porter",
     "Tippecanoe",
-    "Vanderburgh"
+    "Vanderburgh",
+    "Wayne"
   ],
   "county_record_counts": {
     "Marion": 1,
-    "Tippecanoe": 1,
+    "Tippecanoe": 6,
     "Brown": 1,
     "Henry": 1,
-    "Monroe": 1,
+    "Monroe": 8,
     "Vanderburgh": 1,
     "Perry": 1,
     "Madison": 2,
     "Howard": 1,
-    "Morgan": 1
+    "Morgan": 1,
+    "Porter": 1,
+    "Clark": 1,
+    "Wayne": 2
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -25,6 +25,8 @@
     "Marion",
     "Monroe",
     "Morgan",
+    "Parke",
+    "Porter",
     "Tippecanoe"
   ],
   "images": [],
@@ -33,9 +35,11 @@
   "county_record_counts": {
     "Morgan": 1,
     "Marion": 1,
-    "Monroe": 1,
-    "Tippecanoe": 2,
-    "Allen": 1
+    "Monroe": 6,
+    "Tippecanoe": 17,
+    "Allen": 1,
+    "Porter": 3,
+    "Parke": 2
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

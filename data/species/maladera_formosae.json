@@ -29,6 +29,7 @@
     "Lake",
     "Marshall",
     "Noble",
+    "Perry",
     "Porter",
     "St. Joseph",
     "White"
@@ -39,15 +40,16 @@
     "Noble": 1,
     "Porter": 2,
     "Lake": 17,
-    "Elkhart": 1,
+    "Elkhart": 5,
     "St. Joseph": 1,
     "Marshall": 1,
-    "White": 1
+    "White": 1,
+    "Perry": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Maladera_formosae*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

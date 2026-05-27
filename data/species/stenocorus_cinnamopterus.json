@@ -20,6 +20,7 @@
   ],
   "counties": [
     "Brown",
+    "Crawford",
     "Hamilton",
     "Hendricks",
     "Jennings",
@@ -29,6 +30,7 @@
     "Monroe",
     "Montgomery",
     "Morgan",
+    "Putnam",
     "Steuben",
     "Switzerland",
     "Tippecanoe",
@@ -42,7 +44,7 @@
   ],
   "county_record_counts": {
     "Vermillion": 1,
-    "Tippecanoe": 4,
+    "Tippecanoe": 6,
     "Jennings": 1,
     "Steuben": 1,
     "Whitley": 1,
@@ -55,7 +57,9 @@
     "Miami": 1,
     "Marion": 1,
     "Madison": 1,
-    "Switzerland": 1
+    "Switzerland": 1,
+    "Putnam": 1,
+    "Crawford": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

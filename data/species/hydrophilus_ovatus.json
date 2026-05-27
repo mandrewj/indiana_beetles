@@ -36,7 +36,7 @@
     "LaGrange": 1,
     "Greene": 1,
     "Newton": 1,
-    "Porter": 2,
+    "Porter": 4,
     "Lake": 1,
     "Scott": 1
   },
@@ -45,5 +45,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hydrophilus_ovatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -12,15 +12,19 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
+    "Allen",
+    "Harrison",
     "Monroe"
   ],
   "county_record_counts": {
-    "Monroe": 1
+    "Monroe": 1,
+    "Harrison": 1,
+    "Allen": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Notiobia_terminata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

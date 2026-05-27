@@ -34,18 +34,18 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Tippecanoe": 1,
-    "Parke": 1,
-    "Posey": 1,
-    "Boone": 4,
     "Montgomery": 1,
     "Marion": 1,
     "Marshall": 1,
     "Allen": 2,
-    "Madison": 1
+    "Madison": 1,
+    "Tippecanoe": 1,
+    "Parke": 1,
+    "Posey": 1,
+    "Boone": 4
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

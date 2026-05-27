@@ -25,34 +25,50 @@
   ],
   "counties": [
     "Allen",
+    "Clinton",
     "Delaware",
     "Hamilton",
+    "Harrison",
     "Jennings",
+    "Kosciusko",
     "Lake",
     "Marion",
     "Monroe",
     "Morgan",
+    "Parke",
+    "Porter",
+    "Pulaski",
+    "Ripley",
     "St. Joseph",
+    "Tippecanoe",
     "Vanderburgh",
     "Wayne"
   ],
   "county_record_counts": {
-    "Marion": 1,
+    "Marion": 2,
     "Vanderburgh": 1,
-    "Allen": 2,
+    "Allen": 3,
     "Delaware": 1,
-    "Monroe": 5,
+    "Monroe": 9,
     "Jennings": 2,
     "Wayne": 2,
     "St. Joseph": 6,
     "Hamilton": 1,
     "Lake": 2,
-    "Morgan": 1
+    "Morgan": 1,
+    "Ripley": 1,
+    "Tippecanoe": 5,
+    "Pulaski": 2,
+    "Kosciusko": 1,
+    "Parke": 1,
+    "Porter": 1,
+    "Clinton": 1,
+    "Harrison": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Synchroa_punctata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

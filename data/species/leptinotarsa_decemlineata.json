@@ -29,23 +29,30 @@
     "Benton",
     "Brown",
     "Carroll",
+    "Crawford",
     "DeKalb",
     "Dubois",
     "Elkhart",
+    "Floyd",
+    "Huntington",
     "Jackson",
+    "Knox",
     "Lake",
     "LaPorte",
+    "Marion",
     "Marshall",
     "Monroe",
     "Morgan",
     "Newton",
     "Porter",
+    "Ripley",
     "St. Joseph",
     "Tippecanoe",
     "Wayne",
     "White"
   ],
   "county_record_counts": {
+    "Elkhart": 7,
     "Porter": 8,
     "Allen": 2,
     "Tippecanoe": 10,
@@ -53,7 +60,6 @@
     "Brown": 1,
     "LaPorte": 1,
     "White": 1,
-    "Elkhart": 6,
     "DeKalb": 3,
     "St. Joseph": 6,
     "Wayne": 2,
@@ -63,13 +69,19 @@
     "Benton": 1,
     "Dubois": 2,
     "Newton": 3,
-    "Monroe": 1,
-    "Morgan": 2
+    "Monroe": 2,
+    "Huntington": 1,
+    "Morgan": 2,
+    "Crawford": 1,
+    "Knox": 1,
+    "Floyd": 1,
+    "Ripley": 1,
+    "Marion": 4
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Leptinotarsa_decemlineata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

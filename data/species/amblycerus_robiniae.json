@@ -45,7 +45,7 @@
   "county_record_counts": {
     "Johnson": 1,
     "Marion": 5,
-    "Tippecanoe": 3,
+    "Tippecanoe": 5,
     "Vanderburgh": 1,
     "Vermillion": 1,
     "Greene": 1,
@@ -63,5 +63,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Amblycerus_robiniae*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

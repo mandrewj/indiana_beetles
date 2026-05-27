@@ -22,17 +22,19 @@
   "counties": [
     "Dubois",
     "Jennings",
+    "Lawrence",
     "Sullivan"
   ],
   "county_record_counts": {
     "Dubois": 1,
     "Sullivan": 1,
-    "Jennings": 1
+    "Jennings": 1,
+    "Lawrence": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_cinerea*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

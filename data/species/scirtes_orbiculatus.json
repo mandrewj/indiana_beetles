@@ -25,18 +25,20 @@
     "Boone",
     "Marion",
     "Porter",
-    "Tippecanoe"
+    "Tippecanoe",
+    "White"
   ],
   "county_record_counts": {
     "Marion": 7,
-    "Tippecanoe": 1,
+    "Tippecanoe": 6,
     "Porter": 1,
-    "Boone": 1
+    "Boone": 1,
+    "White": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Scirtes_orbiculatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

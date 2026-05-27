@@ -19,23 +19,31 @@
     7
   ],
   "counties": [
+    "Allen",
     "Jefferson",
+    "Kosciusko",
     "Lake",
     "LaPorte",
     "Starke",
+    "Tippecanoe",
+    "Wells",
     "White"
   ],
   "county_record_counts": {
     "Jefferson": 1,
     "LaPorte": 1,
-    "Lake": 1,
+    "Lake": 2,
     "White": 1,
-    "Starke": 1
+    "Starke": 1,
+    "Tippecanoe": 5,
+    "Allen": 1,
+    "Kosciusko": 2,
+    "Wells": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Scirtes_tibialis*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -13,17 +13,19 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
+    "Dubois",
     "Lake",
     "Porter"
   ],
   "county_record_counts": {
     "Lake": 1,
-    "Porter": 1
+    "Porter": 1,
+    "Dubois": 4
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Geopinus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

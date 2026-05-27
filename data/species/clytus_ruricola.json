@@ -21,6 +21,7 @@
   ],
   "counties": [
     "Allen",
+    "Cass",
     "Elkhart",
     "Grant",
     "Hamilton",
@@ -32,6 +33,8 @@
     "Owen",
     "Parke",
     "Porter",
+    "Pulaski",
+    "Steuben",
     "Tippecanoe",
     "Vigo",
     "Wabash",
@@ -45,11 +48,11 @@
   "county_record_counts": {
     "Henry": 1,
     "Wabash": 2,
-    "Porter": 2,
+    "Porter": 3,
     "Monroe": 1,
-    "Parke": 1,
+    "Parke": 3,
     "Owen": 2,
-    "Tippecanoe": 2,
+    "Tippecanoe": 6,
     "Elkhart": 1,
     "Vigo": 1,
     "Noble": 2,
@@ -58,7 +61,10 @@
     "Allen": 1,
     "Whitley": 1,
     "Grant": 1,
-    "Jay": 1
+    "Jay": 1,
+    "Cass": 1,
+    "Pulaski": 1,
+    "Steuben": 2
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

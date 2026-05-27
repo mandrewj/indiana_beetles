@@ -39,13 +39,13 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Clark": 2,
+    "Marion": 28,
     "Monroe": 2,
     "Spencer": 1,
     "Hamilton": 2,
-    "Marion": 27,
     "Hendricks": 3,
     "Miami": 1,
+    "Clark": 2,
     "Madison": 2,
     "Fayette": 1,
     "Dearborn": 1,
@@ -57,5 +57,5 @@
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

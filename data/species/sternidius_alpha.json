@@ -20,9 +20,12 @@
   ],
   "counties": [
     "Lake",
+    "Madison",
     "Marion",
     "Monroe",
-    "Porter"
+    "Porter",
+    "Putnam",
+    "Tippecanoe"
   ],
   "images": [],
   "similar_species": [],
@@ -31,7 +34,10 @@
     "Monroe": 1,
     "Marion": 1,
     "Porter": 2,
-    "Lake": 4
+    "Lake": 4,
+    "Putnam": 2,
+    "Tippecanoe": 5,
+    "Madison": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

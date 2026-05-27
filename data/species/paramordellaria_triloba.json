@@ -26,6 +26,7 @@
     "Marion",
     "St. Joseph",
     "Switzerland",
+    "Tippecanoe",
     "White"
   ],
   "county_record_counts": {
@@ -35,12 +36,13 @@
     "Hamilton": 2,
     "Switzerland": 1,
     "Elkhart": 2,
-    "White": 1
+    "White": 1,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Paramordellaria_triloba*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -29,9 +29,9 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Tippecanoe": 16,
     "Allen": 8,
     "Marion": 8,
+    "Tippecanoe": 16,
     "Jefferson": 1,
     "Hendricks": 5,
     "Monroe": 2,
@@ -40,5 +40,5 @@
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

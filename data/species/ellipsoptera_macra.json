@@ -19,17 +19,21 @@
     7
   ],
   "counties": [
+    "Kosciusko",
     "LaPorte",
+    "Noble",
     "Porter"
   ],
   "county_record_counts": {
-    "Porter": 18,
-    "LaPorte": 1
+    "Porter": 47,
+    "LaPorte": 1,
+    "Noble": 1,
+    "Kosciusko": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Ellipsoptera_macra*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

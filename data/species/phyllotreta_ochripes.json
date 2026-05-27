@@ -20,6 +20,7 @@
     10
   ],
   "counties": [
+    "Huntington",
     "LaGrange",
     "Monroe",
     "Tippecanoe"
@@ -27,10 +28,11 @@
   "county_record_counts": {
     "Tippecanoe": 1,
     "Monroe": 1,
-    "LaGrange": 1
+    "LaGrange": 1,
+    "Huntington": 2
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

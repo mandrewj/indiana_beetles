@@ -19,9 +19,11 @@
   ],
   "counties": [
     "Bartholomew",
+    "Hamilton",
     "Knox",
     "Marion",
     "Monroe",
+    "Parke",
     "Vanderburgh"
   ],
   "images": [],
@@ -33,8 +35,10 @@
     "Vanderburgh": 1,
     "Marion": 1,
     "Bartholomew": 3,
-    "Knox": 1,
-    "Monroe": 2
+    "Knox": 2,
+    "Monroe": 2,
+    "Parke": 1,
+    "Hamilton": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

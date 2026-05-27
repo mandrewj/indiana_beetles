@@ -36,6 +36,7 @@
   ],
   "counties": [
     "Boone",
+    "Brown",
     "Daviess",
     "DeKalb",
     "Delaware",
@@ -66,13 +67,13 @@
   ],
   "county_record_counts": {
     "LaPorte": 3,
-    "Tippecanoe": 4,
+    "Tippecanoe": 9,
     "Floyd": 1,
     "Whitley": 1,
     "Monroe": 5,
     "Huntington": 1,
-    "Porter": 6,
-    "Lake": 8,
+    "Porter": 10,
+    "Lake": 23,
     "Grant": 1,
     "DeKalb": 1,
     "Jackson": 1,
@@ -85,19 +86,20 @@
     "Delaware": 1,
     "Spencer": 1,
     "Lawrence": 1,
-    "Harrison": 1,
+    "Harrison": 2,
     "Orange": 1,
     "Perry": 1,
     "Boone": 1,
     "Newton": 1,
     "Vigo": 1,
     "Madison": 1,
-    "Hamilton": 1
+    "Hamilton": 1,
+    "Brown": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Chilocorus_stigma*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

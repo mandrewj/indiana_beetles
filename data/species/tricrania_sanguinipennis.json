@@ -27,7 +27,7 @@
     "Wayne"
   ],
   "county_record_counts": {
-    "Tippecanoe": 3,
+    "Tippecanoe": 5,
     "Allen": 1,
     "Marion": 2,
     "Monroe": 6,
@@ -39,5 +39,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tricrania_sanguinipennis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

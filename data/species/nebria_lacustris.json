@@ -28,7 +28,7 @@
   ],
   "county_record_counts": {
     "Clay": 1,
-    "Tippecanoe": 1,
+    "Tippecanoe": 2,
     "Parke": 1,
     "Brown": 3,
     "Hancock": 1,
@@ -39,5 +39,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Nebria_lacustris*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

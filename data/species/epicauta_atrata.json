@@ -21,6 +21,9 @@
   ],
   "counties": [
     "Allen",
+    "Harrison co.",
+    "Jefferson co.",
+    "Knox",
     "Morgan",
     "Newton",
     "Ripley",
@@ -33,14 +36,17 @@
     "Morgan": 1,
     "Allen": 1,
     "Sullivan": 1,
-    "Tippecanoe": 1,
+    "Tippecanoe": 4,
     "Ripley": 1,
-    "Starke": 1
+    "Starke": 1,
+    "Knox": 1,
+    "Jefferson co.": 1,
+    "Harrison co.": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_atrata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -18,6 +18,7 @@
     5
   ],
   "counties": [
+    "Clark",
     "Elkhart",
     "Jasper",
     "Johnson",
@@ -31,12 +32,13 @@
     "Jasper": 1,
     "Elkhart": 1,
     "Starke": 1,
-    "Monroe": 1
+    "Monroe": 1,
+    "Clark": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Anomala_binotata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

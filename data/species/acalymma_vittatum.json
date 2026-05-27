@@ -29,6 +29,7 @@
   "counties": [
     "Allen",
     "Brown",
+    "Clark",
     "DeKalb",
     "Delaware",
     "Dubois",
@@ -60,7 +61,8 @@
     "Tippecanoe",
     "Vanderburgh",
     "Vigo",
-    "Wayne"
+    "Wayne",
+    "Wells"
   ],
   "county_record_counts": {
     "Wayne": 2,
@@ -96,12 +98,14 @@
     "Henry": 1,
     "Madison": 2,
     "Fountain": 1,
-    "Switzerland": 1
+    "Switzerland": 1,
+    "Clark": 1,
+    "Wells": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Acalymma_vittatum*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

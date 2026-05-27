@@ -22,6 +22,7 @@
     "Monroe",
     "Morgan",
     "Newton",
+    "Pulaski",
     "Starke"
   ],
   "county_record_counts": {
@@ -29,12 +30,13 @@
     "Monroe": 1,
     "Jennings": 1,
     "Newton": 1,
-    "Starke": 1
+    "Starke": 1,
+    "Pulaski": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Acmaeodera_tubulus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

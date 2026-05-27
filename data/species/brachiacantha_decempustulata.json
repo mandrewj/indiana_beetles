@@ -21,18 +21,22 @@
     "Dearborn",
     "Franklin",
     "Hendricks",
-    "Marion"
+    "Marion",
+    "Parke",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Hendricks": 1,
     "Dearborn": 1,
     "Franklin": 1,
-    "Marion": 1
+    "Marion": 1,
+    "Tippecanoe": 6,
+    "Parke": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Brachiacantha_decempustulata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

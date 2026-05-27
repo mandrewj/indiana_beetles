@@ -25,6 +25,7 @@
     "Hendricks",
     "Henry",
     "Jefferson",
+    "Johnson",
     "Kosciusko",
     "LaGrange",
     "Lake",
@@ -43,12 +44,13 @@
     "Hendricks": 2,
     "Marshall": 1,
     "Jefferson": 1,
-    "Henry": 1
+    "Henry": 1,
+    "Johnson": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Meloe_campanicollis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

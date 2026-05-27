@@ -40,15 +40,17 @@
     "Madison",
     "Marion",
     "Noble",
+    "Parke",
     "Porter",
     "St. Joseph",
     "Tippecanoe",
     "Vigo",
+    "Warren",
     "White",
     "Whitley"
   ],
   "county_record_counts": {
-    "Porter": 3,
+    "Porter": 7,
     "Allen": 8,
     "Whitley": 1,
     "White": 2,
@@ -62,19 +64,21 @@
     "Elkhart": 1,
     "DeKalb": 2,
     "Greene": 1,
-    "Tippecanoe": 3,
+    "Tippecanoe": 7,
     "Henry": 3,
     "Hamilton": 1,
-    "Lake": 1,
+    "Lake": 4,
     "Boone": 3,
     "Carroll": 1,
     "Hendricks": 2,
-    "Madison": 1
+    "Madison": 1,
+    "Warren": 27,
+    "Parke": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Microrhopala_vittata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

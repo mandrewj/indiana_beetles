@@ -12,6 +12,7 @@
     "data:counties": "tsx scripts/build-counties.ts",
     "data:taxon-ids": "tsx scripts/enrich-taxon-ids.ts",
     "data:family-ids": "tsx scripts/enrich-family-ids.ts",
+    "data:backfill-distribution": "tsx scripts/backfill-distribution.ts",
     "bulk:import": "tsx scripts/bulk-import.ts"
   },
   "dependencies": {

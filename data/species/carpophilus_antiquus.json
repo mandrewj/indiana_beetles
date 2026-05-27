@@ -19,16 +19,20 @@
   ],
   "counties": [
     "Boone",
-    "Hendricks"
+    "Hendricks",
+    "Perry",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Hendricks": 1,
-    "Boone": 1
+    "Boone": 1,
+    "Tippecanoe": 8,
+    "Perry": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Carpophilus_antiquus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

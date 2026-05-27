@@ -12,15 +12,17 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
-    "Marion"
+    "Marion",
+    "Warren"
   ],
   "county_record_counts": {
-    "Marion": 1
+    "Marion": 1,
+    "Warren": 5
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Calathus_opaculus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

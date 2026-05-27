@@ -12,15 +12,17 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
-    "Madison"
+    "Madison",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Madison": 1
+    "Madison": 1,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cymatodera_inornata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

@@ -25,7 +25,8 @@
     "Morgan",
     "St. Joseph",
     "Starke",
-    "Switzerland"
+    "Switzerland",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Allen": 2,
@@ -35,12 +36,13 @@
     "Switzerland": 3,
     "Hamilton": 1,
     "Boone": 1,
-    "Lake": 3
+    "Lake": 3,
+    "Tippecanoe": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Agrilus_cyanescens*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

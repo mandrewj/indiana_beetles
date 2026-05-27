@@ -31,6 +31,7 @@
     "Fountain",
     "Hancock",
     "Hendricks",
+    "Jackson",
     "Lake",
     "Marion",
     "Monroe",
@@ -39,8 +40,8 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Marion": 5,
-    "Tippecanoe": 3,
+    "Marion": 7,
+    "Tippecanoe": 4,
     "Monroe": 3,
     "Carroll": 1,
     "Morgan": 1,
@@ -48,12 +49,13 @@
     "Hancock": 1,
     "Scott": 1,
     "Fountain": 2,
-    "Lake": 1
+    "Lake": 1,
+    "Jackson": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lebia_analis*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

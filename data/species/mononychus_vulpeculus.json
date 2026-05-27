@@ -19,25 +19,31 @@
     5
   ],
   "counties": [
+    "Allen",
     "Boone",
+    "Lagrange",
     "LaGrange",
     "Lake",
+    "LaPorte",
     "Monroe",
     "Noble",
     "Porter",
     "Starke"
   ],
   "county_record_counts": {
-    "LaGrange": 4,
-    "Noble": 2,
+    "Noble": 3,
     "Porter": 4,
-    "Lake": 3,
+    "Lake": 4,
     "Monroe": 5,
+    "LaGrange": 1,
+    "Allen": 1,
     "Starke": 1,
-    "Boone": 1
+    "LaPorte": 1,
+    "Boone": 1,
+    "Lagrange": 3
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

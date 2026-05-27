@@ -20,8 +20,12 @@
   ],
   "counties": [
     "Brown",
+    "Jackson",
     "Marion",
-    "St. Joseph"
+    "Parke",
+    "Pulaski",
+    "St. Joseph",
+    "Tippecanoe"
   ],
   "images": [],
   "similar_species": [],
@@ -31,7 +35,11 @@
   "county_record_counts": {
     "St. Joseph": 4,
     "Brown": 1,
-    "Marion": 1
+    "Marion": 1,
+    "Tippecanoe": 2,
+    "Jackson": 1,
+    "Parke": 1,
+    "Pulaski": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

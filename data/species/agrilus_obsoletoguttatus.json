@@ -22,18 +22,20 @@
     "Allen",
     "Hendricks",
     "Monroe",
-    "St. Joseph"
+    "St. Joseph",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Allen": 1,
     "Hendricks": 1,
     "St. Joseph": 2,
-    "Monroe": 1
+    "Monroe": 1,
+    "Tippecanoe": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Agrilus_obsoletoguttatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

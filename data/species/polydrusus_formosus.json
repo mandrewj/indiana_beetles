@@ -35,7 +35,7 @@
     "Wabash"
   ],
   "genus": "polydrusus",
-  "last_refreshed": "2026-05-22",
+  "last_refreshed": "2026-05-27",
   "diagnosis": "Body covered in bright metallic green scales. Elytra with clearly visible black longitudinal striae. Eyes large, separated by about the diameter of one eye.",
   "inat_taxon_id": 494559,
   "images": [
@@ -51,24 +51,24 @@
   ],
   "id": "polydrusus_formosus",
   "county_record_counts": {
-    "Hendricks": 1,
-    "St. Joseph": 4,
-    "Huntington": 2,
-    "Allen": 13,
-    "LaGrange": 3,
-    "Porter": 15,
-    "Lake": 9,
-    "LaPorte": 2,
-    "Bartholomew": 1,
+    "Allen": 14,
+    "LaPorte": 3,
     "Tippecanoe": 2,
-    "Kosciusko": 1,
-    "Madison": 1,
-    "Boone": 1,
+    "Elkhart": 4,
+    "Bartholomew": 1,
     "Noble": 2,
+    "Lake": 9,
+    "Porter": 15,
+    "Madison": 1,
+    "Hendricks": 1,
+    "Huntington": 2,
     "Steuben": 4,
+    "LaGrange": 4,
+    "St. Joseph": 4,
+    "Boone": 1,
+    "Kosciusko": 1,
     "Grant": 1,
-    "Wabash": 1,
-    "Elkhart": 4
+    "Wabash": 1
   },
   "common_name": "Green Immigrant Leaf Weevil"
 }

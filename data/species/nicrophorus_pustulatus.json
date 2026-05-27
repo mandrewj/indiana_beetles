@@ -26,6 +26,7 @@
   "counties": [
     "Brown",
     "Clay",
+    "Crawford",
     "Dubois",
     "Fayette",
     "Franklin",
@@ -34,13 +35,19 @@
     "Jackson",
     "Jay",
     "Jefferson",
+    "LaPorte",
     "Monroe",
     "Montgomery",
     "Morgan",
-    "Newton"
+    "Newton",
+    "Perry",
+    "Pulaski",
+    "Putnam",
+    "Ripley",
+    "Spencer"
   ],
   "county_record_counts": {
-    "Monroe": 7,
+    "Monroe": 8,
     "Jackson": 1,
     "Morgan": 2,
     "Greene": 1,
@@ -49,16 +56,23 @@
     "Dubois": 1,
     "Fayette": 1,
     "Clay": 2,
-    "Brown": 1,
+    "Brown": 6,
     "Jefferson": 1,
     "Franklin": 1,
     "Jay": 1,
-    "Newton": 1
+    "Newton": 1,
+    "Pulaski": 1,
+    "Putnam": 1,
+    "Perry": 1,
+    "Ripley": 1,
+    "Spencer": 1,
+    "Crawford": 2,
+    "LaPorte": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Nicrophorus_pustulatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

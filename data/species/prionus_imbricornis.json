@@ -20,12 +20,14 @@
   ],
   "counties": [
     "Clark",
+    "Crawford",
     "Floyd",
     "Jefferson",
     "Pike",
     "Spencer",
     "Vanderburgh",
-    "Warrick"
+    "Warrick",
+    "Wayne"
   ],
   "images": [],
   "similar_species": [],
@@ -39,7 +41,9 @@
     "Clark": 1,
     "Jefferson": 1,
     "Vanderburgh": 2,
-    "Pike": 1
+    "Pike": 1,
+    "Crawford": 2,
+    "Wayne": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

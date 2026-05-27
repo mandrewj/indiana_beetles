@@ -12,15 +12,19 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
-    "Knox"
+    "Floyd",
+    "Knox",
+    "Steuben"
   ],
   "county_record_counts": {
-    "Knox": 1
+    "Knox": 1,
+    "Floyd": 1,
+    "Steuben": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Phyllotreta_zimmermanni*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

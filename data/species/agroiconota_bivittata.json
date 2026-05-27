@@ -29,6 +29,7 @@
     "Hendricks",
     "Howard",
     "Johnson",
+    "Lawrence",
     "Marion",
     "Monroe",
     "Pike",
@@ -46,12 +47,13 @@
     "Tipton": 1,
     "Vigo": 1,
     "Hendricks": 1,
-    "Hamilton": 1
+    "Hamilton": 1,
+    "Lawrence": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Agroiconota_bivittata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

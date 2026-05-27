@@ -19,20 +19,28 @@
   ],
   "counties": [
     "Brown",
+    "Cass",
     "Fayette",
+    "Lagrange",
     "Monroe",
-    "Tippecanoe"
+    "Ripley",
+    "Tippecanoe",
+    "Wabash"
   ],
   "county_record_counts": {
     "Fayette": 1,
-    "Tippecanoe": 4,
+    "Tippecanoe": 8,
     "Brown": 1,
-    "Monroe": 1
+    "Monroe": 1,
+    "Ripley": 3,
+    "Cass": 1,
+    "Wabash": 1,
+    "Lagrange": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Lacon_discoideus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

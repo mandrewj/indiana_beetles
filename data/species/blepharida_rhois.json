@@ -30,11 +30,11 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
+    "Porter": 3,
     "Jasper": 1,
     "Elkhart": 1,
     "Newton": 1,
     "Tippecanoe": 2,
-    "Porter": 2,
     "Harrison": 1,
     "St. Joseph": 1
   },
@@ -43,5 +43,5 @@
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Blepharida_rhois*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

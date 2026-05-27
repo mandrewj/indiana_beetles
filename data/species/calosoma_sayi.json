@@ -13,6 +13,8 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
+    "Brown",
+    "Gibson",
     "Marion",
     "Tippecanoe",
     "Vanderburgh"
@@ -20,12 +22,14 @@
   "county_record_counts": {
     "Vanderburgh": 1,
     "Tippecanoe": 1,
-    "Marion": 1
+    "Marion": 1,
+    "Brown": 1,
+    "Gibson": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Calosoma_sayi*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

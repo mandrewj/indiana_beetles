@@ -32,6 +32,7 @@
     "Clark",
     "Dubois",
     "Elkhart",
+    "Fountain",
     "Huntington",
     "Knox",
     "Lake",
@@ -53,7 +54,7 @@
     "Wayne"
   ],
   "county_record_counts": {
-    "Tippecanoe": 2,
+    "Tippecanoe": 3,
     "Brown": 4,
     "Marion": 1,
     "Lawrence": 4,
@@ -77,10 +78,11 @@
     "Huntington": 1,
     "Bartholomew": 1,
     "Sullivan": 1,
-    "Montgomery": 1
+    "Montgomery": 1,
+    "Fountain": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

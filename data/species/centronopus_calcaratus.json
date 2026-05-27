@@ -13,7 +13,15 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
-    "Montgomery"
+    "Kosciusko",
+    "La Porte",
+    "Montgomery",
+    "Parke",
+    "Porter",
+    "Posey",
+    "Pulaski",
+    "Tippecanoe",
+    "Vanderburgh"
   ],
   "images": [],
   "similar_species": [],
@@ -21,7 +29,15 @@
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Centronopus_calcaratus*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
-    "Montgomery": 1
+    "Montgomery": 2,
+    "Pulaski": 1,
+    "Tippecanoe": 4,
+    "La Porte": 1,
+    "Vanderburgh": 1,
+    "Porter": 7,
+    "Parke": 1,
+    "Kosciusko": 2,
+    "Posey": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

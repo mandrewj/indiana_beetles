@@ -19,19 +19,27 @@
     5
   ],
   "counties": [
+    "Boone",
     "Brown",
     "Hamilton",
-    "Kosciusko"
+    "Johnson",
+    "Kosciusko",
+    "Porter",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Brown": 1,
     "Hamilton": 1,
-    "Kosciusko": 1
+    "Kosciusko": 1,
+    "Johnson": 1,
+    "Porter": 1,
+    "Tippecanoe": 1,
+    "Boone": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Phyllophaga_crenulata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

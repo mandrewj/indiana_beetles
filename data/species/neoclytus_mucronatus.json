@@ -23,7 +23,9 @@
   "counties": [
     "Allen",
     "Bartholomew",
+    "Clinton",
     "Dearborn",
+    "Fulton",
     "Hamilton",
     "Johnson",
     "Kosciusko",
@@ -46,8 +48,8 @@
     "Monroe": 3,
     "Kosciusko": 1,
     "Wayne": 1,
-    "Tippecanoe": 7,
-    "Marion": 2,
+    "Tippecanoe": 9,
+    "Marion": 3,
     "Allen": 1,
     "Morgan": 2,
     "Whitley": 1,
@@ -55,7 +57,9 @@
     "Wabash": 1,
     "Porter": 1,
     "Hamilton": 1,
-    "Dearborn": 1
+    "Dearborn": 1,
+    "Clinton": 2,
+    "Fulton": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

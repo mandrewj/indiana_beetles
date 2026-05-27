@@ -24,20 +24,24 @@
   ],
   "counties": [
     "Brown",
+    "Harrison",
     "St. Joseph",
     "Tippecanoe",
+    "Wayne",
     "White"
   ],
   "county_record_counts": {
-    "Tippecanoe": 1,
+    "Tippecanoe": 2,
     "St. Joseph": 3,
     "Brown": 1,
-    "White": 3
+    "White": 3,
+    "Harrison": 1,
+    "Wayne": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stenolophus_lecontei*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

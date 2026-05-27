@@ -26,6 +26,7 @@
     "Fountain",
     "Knox",
     "Lawrence",
+    "Monroe",
     "Morgan",
     "Orange",
     "Parke",
@@ -36,7 +37,7 @@
     "Vigo"
   ],
   "county_record_counts": {
-    "Knox": 1,
+    "Knox": 2,
     "Morgan": 1,
     "Dubois": 1,
     "Putnam": 2,
@@ -49,12 +50,13 @@
     "Lawrence": 1,
     "Clark": 1,
     "Parke": 1,
-    "Perry": 1
+    "Perry": 1,
+    "Monroe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tetracha_virginica*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

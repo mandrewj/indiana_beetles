@@ -26,17 +26,19 @@
   "counties": [
     "Howard",
     "Jennings",
-    "St. Joseph"
+    "St. Joseph",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Howard": 1,
     "St. Joseph": 2,
-    "Jennings": 1
+    "Jennings": 1,
+    "Tippecanoe": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Hemicrepidius_memnonius*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

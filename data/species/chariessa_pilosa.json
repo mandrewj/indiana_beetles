@@ -15,19 +15,21 @@
   "counties": [
     "Brown",
     "Clark",
+    "Parke",
     "Porter",
     "Tippecanoe"
   ],
   "county_record_counts": {
     "Clark": 1,
     "Porter": 1,
-    "Tippecanoe": 1,
-    "Brown": 1
+    "Tippecanoe": 4,
+    "Brown": 1,
+    "Parke": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chariessa_pilosa*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

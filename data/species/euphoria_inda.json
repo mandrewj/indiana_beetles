@@ -39,6 +39,7 @@
     "LaGrange",
     "Lake",
     "LaPorte",
+    "Lawrence",
     "Madison",
     "Marion",
     "Martin",
@@ -65,7 +66,7 @@
     "Monroe": 14,
     "Johnson": 3,
     "Hamilton": 10,
-    "Tippecanoe": 2,
+    "Tippecanoe": 3,
     "Floyd": 1,
     "Huntington": 1,
     "Madison": 4,
@@ -87,12 +88,13 @@
     "Jasper": 1,
     "Starke": 2,
     "LaGrange": 1,
-    "Martin": 1
+    "Martin": 1,
+    "Lawrence": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Euphoria_inda*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

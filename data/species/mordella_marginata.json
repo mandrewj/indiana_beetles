@@ -27,7 +27,8 @@
     "Monroe",
     "Newton",
     "Porter",
-    "Starke"
+    "Starke",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Marion": 2,
@@ -37,12 +38,13 @@
     "Starke": 2,
     "Allen": 1,
     "Madison": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mordella_marginata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

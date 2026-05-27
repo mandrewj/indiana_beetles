@@ -20,16 +20,20 @@
   ],
   "counties": [
     "Allen",
+    "Harrison",
+    "Spencer",
     "Tippecanoe",
     "Vanderburgh"
   ],
   "county_record_counts": {
     "Allen": 2,
     "Vanderburgh": 1,
-    "Tippecanoe": 2
+    "Tippecanoe": 2,
+    "Harrison": 1,
+    "Spencer": 3
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

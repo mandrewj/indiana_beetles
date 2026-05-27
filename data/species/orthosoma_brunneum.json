@@ -77,6 +77,7 @@
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Orthosoma_brunneum*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
+    "Marion": 3,
     "Clark": 6,
     "Jennings": 11,
     "Monroe": 26,
@@ -103,7 +104,6 @@
     "Blackford": 1,
     "Pike": 1,
     "Orange": 1,
-    "Marion": 2,
     "Washington": 1,
     "Tippecanoe": 1,
     "White": 1,
@@ -127,5 +127,5 @@
     "Scott": 1,
     "Franklin": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

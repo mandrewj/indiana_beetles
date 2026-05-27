@@ -20,11 +20,13 @@
   ],
   "counties": [
     "Brown",
+    "Harrison",
     "Lake",
     "Monroe",
     "Newton",
     "Starke",
-    "Wabash"
+    "Wabash",
+    "White"
   ],
   "county_record_counts": {
     "Monroe": 1,
@@ -32,12 +34,14 @@
     "Lake": 3,
     "Newton": 3,
     "Brown": 1,
-    "Starke": 1
+    "Starke": 1,
+    "White": 1,
+    "Harrison": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Anomoea_laticlavia*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

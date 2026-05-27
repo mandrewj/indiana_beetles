@@ -12,15 +12,17 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
+    "Lagrange",
     "Lake"
   ],
   "county_record_counts": {
-    "Lake": 1
+    "Lake": 1,
+    "Lagrange": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cregya_oculata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

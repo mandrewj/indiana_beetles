@@ -17,15 +17,17 @@
     6
   ],
   "counties": [
-    "Newton"
+    "Newton",
+    "Wayne"
   ],
   "county_record_counts": {
-    "Newton": 1
+    "Newton": 4,
+    "Wayne": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_fabricii*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

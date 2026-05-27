@@ -30,6 +30,8 @@
     "Allen",
     "Bartholomew",
     "Boone",
+    "Clark",
+    "Crawford",
     "Delaware",
     "Elkhart",
     "Franklin",
@@ -67,7 +69,7 @@
     "Boone": 3,
     "Henry": 1,
     "Delaware": 1,
-    "Tippecanoe": 10,
+    "Tippecanoe": 12,
     "Wayne": 4,
     "Johnson": 3,
     "Morgan": 2,
@@ -92,12 +94,14 @@
     "Elkhart": 1,
     "Madison": 2,
     "Orange": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Clark": 1,
+    "Crawford": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Glischrochilus_fasciatus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

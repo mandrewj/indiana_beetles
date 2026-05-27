@@ -35,16 +35,16 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
+    "Hendricks": 5,
     "Allen": 2,
     "Tippecanoe": 1,
     "Porter": 6,
-    "Boone": 2,
-    "Hendricks": 5
+    "Boone": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Tenebrio_molitor*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

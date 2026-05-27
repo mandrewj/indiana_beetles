@@ -31,6 +31,7 @@
     "Delaware",
     "Grant",
     "Hamilton",
+    "Harrison",
     "Hendricks",
     "Johnson",
     "Lake",
@@ -42,6 +43,7 @@
     "Parke",
     "Porter",
     "Posey",
+    "Ripley",
     "St. Joseph",
     "Tippecanoe",
     "Vanderburgh",
@@ -50,9 +52,9 @@
     "Whitley"
   ],
   "county_record_counts": {
-    "Hendricks": 8,
-    "Tippecanoe": 4,
-    "Marion": 11,
+    "Hendricks": 9,
+    "Tippecanoe": 12,
+    "Marion": 15,
     "Vigo": 2,
     "Vanderburgh": 4,
     "St. Joseph": 1,
@@ -69,15 +71,17 @@
     "Posey": 7,
     "Hamilton": 1,
     "Madison": 1,
-    "Wayne": 1,
+    "Wayne": 2,
     "Lake": 32,
     "Miami": 1,
-    "Delaware": 1
+    "Delaware": 1,
+    "Ripley": 9,
+    "Harrison": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Stenolophus_ochropezus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

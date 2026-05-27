@@ -28,13 +28,17 @@
   ],
   "counties": [
     "Dubois",
+    "Harrison",
+    "Jackson",
     "Lake",
     "Marion",
     "Monroe",
     "Morgan",
+    "Pulaski",
     "St. Joseph",
     "Tippecanoe",
-    "Vermillion"
+    "Vermillion",
+    "Wabash"
   ],
   "images": [],
   "similar_species": [],
@@ -44,12 +48,16 @@
   "county_record_counts": {
     "Vermillion": 1,
     "Marion": 3,
-    "Dubois": 2,
+    "Dubois": 3,
     "Tippecanoe": 1,
     "Monroe": 3,
     "St. Joseph": 6,
     "Morgan": 3,
-    "Lake": 1
+    "Lake": 1,
+    "Wabash": 1,
+    "Pulaski": 2,
+    "Harrison": 1,
+    "Jackson": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

@@ -40,24 +40,24 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Clark": 2,
-    "Spencer": 1,
-    "Madison": 1,
-    "Bartholomew": 1,
     "Gibson": 1,
     "Tippecanoe": 1,
     "Marion": 1,
     "Monroe": 1,
-    "LaPorte": 1,
+    "LaPorte": 2,
     "Daviess": 1,
     "Hendricks": 1,
     "Lake": 1,
     "Franklin": 1,
     "Floyd": 1,
-    "Porter": 1
+    "Porter": 1,
+    "Clark": 2,
+    "Spencer": 1,
+    "Madison": 1,
+    "Bartholomew": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

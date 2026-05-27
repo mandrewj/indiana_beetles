@@ -29,6 +29,7 @@
     "Dubois",
     "Elkhart",
     "Fayette",
+    "Floyd",
     "Franklin",
     "Gibson",
     "Hamilton",
@@ -97,10 +98,11 @@
     "Gibson": 1,
     "Marshall": 2,
     "Fayette": 1,
-    "Posey": 1
+    "Posey": 1,
+    "Floyd": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

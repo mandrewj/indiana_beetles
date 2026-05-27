@@ -31,7 +31,7 @@
   ],
   "county_record_counts": {
     "Fountain": 1,
-    "Tippecanoe": 1,
+    "Tippecanoe": 2,
     "Jennings": 1,
     "Lake": 1,
     "Boone": 1,
@@ -44,5 +44,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Glipa_oculata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

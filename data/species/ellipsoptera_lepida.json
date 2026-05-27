@@ -20,19 +20,31 @@
     8
   ],
   "counties": [
+    "Daviess",
+    "Dearborn",
+    "La Porte",
     "Lake",
+    "Monroe",
+    "Morgan",
     "Newton",
-    "Porter"
+    "Porter",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Porter": 9,
+    "Porter": 100,
     "Lake": 1,
-    "Newton": 1
+    "Newton": 2,
+    "La Porte": 4,
+    "Tippecanoe": 1,
+    "Daviess": 1,
+    "Monroe": 1,
+    "Morgan": 7,
+    "Dearborn": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Ellipsoptera_lepida*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

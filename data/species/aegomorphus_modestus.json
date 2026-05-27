@@ -22,12 +22,15 @@
   "counties": [
     "Brown",
     "DeKalb",
+    "Jackson",
     "Lake",
     "LaPorte",
     "Monroe",
     "Morgan",
     "Porter",
     "Posey",
+    "Pulaski",
+    "Putnam",
     "Tippecanoe"
   ],
   "images": [],
@@ -44,7 +47,10 @@
     "Tippecanoe": 1,
     "Brown": 1,
     "Morgan": 2,
-    "Lake": 1
+    "Lake": 1,
+    "Pulaski": 1,
+    "Jackson": 1,
+    "Putnam": 2
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

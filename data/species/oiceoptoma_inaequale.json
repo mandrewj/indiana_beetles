@@ -27,12 +27,16 @@
     "Dubois",
     "Franklin",
     "Hamilton",
+    "Harrison",
     "Henry",
     "Johnson",
+    "Knox",
     "Lake",
+    "LaPorte",
     "Marion",
     "Marshall",
     "Monroe",
+    "Porter",
     "Spencer",
     "Tippecanoe",
     "Vermillion",
@@ -46,21 +50,25 @@
     "Monroe": 2,
     "Vermillion": 1,
     "Marion": 2,
-    "Hamilton": 2,
+    "Hamilton": 4,
     "Johnson": 1,
     "Warrick": 1,
-    "Tippecanoe": 2,
+    "Tippecanoe": 6,
     "Warren": 2,
     "Lake": 1,
     "Dubois": 1,
     "Franklin": 1,
     "Marshall": 1,
-    "Spencer": 2
+    "Spencer": 2,
+    "Harrison": 1,
+    "LaPorte": 1,
+    "Porter": 1,
+    "Knox": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Oiceoptoma_inaequale*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

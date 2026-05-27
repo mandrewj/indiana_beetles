@@ -13,9 +13,20 @@
   "diagnostic_characters": [],
   "phenology": [],
   "phenology_peak": [],
-  "counties": [],
-  "county_record_counts": {},
+  "counties": [
+    "Crawford",
+    "Lagrange",
+    "Vanderburgh",
+    "Wayne"
+  ],
+  "county_record_counts": {
+    "Vanderburgh": 1,
+    "Crawford": 1,
+    "Wayne": 3,
+    "Lagrange": 1
+  },
   "images": [],
   "similar_species": [],
-  "references": []
+  "references": [],
+  "last_refreshed": "2026-05-27"
 }

@@ -17,15 +17,19 @@
     6
   ],
   "counties": [
+    "Montgomery",
+    "Putnam",
     "Tippecanoe"
   ],
   "county_record_counts": {
-    "Tippecanoe": 1
+    "Tippecanoe": 1,
+    "Putnam": 1,
+    "Montgomery": 5
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Chrysobothris_femorata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

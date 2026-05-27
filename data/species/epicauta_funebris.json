@@ -28,6 +28,7 @@
     "Boone",
     "Brown",
     "Carroll",
+    "Clark",
     "Decatur",
     "Delaware",
     "Floyd",
@@ -55,12 +56,13 @@
     "Tippecanoe",
     "Vigo",
     "Washington",
+    "Wayne",
     "White"
   ],
   "county_record_counts": {
     "Bartholomew": 2,
     "LaGrange": 3,
-    "Monroe": 5,
+    "Monroe": 6,
     "Tippecanoe": 12,
     "Porter": 1,
     "Howard": 3,
@@ -68,7 +70,7 @@
     "Jackson": 2,
     "White": 1,
     "Hendricks": 1,
-    "Johnson": 2,
+    "Johnson": 14,
     "St. Joseph": 3,
     "Posey": 1,
     "Lawrence": 1,
@@ -91,12 +93,14 @@
     "Boone": 1,
     "Hamilton": 1,
     "Decatur": 1,
-    "Greene": 1
+    "Greene": 1,
+    "Clark": 1,
+    "Wayne": 2
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Epicauta_funebris*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

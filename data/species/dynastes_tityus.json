@@ -39,17 +39,20 @@
     "Greene",
     "Hamilton",
     "Harrison",
+    "Jackson",
     "Jefferson",
     "Jennings",
     "Knox",
     "Lawrence",
     "Marion",
     "Monroe",
+    "Monroe Co.",
     "Morgan",
     "Orange",
     "Owen",
     "Posey",
     "Scott",
+    "Spencer",
     "Vanderburgh",
     "Warrick",
     "Washington"
@@ -58,7 +61,7 @@
     "Vanderburgh": 3,
     "Owen": 1,
     "Lawrence": 2,
-    "Floyd": 4,
+    "Floyd": 5,
     "Brown": 12,
     "Morgan": 6,
     "Monroe": 27,
@@ -79,12 +82,15 @@
     "Marion": 1,
     "Delaware": 1,
     "Dubois": 2,
-    "Elkhart": 1
+    "Elkhart": 1,
+    "Jackson": 1,
+    "Monroe Co.": 1,
+    "Spencer": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Dynastes_tityus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

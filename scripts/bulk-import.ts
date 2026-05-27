@@ -45,6 +45,11 @@ const MIN_COUNT = 2;
 const SPECIES_OBS_LIMIT = 300;
 const POLITE_DELAY_MS = 800;
 
+// iNat research-grade observations are mirrored into GBIF as this dataset.
+// We pull them from iNat directly; filter them out of the GBIF side so the
+// distribution snapshot doesn't double-count.
+const INAT_GBIF_DATASET_KEY = "50c9509d-22c7-4a22-a47d-8c48425ef4a7";
+
 const TARGET_FAMILIES = [
   "curculionidae",
   "carabidae",
@@ -275,8 +280,48 @@ async function fetchPhenology(
   return { active: months, peak };
 }
 
+interface RawGbifOcc {
+  datasetKey?: string;
+  county?: string;
+  decimalLatitude?: number;
+  decimalLongitude?: number;
+}
+
+async function fetchGbifCountyContribution(
+  gbifTaxonKey: number
+): Promise<Record<string, number>> {
+  const params = new URLSearchParams({
+    taxonKey: String(gbifTaxonKey),
+    country: "US",
+    stateProvince: "Indiana",
+    hasCoordinate: "true",
+    limit: String(SPECIES_OBS_LIMIT),
+  });
+  const data = await gbifFetch<{ results?: RawGbifOcc[] }>(
+    `https://api.gbif.org/v1/occurrence/search?${params.toString()}`
+  );
+  const counts: Record<string, number> = {};
+  for (const occ of data?.results ?? []) {
+    if (occ.datasetKey === INAT_GBIF_DATASET_KEY) continue;
+    let county: string | null = null;
+    if (occ.county) {
+      county = occ.county.replace(/\s+County$/i, "").trim() || null;
+    }
+    if (
+      !county &&
+      typeof occ.decimalLatitude === "number" &&
+      typeof occ.decimalLongitude === "number"
+    ) {
+      county = await resolveCounty(occ.decimalLongitude, occ.decimalLatitude);
+    }
+    if (county) counts[county] = (counts[county] ?? 0) + 1;
+  }
+  return counts;
+}
+
 async function fetchCountyDistribution(
-  inatTaxonId: number
+  inatTaxonId: number,
+  gbifTaxonKey: number | null
 ): Promise<{ counts: Record<string, number>; counties: string[] }> {
   const data = await inatFetch<{
     results: INatObs[];
@@ -289,6 +334,12 @@ async function fetchCountyDistribution(
     if (!coords) continue;
     const county = await resolveCounty(coords[0], coords[1]);
     if (county) counts[county] = (counts[county] ?? 0) + 1;
+  }
+  if (gbifTaxonKey !== null && Number.isInteger(gbifTaxonKey) && gbifTaxonKey > 0) {
+    const gbifCounts = await fetchGbifCountyContribution(gbifTaxonKey);
+    for (const [c, n] of Object.entries(gbifCounts)) {
+      counts[c] = (counts[c] ?? 0) + n;
+    }
   }
   const counties = Object.keys(counts).sort((a, b) => a.localeCompare(b));
   return { counts, counties };
@@ -600,8 +651,8 @@ async function processSpecies(
   const gbif = await gbifMatch(taxon.name);
   await sleep(POLITE_DELAY_MS);
 
-  // Distribution + phenology (these are 2 iNat calls)
-  const dist = await fetchCountyDistribution(taxon.id);
+  // Distribution (iNat + GBIF, deduped) and phenology
+  const dist = await fetchCountyDistribution(taxon.id, gbif.key ?? null);
   await sleep(POLITE_DELAY_MS);
   const pheno = await fetchPhenology(taxon.id);
   await sleep(POLITE_DELAY_MS);

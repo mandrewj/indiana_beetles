@@ -25,6 +25,7 @@
     "Brown",
     "Hamilton",
     "Jay",
+    "Knox",
     "Lake",
     "LaPorte",
     "Marion",
@@ -32,6 +33,7 @@
     "Morgan",
     "Orange",
     "Porter",
+    "Putnam",
     "St. Joseph",
     "Tippecanoe",
     "Whitley"
@@ -42,6 +44,7 @@
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Saperda_tridentata*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
+    "Hamilton": 3,
     "Porter": 2,
     "St. Joseph": 1,
     "LaPorte": 1,
@@ -51,11 +54,12 @@
     "Marion": 1,
     "Tippecanoe": 2,
     "Morgan": 1,
-    "Hamilton": 2,
     "Whitley": 1,
     "Lake": 2,
     "Jay": 2,
-    "Orange": 1
+    "Orange": 1,
+    "Knox": 1,
+    "Putnam": 2
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

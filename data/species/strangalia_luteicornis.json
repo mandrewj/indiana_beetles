@@ -25,6 +25,7 @@
     "Dubois",
     "Grant",
     "Hamilton",
+    "Harrison",
     "Hendricks",
     "Henry",
     "Jasper",
@@ -58,7 +59,7 @@
     "Hamilton": 2,
     "Marion": 2,
     "LaPorte": 1,
-    "Tippecanoe": 2,
+    "Tippecanoe": 3,
     "Jasper": 1,
     "Montgomery": 1,
     "Allen": 1,
@@ -72,7 +73,8 @@
     "Vanderburgh": 1,
     "Morgan": 2,
     "Vigo": 1,
-    "Sullivan": 1
+    "Sullivan": 1,
+    "Harrison": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

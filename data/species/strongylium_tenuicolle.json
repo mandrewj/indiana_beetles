@@ -13,7 +13,14 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
-    "Marion"
+    "Bartholomew",
+    "Brown",
+    "Lake",
+    "LaPorte",
+    "Lawrence",
+    "Marion",
+    "Porter",
+    "Tippecanoe"
   ],
   "images": [],
   "similar_species": [],
@@ -21,7 +28,14 @@
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Strongylium_tenuicolle*, retrieved 2026-05-22."
   ],
   "county_record_counts": {
-    "Marion": 1
+    "Marion": 1,
+    "Tippecanoe": 7,
+    "Brown": 2,
+    "Bartholomew": 1,
+    "LaPorte": 1,
+    "Lawrence": 1,
+    "Porter": 2,
+    "Lake": 2
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

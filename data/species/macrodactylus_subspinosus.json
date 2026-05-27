@@ -40,6 +40,7 @@
     "Owen",
     "Perry",
     "Porter",
+    "Pulaski",
     "St. Joseph",
     "Tippecanoe",
     "Vermillion",
@@ -48,7 +49,7 @@
   "county_record_counts": {
     "Vermillion": 1,
     "Monroe": 9,
-    "Tippecanoe": 2,
+    "Tippecanoe": 7,
     "LaPorte": 1,
     "Morgan": 4,
     "Lawrence": 1,
@@ -65,14 +66,15 @@
     "Dearborn": 1,
     "Owen": 1,
     "Jackson": 1,
-    "Porter": 1,
+    "Porter": 2,
     "Lake": 2,
-    "White": 1
+    "White": 1,
+    "Pulaski": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Macrodactylus_subspinosus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

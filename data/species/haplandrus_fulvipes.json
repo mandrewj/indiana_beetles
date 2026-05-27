@@ -20,13 +20,47 @@
     8
   ],
   "counties": [
-    "Sullivan"
+    "Brown",
+    "Clark",
+    "Crawford",
+    "Dubois",
+    "Harrison",
+    "Jackson",
+    "Kosciusko",
+    "Lagrange",
+    "LaGrange",
+    "Martin",
+    "Miami",
+    "Newton",
+    "Perry",
+    "Porter",
+    "Pulaski",
+    "Sullivan",
+    "Tippecanoe",
+    "Warren"
   ],
   "images": [],
   "similar_species": [],
   "references": [],
   "county_record_counts": {
-    "Sullivan": 1
+    "Sullivan": 1,
+    "Tippecanoe": 5,
+    "Jackson": 1,
+    "Lagrange": 3,
+    "Miami": 1,
+    "LaGrange": 1,
+    "Pulaski": 1,
+    "Warren": 1,
+    "Newton": 1,
+    "Harrison": 4,
+    "Porter": 2,
+    "Kosciusko": 1,
+    "Martin": 13,
+    "Crawford": 5,
+    "Dubois": 9,
+    "Brown": 1,
+    "Perry": 8,
+    "Clark": 3
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

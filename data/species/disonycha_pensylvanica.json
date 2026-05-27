@@ -26,18 +26,20 @@
   ],
   "counties": [
     "Boone",
+    "Clark",
     "LaPorte",
     "Monroe"
   ],
   "county_record_counts": {
     "Monroe": 1,
     "LaPorte": 1,
-    "Boone": 1
+    "Boone": 1,
+    "Clark": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *http://en.wikipedia.org/wiki/Disonycha_pensylvanica*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

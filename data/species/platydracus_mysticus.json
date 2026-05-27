@@ -23,13 +23,15 @@
     12
   ],
   "counties": [
+    "Crawford",
     "Vanderburgh"
   ],
   "county_record_counts": {
-    "Vanderburgh": 1
+    "Vanderburgh": 1,
+    "Crawford": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

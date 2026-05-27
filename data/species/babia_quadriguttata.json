@@ -20,16 +20,18 @@
     "Kosciusko",
     "Monroe",
     "Orange",
-    "Steuben"
+    "Steuben",
+    "Tippecanoe"
   ],
   "county_record_counts": {
     "Monroe": 2,
     "Kosciusko": 1,
     "Steuben": 1,
-    "Orange": 1
+    "Orange": 1,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

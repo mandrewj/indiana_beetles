@@ -26,14 +26,14 @@
     "Tippecanoe"
   ],
   "county_record_counts": {
+    "Hancock": 1,
+    "Franklin": 1,
     "Tippecanoe": 2,
     "Perry": 11,
-    "Monroe": 2,
-    "Hancock": 1,
-    "Franklin": 1
+    "Monroe": 2
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

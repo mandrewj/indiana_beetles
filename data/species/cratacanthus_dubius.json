@@ -13,17 +13,21 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
+    "Boone",
     "St. Joseph",
-    "Tippecanoe"
+    "Tippecanoe",
+    "Wayne"
   ],
   "county_record_counts": {
-    "Tippecanoe": 2,
-    "St. Joseph": 1
+    "Tippecanoe": 4,
+    "St. Joseph": 1,
+    "Wayne": 1,
+    "Boone": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cratacanthus_dubius*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

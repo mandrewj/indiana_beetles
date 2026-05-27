@@ -65,7 +65,6 @@
     "Porter",
     "Putnam",
     "Randolph",
-    "Shelby",
     "Spencer",
     "St. Joseph",
     "Tippecanoe",
@@ -77,7 +76,9 @@
     "Whitley"
   ],
   "county_record_counts": {
-    "Porter": 10,
+    "St. Joseph": 4,
+    "Knox": 2,
+    "Porter": 11,
     "Marion": 27,
     "Monroe": 6,
     "Wayne": 1,
@@ -91,11 +92,10 @@
     "Jefferson": 1,
     "Elkhart": 2,
     "Clark": 3,
-    "Knox": 1,
     "Dearborn": 2,
     "Boone": 10,
     "Tippecanoe": 17,
-    "Hamilton": 15,
+    "Hamilton": 13,
     "Brown": 3,
     "Hancock": 2,
     "Grant": 1,
@@ -103,7 +103,6 @@
     "Lake": 1,
     "Vanderburgh": 3,
     "Allen": 6,
-    "St. Joseph": 3,
     "Randolph": 2,
     "Delaware": 1,
     "Putnam": 1,
@@ -122,13 +121,12 @@
     "Perry": 1,
     "Greene": 1,
     "Lawrence": 1,
-    "Warrick": 1,
-    "Shelby": 1
+    "Warrick": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Diabrotica_undecimpunctata*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

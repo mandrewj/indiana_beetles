@@ -19,15 +19,17 @@
     6
   ],
   "counties": [
-    "Allen"
+    "Allen",
+    "Ripley"
   ],
   "county_record_counts": {
-    "Allen": 1
+    "Allen": 1,
+    "Ripley": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mordellina_pustulata*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

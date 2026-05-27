@@ -62,8 +62,9 @@
     "Vigo"
   ],
   "county_record_counts": {
+    "Boone": 6,
+    "Hancock": 2,
     "Morgan": 2,
-    "Hancock": 1,
     "Lake": 4,
     "Adams": 1,
     "Johnson": 2,
@@ -78,7 +79,6 @@
     "Jennings": 2,
     "Porter": 3,
     "Allen": 5,
-    "Boone": 5,
     "Hamilton": 1,
     "Newton": 3,
     "Posey": 1,
@@ -102,5 +102,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Chelymorpha_cassidea*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

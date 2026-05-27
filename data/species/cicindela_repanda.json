@@ -39,11 +39,14 @@
     "Harrison",
     "Jackson",
     "Lake",
+    "Marion",
     "Martin",
     "Monroe",
+    "Montgomery",
     "Morgan",
     "Porter",
     "Posey",
+    "Spencer",
     "Starke",
     "Switzerland",
     "Tippecanoe",
@@ -53,14 +56,14 @@
   "county_record_counts": {
     "Posey": 3,
     "Boone": 12,
-    "Porter": 11,
+    "Porter": 12,
     "Franklin": 2,
-    "Tippecanoe": 9,
+    "Tippecanoe": 11,
     "Switzerland": 2,
-    "Monroe": 3,
+    "Monroe": 5,
     "Brown": 1,
     "Jackson": 1,
-    "Morgan": 1,
+    "Morgan": 2,
     "Carroll": 2,
     "Lake": 5,
     "Martin": 1,
@@ -71,13 +74,16 @@
     "Crawford": 1,
     "Elkhart": 1,
     "Hamilton": 1,
-    "Harrison": 1,
-    "Starke": 4
+    "Harrison": 2,
+    "Starke": 4,
+    "Spencer": 1,
+    "Montgomery": 4,
+    "Marion": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Cicindela_repanda*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

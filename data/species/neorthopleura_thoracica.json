@@ -13,15 +13,17 @@
   "phenology": [],
   "phenology_peak": [],
   "counties": [
-    "Marion"
+    "Marion",
+    "Tippecanoe"
   ],
   "county_record_counts": {
-    "Marion": 1
+    "Marion": 1,
+    "Tippecanoe": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Neorthopleura_thoracica*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

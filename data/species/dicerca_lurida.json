@@ -28,26 +28,36 @@
     "Greene",
     "Hendricks",
     "Henry",
+    "Jackson",
+    "Knox",
     "Lake",
     "Monroe",
     "Orange",
     "Parke",
+    "Porter",
+    "Putnam",
+    "Warrick",
     "Whitley"
   ],
   "county_record_counts": {
-    "Monroe": 2,
+    "Monroe": 3,
     "Whitley": 1,
     "Parke": 1,
     "Greene": 1,
     "Orange": 1,
     "Hendricks": 1,
     "Henry": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Putnam": 1,
+    "Porter": 1,
+    "Knox": 1,
+    "Jackson": 1,
+    "Warrick": 1
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Dicerca_lurida*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

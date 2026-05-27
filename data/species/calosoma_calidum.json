@@ -12,7 +12,11 @@
   "references": [],
   "similar_species": [],
   "counties": [
-    "Elkhart"
+    "Boone",
+    "DeKalb",
+    "Elkhart",
+    "Newton",
+    "Porter"
   ],
   "genus": "calosoma",
   "diagnosis": "Black with rows of red or gold spots or pits on its elytra",
@@ -22,7 +26,13 @@
     "6"
   ],
   "id": "calosoma_calidum",
-  "county_record_counts": {},
+  "county_record_counts": {
+    "Newton": 7,
+    "Porter": 1,
+    "DeKalb": 1,
+    "Elkhart": 1,
+    "Boone": 1
+  },
   "common_name": "Fiery Hunter",
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

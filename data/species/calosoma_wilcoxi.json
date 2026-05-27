@@ -20,18 +20,24 @@
   ],
   "counties": [
     "Brown",
+    "Elkhart",
+    "Marion",
     "Monroe",
     "Porter",
+    "Ripley",
     "Vanderburgh"
   ],
   "county_record_counts": {
-    "Porter": 1,
-    "Brown": 1,
+    "Porter": 2,
+    "Brown": 3,
     "Monroe": 1,
-    "Vanderburgh": 1
+    "Vanderburgh": 1,
+    "Ripley": 1,
+    "Marion": 6,
+    "Elkhart": 3
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

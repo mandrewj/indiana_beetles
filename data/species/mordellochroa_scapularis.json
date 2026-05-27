@@ -22,17 +22,19 @@
   "counties": [
     "Brown",
     "Hendricks",
+    "Tippecanoe",
     "Vigo"
   ],
   "county_record_counts": {
     "Hendricks": 1,
     "Brown": 1,
-    "Vigo": 1
+    "Vigo": 1,
+    "Tippecanoe": 10
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Mordellochroa_scapularis*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

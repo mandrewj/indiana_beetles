@@ -21,15 +21,17 @@
     11
   ],
   "counties": [
+    "Clark",
     "Johnson"
   ],
   "county_record_counts": {
-    "Johnson": 1
+    "Johnson": 1,
+    "Clark": 3
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Gibbium_aequinoctiale*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

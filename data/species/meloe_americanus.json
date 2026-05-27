@@ -34,6 +34,7 @@
     "Marion",
     "Monroe",
     "Morgan",
+    "Noble",
     "Porter",
     "Randolph",
     "St. Joseph",
@@ -58,6 +59,7 @@
     "Randolph": 1,
     "LaPorte": 1,
     "Porter": 1,
+    "Noble": 1,
     "Union": 1,
     "Steuben": 1
   },
@@ -66,5 +68,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Meloe_americanus*, retrieved 2026-05-22."
   ],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

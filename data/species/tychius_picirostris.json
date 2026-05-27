@@ -22,18 +22,20 @@
   ],
   "counties": [
     "Hendricks",
+    "Lafayette",
     "Marion",
     "Montgomery",
     "Parke"
   ],
   "county_record_counts": {
+    "Marion": 1,
+    "Hendricks": 2,
     "Montgomery": 2,
     "Parke": 1,
-    "Marion": 1,
-    "Hendricks": 2
+    "Lafayette": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

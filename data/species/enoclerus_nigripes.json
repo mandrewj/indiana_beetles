@@ -25,6 +25,9 @@
     "Brown",
     "Fountain",
     "Grant",
+    "Hendricks",
+    "Jackson",
+    "Lagrange",
     "LaGrange",
     "LaPorte",
     "Lawrence",
@@ -33,8 +36,11 @@
     "Morgan",
     "Noble",
     "Porter",
+    "Pulaski",
+    "Putnam",
     "Spencer",
     "St. Joseph",
+    "Steuben",
     "Tippecanoe",
     "Union",
     "Vanderburgh",
@@ -48,12 +54,12 @@
     "Noble": 1,
     "Wabash": 1,
     "Allen": 1,
-    "Tippecanoe": 3,
+    "Tippecanoe": 10,
     "Union": 1,
-    "Monroe": 1,
+    "Monroe": 2,
     "Fountain": 1,
     "Vigo": 1,
-    "LaGrange": 1,
+    "LaGrange": 13,
     "Brown": 1,
     "Morgan": 1,
     "Lawrence": 1,
@@ -62,12 +68,18 @@
     "Porter": 1,
     "LaPorte": 1,
     "Vanderburgh": 1,
-    "Marshall": 1
+    "Marshall": 1,
+    "Putnam": 5,
+    "Steuben": 3,
+    "Lagrange": 2,
+    "Hendricks": 11,
+    "Jackson": 3,
+    "Pulaski": 6
   },
   "images": [],
   "similar_species": [],
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Enoclerus_nigripes*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }

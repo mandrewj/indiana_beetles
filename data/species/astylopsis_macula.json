@@ -19,19 +19,19 @@
     7
   ],
   "counties": [
-    "LaGrange",
+    "Lagrange",
     "Lake",
     "LaPorte",
     "Ripley"
   ],
   "county_record_counts": {
-    "LaGrange": 1,
     "Ripley": 1,
     "LaPorte": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Lagrange": 1
   },
   "images": [],
   "similar_species": [],
   "references": [],
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

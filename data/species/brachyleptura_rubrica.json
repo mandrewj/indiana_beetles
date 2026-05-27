@@ -26,13 +26,16 @@
     "Hamilton",
     "Hancock",
     "Huntington",
+    "LaGrange",
     "Lake",
     "LaPorte",
     "Marion",
     "Monroe",
     "Owen",
     "Porter",
-    "St. Joseph"
+    "Putnam",
+    "St. Joseph",
+    "Steuben"
   ],
   "images": [],
   "similar_species": [],
@@ -53,7 +56,10 @@
     "Greene": 1,
     "Hancock": 1,
     "Boone": 1,
-    "Lake": 1
+    "Lake": 1,
+    "Steuben": 2,
+    "Putnam": 1,
+    "LaGrange": 1
   },
-  "last_refreshed": "2026-05-22"
+  "last_refreshed": "2026-05-27"
 }

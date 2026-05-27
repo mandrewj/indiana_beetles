@@ -57,11 +57,11 @@
   ],
   "county_record_counts": {
     "Porter": 25,
+    "Allen": 5,
     "Newton": 5,
     "Brown": 3,
     "Wayne": 4,
     "Fayette": 1,
-    "Allen": 4,
     "Pulaski": 4,
     "Marion": 3,
     "Tippecanoe": 3,
@@ -90,5 +90,5 @@
   "references": [
     "Source: Wikipedia, *https://en.wikipedia.org/wiki/Photinus_corruscus*, retrieved 2026-05-26."
   ],
-  "last_refreshed": "2026-05-26"
+  "last_refreshed": "2026-05-27"
 }
