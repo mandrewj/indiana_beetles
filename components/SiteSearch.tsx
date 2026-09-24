@@ -5,10 +5,6 @@ import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import type { SearchEntry } from "@/lib/search";
 
-interface Props {
-  index: SearchEntry[];
-}
-
 interface Scored {
   entry: SearchEntry;
   score: number;
@@ -39,8 +35,28 @@ function nameStyle(t: SearchEntry["type"]): React.CSSProperties {
     : { fontStyle: "italic", fontWeight: 700 };
 }
 
-export function SiteSearch({ index }: Props) {
+// Module-level so the index is fetched at most once per page load, even
+// across client-side navigations that remount the Nav.
+let indexPromise: Promise<SearchEntry[]> | null = null;
+
+function loadIndex(): Promise<SearchEntry[]> {
+  if (!indexPromise) {
+    indexPromise = fetch("/search-index.json")
+      .then((r) => {
+        if (!r.ok) throw new Error(`search index: ${r.status}`);
+        return r.json() as Promise<SearchEntry[]>;
+      })
+      .catch((err) => {
+        indexPromise = null; // allow a retry on next focus
+        throw err;
+      });
+  }
+  return indexPromise;
+}
+
+export function SiteSearch() {
   const router = useRouter();
+  const [index, setIndex] = useState<SearchEntry[]>([]);
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [activeIdx, setActiveIdx] = useState(0);
@@ -66,6 +82,10 @@ export function SiteSearch({ index }: Props) {
     setActiveIdx(0);
   }, [query]);
 
+  function ensureIndex() {
+    loadIndex().then(setIndex).catch(() => {});
+  }
+
   // Close on outside click.
   useEffect(() => {
     function onClick(e: MouseEvent) {
@@ -84,6 +104,7 @@ export function SiteSearch({ index }: Props) {
       if (tag === "input" || tag === "textarea") return;
       e.preventDefault();
       inputRef.current?.focus();
+      ensureIndex();
     }
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
@@ -128,7 +149,10 @@ export function SiteSearch({ index }: Props) {
             setQuery(e.target.value);
             setOpen(true);
           }}
-          onFocus={() => setOpen(true)}
+          onFocus={() => {
+            setOpen(true);
+            ensureIndex();
+          }}
           onKeyDown={onInputKey}
           aria-autocomplete="list"
           aria-expanded={showDropdown}

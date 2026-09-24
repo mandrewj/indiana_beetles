@@ -3,7 +3,6 @@ import { Lato } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
-import { buildSearchIndex } from "@/lib/search";
 import "./globals.css";
 
 const lato = Lato({
@@ -25,17 +24,16 @@ export const metadata: Metadata = {
   ),
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const searchIndex = await buildSearchIndex();
   return (
     <html lang="en" className={lato.variable}>
       <body>
         <div className="shell">
-          <Nav searchIndex={searchIndex} />
+          <Nav />
           <main style={{ flex: 1 }}>{children}</main>
           <Footer />
         </div>

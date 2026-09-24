@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { SiteSearch } from "./SiteSearch";
-import type { SearchEntry } from "@/lib/search";
 
 const NAV_ITEMS = [
   { href: "/browse", match: ["/browse"], label: "Browse" },
@@ -18,7 +17,7 @@ function isActive(pathname: string, matches: string[]): boolean {
   return matches.some((m) => pathname === m || pathname.startsWith(`${m}/`));
 }
 
-export function Nav({ searchIndex }: { searchIndex: SearchEntry[] }) {
+export function Nav() {
   const pathname = usePathname() ?? "/";
   return (
     <nav className="nav">
@@ -45,7 +44,7 @@ export function Nav({ searchIndex }: { searchIndex: SearchEntry[] }) {
               {item.label}
             </Link>
           ))}
-          <SiteSearch index={searchIndex} />
+          <SiteSearch />
         </div>
       </div>
     </nav>
